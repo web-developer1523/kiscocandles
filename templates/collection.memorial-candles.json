@@ -1,0 +1,582 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.metafields.custom.header_image.value }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": false,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_pKanB6": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_8Yf44L": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-european.png",
+            "text": "Top European quality",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_MBVqhE": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-shipping.png",
+            "text": "Free standard shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_NPtLxT": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-longlasting.png",
+            "text": "Long lasting",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_hEaNfD": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-no-drip.png",
+            "text": "No drip",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_9yeKiK": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-stock.png",
+            "text": "Large selection In Stock",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_c9DM8x": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-fast-shipping.png",
+            "text": "Fast And Secure Shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8Yf44L",
+        "text_MBVqhE",
+        "text_NPtLxT",
+        "text_hEaNfD",
+        "text_9yeKiK",
+        "text_c9DM8x"
+      ],
+      "custom_css": [
+        ".scrolling-content__inner {--scroll-duration: 20s !important;}"
+      ],
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-heading-2-base",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#fcf9f8",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_qR6ryP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8mDUXt": {
+          "type": "heading",
+          "settings": {
+            "title": "Trusted Tribute Candles for Homes, Synagogues, and Community Services",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_Nwjwyp": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_39h84D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These remembrance candles are made for settings where reliability and respect matter. With sturdy wicks and consistent wax quality, each tribute candle burns evenly from start to finish. These candles create a calm environment for storytelling, prayer, and collective remembrance. Many people keep these candles for use throughout the year, lighting them during family gatherings or at home altars to maintain a sense of connection.</p><p>The collection includes options suited to different traditions and timeframes. A 26-hour candle is a simple choice for overnight reflection or short observance. The 3-day and 7-day options are ideal for structured rituals, while the 9-day memorial candle provides continuous light for extended remembrance. Bulk sets make planning easier for synagogues, spiritual centers, funeral services, and families who want to have memorial candles ready for future dates. Every candle in this collection is designed to provide steady comfort and a respectful ambiance. </p><p>If you are selecting candles for memorial use for upcoming dates on the calendar, consider keeping a few extras ready for family observances throughout the year. These remembrance candles and tribute candles are designed to support meaningful traditions with a respectful presentation and dependable performance. </p><p>Browse the selection, choose the memorial candles that fit your needs, and place your order with confidence. </p><p>Our team is available to help with group orders and guidance if needed.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8mDUXt",
+        "border_Nwjwyp",
+        "text_39h84D"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 1000
+      }
+    },
+    "rich_text_bcyQTj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gaghg6": {
+          "type": "heading",
+          "settings": {
+            "title": "Memorial Candles FAQ",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "spacer_nGzCtY": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_Fh8c7n": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What memorial candle burn times do you offer?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_6we8Af": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer memorial candles in 26-hour, 3-day, 7-day, and 9-day formats so you can choose the candle that fits the length of your observance. This gives families a simpler way to match the candle to a yahrzeit, a shiva period, a tribute display, or an extended remembrance setting.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_cXpkBg": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_EbRww4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which memorial candle should I choose for yahrzeit?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_PGdjix": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A 26-hour memorial candle is a strong choice for yahrzeit because it suits a one-day remembrance with a steady, respectful burn. If you prefer a longer format for your space or family tradition, we also offer extended-burn options.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_cjcYUe": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_8nt3x6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which memorial candle is best for shiva?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_kdUAnc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A 7-day memorial candle is usually the most practical choice for shiva because it aligns with the traditional mourning period. We also carry 3-day and 9-day candles for families who want a different burn length based on custom or household preference.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_fnVbRe": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_DtdrhQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are your memorial candles unscented?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_Ahigmc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Our memorial candles are unscented, so the flame feels calm and respectful in homes, synagogues, funeral settings, and gathering spaces without adding fragrance to the room.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_3Npipb": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_xYWUae": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I use these candles for funeral services and tribute tables?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_BeY7gK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Our memorial candles are well-suited for funeral services, tribute displays, remembrance tables, and quiet spaces set aside for reflection. Many families choose them when they want a candle that feels traditional, steady, and appropriate for solemn moments.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_HkdPLd": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_hn9FBU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do you offer memorial candles in packs for families or community use?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_qmzRU3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. At Kisco Candles, we offer memorial candles in several pack sizes, including smaller multi-packs and larger pack options for families, synagogues, schools, and community organizations that need more than one candle at a time.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_pwKmfW": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_fWLAVV": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How do I choose between a 3-day, 7-day, and 9-day memorial candle?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_gcbcbB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose the burn time based on how long you want the candle to remain lit and how you plan to use it in the space. A 3-day candle works well for a shorter tribute period, a 7-day candle suits a week-long remembrance, and a 9-day candle is a good fit when you want longer-lasting light without replacement.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_AticPg": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_ggY3xw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are your memorial candles a good fit for home use?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_7MJ9tF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Our memorial candles are a strong fit for home remembrance because they are unscented, calm in appearance, and available in burn times that suit both short and extended observances.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_XFUVYa": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_cb8mz9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I keep the same candle style for repeated annual remembrance?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_6bWY6i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Many families prefer to reorder the same memorial candle each year for consistency and tradition. Keeping the same burn time and format can make annual remembrance feel simpler and more familiar.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_hVDWjF": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_XxyHcE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why buy memorial candles from Kisco Candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_daDLHk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We make it easier to find respectful, unscented memorial candles in the burn times families actually need. Our assortment is built around practical remembrance formats rather than general décor candles, so you can choose with more confidence.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gaghg6",
+        "spacer_nGzCtY",
+        "subheading_Fh8c7n",
+        "text_6we8Af",
+        "spacer_cXpkBg",
+        "subheading_EbRww4",
+        "text_PGdjix",
+        "spacer_cjcYUe",
+        "subheading_8nt3x6",
+        "text_kdUAnc",
+        "spacer_fnVbRe",
+        "subheading_DtdrhQ",
+        "text_Ahigmc",
+        "spacer_3Npipb",
+        "subheading_xYWUae",
+        "text_BeY7gK",
+        "spacer_HkdPLd",
+        "subheading_hn9FBU",
+        "text_qmzRU3",
+        "spacer_pwKmfW",
+        "subheading_fWLAVV",
+        "text_gcbcbB",
+        "spacer_AticPg",
+        "subheading_ggY3xw",
+        "text_7MJ9tF",
+        "spacer_XFUVYa",
+        "subheading_cb8mz9",
+        "text_6bWY6i",
+        "spacer_hVDWjF",
+        "subheading_XxyHcE",
+        "text_daDLHk"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "scrolling_content_pKanB6",
+    "rich_text_qR6ryP",
+    "rich_text_bcyQTj"
+  ]
+}

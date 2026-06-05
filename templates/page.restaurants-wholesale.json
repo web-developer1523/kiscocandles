@@ -1,0 +1,966 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "slideshow_KixwXa": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_UDFhhV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/table-candles-for-restaurants.jpg",
+            "image_mobile": "shopify://shop_images/table-candles-for-restaurants.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "Long Burning",
+            "title": "Dripless Candles for Restaurants & Bars",
+            "heading_tag": "h1",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>The right ambiance can make a simple dinner feel special and memorable.</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_cPqUP7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/unscented-candles-for-events.jpg",
+            "image_mobile": "shopify://shop_images/unscented-candles-for-events.jpg",
+            "focal_point": "image_presentation",
+            "mobile_focal_point": "image_presentation",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "Create the perfect mood in your restaurant.",
+            "title": "Your restaurant & Bar saves money on bulk purchases.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3",
+            "subheading": "",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>Place candles in the center of the table to create a focal point.</p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#ffffff",
+            "button_background_color": "#ffffff",
+            "button_text_color": "#000000",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "slide_UDFhhV",
+        "slide_cPqUP7"
+      ],
+      "settings": {
+        "classname": "Dripless Candles for Restaurants & Bars",
+        "image_aspect": "custom",
+        "desktop_height": 80,
+        "mobile_height": 60,
+        "enable_autoplay": true,
+        "duration_autoplay": 6,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#ffffff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "none"
+      }
+    },
+    "rich_text_memNnm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GkJRLJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Wholesale Signup",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GkJRLJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_QezRBb": {
+      "type": "rich-text",
+      "blocks": {
+        "text_CqBJbn": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>The Importance of Ambiance in Restaurants and Bars</strong></h6><p>Lighting candles can play a significant role in setting the right mood. The right <br/>lighting creates a warm and inviting feeling that makes people want to <br/>stay longer. Restaurant candles from Kisco are an excellent way to add that special touch<strong>.</strong> They provide soft, flickering light that can make any space feel cozy and intimate. <a href=\"https://kiscocandles.com/collections/restaurant-candles\" title=\"https://kiscocandles.com/collections/restaurant-candles\">https://kiscocandles.com/collections/restaurant-candles</a></p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_CqBJbn"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "faux_collection_banner_zkzENg": {
+      "type": "faux-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": true,
+        "title": "Dripless Candles for Restaurants & Bars",
+        "show_collection_image": true,
+        "image": "shopify://shop_images/table-candles-for-restaurants.jpg",
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "focal_point": "image_presentation",
+        "text_position": "flex-start_flex-start",
+        "text_position_mobile": "flex-start_center",
+        "text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "linear-gradient(46deg, rgba(255, 255, 255, 1), rgba(170, 248, 219, 1) 86%)",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_hPbJTd": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Drnn7j": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why open a wholesale account ?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_k4EreX": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Enjoy custom wholesale pricing</li><li>Easy to reorder & keep track of your order history</li><li>Enjoy free & secure shipping on all orders over $199.99</li><li>Your personal rep</li><li>30 Day Return policy</li><li>And much more!</li></ul>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "text_GWRrjV": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Already have account? </strong><a href=\"/account/\" title=\"/account/\"><strong>Click here</strong></a><strong> to login</strong></p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Drnn7j",
+        "text_k4EreX",
+        "text_GWRrjV"
+      ],
+      "custom_css": [
+        "ul {padding-left: 0px; list-style: none;}",
+        ".rich-text__subheading {font-family: Montserrat, sans-serif; font-weight: 600; font-size: 24px;}",
+        "ul li {background-image: url(\"https://cdn.shopify.com/s/files/1/0552/6267/5053/files/check-mark.png\"); background-repeat: no-repeat; background-size: 20px 20px; padding-left: 30px; margin-bottom: 10px;}"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "1721804362348a8e2a": {
+      "type": "apps",
+      "blocks": {
+        "helium_customer_fields_app_block_iQaTzj": {
+          "type": "shopify://apps/helium-customer-fields/blocks/app-block/bab58598-3e6a-4377-aaaa-97189b15f131",
+          "disabled": true,
+          "settings": {
+            "form_id": "DAtdlz",
+            "width": 700,
+            "vertical_spacing": 40,
+            "horizontal_spacing": 0
+          }
+        },
+        "helium_customer_fields_app_block_kYzwPX": {
+          "type": "shopify://apps/helium-customer-fields/blocks/app-block/bab58598-3e6a-4377-aaaa-97189b15f131",
+          "settings": {
+            "form_id": "zytxmb",
+            "width": 1200,
+            "vertical_spacing": 165,
+            "horizontal_spacing": 160
+          }
+        }
+      },
+      "block_order": [
+        "helium_customer_fields_app_block_iQaTzj",
+        "helium_customer_fields_app_block_kYzwPX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "blog_posts_tf7HgF": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_Hc8Vfz": {
+          "type": "article",
+          "settings": {
+            "article": "news/restaurant-candles-your-guide-to-delighting-diners"
+          }
+        },
+        "article_NnBiEc": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-ultimate-guide-to-candle-sizes"
+          }
+        },
+        "article_Eq9yQ3": {
+          "type": "article",
+          "disabled": true,
+          "settings": {
+            "article": "news/6-types-of-candles-explained-discover-the-perfect-unscented-candle-for-your-needs"
+          }
+        }
+      },
+      "block_order": [
+        "article_Hc8Vfz",
+        "article_NnBiEc",
+        "article_Eq9yQ3"
+      ],
+      "settings": {
+        "heading": "Related Articles",
+        "subheading": "",
+        "button_link": "shopify://blogs/news",
+        "link_text": "View all posts",
+        "display_type": "selected",
+        "blog": "news",
+        "max_articles": 2,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "testimonials_frCkLU": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_8VrGtA": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Kisco candles has been my go-to place for all my bulk candle orders, they offer great quality & service and very quick turnaround time.\"",
+            "author": "– Owner of Joe Flohr Events"
+          }
+        },
+        "testimonial_PJHCJM": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"For my wife and I, candles aren't just for special occasions; we live our lives by candlelight. After trying the usual e-commerce sites, we came across Kisco Candles and have been buying from them ever since. Kisco sells top-quality Bolsius dripless candles at a very competitive price, and their dedication to customer service is as good as I have ever experienced \"",
+            "author": "– David B. Roaring Branch, PA"
+          }
+        },
+        "testimonial_RFGYjP": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Kisco has been so helpful for us, super speedy service, best pricing we can find and very reliable. We use a lot of candles every day, so it's very important to have a business we can consistently rely on!\"",
+            "author": "– Nathan Rawlinson General Manager At stissing house restaurant"
+          }
+        },
+        "testimonial_NjQtj7": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Runing a busy restaurant that candles is part of the table setting, I need to have high quality candles yet for a great price, And Kisco candles has my back always in stock and fast shipping, so I don’t need to stock them by the pallet I just order them as needed!\"",
+            "author": "– Jeneel N. Floor Manager At Léon 1909"
+          }
+        },
+        "testimonial_nrPpUL": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"The Bolsius Pillars candle is a high-quality candle that burns evenly with no MESS like so many other candles that I've tried. I started buying them from Kisco other branch, but determined that Kisco main website delivers faster, and my candles always arrives healthy, and Kisco always helps to get your order straight, and that's from my experience. The Bolsius Candles are excellent for my prayers. I have been ordering from Kisco for a few years now.\"",
+            "author": "– Antonius Asanto"
+          }
+        },
+        "testimonial_TNQLdK": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Being the owner of a large flower shop that uses candles as part of my arrangement’s and table design, I was looking for a place that can provide Quality , Price , Selection & Service all under one roof, and yes kisco candles has all of them by far, I love to deal with them highly recommended.\"",
+            "author": "– C. Brodt Owner of stems flower NY"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_8VrGtA",
+        "testimonial_PJHCJM",
+        "testimonial_RFGYjP",
+        "testimonial_NjQtj7",
+        "testimonial_nrPpUL",
+        "testimonial_TNQLdK"
+      ],
+      "custom_css": [
+        ".testimonials__item-product {display: none;}",
+        ".fs-body-100 {font-size: 16px; line-height: 1.3em;}"
+      ],
+      "settings": {
+        "image_size": "small",
+        "quote_font": "body",
+        "background_color": "",
+        "text_color": "#000000",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_EPAg86": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GNLk3J": {
+          "type": "heading",
+          "settings": {
+            "title": "Why Partner with Kisco Candles?",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "border_JfEWUV": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_wEnRWe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you choose Kisco Candles, you’re not just getting products; you’re gaining a dedicated supplier who understands the heartbeat of your business. Here’s how we stand apart:</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GNLk3J",
+        "border_JfEWUV",
+        "text_wEnRWe"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Restrant_Image.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_F3p8N3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tqbTze": {
+          "type": "heading",
+          "settings": {
+            "title": "Top-Quality Craftsmanship",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_VH4Fj4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our wholesale candles are crafted with care to ensure a clean, dripless burn and a smoke-free experience. From the wax to the wick, every detail is designed for longevity and performance, perfect for events, retail displays, and atmospheric dining settings.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_iTqJBG": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_PTepEn": {
+          "type": "heading",
+          "settings": {
+            "title": "Competitive Bulk Pricing",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_M9XWVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get more for less with wholesale-only pricing that respects your budget. Bulk pricing lets you bring premium candles to your clients without breaking the bank, helping you maintain profitability while delivering quality. Whether you need <a href=\"https://kiscocandles.com/collections/elegant-wedding-candles\"><span style=\"text-decoration:underline\">elegant wedding candles</span></a> or candles that are <a href=\"https://kiscocandles.com/collections/scented-candles\"><span style=\"text-decoration:underline\">scented</span></a> or <a href=\"https://kiscocandles.com/collections/unscented-candles\"><span style=\"text-decoration:underline\">unscented</span></a>, we have the perfect solution for you. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_yWFNr3": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_9Hpz9P": {
+          "type": "heading",
+          "settings": {
+            "title": "Exclusive Products Just for Wholesalers",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_gWjmtx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Access a range of bulk candles for businesses/event planners/venues created specifically for our wholesale partners. From <a href=\"https://kiscocandles.com/pages/shop-by-color\"><span style=\"text-decoration:underline\">custom colors</span></a> and sizes to limited-edition styles, you’ll find options that help your business stand out, meeting the unique demands of your clientele.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tqbTze",
+        "text_VH4Fj4",
+        "spacer_iTqJBG",
+        "heading_PTepEn",
+        "text_M9XWVL",
+        "spacer_yWFNr3",
+        "heading_9Hpz9P",
+        "text_gWjmtx"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 950
+      }
+    },
+    "image_with_text_WUGpP4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6fWDND": {
+          "type": "heading",
+          "settings": {
+            "title": "Unlock the Benefits of a Kisco Candles Restaurants Account",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "border_qtgM7T": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_6Jxhb7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Opening a wholesale account with Kisco Candles for your<strong> </strong>restaurants is more than a business transaction—it’s an invitation to a smooth, streamlined experience that keeps you focused on what you do best: serving your customers. Here’s what’s in store:</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6fWDND",
+        "border_qtgM7T",
+        "text_6Jxhb7"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Restrant_Candles.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_6XyK3D": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hV7RCJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Wholesale Discounts and Special Pricing Tiers",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_6bDE9T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our tiered pricing structure lets you scale purchases to your needs, so whether you’re buying for a single event or stocking up for retail, you’re getting the best possible value with every order.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_AhMX3M": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_L6WAB3": {
+          "type": "heading",
+          "settings": {
+            "title": "Effortless Order Management",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_tCUnEJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our exclusive B2B portal simplifies the order process, letting you place, track, and manage all orders in one place. Spend less time navigating logistics and more time planning for growth.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_4QTdQY": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_Ez3TtH": {
+          "type": "heading",
+          "settings": {
+            "title": "Dedicated Support for Wholesale Clients",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_XHTkeW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From quick answers to product guidance, your dedicated account representative ensures you’re fully supported every step of the way. Kisco is here to make your wholesale experience as smooth and reliable as possible.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_xPQKYQ": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_yEekPy": {
+          "type": "heading",
+          "settings": {
+            "title": "Access to Marketing Materials and Product Samples",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_zgPKWD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Help your customers experience Kisco quality firsthand. With sample products and marketing support available, you can showcase our candles in a way that drives interest and sales.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_imb4DF": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_Ni7fXp": {
+          "type": "heading",
+          "settings": {
+            "title": "A Variety of Candle Types to Suit Every Setting",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_XcmMiB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you need the steady glow of a pillar, the elegance of tapers, or the gentle ambiance of floating candles, Kisco’s range of wholesale <a href=\"https://kiscocandles.com/collections/bolsius-candles\"><span style=\"text-decoration:underline\">Bolsius candles</span></a> is curated to fit seamlessly into any business setting—from retail displays to memorable event decor.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_VgAdWr": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        }
+      },
+      "block_order": [
+        "heading_hV7RCJ",
+        "text_6bDE9T",
+        "spacer_AhMX3M",
+        "heading_L6WAB3",
+        "text_tCUnEJ",
+        "spacer_4QTdQY",
+        "heading_Ez3TtH",
+        "text_XHTkeW",
+        "spacer_xPQKYQ",
+        "heading_yEekPy",
+        "text_zgPKWD",
+        "spacer_imb4DF",
+        "heading_Ni7fXp",
+        "text_XcmMiB",
+        "spacer_VgAdWr"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "image_hero_rfgMHy": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_dTLyBj": {
+          "type": "heading",
+          "settings": {
+            "title": "Join for Exclusive Wholesale Savings",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-1"
+          }
+        },
+        "text_BULzd6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the benefits of partnering with Kisco Candles for your wholesale needs. By signing up for a wholesale account, your business gains access to exclusive advantages designed to save you time and money. Sign up to unlock custom pricing, easy reordering, free shipping on qualifying orders, dedicated support, and a 30-day return policy. </p><p>Ready to simplify your candle orders? Join us today for reliable quality and exceptional service.</p><p>Ready to streamline your candle supply? Sign up today and enjoy the reliability and quality Kisco Candles brings to every order, backed by exceptional support and secure purchasing options.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_4jMd4t": {
+          "type": "button",
+          "settings": {
+            "link": "#shopify-section-template--15956997603437__rich_text_hPbJTd",
+            "link_text": "Sign Up Today",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dTLyBj",
+        "text_BULzd6",
+        "button_4jMd4t"
+      ],
+      "custom_css": [
+        ".image-hero__inner .image-hero__text-container {width: 600px; height: 600px;}"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/Tealight_Oval_Holder_3.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_3CLz68": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_HYQD6a": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_tWJiXD": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_fGa4bk": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_kVwpHb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re here to make your wholesale experience with Kisco Candles as smooth and seamless as possible. Below, you’ll find answers to some of the most common questions about our wholesale program, policies, and products. If you have additional questions, feel free to reach out—we’re here to help!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_Vr7KYB": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_ekJiDn": {
+          "type": "heading",
+          "settings": {
+            "title": "What are the benefits of creating a wholesale account?",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_LcYQQb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With a Kisco Candles wholesale account, you gain access to exclusive bulk pricing, free shipping on qualifying orders, an easy-to-use ordering portal with order history tracking, and a dedicated account representative to assist with your needs.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_jJ6AAE": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_in6Ktx": {
+          "type": "heading",
+          "settings": {
+            "title": "Is there a minimum order requirement?",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_Cnkkhp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, wholesale orders are typically subject to minimum quantity requirements, allowing us to provide the best value to bulk purchasers.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_zimeQz": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_yNnBTb": {
+          "type": "heading",
+          "settings": {
+            "title": "What types of candles are available for wholesale purchase?",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_PmxG6g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our wholesale offerings include a variety of candle types—such as pillar, taper, floating, and votive candles—to suit the needs of event planners, retailers, and hospitality businesses. Each type is available in multiple sizes and colors.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_tKFzPk": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_FEFdBg": {
+          "type": "heading",
+          "settings": {
+            "title": "Do you offer custom candle options?",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_N8PHCt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, we provide custom options for wholesale orders, ideal for businesses seeking specific sizes, colors, or styles for events and branding consistency.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_Yjic7H": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_anqhxE": {
+          "type": "heading",
+          "settings": {
+            "title": "How does your return policy work?",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_UMr8HD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kisco Candles offers a 30-day return policy. Items must be returned in their original condition and packaging, accompanied by a receipt or proof of purchase. Returns must be requested by contacting support to ensure eligibility and instructions.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_HYQD6a",
+        "heading_tWJiXD",
+        "border_fGa4bk",
+        "text_kVwpHb",
+        "spacer_Vr7KYB",
+        "heading_ekJiDn",
+        "text_LcYQQb",
+        "spacer_jJ6AAE",
+        "heading_in6Ktx",
+        "text_Cnkkhp",
+        "spacer_zimeQz",
+        "heading_yNnBTb",
+        "text_PmxG6g",
+        "spacer_tKFzPk",
+        "heading_FEFdBg",
+        "text_N8PHCt",
+        "spacer_Yjic7H",
+        "heading_anqhxE",
+        "text_UMr8HD"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "custom_liquid_exHhcK": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are the benefits of creating a wholesale account?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"With a Kisco Candles wholesale account, you gain access to exclusive bulk pricing, free shipping on qualifying orders, an easy-to-use ordering portal with order history tracking, and a dedicated account representative to assist with your needs.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is there a minimum order requirement?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, wholesale orders are typically subject to minimum quantity requirements, allowing us to provide the best value to bulk purchasers.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What types of candles are available for wholesale purchase?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Our wholesale offerings include a variety of candle types—such as pillar, taper, floating, and votive candles—to suit the needs of event planners, retailers, and hospitality businesses. Each type is available in multiple sizes and colors.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer custom candle options?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, we provide custom options for wholesale orders, ideal for businesses seeking specific sizes, colors, or styles for events and branding consistency.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How does your return policy work?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Kisco Candles offers a 30-day return policy. Items must be returned in their original condition and packaging, accompanied by a receipt or proof of purchase. Returns must be requested by contacting support to ensure eligibility and instructions.\"\n      }\n    }\n  ]\n}\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_KixwXa",
+    "rich_text_memNnm",
+    "rich_text_QezRBb",
+    "faux_collection_banner_zkzENg",
+    "rich_text_hPbJTd",
+    "1721804362348a8e2a",
+    "blog_posts_tf7HgF",
+    "testimonials_frCkLU",
+    "image_with_text_EPAg86",
+    "rich_text_F3p8N3",
+    "image_with_text_WUGpP4",
+    "rich_text_6XyK3D",
+    "image_hero_rfgMHy",
+    "rich_text_3CLz68",
+    "custom_liquid_exHhcK"
+  ]
+}

@@ -1,0 +1,569 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.metafields.custom.header_image.value }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "candle_categories_section_zfn4MJ": {
+      "type": "candle-categories-section",
+      "blocks": {
+        "category_dg9gqU": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Votive Candles",
+            "category_image": "shopify://shop_images/votive-candles.jpg",
+            "category_image_alt": "votive candles for weddings",
+            "category_collection": "wedding-votive-candles"
+          }
+        },
+        "category_AmqTV9": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Candles",
+            "category_image": "shopify://shop_images/elegant_wedding_candles.jpg",
+            "category_image_alt": "wedding decor candles",
+            "category_collection": "elegant-wedding-candles"
+          }
+        },
+        "category_kgyTrg": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Floating Candles",
+            "category_image": "shopify://shop_images/floating-candles.jpg",
+            "category_image_alt": "floating candles for wedding",
+            "category_collection": "floating-wedding-candles"
+          }
+        },
+        "category_rTJEQg": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Taper Candles",
+            "category_image": "shopify://shop_images/taper-candles_e336d7c9-3831-4344-bb7b-7842a0236dce.jpg",
+            "category_image_alt": "taper candles for wedding",
+            "category_collection": "wedding-taper-candles"
+          }
+        }
+      },
+      "block_order": [
+        "category_dg9gqU",
+        "category_AmqTV9",
+        "category_kgyTrg",
+        "category_rTJEQg"
+      ],
+      "settings": {
+        "section_title": "",
+        "custom_css": "h2 {\n  font-size: 32px;\n}"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": false,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_pKanB6": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_8Yf44L": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-european.png",
+            "text": "Top European quality",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_MBVqhE": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-shipping.png",
+            "text": "Free standard shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_NPtLxT": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-longlasting.png",
+            "text": "Long lasting",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_hEaNfD": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-no-drip.png",
+            "text": "No drip",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_9yeKiK": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-stock.png",
+            "text": "Large selection In Stock",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_c9DM8x": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-fast-shipping.png",
+            "text": "Fast And Secure Shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8Yf44L",
+        "text_MBVqhE",
+        "text_NPtLxT",
+        "text_hEaNfD",
+        "text_9yeKiK",
+        "text_c9DM8x"
+      ],
+      "custom_css": [
+        ".scrolling-content__inner {--scroll-duration: 20s !important;}"
+      ],
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-heading-2-base",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#fcf9f8",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_F37HfU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_p47tk7": {
+          "type": "heading",
+          "settings": {
+            "title": "Pillar Wedding Candles FAQ",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_f878qt": {
+          "type": "border",
+          "settings": {}
+        },
+        "subheading_epJXfp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which pillar set works best for most wedding centerpieces?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_3Uaajc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 2\" x 3\", 2\" x 4\", and 2\" x 6\" mixed-height sets are usually the easiest fit for most wedding guest tables because they add height variation without making the centerpiece feel too heavy. They work especially well when the candles need to support the flowers and décor instead of becoming the whole centerpiece.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_J4k6hT": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_9xUBHq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "When should I choose the 3-inch pillar sets instead of the 2-inch sets?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_7Xxd87": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose the 3\" x 4\", 3\" x 6\", and 3\" x 9\" sets when the candles need more presence on the table or in a focal display. These wider sets usually make more sense on larger tables, statement centerpieces, or areas where the candles need to be seen from farther away.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_n4C89M": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_ewMgwQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What is the difference between the 2.25-inch and 2.75-inch pillar sets?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_x4nqWa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 2.25\" sets are easier to work into smaller or more detailed centerpieces because they take up less room and leave more space for florals, greenery, or glass accents. The 2.75\" sets are better when you want the candles to look fuller and carry more of the centerpiece visually.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_3VDghy": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_CVi9DE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Should I choose a mixed-height pillar set or one uniform size for my wedding tables?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_TFcqCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A mixed-height set is usually the better choice because it gives the centerpiece shape right away without extra styling work. A uniform size works better when the table already has a strong floral or decorative structure and only needs a simpler candle layer.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_eebbCW": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_K6iKw3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What pillar candles work best for a sweetheart table or statement display?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_K9Qny7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 2.75\" and 3\" pillar sets are usually the stronger choice for a sweetheart table or statement area because they feel more substantial and show up better in focal spots. Those wider sets help the candle grouping hold its own next to larger florals and decorative pieces.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_WEFVif": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_pYDjnd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Should I choose white or ivory pillar candles for my wedding?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_QM9CUN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose white if you want a brighter, cleaner pillar look against glass, white florals, or a lighter room palette. Choose ivory if your wedding uses warmer neutrals, cream flowers, or softer lighting and you want the candles to blend in more gently.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_Q6aQqQ": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_9Rc87D": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do pillar candles work better for reception tables or ceremony groupings?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_KzMper": {
+          "type": "text",
+          "settings": {
+            "text": "<p>They work well for both, but they are especially useful in ceremony groupings because they have more body and presence than floating candles or slim tapers. That makes them a strong fit for aisle clusters, entry displays, and altar-adjacent arrangements as well as reception centerpieces.<br/></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_piCTQM": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_qyaALh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How should I style pillar wedding candles so the centerpiece looks finished?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_NexgEa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Group them on a tray, riser, or inside glass hurricanes so the arrangement reads as one centerpiece instead of scattered individual candles. This works especially well with the Bolsius mixed-height sets because the size variation is already built into the assortment.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_iefPyU": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_UiDxbG": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why do couples prefer pillar wedding candles from Kisco Candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_yaa8jz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Couples usually want one cohesive pillar look across guest tables, focal tables, and ceremony pieces without mixing different pillar shapes and tones from several sellers. Our Bolsius wedding pillar assortment makes this simpler, as the white and ivory options recur across several grouped-set formats and classic packs. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p47tk7",
+        "border_f878qt",
+        "subheading_epJXfp",
+        "text_3Uaajc",
+        "spacer_J4k6hT",
+        "subheading_9xUBHq",
+        "text_7Xxd87",
+        "spacer_n4C89M",
+        "subheading_ewMgwQ",
+        "text_x4nqWa",
+        "spacer_3VDghy",
+        "subheading_CVi9DE",
+        "text_TFcqCr",
+        "spacer_eebbCW",
+        "subheading_K6iKw3",
+        "text_K9Qny7",
+        "spacer_WEFVif",
+        "subheading_pYDjnd",
+        "text_QM9CUN",
+        "spacer_Q6aQqQ",
+        "subheading_9Rc87D",
+        "text_KzMper",
+        "spacer_piCTQM",
+        "subheading_qyaALh",
+        "text_NexgEa",
+        "spacer_iefPyU",
+        "subheading_UiDxbG",
+        "text_yaa8jz"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "candle_categories_section_zfn4MJ",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "scrolling_content_pKanB6",
+    "rich_text_F37HfU"
+  ]
+}

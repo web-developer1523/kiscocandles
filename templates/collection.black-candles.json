@@ -1,0 +1,816 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.image }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_qNHELR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_zknjap": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/european.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "European Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_LWJkrf": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/plant.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Plant Based Wax",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_w84Grr": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cotton.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Braided Cotton Wicks",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WEJgMU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/eco.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Eco-friendly Packaging",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_zknjap",
+        "image_column_LWJkrf",
+        "image_column_w84Grr",
+        "image_column_WEJgMU"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_tVGHBz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_R3QcJJ": {
+          "type": "heading",
+          "settings": {
+            "title": "GET THE FINEST IN CANDLES.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_VNnGVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s The Simple Things In Life That Bring The Most Joy.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_wCDWMb": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R3QcJJ",
+        "text_VNnGVL",
+        "button_wCDWMb"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/3-inch-floating-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_YFy6rM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4W4pwU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Transform Your Space with Black Candles",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_7FLkyj": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_G7eEn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Black candles bring instant drama and sophistication to any space. Their rich, bold color makes a striking contrast on white tablecloths, natural wood, or minimalist decor. Whether you're styling a dinner party, photo shoot, or relaxing evening at home, they create a visual focal point that feels timeless.</p><p>Choose tall black candles for height and elegance on long tables, or opt for a large black candle as a statement piece on mantels or shelves. All our candles are smokeless and unscented, making them ideal for indoor use. Ready to style your space with impact? Shop our collection now.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4W4pwU",
+        "border_7FLkyj",
+        "text_G7eEn9"
+      ],
+      "custom_css": [
+        ".image-with-text__text-container-text.rte.ff-body.fs-body-75.section-blocks__text h3 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}",
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Black.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_jFC67D": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mckbY9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Find the Perfect Black Candles for Any Mood",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_i6tgzQ": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_hUYJ6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Moody, modern, or romantic—black candles set the tone. Want a soft glow during a long soak or spa day? Our dripless black tapers feature clean, calm lines. Planning a gothic wedding or Halloween event? A large black candle adds just the right edge.</p><p>Each style we offer—from sleek pillars to rustic balls—is crafted to burn evenly and cleanly. No wax puddles. No scent interference. Just an intense, clear flame. Browse our tall black candles and find the size that suits your space and mood.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mckbY9",
+        "border_i6tgzQ",
+        "text_hUYJ6B"
+      ],
+      "custom_css": [
+        ".image-with-text__text-container-text.rte.ff-body.fs-body-75.section-blocks__text h3 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}",
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/ChatGPT_Image_15_._2025_._17_50_38_1.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_dNbdM3": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_tU6rmL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why Choose Black Candles for Your Home or Event?",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_Afnn3H": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_kepcYj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Black is bold. It’s timeless. And when it comes to candles, it delivers unmatched elegance. Perfect for formal events or intimate settings, black candles bring warmth without distracting from your decor.</p><p>At Kisco, we believe in form and function. Our black candles are crafted from high-quality European wax, ensuring a long, clean burn every time. They’re unscented, smokeless, and always drip-free—because no one wants messy wax or overpowering fragrances. Add sophistication to your setting with candles designed to perform and impress. Order today and enjoy fast, free shipping.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tU6rmL",
+        "border_Afnn3H",
+        "text_kepcYj"
+      ],
+      "custom_css": [
+        ".image-with-text__text-container-text.rte.ff-body.fs-body-75.section-blocks__text h3 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}",
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/black-taper-candles_1_eb8a5291-768d-43db-837b-8a7f6362c237.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_p7D8ce": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_L8mYri": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_MrGjAB": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "border_JMAjFR": {
+          "type": "border",
+          "settings": {}
+        },
+        "subheading_jRWLhL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do the Black Candles Leave Stains or Residue?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_cVFhCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No. Our premium wax is clean-burning and smokeless, so you don’t need to worry about soot or marks on your linens or walls.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_ykeVbb": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_fVaWkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are These Candles Good for Events Like Weddings or Parties?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_xVMDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Absolutely. The clean look, no-drip design, and dramatic color make them ideal for everything from modern weddings to themed parties.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_68L9WH": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_63Jihh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do You Offer Bulk Discounts for Black Candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_dttHE3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. The more you purchase, the more you save. Great for event planners, restaurants, and venues ordering in quantity.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_7QXgMW": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_TCpCmP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I Mix DifferWhat’s the Shipping Policy on Black Candles?ent Sizes in One Order?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_zpDMyy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer fast and free standard shipping on all orders nationwide. No hidden fees, no surprises—just premium candles delivered right to your door.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_T6Cpcf": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        }
+      },
+      "block_order": [
+        "spacer_L8mYri",
+        "heading_MrGjAB",
+        "border_JMAjFR",
+        "subheading_jRWLhL",
+        "text_cVFhCr",
+        "spacer_ykeVbb",
+        "subheading_fVaWkq",
+        "text_xVMDY7",
+        "spacer_68L9WH",
+        "subheading_63Jihh",
+        "text_dttHE3",
+        "spacer_7QXgMW",
+        "subheading_TCpCmP",
+        "text_zpDMyy",
+        "spacer_T6Cpcf"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "newsletter_with_image_MtKMA3": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_wWQLHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_TA6FTL": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.<br/><br/></p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWQLHF",
+        "newsletter_signup_TA6FTL"
+      ],
+      "settings": {
+        "spacing_mode": "compact",
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_4mVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Free Shipping",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Satisfaction Guaranteed",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Buy More, Save More",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "multi_column_qNHELR",
+    "image_hero_tVGHBz",
+    "image_with_text_YFy6rM",
+    "image_with_text_jFC67D",
+    "image_with_text_dNbdM3",
+    "rich_text_p7D8ce",
+    "newsletter_with_image_MtKMA3",
+    "multi_column_4mVeph"
+  ]
+}

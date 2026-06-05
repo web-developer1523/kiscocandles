@@ -1,0 +1,653 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.image }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWxYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9bj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_pKamB6": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_8Yf44L": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/top-q.png",
+            "text": "Top European quality",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_DYHDWi": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Beuty.png",
+            "text": "Beautiful",
+            "fontw": "400",
+            "link": ""
+          }
+        },
+        "text_eEzkDz": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/gift.png",
+            "text": "Free Gift on Every Order",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_a6wQ8K": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/fast.png",
+            "text": "Fast & Secure",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8Yf44L",
+        "text_DYHDWi",
+        "text_eEzkDz",
+        "text_a6wQ8K"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-heading-2-base",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#fcf9f8",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_NAaNX4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_W8ijHH": {
+          "type": "heading",
+          "settings": {
+            "title": "Dining Experiences Made More Elegant With Premium Restaurant Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_4Td7EC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Enhance the ambiance of your dining establishment with our exquisite restaurant candles.</strong> Kisco Candles offers a variety of restaurant table candles designed to complement any décor while setting a warm, inviting atmosphere for your guests. From intimate bistros to fine dining venues, our candles for restaurants provide the ideal balance of elegance and functionality, so that every meal is memorable. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W8ijHH",
+        "text_4Td7EC"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_6FD3W6": {
+      "type": "rich-text",
+      "blocks": {
+        "image_8QN7BE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/restaurant-candles_6a4fac03-3b22-41f6-b873-aa254077718a.jpg",
+            "content_width": "full",
+            "image_size": 1000,
+            "image_size_mobile": 200
+          }
+        }
+      },
+      "block_order": [
+        "image_8QN7BE"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_9y7zjW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G7k84L": {
+          "type": "heading",
+          "settings": {
+            "title": "Explore Our Variety of Restaurant Table Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_tHi7yF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We carry a wide selection of restaurant table candles to meet the needs of all types of restaurants. The Bolsius candles we sell are fashioned from high-quality unscented wax and cotton wicks, so there's never a hint of smoke or odor. Here's a closer look at the kinds of candles you'll find in our collection:</p><ul><li><strong>Taper Candles: </strong>Perfect for formal settings, our elegant taper candles provide a classic, refined look. They're ideal for intimate dinners where presentation is paramount, casting a long, flickering flame that adds sophistication to any meal.</li><li><strong>Pillar Candles:</strong> These durable candles make a statement with their substantial size and stand-alone appeal. Best used as centerpieces or arranged in clusters for a bold impact, pillar candles offer prolonged burn times and a strong presence on large tables or outdoor settings.</li><li><strong>Tea Lights:</strong> Small in size but mighty in ambiance, tea lights are the go-to choice for creating a subtle and inviting glow. Their compact form makes them ideal for dotting along pathways, adding to table spreads, or enhancing secondary spaces like bar tops and bathrooms.</li><li><strong>Votive Candles:</strong> Encased in decorative holders, votive candles serve as excellent accents to any decor theme. They provide a soft, diffused light that is perfect for intimate table settings, enhancing the vibe of your dining environment without overpowering it.</li></ul>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_G7k84L",
+        "text_tHi7yF"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_9mqHK4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GLd4Pt": {
+          "type": "heading",
+          "settings": {
+            "title": "Why Ours Are the Best Candles for Restaurants",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_H8bBxW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The quality of your candles matters when creating the perfect dining atmosphere. Bolsius candles from Kisco cater to the needs of the hospitality industry. These candles are unscented, ensuring they don't interfere with the aroma of your food. Additionally, they burn cleanly and are smokeless and dripless, maintaining the elegance of your settings without any mess. Here are more advantages to putting our candles on the dining table:</p><h3></h3><p></p><p></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_dVbGbT": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_MNeAXT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Bulk Buying Benefits",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_DcrApL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Purchasing table candles in bulk from Kisco allows you to manage costs more effectively by lowering the price per unit, which is essential for businesses looking to optimize their operational expenses. Furthermore, bulk purchasing ensures you always have an ample supply of restaurant candles on hand, which is crucial to maintain consistency in service and ambiance without last-minute shortages.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_cdW8Hj": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_YQFh4W": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Benefits of Our Wholesale Program",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_hXTtd4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Joining our <a href=\"https://kiscocandles.com/pages/wholesale\"><span style=\"text-decoration:underline\">wholesale program</span></a> extends additional benefits beyond cost savings. Kisco's wholesale program provides access to exclusive deals, priority customer service, and flexible ordering options tailored to your business needs. This program supports your business's growth by ensuring you have the resources you need when you need them, allowing you to focus on delivering exceptional guest experiences.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GLd4Pt",
+        "text_H8bBxW",
+        "spacer_dVbGbT",
+        "subheading_MNeAXT",
+        "text_DcrApL",
+        "spacer_cdW8Hj",
+        "subheading_YQFh4W",
+        "text_hXTtd4"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "image_hero_xNDxPC": {
+      "type": "image-hero",
+      "blocks": {
+        "accent_PYTCNz": {
+          "type": "accent",
+          "disabled": true,
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_RfXkkW": {
+          "type": "heading",
+          "settings": {
+            "title": "Wax Eloquent With Restaurant Candles From Kisco",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_areRcT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>If you're aiming to provide a warm and inviting atmosphere for your guests, restaurant candles from Kisco are the answer.</strong> Explore our selection today and discover how the right ones can refine your dining experience. Our friendly, experienced team is here to help you find the perfect candles for dinner table settings to match your restaurant's style and ambiance. Let's make your space shine!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_tT6dJj": {
+          "type": "button",
+          "settings": {
+            "link": "/collections/wholesale-bulk-candles",
+            "link_text": "Shop All Bulk Candles",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "accent_PYTCNz",
+        "heading_RfXkkW",
+        "text_areRcT",
+        "button_tT6dJj"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/restaurant-table-candles_f03e9eca-1d21-496c-8329-ed29191f6c95.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_UdkLkd": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_pGc87q": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "heading_9ACUVw": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQs: Restaurant Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_7bL9cj": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_KtxPpW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below are answers to some common questions about restaurant candles. Our knowledgeable staff is always happy to help – if you have additional questions, please <a href=\"https://kiscocandles.com/pages/contact-us\"><span style=\"text-decoration:underline\">contact us</span></a>. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_d6tzt9": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_MYx7NP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are these candles safe to use around food and beverages?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_xHdnBk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Absolutely. Bolsius candles are made with high-quality waxes that burn cleanly, ensuring they're safe to use around food and beverages without affecting their flavor or aroma.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_dUKKc3": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_yLyByW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How long do Bolsius candles typically burn?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_3Rk76B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bolsius candles are designed for long-lasting burn times, which vary depending on the size and type of candle. This makes them ideal for restaurant settings where candles may need to be lit for extended periods.<em> Burn times for each candle type are included in the product details.</em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_X8VFfc": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_U3mpic": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How can I save on candles for my restaurant?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_86qRTJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buying in bulk through Kisco offers significant savings, reducing the cost per candle and helping manage your restaurant's operational budget more effectively.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_pGc87q",
+        "heading_9ACUVw",
+        "border_7bL9cj",
+        "text_KtxPpW",
+        "spacer_d6tzt9",
+        "subheading_MYx7NP",
+        "text_xHdnBk",
+        "spacer_dUKKc3",
+        "subheading_yLyByW",
+        "text_3Rk76B",
+        "spacer_X8VFfc",
+        "subheading_U3mpic",
+        "text_86qRTJ"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "blog_posts_7AzceP": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_4BAXp9": {
+          "type": "article",
+          "settings": {
+            "article": "news/restaurant-candles-your-guide-to-delighting-diners"
+          }
+        },
+        "article_HXpJE9": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-ultimate-guide-to-candle-sizes"
+          }
+        },
+        "article_yQEUC6": {
+          "type": "article",
+          "settings": {
+            "article": "news/choosing-wholesale-candle-companies"
+          }
+        }
+      },
+      "block_order": [
+        "article_4BAXp9",
+        "article_HXpJE9",
+        "article_yQEUC6"
+      ],
+      "settings": {
+        "heading": "Blog posts",
+        "subheading": "",
+        "button_link": "",
+        "link_text": "View all posts",
+        "display_type": "selected",
+        "blog": "",
+        "max_articles": 3,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWxYYW",
+    "scrolling_content_kEU9bj",
+    "scrolling_content_pKamB6",
+    "rich_text_NAaNX4",
+    "rich_text_6FD3W6",
+    "rich_text_9y7zjW",
+    "rich_text_9mqHK4",
+    "image_hero_xNDxPC",
+    "rich_text_UdkLkd",
+    "blog_posts_7AzceP"
+  ]
+}

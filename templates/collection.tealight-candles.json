@@ -1,0 +1,1202 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.image }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_qNHELR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_zknjap": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/european.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "European Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_LWJkrf": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/plant.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Plant Based Wax",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_w84Grr": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cotton.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Braided Cotton Wicks",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WEJgMU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/eco.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Eco-friendly Packaging",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_zknjap",
+        "image_column_LWJkrf",
+        "image_column_w84Grr",
+        "image_column_WEJgMU"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_tVGHBz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_R3QcJJ": {
+          "type": "heading",
+          "settings": {
+            "title": "GET THE FINEST IN CANDLES.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_VNnGVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s The Simple Things In Life That Bring The Most Joy.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_wCDWMb": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R3QcJJ",
+        "text_VNnGVL",
+        "button_wCDWMb"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/tealight-candles_aab20f78-4fc4-47d9-93ee-d8d8a1e23cdb.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_YFy6rM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4W4pwU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tealight Candles for Charming Tabletops",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_7FLkyj": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_G7eEn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>At Kisco Candles, we offer an array of Bolsius tealight candles that create the perfect ambiance for any occasion.</strong> These candles are crafted with premium <a href=\"https://www.healthline.com/health/paraffin-wax#benefits\" target=\"_blank\" title=\"What are the benefits of paraffin wax\">paraffin wax</a> to ensure a clean, long-lasting burn, appealing to anyone looking to enhance their space​. You may even decide on colored tealight candles in your choice of eight scents. Tealight candles come in different burn times, including <a href=\"https://kiscocandles.com/products/bolsius-unscented-white-tea-lights-value-pack-100-200-tealights-burn-time-3-5-hour?variant=40155489501293\" title=\"3.5 Hour Burn Time\">3.5</a>, <a href=\"https://kiscocandles.com/products/bolsius-unscented-white-tea-lights-value-pack-70-tealights-burn-time-6-hour?_pos=1&_psq=6+hour+te&_ss=e&_v=1.0&variant=40155489599597\" title=\"6 Hour Burn Time\">6</a>, 8 and even 9 hours. </p><h2><strong>Long-Burning Tealight Candle Features</strong></h2><p>Immerse yourself in the delicate glow and unmatched quality of long-lasting tealight candles. Each is crafted to enrich your setting with a touch of elegance and warmth, providing a clean, long-lasting burn thanks to these features: </p><ul><li><strong>High-Quality Materials:</strong> Choose tealights made with traditional paraffin wax for a clean burn or plant-based wax options for a more eco-conscious choice. Both types come with cotton wicks, ensuring a steady flame without sputtering​.</li><li><strong>Designed for Any Occasion:</strong> Whether you're planning a romantic dinner, a festive gathering or simply seeking to add a cozy glow to your home, these tealight candles are the go-to option. Their delicate flicker adds charm and ambiance, perfect for homeowners, event planners or those seeking to create memorable moments​. </li><li><strong>Dripless and Smokeless:</strong> <a href=\"https://kiscocandles.com/collections/bolsius-candles\"><span style=\"text-decoration:underline\">Bolsius Candles</span></a>' focus on quality means these tealights will burn cleanly – say goodbye to messy drips and nasty smoke. They're an excellent choice for dinner tables, decorative displays or any space where you want to create a cozy feeling without the acrid smell.</li><li><strong>Scented or Unscented:</strong> While some enjoy delicate <a href=\"https://docs.google.com/document/d/1cBIlit0s3BH8h7qFiWcdZKDmnmw-tm8WpCdJl8QJS4Q/edit#heading=h.bbbv42y2u26p\"><span style=\"text-decoration:underline\">scented tealight candles</span></a>, others prefer unscented. Whatever your preference may be, we have long-lasting tealight candles to accommodate you.</li></ul>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4W4pwU",
+        "border_7FLkyj",
+        "text_G7eEn9"
+      ],
+      "custom_css": [
+        ".image-with-text__text-container-text.rte.ff-body.fs-body-75.section-blocks__text h2 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/long-lasting-tea-light-candles.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_jFC67D": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mckbY9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Beyond the Flame: Reasons to Choose Kisco Tealight Candles",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_i6tgzQ": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_hUYJ6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Along with providing high-quality Bolsius Candles, Kisco customer service representatives ensure that getting them to you will be a breeze. Enjoy free shipping on any order, with no minimum purchase required. If for any reason you're not satisfied, we offer a hassle-free return policy​. This commitment to customer satisfaction and our quality-crafted products make Kisco Candles a premier choice for tealight candle shoppers.</p><p><strong>Pro Tip:</strong> When selecting tealight candles, consider the burn time and wax material that best suits your occasion. We provide options to help you make the perfect choice for lighting up your day or night. Explore your options to find the candles that will bring the right touch of magic to your moments.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mckbY9",
+        "border_i6tgzQ",
+        "text_hUYJ6B"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/unscented-tealight-candles.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_pqUpUt": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_RkqJBW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shop Premium Tealight Candles for Every Occasion",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_JXVyTa": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_4bYC6X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our tea light candles bring elegance to any setup. From dinners to large-scale receptions, these compact candles offer dependable lighting that elevates the atmosphere without stealing the spotlight.</p><p>Tealights are the go-to choice for venues, caterers, and anyone who wants to add visual warmth to any space. Our collection focuses on tealight candles that burn clean and consistently. You’ll find options across multiple burn times—from 3.5 hours to 9 hours—so you can match the candle to the occasion’s pace. Most of our tea light candles are unscented; however, if you are looking for scented options, we offer them as well.</p><p>Each tea candle comes in a durable aluminum cup that holds its shape as the wax burns down. They're easy to set up in glass holders, lanterns, or trays. Hosting a wedding, banquet, or outdoor dinner? Our tealights are reliable, mess-free, and look good in any lighting arrangement.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RkqJBW",
+        "border_JXVyTa",
+        "text_4bYC6X"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Collection_Hero_Professional_Tealights_1536x960_f443005b-5fdd-4425-beff-9e3ac3651e26-modified.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_zyWPJC": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_cBEYdq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why Choose Kisco’s Long-Burning Tealight Candles",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_GCzVat": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_cETpbn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Kisco Candles, we carry only high-quality, high-performance tea lights made to burn longer and cleaner, ideal for those who need dependable quality for every event.</p><p>Crafted by Bolsius, our tea candles feature high-quality paraffin or plant-based wax and braided cotton wicks. That means less smoke, no dripping, and a steady flame that won’t flicker out prematurely. You can count on these tealights to last through multi-course dinners, ceremonies, or hours-long photo shoots.</p><p>We also make it easy to choose the right fit for your setup. Want a soft flicker for glass centerpieces? Need a longer burn for patio use or all-evening receptions? Our 6-hour, 8-hour, and 9-hour tealight candles hold their glow without interruption.</p><p>Durable. Clean-burning. Built to perform. Kisco's tealights are the ones event professionals return to again and again.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cBEYdq",
+        "border_GCzVat",
+        "text_cETpbn"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/sizes-of-tea-light-candles-modified.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_3ECJQP": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_a6AkQt": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Perfect for Events: Tealight Candles at Great Prices",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_93WQ6P": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_c7hUWd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Weddings. Galas. Restaurant patios. Holiday dinners. Tealight candles are a small detail that makes a big visual impact. Our customers use them in bulk to transform simple spaces into memorable, inviting settings.</p><p>Our unscented tea lights are long-lasting and ideal for dining environments and crowd-filled events. No strong fragrance. No wax mess. Just a warm, steady glow in every cup. From table runners to walkway lanterns, these tealights offer versatile styling options that fit any decor theme.</p><p>You can buy in packs suited for both private gatherings and large-scale celebrations. And Kisco's fast shipping and reliable stock prevent last-minute scrambling before an event.</p><p>Set the mood without overcomplicating your setup. Choose tea light candles from Kisco.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_a6AkQt",
+        "border_93WQ6P",
+        "text_c7hUWd"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Tealight_OvalHolder_5b55a53b-8f87-49d0-976c-ce41d9427007-modified.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_p7D8ce": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_L8mYri": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_MrGjAB": {
+          "type": "heading",
+          "settings": {
+            "title": "Illuminating Answers: Your Tealight Candle Queries",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "border_JMAjFR": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_phgQQw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlock the secrets to getting the most out of your Bolsius tealight candles with answers to these frequently asked questions.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_6THxWy": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_jRWLhL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which tealight burn time should I choose?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_cVFhCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose 3.5-hour to 4.5-hour tealights for short dinners, cocktail tables, and quick turns, choose 6-hour tealights for most receptions and evening events, and choose 8-hour or 9-hour tealights when the candle needs to stay lit for longer service. Our selection covers short, mid-length, and long-burning use cases, so you can match the candle to the event instead of overbuying burn time.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_ykeVbb": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_fVaWkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What is the difference between clear cup and aluminum cup tealights?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_xVMDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose clear cup tealights when the holder or glass vessel is part of the visual design, because the transparent cup keeps the look lighter and cleaner. Choose aluminum cup tealights when you want a practical, budget-friendly option for lanterns, back-of-house event use, or large quantities across many tables.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_68L9WH": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_63Jihh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are your tealights unscented?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_dttHE3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, most of tealights at Kisco Candles are unscented and made for spaces where a clean atmosphere matters. That makes them a strong choice for dining rooms, catered events, weddings, and other settings where fragrance can feel distracting. <br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_zbiA3h": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_hcNxf9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What tealight pack size should I buy?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_4m6UwG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose 48-pack, 50-pack, or 70-pack options for smaller events and routine home use, and choose 100-pack or 200-pack options when you are setting many tables, filling lanterns, or preparing for repeat service. At Kisco Candles, we offer several pack sizes so you can stay close to your actual count, rather than buying far too much or running short.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_7QXgMW": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_LBjJyY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which tealights work best for weddings and restaurant tables?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_9GkJ4y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose 6-hour tealights for most wedding receptions and restaurant service because they cover a full meal window without going out too early. Move up to 8-hour or 9-hour styles when the setup starts well before guests arrive or needs to hold through a long evening.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_gd8HGC": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_waBHga": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which tealights work best in glass holders and centerpieces?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_6EczXe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose clear cup tealights when the candle sits in a glass holder, centerpiece, or visible vessel and you want the cup to stay discreet. That option works especially well in polished event styling, where both the holder and the glow matter.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_QcYpUA": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_xpBaad": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which tealights work best in lanterns or outdoor setups?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_b76fGa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose longer-burning aluminum cup tealights for lanterns, patio tables, and outdoor accents where practicality matters. Keep them shielded from wind so the flame stays steady and the burn remains as even as possible.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_wqbAHN": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_anFCTz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How can I make tealights burn as evenly as possible?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_erJz8W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Place tealights on a flat surface, keep them away from drafts, and use holders that keep the cup stable and upright. A calm spot with good airflow control will usually give you a cleaner, steadier burn than an exposed area near doors, vents, or open windows.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_MKY3yQ": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_bxMmKm": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do you carry tealights for both everyday use and large events?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_CFJJne": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, we carry tealights in multiple burn times, cup styles, brands, and pack sizes so you can buy for anything from a dinner at home to a large event rollout. Our assortment includes Bolsius and Lerner options, along with clear cup and aluminum cup styles for different setups.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_L8mYri",
+        "heading_MrGjAB",
+        "border_JMAjFR",
+        "text_phgQQw",
+        "spacer_6THxWy",
+        "subheading_jRWLhL",
+        "text_cVFhCr",
+        "spacer_ykeVbb",
+        "subheading_fVaWkq",
+        "text_xVMDY7",
+        "spacer_68L9WH",
+        "subheading_63Jihh",
+        "text_dttHE3",
+        "spacer_zbiA3h",
+        "subheading_hcNxf9",
+        "text_4m6UwG",
+        "spacer_7QXgMW",
+        "subheading_LBjJyY",
+        "text_9GkJ4y",
+        "spacer_gd8HGC",
+        "subheading_waBHga",
+        "text_6EczXe",
+        "spacer_QcYpUA",
+        "subheading_xpBaad",
+        "text_b76fGa",
+        "spacer_wqbAHN",
+        "subheading_anFCTz",
+        "text_erJz8W",
+        "spacer_MKY3yQ",
+        "subheading_bxMmKm",
+        "text_CFJJne"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_ccb93b": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_atjF66": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        },
+        "heading_RMqNcD": {
+          "type": "heading",
+          "settings": {
+            "title": "Bulk Floating Candles for Every Occasion",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "border_yzk8QB": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_BNfhHV": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Imagine adorning your venue with a sea of gentle lights, each candle floating effortlessly</strong>. Our range of <a href=\"https://kiscocandles.com/collections/wholesale-bulk-floating-candles\"><span style=\"text-decoration:underline\">bulk floating candles</span></a> offers a cost-effective option for event planners and homeowners alike. </p><p>Whether you're orchestrating a <a href=\"https://www.brideandblossom.com/blog/guide-to-wedding-candles-gorgeous-ideas-for-lighting-up-your-big-day/\"><span style=\"text-decoration:underline\">grand wedding </span></a>or hosting a large-scale event, the variety and affordability of our bulk candles <strong>ensure your space is illuminated with elegance and style </strong>without compromising on quality. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_QAyyJJ": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        }
+      },
+      "block_order": [
+        "spacer_atjF66",
+        "heading_RMqNcD",
+        "border_yzk8QB",
+        "text_BNfhHV",
+        "spacer_QAyyJJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "image_hero_gyLjgx": {
+      "type": "image-hero",
+      "blocks": {
+        "subheading_wBaypB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Get the Finest in Candles.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "subheading_fJWNxT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Make Every Event Special With Tealight Candles From Kisco",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_y6Nnxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Bathe every event in the soft, inviting glow of Bolsius tealight candles from Kisco.</strong> Whether it's for an intimate gathering or an elaborate celebration, these candles create<a href=\"https://coolmompicks.com/blog/2021/03/22/how-to-decorate-with-tea-lights/\"><span style=\"text-decoration:underline\"> a memorable ambiance</span></a> that speaks volumes about your attention to decorative details. Their subtle light enriches every space, offering a backdrop that's inviting and transformative. Order yours today!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_QUbFdy": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wBaypB",
+        "subheading_fJWNxT",
+        "text_y6Nnxf",
+        "button_QUbFdy"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/colored-tealight-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "collection_list_grid_qrXLxP": {
+      "type": "collection-list-grid",
+      "blocks": {
+        "collection_LWzbUL": {
+          "type": "collection",
+          "settings": {
+            "collection": "pillar-candles",
+            "alt_text": "unscented pillar candles"
+          }
+        },
+        "collection_jPYxMW": {
+          "type": "collection",
+          "settings": {
+            "collection": "floating-candles",
+            "alt_text": "unscented floating candles"
+          }
+        },
+        "collection_YzcqQp": {
+          "type": "collection",
+          "settings": {
+            "collection": "taper-candles",
+            "alt_text": "unscented taper candles"
+          }
+        },
+        "collection_jPkgDb": {
+          "type": "collection",
+          "settings": {
+            "collection": "votive-candles",
+            "alt_text": "votives"
+          }
+        }
+      },
+      "block_order": [
+        "collection_LWzbUL",
+        "collection_jPYxMW",
+        "collection_YzcqQp",
+        "collection_jPkgDb"
+      ],
+      "settings": {
+        "heading": "Popular Collections",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "newsletter_with_image_MtKMA3": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_wWQLHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_TA6FTL": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.<br/><br/></p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWQLHF",
+        "newsletter_signup_TA6FTL"
+      ],
+      "settings": {
+        "spacing_mode": "between",
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_4mVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Free Shipping",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Satisfaction Guaranteed",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Buy More, Save More",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "multi_column_qNHELR",
+    "image_hero_tVGHBz",
+    "image_with_text_YFy6rM",
+    "image_with_text_jFC67D",
+    "image_with_text_pqUpUt",
+    "image_with_text_zyWPJC",
+    "image_with_text_3ECJQP",
+    "rich_text_p7D8ce",
+    "rich_text_ccb93b",
+    "image_hero_gyLjgx",
+    "collection_list_grid_qrXLxP",
+    "newsletter_with_image_MtKMA3",
+    "multi_column_4mVeph"
+  ]
+}

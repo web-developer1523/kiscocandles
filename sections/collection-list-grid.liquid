@@ -1,0 +1,257 @@
+{%- assign has_collections = false -%}
+{%- for block in section.blocks -%}
+  {%- if block.settings.collection != blank -%}
+    {%- assign has_collections = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if has_collections -%}
+{%- capture image_sizes -%}
+  (min-width: 720px) calc(calc(100vw - calc(2 * clamp(18px, 3.3vw, 3.3vw))) / {{ section.settings.columns }}),
+  calc(calc(100vw - calc(2 * clamp(18px, 3.3vw, 3.3vw))) / {{ section.settings.mobile_columns }})
+{%- endcapture -%}
+
+<div
+  class="
+    collection-list-grid
+    collection-list-grid--mobile-per-view-{{ section.settings.mobile_columns }}
+    collection-list-grid--per-view-{{ section.settings.columns }}
+    section
+    section--divider-{{ section.settings.divider_style }}
+    {{ section.settings.section_padding }}
+    {% if settings.enable_section_animations and section.settings.enable_animation %}
+      animation
+      animation--collection-list-grid
+    {% endif %}
+  "
+  data-section-id="{{ section.id }}"
+  data-section-type="collection-list-grid"
+  data-collection-columns="{{ section.settings.columns }}"
+  data-mobile-collection-columns="{{ section.settings.mobile_columns }}"
+>
+  <div class="collection-list-grid__inner">
+    <div class="section-introduction animation--section-introduction">
+      {%- unless section.settings.heading == blank -%}
+        <{{ section.settings.heading_tag }} class="collection-list-grid__heading ff-heading fs-heading-3-base section-introduction__heading">
+          {{ section.settings.heading }}
+        </{{ section.settings.heading_tag }}>
+      {%- endunless -%}
+      {%- unless section.settings.subheading == blank -%}
+        <div class="collection-list-grid__subheading ff-body fs-body-100 rte section-introduction__subheading">
+          {{ section.settings.subheading }}
+        </div>
+      {%- endunless -%}
+
+      {%-
+        render 'button-block' with
+        wrapper_class: "collection-list-grid__button section-introduction__button",
+        link: section.settings.link,
+        label: section.settings.link_text,
+        button_style: 'btn--callout',
+      -%}
+    </div>
+
+    <div class="collection-list-grid__collections section-blocks__content">
+      {%- for block in section.blocks -%}
+        {%- if block.settings.collection != blank -%}
+          {%
+            render 'collection-item' with
+            collection: block.settings.collection,
+            aspect_ratio: section.settings.collection_listing_aspect_ratio,
+            label_style: section.settings.label_style,
+            overlay_text_color: section.settings.overlay_text_color,
+            overlay_title_background: section.settings.overlay_title_background,
+            overlay_title_background_style: section.settings.overlay_title_background_style,
+            image_sizes: image_sizes,
+            alt_text: block.settings.alt_text
+          %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Collection List Grid",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"],
+    "templates": ["password"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Collection list"
+    },
+    {
+      "id": "heading_tag",
+      "type": "select",
+      "label": "Heading tag",
+      "default": "h2",
+      "options": [
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Choose the HTML heading tag for the section title."
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "id": "link",
+      "type": "url",
+      "label": "Button link",
+      "default": "/collections"
+    },
+    {
+      "id": "link_text",
+      "type": "text",
+      "label": "Button text",
+      "default": "View all collections"
+    },
+    {
+      "type": "header",
+      "content": "Collections"
+    },
+    {
+      "type": "select",
+      "id": "columns",
+      "label": "Desktop columns",
+      "default": "3",
+      "options": [
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" },
+        { "value": "5", "label": "5" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobile_columns",
+      "label": "Mobile columns",
+      "default": "2",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Collection listing"
+    },
+    {
+      "type": "select",
+      "id": "collection_listing_aspect_ratio",
+      "label": "Image aspect ratio",
+      "default": "square",
+      "options": [
+        { "value": "natural", "label": "Natural" },
+        { "value": "square", "label": "Square" },
+        { "value": "portrait", "label": "Portrait" },
+        { "value": "landscape", "label": "Landscape" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "label_style",
+      "label": "Label style",
+      "default": "overlay",
+      "options": [
+        { "value": "overlay", "label": "Overlay" },
+        { "value": "beneath", "label": "Beneath" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "overlay_title_background_style",
+      "label": "Overlay background style",
+      "default": "gradient",
+      "options": [
+        { "value": "solid", "label": "Solid" },
+        { "value": "gradient", "label": "Gradient" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "overlay_text_color",
+      "label": "Overlay text color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "overlay_title_background",
+      "label": "Overlay background color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Section style"
+    },
+    {
+      "id": "enable_animation",
+      "type": "checkbox",
+      "label": "Enable animation",
+      "info": "Enable animation for this section",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "divider_style",
+      "label": "Divider style",
+      "default": "none",
+      "options": [
+        { "label": "None", "value": "none" },
+        { "label": "Solid", "value": "solid" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "section_padding",
+      "label": "Section padding",
+      "default": "section--vertical-padding-top-bottom",
+      "options": [
+        { "label": "None", "value": "section--vertical-padding-none" },
+        { "label": "Top and bottom", "value": "section--vertical-padding-top-bottom" },
+        { "label": "Top only", "value": "section--vertical-padding-top-only" },
+        { "label": "Bottom only", "value": "section--vertical-padding-bottom-only" }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Collection image alt text",
+          "info": "Enter custom alt text for accessibility and SEO."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection List Grid"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,1042 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.image }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "candle_categories_section_XDT98f": {
+      "type": "candle-categories-section",
+      "settings": {
+        "section_title": "",
+        "custom_css": "h2 {\n  font-size: 32px;\n}"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_qNHELR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_zknjap": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/european.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "European Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_LWJkrf": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/plant.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Plant Based Wax",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_w84Grr": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cotton.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Braided Cotton Wicks",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WEJgMU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/eco.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Eco-friendly Packaging",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_zknjap",
+        "image_column_LWJkrf",
+        "image_column_w84Grr",
+        "image_column_WEJgMU"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_tVGHBz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_R3QcJJ": {
+          "type": "heading",
+          "settings": {
+            "title": "GET THE FINEST IN CANDLES.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_VNnGVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s The Simple Things In Life That Bring The Most Joy.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_wCDWMb": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R3QcJJ",
+        "text_VNnGVL",
+        "button_wCDWMb"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/3-inch-floating-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_YFy6rM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4W4pwU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Buy Shabbat Candles Online for Weekly Candle Lighting",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_7FLkyj": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_G7eEn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Friday night candle lighting is a weekly practice, and having the right Shabbat candles stocked makes the preparation effortless. Tapers are the most common choice. Our Shabbat candles fit neatly in standard candlestick holders and keep the table looking tidy, whether the setting is modest or a full holiday spread.</p><p>Classic white is the most widely used color for Shabbat observance, though many households also use ivory or other neutral tones. The key practical considerations are fit, burn time, and whether the candle burns cleanly without excessive dripping, all of which depend on quality and proper placement.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4W4pwU",
+        "border_7FLkyj",
+        "text_G7eEn9"
+      ],
+      "custom_css": [
+        ".image-with-text__text-container-text.rte.ff-body.fs-body-75.section-blocks__text h3 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}",
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/wedding-candles_bfb323d8-58f8-4947-b8ba-a944abe6cc0a.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_jFC67D": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mckbY9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Best Uses",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_i6tgzQ": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_hUYJ6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shabbat candles work across a range of weekly and seasonal settings. Here's how shoppers most commonly use this category:</p><ul><li><strong>Weekly Friday night table</strong><br/>The core use. A pair of tapers on a Shabbat-ready table for candle lighting before the meal.<br/></li><li><strong>Hosting for Shabbat dinners</strong><br/>When guests are joining, having extra pairs on hand means you're not short if the guest count grows. Many hosts keep a steady stock to avoid last-minute shopping.<br/></li><li><strong>Synagogue Shabbat services</strong> <br/>Congregations often use Shabbat candles in bulk for Kabbalat Shabbat and regular Friday evening services.<br/></li><li><strong>Holiday gatherings</strong><br/>Our beautiful Shabbat candles can double as accent candles on holiday tables when you want unscented light without significantly changing the setup.</li></ul>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mckbY9",
+        "border_i6tgzQ",
+        "text_hUYJ6B"
+      ],
+      "custom_css": [
+        ".image-with-text__text-container-text.rte.ff-body.fs-body-75.section-blocks__text h3 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}",
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/elegant_wedding_candles.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_rnXB6W": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_3mkAHJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Choosing the Right Style and Fit",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_yamhMG": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_hyQANj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For most tables, Shabbat taper candles are the classic choice because they sit neatly in candlesticks and keep the footprint small. If you already have holders, a quick measurement of the opening helps you pick a taper that feels secure and won't tip. A slightly snug fit is better than one that wobbles.</p><p>For hosting, many shoppers keep extra candles on hand, so last-minute changes in guest count don't turn into a shopping errand. Tapers also vary in height: taller tapers lend more presence at larger tables, while shorter ones work well for compact settings. Cool, dry storage between uses helps Shabbat taper candles stay straight and burn evenly.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "subheading_fhXG6E": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Burn Performance Notes",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_pjQXzH": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_hG4dQe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Drafts are the main cause of uneven burning and dripping. A steadier setup starts with a calm placement away from open vents, air-conditioning units, and fans. Trimming the wick to about a quarter inch before lighting gives you a cleaner flame and reduces smoke, which matters especially when the candles are on a dinner table.</p><p>Most Shabbat candles are designed to burn for approximately two to four and a half hours, which comfortably covers the duration of the meal and blessings. If you find candles burning faster or unevenly, placement and wick length are usually the first things to check.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "subheading_rmp474": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Care and Storage",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_rbH7iA": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_tVgEH3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shabbat candles are straightforward to store, but a few habits keep them in good shape for weekly use. Store them lying flat or upright in a cool, dry space away from direct sunlight. Heat, even indirect summer heat, can cause Shabbat taper candles to soften and warp slightly. If you're transporting candles to host at another location, a candle box or a firm-sided bag protects them from bending.</p><p>If you notice any minor bowing in a candle, a brief period lying flat on a surface usually restores it to its original shape. For households that light candles weekly, rotating stock consistently helps ensure candles don't sit unused long enough to be affected by storage conditions.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3mkAHJ",
+        "border_yamhMG",
+        "text_hyQANj",
+        "subheading_fhXG6E",
+        "border_pjQXzH",
+        "text_hG4dQe",
+        "subheading_rmp474",
+        "border_rbH7iA",
+        "text_tVgEH3"
+      ],
+      "custom_css": [
+        ".image-with-text__text-container-text.rte.ff-body.fs-body-75.section-blocks__text h3 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}",
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/wedding-candles_bfb323d8-58f8-4947-b8ba-a944abe6cc0a.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_gyLjgx": {
+      "type": "image-hero",
+      "blocks": {
+        "subheading_wBaypB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Bulk Ordering and Wholesale",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_y6Nnxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Synagogues, Shabbat program organizers, and households that light weekly through the year can simplify restocking with bulk Shabbat candle orders. Consistent quality across a larger order means the same burn performance every week without sourcing from multiple places. For bulk Shabbat candles, wholesale pricing is available. Reach out through the contact page with your quantity and frequency to get started.<br/><br/></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_QUbFdy": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wBaypB",
+        "text_y6Nnxf",
+        "button_QUbFdy"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/wedding-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 16,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "blog_posts_MYQpyt": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "heading": "Popular Stories",
+        "subheading": "",
+        "button_link": "shopify://blogs/news",
+        "link_text": "View all posts",
+        "display_type": "selected",
+        "blog": "",
+        "max_articles": 2,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_excerpt": false,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "custom_liquid_CWNUU3": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How many Shabbat candles should I order?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Most households light two candles per week, so a standard calculation is two candles multiplied by the number of weeks you want to stock for. If you light additional candles per family member, adjust accordingly. Many households order in sets of 12 or 24 pairs to simplify restocking.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What size Shabbat taper fits most candlesticks?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Standard Shabbat tapers are designed to fit the most common candlestick holder openings, but holders do vary in size. A quick measurement of your holder's opening before ordering helps confirm the right fit. Most standard tapers have a diameter between 7/8 inch and 1 inch at the base.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Shabbat candles unscented?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, Shabbat candles intended for religious use are unscented. Fragrance at a dinner table competes with food, which is why unscented is the standard for this category. All options in this collection are unscented.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I use Shabbat candles in glass holders?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Tapers are designed for open candlestick holders, not enclosed glass containers. If your holder has a tall glass chimney with an open top and a socket at the base, a taper may work depending on the dimensions. Fully enclosed glass containers are better suited to votive-style or memorial candles.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do Shabbat candles drip?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Some dripping is normal with taper candles, and it's influenced by placement, airflow, and wick condition. Keeping candles away from drafts and trimming the wick before each use significantly reduces dripping. Many of our Shabbat tapers are formulated for low-drip performance.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I order Shabbat candles in bulk for a synagogue?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Bulk ordering for synagogues and community organizations is available. Contact us with your quantity needs, and we'll walk you through wholesale options for regular restocking.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What's the difference between Shabbat candles and taper candles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Shabbat candles are a specific category of taper candles designed for religious use, always unscented, in appropriate heights for standard holders, and made with burn performance in mind for the Friday night table. Not all taper candles are made to these standards.\"\n      }\n    }\n  ]\n}\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_p7D8ce": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_L8mYri": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_MrGjAB": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "spacer_NejAJW": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_jRWLhL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How many Shabbat candles should I order?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_cVFhCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most households light two candles per week, so a standard calculation is two candles multiplied by the number of weeks you want to stock for. If you light additional candles per family member, adjust accordingly. Many households order in sets of 12 or 24 pairs to simplify restocking.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_ykeVbb": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_fVaWkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What size Shabbat taper fits most candlesticks?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "spacer_68L9WH": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "text_xVMDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standard Shabbat tapers are designed to fit the most common candlestick holder openings, but holders do vary in size. A quick measurement of your holder's opening before ordering helps confirm the right fit. Most standard tapers have a diameter between 7/8 inch and 1 inch at the base.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "subheading_63Jihh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are Shabbat candles unscented?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_dttHE3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, Shabbat candles intended for religious use are unscented. Fragrance at a dinner table competes with food, which is why unscented is the standard for this category. All options in this collection are unscented.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_7QXgMW": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_CaB7m3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I use Shabbat candles in glass holders?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_Cr96Tc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tapers are designed for open candlestick holders, not enclosed glass containers. If your holder has a tall glass chimney with an open top and a socket at the base, a taper may work depending on the dimensions. Fully enclosed glass containers are better suited to votive-style or memorial candles.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_M38WhA": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_XbgxMh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do Shabbat candles drip?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_4G8gEk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Some dripping is normal with taper candles, and it's influenced by placement, airflow, and wick condition. Keeping candles away from drafts and trimming the wick before each use significantly reduces dripping. Many of our Shabbat tapers are formulated for low-drip performance.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_E8NYJk": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_ii8cXH": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I order Shabbat candles in bulk for a synagogue?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_xECmzw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Bulk ordering for synagogues and community organizations is available. Contact us with your quantity needs, and we'll walk you through wholesale options for regular restocking.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_R68zwt": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_wAxEbj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What's the difference between Shabbat candles and taper candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_Uft4WG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shabbat candles are a specific category of <a href=\"https://kiscocandles.com/collections/taper-candles\"><span style=\"text-decoration:underline\">taper candles</span></a> designed for religious use, always unscented, in appropriate heights for standard holders, and made with burn performance in mind for the Friday night table. Not all taper candles are made to these standards.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_L8mYri",
+        "heading_MrGjAB",
+        "spacer_NejAJW",
+        "subheading_jRWLhL",
+        "text_cVFhCr",
+        "spacer_ykeVbb",
+        "subheading_fVaWkq",
+        "spacer_68L9WH",
+        "text_xVMDY7",
+        "subheading_63Jihh",
+        "text_dttHE3",
+        "spacer_7QXgMW",
+        "subheading_CaB7m3",
+        "text_Cr96Tc",
+        "spacer_M38WhA",
+        "subheading_XbgxMh",
+        "text_4G8gEk",
+        "spacer_E8NYJk",
+        "subheading_ii8cXH",
+        "text_xECmzw",
+        "spacer_R68zwt",
+        "subheading_wAxEbj",
+        "text_Uft4WG"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collection_list_grid_BXrdKG": {
+      "type": "collection-list-grid",
+      "settings": {
+        "heading": "Popular Collections",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "newsletter_with_image_MtKMA3": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_wWQLHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_TA6FTL": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.<br/><br/></p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWQLHF",
+        "newsletter_signup_TA6FTL"
+      ],
+      "settings": {
+        "spacing_mode": "compact",
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_4mVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Free Shipping",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Satisfaction Guaranteed",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Buy More, Save More",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "candle_categories_section_XDT98f",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "multi_column_qNHELR",
+    "image_hero_tVGHBz",
+    "image_with_text_YFy6rM",
+    "image_with_text_jFC67D",
+    "image_with_text_rnXB6W",
+    "image_hero_gyLjgx",
+    "blog_posts_MYQpyt",
+    "custom_liquid_CWNUU3",
+    "rich_text_p7D8ce",
+    "collection_list_grid_BXrdKG",
+    "newsletter_with_image_MtKMA3",
+    "multi_column_4mVeph"
+  ]
+}

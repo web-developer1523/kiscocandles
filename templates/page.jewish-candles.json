@@ -1,0 +1,477 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "image_hero_Xq3zpq": {
+      "type": "image-hero",
+      "blocks": {
+        "text_XjXBht": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Jewish Candles</h1>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "text_XjXBht"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 25,
+        "mobile_height": 25,
+        "image": "shopify://shop_images/Close_Up.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "flex-start_flex-start",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 11,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_iJFLDY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mfJL6G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jewish candles are used throughout the year for weekly observance, holiday gatherings, and remembrance. Whether you're preparing for Shabbat, marking a Yahrzeit anniversary, or observing Yizkor, each moment calls for a specific type of candle. This hub brings the three main categories together so you can shop by occasion without sorting through unrelated products.</p><p>Start with Shabbat candles for Friday night candle lighting. Move to Yahrzeit candles for marking the anniversary of a loss. Or shop Yizkor candles for memorial services observed four times a year. All three categories are here, with practical guidance to help you choose the right style and burn time for your setting.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "text_mfJL6G"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 800
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WpYpmU": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop Jewish Candles by Occasion",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "border_PecKVU": {
+          "type": "border",
+          "settings": {}
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The occasion shapes everything from burn time to candle format. Here's a quick guide to help you land in the right category.</p><h3><a href=\"https://kiscocandles.com/collections/shabbat-candles\" title=\"https://kiscocandles.com/collections/shabbat-candles\">Shabbat Candles</a></h3><p>Tapers and Shabbat-ready styles for Friday night candle lighting. Includes popular options known as sabbath candles and shabbos candles, designed to fit standard candlestick holders and keep the table looking clean and welcoming.</p><h3><a href=\"https://kiscocandles.com/collections/yahrzeit-candles\" title=\"https://kiscocandles.com/collections/yahrzeit-candles\">Yahrzeit Candles</a></h3><p>Jewish <a href=\"https://kiscocandles.com/collections/memorial-candles\" title=\"https://kiscocandles.com/collections/memorial-candles\">memorial candles</a> lit in honor of a loved one on the Hebrew calendar anniversary of their passing. Many buyers look specifically for a format that burns for approximately 24 hours. This category covers single candles and multipacks for family and community use.</p><h3><a href=\"https://kiscocandles.com/collections/yizkor-candles\" title=\"https://kiscocandles.com/collections/yizkor-candles\">Yizkor Candles</a></h3><p>Memorial candles for Yizkor services, which are observed four times a year on Yom Kippur, Passover, Shavuot, and Shemini Atzeret. Long-burning options are popular here, so the candle can remain in place through the day of observance.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WpYpmU",
+        "border_PecKVU",
+        "block-1"
+      ],
+      "custom_css": [
+        "h3 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Image_Apr_28_2026_11_07_19_AM.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3PtfcL": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop Jewish Candles by Candle Style",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "border_hCeE9Y": {
+          "type": "border",
+          "settings": {}
+        },
+        "6a4f5d32-f759-4a1c-942b-4c3e1f87ecc9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you know the style you're looking for before you know the occasion, this breakdown helps you match the candle to its purpose.</p><ul><li><strong>Shabbat Tapers for Candlesticks</strong><br/>The classic look for a Friday night table. Tapers sit neatly in most standard holders and keep the setup simple whether you're lighting for two or hosting a larger group.</li><li><strong>Memorial Candles in Glass </strong><br/>A contained, steady option for Yahrzeit and Yizkor observances. The glass keeps the wax contained during a long burn and is well-suited for placement on a memorial board or home setting.</li><li><strong>Accent Candles for Holiday Tables</strong><br/>A simple way to add soft, unscented light to holiday gatherings without fragrance competing with food. Works well for a range of Jewish holiday settings beyond the weekly Shabbat table.</li><li><strong>Long-Burning Options for Remembrance</strong> <br/>Designed to remain in place for an extended window. These are the formats most commonly chosen for Yahrzeit and Yizkor when the candle needs to burn through the day.</li></ul>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3PtfcL",
+        "border_hCeE9Y",
+        "6a4f5d32-f759-4a1c-942b-4c3e1f87ecc9"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Image_Apr_28_2026_10_58_39_AM.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tPj3ty": {
+          "type": "heading",
+          "settings": {
+            "title": "Burn and Setup Notes",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "border",
+          "settings": {}
+        },
+        "block-4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Getting a clean burn on any Jewish candle comes down to placement. Keep candles away from strong airflow, such as open vents, fans, and drafty windows. This is especially important for long-burning memorial candles, where consistent flame behavior matters across many hours. A stable, heat-safe surface is the practical foundation for any candle that burns unattended for extended periods.</p><p>For Shabbat tapers, a quick wick trim before lighting reduces smoke and gives you a more even flame. Most holders work well as long as the fit is snug, so taking a moment to measure your candlestick opening before ordering saves you a swap later.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "heading_CiWxHj": {
+          "type": "heading",
+          "settings": {
+            "title": "Bulk Ordering and Wholesale",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "border_xbrErE": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_VhdEtx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Synagogues, community centers, and event organizers ordering across multiple occasions can take advantage of bulk pricing on Jewish candles. Whether you're restocking Shabbat tapers for weekly services or preparing memorial candles for communal Yahrzeit and Yizkor observances, wholesale options are available to simplify recurring orders. Contact us directly to discuss quantities and pricing for your organization.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tPj3ty",
+        "block-1",
+        "block-4",
+        "heading_CiWxHj",
+        "border_xbrErE",
+        "text_VhdEtx"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Image_Apr_28_2026_11_07_30_AM.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "custom_liquid_eYYxjA": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What's the difference between Shabbat candles and memorial candles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Shabbat candles are lit to welcome the Sabbath and typically burn for about 4 hours on Friday evenings. Memorial candles, including Yahrzeit and Yizkor candles, are intended to burn much longer, often through a full 24-hour period, as a way of honoring the memory of someone who has passed. The two serve distinct purposes and are generally not interchangeable.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Which page should I shop for a Yahrzeit candle?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Head to the Yahrzeit Candles category page. You'll find options organized by burn time and format, including 24-hour candles in glass and multipacks for family use.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Which page should I shop for a Yizkor candle?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Visit the Yizkor Candles category page. That section covers memorial candles specifically suited for the four annual Yizkor observances, with guidance on burn time and setup.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer bulk ordering for synagogues and events?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Bulk and wholesale pricing is available for synagogues, community organizations, and event planners. Reach out through the contact page with your quantity needs, and we'll get back to you with options.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are most Jewish candles unscented?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"The majority of Jewish candles sold for religious use are unscented by design. This is particularly important for Shabbat dinner tables and holiday gatherings where food is being served. Fragrance in that setting can be distracting. Our Jewish candle categories focus on unscented options suited to these occasions.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I use Shabbat candles for a Yahrzeit or Yizkor observance?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Shabbat tapers are not typically the right fit for Yahrzeit or Yizkor because they aren't designed to burn for 24 hours. A standard taper burns for a much shorter time. For those observances, a dedicated memorial candle, often a glass-contained format, is the more appropriate choice.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How many candles do I need for Shabbat?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Most households light two Shabbat candles as the traditional minimum. Some families light additional candles for each family member or child. There is no single rule, so the quantity often comes down to family custom.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are these candles appropriate for synagogue use?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Our candles from all three categories, Shabbat, Yahrzeit, and Yizkor, are used in synagogue settings. For synagogue purchasing, bulk ordering is the practical path since you'll be managing multiple occasions and regular restocking needs.\"\n      }\n    }\n  ]\n}\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "collapsible_row_list_9yGJyW": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_KYMPUf": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What's the difference between Shabbat candles and memorial candles?",
+            "text": "<p>Shabbat candles are lit to welcome the Sabbath and typically burn for about 4 hours on Friday evenings. Memorial candles,  including Yahrzeit and Yizkor candles, are intended to burn much longer, often through a full 24-hour period, as a way of honoring the memory of someone who has passed. The two serve distinct purposes and are generally not interchangeable.<br/><br/></p>"
+          }
+        },
+        "item_ewCFPj": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Which page should I shop for a Yahrzeit candle?",
+            "text": "<p>Head to the Yahrzeit Candles category page. You'll find options organized by burn time and format, including 24-hour candles in glass and multipacks for family use.</p>"
+          }
+        },
+        "item_QrWg7j": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Which page should I shop for a Yizkor candle?",
+            "text": "<p>Visit the Yizkor Candles category page. That section covers memorial candles specifically suited for the four annual Yizkor observances, with guidance on burn time and setup.</p>"
+          }
+        },
+        "item_XkjJJq": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Do you offer bulk ordering for synagogues and events?",
+            "text": "<p>Yes. Bulk and wholesale pricing is available for synagogues, community organizations, and event planners. Reach out through the contact page with your quantity needs, and we'll get back to you with options.</p>"
+          }
+        },
+        "item_CGJdnq": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are most Jewish candles unscented?",
+            "text": "<p>The majority of Jewish candles sold for religious use are unscented by design. This is particularly important for Shabbat dinner tables and holiday gatherings where food is being served. Fragrance in that setting can be distracting. Our Jewish candle categories focus on unscented options suited to these occasions.</p>"
+          }
+        },
+        "item_ThEDnm": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use Shabbat candles for a Yahrzeit or Yizkor observance?",
+            "text": "<p>Shabbat tapers are not typically the right fit for Yahrzeit or Yizkor because they aren't designed to burn for 24 hours. A standard taper burns for a much shorter time. For those observances, a dedicated memorial candle, often a glass-contained format, is the more appropriate choice.</p>"
+          }
+        },
+        "item_RJtRXj": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How many candles do I need for Shabbat?",
+            "text": "<p>Most households light two Shabbat candles as the traditional minimum. Some families light additional candles for each family member or child. There is no single rule, so the quantity often comes down to family custom.</p>"
+          }
+        },
+        "item_TtUyRX": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are these candles appropriate for synagogue use?",
+            "text": "<p>Yes. Our candles from all three categories, Shabbat, Yahrzeit, and Yizkor, are used in synagogue settings. For synagogue purchasing, bulk ordering is the practical path since you'll be managing multiple occasions and regular restocking needs.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_KYMPUf",
+        "item_ewCFPj",
+        "item_QrWg7j",
+        "item_XkjJJq",
+        "item_CGJdnq",
+        "item_ThEDnm",
+        "item_RJtRXj",
+        "item_TtUyRX"
+      ],
+      "name": "t:sections.collapsible_row_list.presets.name",
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "enable_faq_schema": true,
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "multi_column_UJWMtg": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_GmQRaN": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "FREE SHIPPING",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_aFYntP": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "SATISFACTION GUARANTEED",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>If you aren’t 100% obsessed with your candles, you can send them back. Free shipping and returns.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_gUr3F6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "BUY MORE, SAVE MORE",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_GmQRaN",
+        "image_column_aFYntP",
+        "image_column_gUr3F6"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_hero_Xq3zpq",
+    "rich_text_iJFLDY",
+    "image-with-text-1",
+    "image-with-text-2",
+    "image-with-text-3",
+    "custom_liquid_eYYxjA",
+    "collapsible_row_list_9yGJyW",
+    "multi_column_UJWMtg"
+  ]
+}

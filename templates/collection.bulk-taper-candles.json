@@ -1,0 +1,851 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.image }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "multi_column_qNHELR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_zknjap": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/european.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "European Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_LWJkrf": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/plant.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Plant Based Wax",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_w84Grr": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cotton.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Braided Cotton Wicks",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WEJgMU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/eco.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Eco-friendly Packaging",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_zknjap",
+        "image_column_LWJkrf",
+        "image_column_w84Grr",
+        "image_column_WEJgMU"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_tVGHBz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_R3QcJJ": {
+          "type": "heading",
+          "settings": {
+            "title": "GET THE FINEST IN CANDLES.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_VNnGVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s The Simple Things In Life That Bring The Most Joy.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_wCDWMb": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R3QcJJ",
+        "text_VNnGVL",
+        "button_wCDWMb"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/bulk-taper-candles_1f1f3649-565a-4492-ab44-228afac05c32.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "multi_column_84X4lU": {
+      "type": "multi-column",
+      "custom_css": [
+        ".multi-column__grid {display: none;}",
+        " {margin-top: 40px;}"
+      ],
+      "settings": {
+        "title": "Enrich the Ambiance of Any Setting with Bulk Taper Candles",
+        "class": "coll-howto",
+        "heading_tag": "h2",
+        "subheading": "<p>Looking to bring a touch of elegance and charm to your space? Bulk taper candles are the perfect solution, offering graceful height and timeless style for any event. <strong>At Kisco Candles, we provide a stunning selection of taper candles, wholesale priced and available in an array of sizes and colors to suit everything from intimate dinners to grand celebrations.</strong> Our unscented taper candles give you that flawless, flickering glow without the distraction of scent — ideal for weddings, restaurants, and special occasions where ambiance matters most.</p>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "multi_column_hdJB8g": {
+      "type": "multi-column",
+      "custom_css": [
+        ".multi-column__grid {display: none;}"
+      ],
+      "settings": {
+        "title": "Unlock the Benefits of Kisco's Wholesale Program",
+        "class": "coll-howto",
+        "heading_tag": "h2",
+        "subheading": "<p>When you partner with Kisco Candles, you're unlocking a world of benefits that make every bulk order a breeze:</p><ul><li>Score <strong>exclusive discounts</strong> that make stocking up on bulk taper candles easier on your budget.</li><li>Several <strong>options of sizes and colors</strong> to match your vision, whether it's for a candlelit dinner or a grand event.</li><li>Enjoy <strong>lightning-fast shipping</strong> so your candles arrive just when you need them, hassle-free.</li><li>Get <strong>top-notch customer support</strong> from start to finish, ensuring your order is as perfect as your event.</li></ul>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_gzLjgz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_V3trMR": {
+          "type": "heading",
+          "settings": {
+            "title": "Create Your Wholesale Account",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_y6Nnxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our wholesale program provides an experience designed to make your life easier while keeping your budget on track.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_QUbFdy": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/pages/wholesale",
+            "link_text": "CREATE A WHOLESALE ACCOUNT",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V3trMR",
+        "text_y6Nnxf",
+        "button_QUbFdy"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/taper-candles-wholesale.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "multi_column_qrGPjq": {
+      "type": "multi-column",
+      "blocks": {
+        "column_hX9g7f": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Weddings and Formal Events",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Picture a candlelit aisle, flickering bulk taper candles casting a romantic glow as they line your path. Or imagine them as part of a stunning table centerpiece, their sleek shape adding sophistication to every corner. Whether for intimate ceremonies or grand receptions, taper candles set the stage for timeless beauty.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_MFfABt": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Dining and Hospitality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>As a restaurant or hotel proprietor, you understand that ambiance is priceless. Unscented taper candles are the go-to choice for adding warmth and elegance to dining tables without overwhelming the senses. From cozy cafes to upscale dining rooms, these candles offer the perfect finishing touch, creating an inviting glow that enhances the entire experience.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_hX9g7f",
+        "column_MFfABt"
+      ],
+      "custom_css": [
+        "{margin-top: 40px; margin-bottom: 30px;}"
+      ],
+      "settings": {
+        "title": "Versatile Uses for Bulk Taper Candles",
+        "class": "coll-howto",
+        "heading_tag": "h2",
+        "subheading": "<p>They're so subtle that you'd hardly know they were there, yet taper candles are hard at work, creating a romantic, elegant atmosphere for your venue. Whether you're planning an unforgettable event or enhancing a commercial space, our taper candles provide the perfect ambience without intrusive scents, smoke, or unsightly drips.</p>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "image_hero_bVXrJA": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_rbKkW6": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop Bulk Taper Candles and Lighten the Mood at Your Next Event",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_htqMc8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Explore our stunning collection of bulk pillar candles and take full advantage of Kisco Candles' unbeatable wholesale program.</strong> Whether you're planning a lavish event or need to stock up for your bus<strong>Bring elegance to every event with bulk taper candles from Kisco.</strong> Buying in bulk enables you to enjoy the best selection of taper candles at wholesale prices — making your next large-scale order effortless. From intimate gatherings to grand celebrations, our candles add that perfect flicker of sophistication. Order yours today!iness, our affordable pillar candles help you create unforgettable moments with ease.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_kDkMbB": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/wholesale-bulk-candles",
+            "link_text": "SHOP ALL BULK CANDLES",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rbKkW6",
+        "text_htqMc8",
+        "button_kDkMbB"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/bulk-unscented-taper-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "collection_list_grid_BXtdKG": {
+      "type": "collection-list-grid",
+      "settings": {
+        "heading": "Popular Collections",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_list": [
+          "pillar-candles",
+          "taper-candles",
+          "floating-candles",
+          "wholesale-bulk-floating-candles"
+        ],
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_p7D8ce": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MrGjAB": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQs: Bulk Taper Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_JMAjFR": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_phgQQw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below, we've answered some common questions about bulk taper candles. Please <a href=\"https://kiscocandles.com/pages/contact-us\"><span style=\"text-decoration:underline\">contact us</span></a> for more information. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "subheading_jRWLhL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What sizes and colors are available for bulk taper candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_cVFhCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>At Kisco Candles, we've got bulk unscented taper candles in different sizes and styles to fit your vibe.</strong> Whether you're keeping it classic with white or adding a pop of color to your décor, we've got the perfect match for your event or venue.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "subheading_fVaWkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are the taper candles unscented?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_xVMDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Absolutely! <strong>Our unscented taper candles are perfect for creating a beautiful atmosphere without overwhelming scents</strong> — ideal for weddings, formal events, or any setting where you want the glow without the fragrance.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "subheading_63Jihh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How do I qualify for the wholesale program?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_dttHE3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>It's easy! Our wholesale program is open to businesses, event planners, and anyone making large purchases. </strong>Just <a href=\"https://kiscocandles.com/pages/wholesale\"><span style=\"text-decoration:underline\">apply online</span></a>, and you'll be on your way to exclusive deals and pricing.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MrGjAB",
+        "border_JMAjFR",
+        "text_phgQQw",
+        "subheading_jRWLhL",
+        "text_cVFhCr",
+        "subheading_fVaWkq",
+        "text_xVMDY7",
+        "subheading_63Jihh",
+        "text_dttHE3"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "custom_liquid_rjAVVP": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What sizes and colors are available for bulk taper candles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"At Kisco Candles, we've got bulk unscented taper candles in different sizes and styles to fit your vibe. Whether you're keeping it classic with white or adding a pop of color to your décor, we've got the perfect match for your event or venue.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are the taper candles unscented?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely! Our unscented taper candles are perfect for creating a beautiful atmosphere without overwhelming scents — ideal for weddings, formal events, or any setting where you want the glow without the fragrance.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How do I qualify for the wholesale program?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"It's easy! Our wholesale program is open to businesses, event planners, and anyone making large purchases. Just apply online, and you'll be on your way to exclusive deals and pricing.\"\n      }\n    }\n  ]\n}\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "blog_posts_UyMnrx": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_eVKjD7": {
+          "type": "article",
+          "settings": {
+            "article": "news/6-types-of-candles-explained-discover-the-perfect-unscented-candle-for-your-needs"
+          }
+        },
+        "article_nH8WkK": {
+          "type": "article",
+          "settings": {
+            "article": "news/how-to-buy-candles-in-bulk"
+          }
+        },
+        "article_HPjCPA": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-ultimate-guide-to-candle-sizes"
+          }
+        }
+      },
+      "block_order": [
+        "article_eVKjD7",
+        "article_nH8WkK",
+        "article_HPjCPA"
+      ],
+      "settings": {
+        "heading": "Related Articles",
+        "subheading": "",
+        "button_link": "",
+        "link_text": "",
+        "display_type": "selected",
+        "blog": "news",
+        "max_articles": 3,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "newsletter_with_image_MtKMA3": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_wWQLHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_TA6FTL": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.</p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWQLHF",
+        "newsletter_signup_TA6FTL"
+      ],
+      "settings": {
+        "spacing_mode": "between",
+        "alignment": "left",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_4mVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "FREE SHIPPING",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "SATISFACTION GUARANTEED",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "BUY MORE, SAVE MORE",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "multi_column_qNHELR",
+    "image_hero_tVGHBz",
+    "multi_column_84X4lU",
+    "multi_column_hdJB8g",
+    "image_hero_gzLjgz",
+    "multi_column_qrGPjq",
+    "image_hero_bVXrJA",
+    "collection_list_grid_BXtdKG",
+    "rich_text_p7D8ce",
+    "custom_liquid_rjAVVP",
+    "blog_posts_UyMnrx",
+    "newsletter_with_image_MtKMA3",
+    "multi_column_4mVeph"
+  ]
+}

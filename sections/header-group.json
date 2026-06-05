@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:groups.header_group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_QYPYEk": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>Free shipping on all orders over $99</strong></p>",
+            "title_mobile": "<p><strong>Free shipping on all orders over $99</strong></p>",
+            "link": ""
+          }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>Valentine’s Deal: Enjoy 12% off your order. Discount applied at checkout.</strong></p><p></p>",
+            "title_mobile": "<p><strong>Valentine’s Deal: Enjoy 12% off your order. Discount applied at checkout.</strong></p>",
+            "link": ""
+          }
+        },
+        "announcement_LAay7C": {
+          "type": "announcement",
+          "settings": {
+            "title": "<p><strong>Need help? Give us a call 732-405-3566</strong></p><p><strong>Free shipping on all orders over $99</strong></p>",
+            "title_mobile": "<p><strong>Need help? Give us a call 732-405-3566</strong></p><p><strong>Free shipping on all orders over $99.99 </strong></p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_QYPYEk",
+        "announcement-bar-0",
+        "announcement_LAay7C"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sticky_announcement_bar": "never",
+        "autoplay_enabled": true,
+        "autoplay_delay": 5,
+        "color_background": "#ede3dd",
+        "color_text": "#000000"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "meganav-0": {
+          "type": "full_width_meganav",
+          "settings": {
+            "dropdown_parent_link": "Unscented Candles",
+            "column_count": 4,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 350,
+            "promo_height": 400,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/unscented-candles-1.png",
+            "focal_point": "image_presentation",
+            "promo_text": "Unscented Candles",
+            "link": "shopify://collections/unscented-candles",
+            "link_text": "Shop Now",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 22%, rgba(0, 0, 0, 1) 96%)",
+            "overlay_opacity": 33
+          }
+        },
+        "full_width_meganav_tMQc9x": {
+          "type": "full_width_meganav",
+          "settings": {
+            "dropdown_parent_link": "Bulk Candles",
+            "column_count": 4,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 350,
+            "promo_height": 250,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/bulk-wedding-candles-collection.jpg",
+            "focal_point": "image_presentation",
+            "promo_text": "Bulk Candles",
+            "link": "shopify://collections/wholesale-bulk-candles",
+            "link_text": "Shop Now",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "full_width_meganav_Cqwyjg": {
+          "type": "full_width_meganav",
+          "settings": {
+            "dropdown_parent_link": "Wedding Candles",
+            "column_count": 1,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 550,
+            "promo_height": 250,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/wedding-candles.jpg",
+            "focal_point": "image_presentation",
+            "promo_text": "Wedding Candles",
+            "link": "shopify://collections/elegant-wedding-candles",
+            "link_text": "Shop Now",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        },
+        "full_width_meganav_X9eeVW": {
+          "type": "full_width_meganav",
+          "settings": {
+            "dropdown_parent_link": "Colored Candles",
+            "column_count": 4,
+            "show_column_borders": true,
+            "show_promo": true,
+            "promo_width": 440,
+            "promo_height": 250,
+            "secondary_position": "right",
+            "image": "shopify://shop_images/Colorful-Taper-Candles.jpg",
+            "focal_point": "top",
+            "promo_text": "Colored Candles",
+            "link": "shopify://collections/colored-candles",
+            "link_text": "Shop Now",
+            "text_position": "flex-start_flex-end",
+            "text_color": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "meganav-0",
+        "full_width_meganav_tMQc9x",
+        "full_width_meganav_Cqwyjg",
+        "full_width_meganav_X9eeVW"
+      ],
+      "settings": {
+        "layout": "logo-left_nav-below",
+        "enable_sticky_header": true,
+        "cart_icon": "cart",
+        "divider_width": "0px",
+        "enable_locale_selector": true,
+        "enable_country_selector": false,
+        "show_social_media": true,
+        "show_social_media_mobile": true,
+        "logo": "shopify://shop_images/Logo.svg",
+        "logo_width": 160,
+        "mobile_logo_width": 90,
+        "menu": "mega-menu",
+        "secondary_menu": "",
+        "enable_transparent_on_home": false,
+        "enable_transparent_template_list": "",
+        "color_text_transparent": "#ffffff",
+        "color_count_transparent": "#000000"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

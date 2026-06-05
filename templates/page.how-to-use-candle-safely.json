@@ -1,0 +1,410 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_WgiRXk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_78qhEn": {
+          "type": "heading",
+          "settings": {
+            "title": "How to use candle safely",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_78qhEn"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_6FemiM": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_reTEPL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What do the symbols on our candles mean?",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_RnraXB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There are symbols on all our candles to indicate what you should take into account to burn candles safely. This way you can optimally enjoy our candles.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_reTEPL",
+        "text_RnraXB"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "multi_column_AYiDqL": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_nYwDCc": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP05.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Do not inhale the smoke directly.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_kVyQzA": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP06.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Burn candles in a suitable holder with the right dimensions.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_QpGKWK": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP09.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Snuff out the candle before it has burned down to 1 centimetre from the edge of the candle-holder.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_DFwRNa": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP13.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Do not place candles in a draft. A candle placed in a draft will always smoke and drip.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_3nkjK3": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP27.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Never leave a burning candle unattended.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_CM9nwp": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP15.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Place a candle straight up. A leaning candle will always drip and smoke.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_hAgV7k": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP19.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Never place a burning candle near curtains or other flammable objects. It is open fire, therefore caution is always necessary.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_8mwNcU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP21.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The wick should not be longer than 1 cm. If the wick is longer it may smoke and flicker. If necessary, cut the wick before lighting the candle.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_pcjg8x": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP22.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Burn candles out of the reach of children and pets.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WM6fjP": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP24.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Place a candle on a non flammable coaster or in a non flammable holder. Of course, make sure the candle is placed in an adequate way and cannot not fall over.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_KDb6Je": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP25.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Place candles at a distance of 10 cm from each other. Candles which are placed too close together can use each others’ heat which might cause dripping.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_9yraYB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/TIP26.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_tag": "h6",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Do not move a burning candle.</p>",
+            "text_font_class": "fs-body-300",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_nYwDCc",
+        "image_column_kVyQzA",
+        "image_column_QpGKWK",
+        "image_column_DFwRNa",
+        "image_column_3nkjK3",
+        "image_column_CM9nwp",
+        "image_column_hAgV7k",
+        "image_column_8mwNcU",
+        "image_column_pcjg8x",
+        "image_column_WM6fjP",
+        "image_column_KDb6Je",
+        "image_column_9yraYB"
+      ],
+      "custom_css": [
+        ".multi-column__grid-item-image-figure {padding: 30px; background-color: #f6f1ee; border-radius: 100px; max-width: 140px; width: 140px;}",
+        "p {font-size: 17px; font-family: \"Montserrat\", sans-serif; font-weight: 500;}"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 48,
+        "row_spacing": 48,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 32,
+        "row_spacing_mobile": 40,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WgiRXk",
+    "rich_text_6FemiM",
+    "multi_column_AYiDqL"
+  ]
+}

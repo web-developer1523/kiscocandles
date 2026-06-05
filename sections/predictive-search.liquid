@@ -1,0 +1,178 @@
+{%- liquid
+  assign total_results = predictive_search.resources.products.size | plus: predictive_search.resources.queries.size | plus: predictive_search.resources.collections.size | plus: predictive_search.resources.pages.size | plus: predictive_search.resources.articles.size
+
+  assign sizes = '80px'
+  if settings.quick_search_product_style == 'columns'
+    assign sizes = '200px'
+  endif
+-%}
+
+{%- if predictive_search.performed -%}
+  {%- if total_results > 0 -%}
+    {%- if predictive_search.resources.queries.size > 0 -%}
+      <h4 class="quick-search__header ff-body fs-body-100">
+        <span class="t-subdued">{{ 'search.suggestions' | t }}</span>
+      </h4>
+      <ul class="quick-search__suggested-queries-list list-reset">
+        {%- for query in predictive_search.resources.queries -%}
+          <li class="quick-search__suggested-queries-list-item">
+            <a href="{{ query.url }}" class="quick-search__result ff-body fs-body-75">
+              <p
+                class="quick-search__result-details quick-search__result-details--query"
+                aria-label="{{ query.text }}"
+              >
+                {{ query.styled_text }}
+              </p>
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    {%- if predictive_search.resources.products.size > 0 -%}
+      <h4 class="quick-search__header ff-body fs-body-100">
+        <span class="t-subdued">{{ 'search.headings.products' | t }}</span>
+      </h4>
+      {%- for product in predictive_search.resources.products -%}
+        {%- comment %}<locksmith:6f22>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: predictive_search.resources, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% assign locksmith_f623_product__available = false %}{% assign locksmith_f623_product__first_available_variant = nil %}{% assign locksmith_f623_product__selected_variant = nil %}{% assign locksmith_f623_product__selected_or_first_available_variant = nil %}{% assign locksmith_f623_product__price = nil %}{% assign locksmith_f623_product__price_min = nil %}{% assign locksmith_f623_product__price_max = nil %}{% assign locksmith_f623_product__price_varies = false %}{% assign locksmith_f623_product__compare_at_price = nil %}{% for variant in product.variants %}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: variant, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif %}{% if locksmith_f623_product__available == false and variant.available %}{% assign locksmith_f623_product__available = true %}{% endif %}{% if locksmith_f623_product__first_available_variant == nil and variant.available %}{% assign locksmith_f623_product__first_available_variant = variant %}{% endif %}{% if locksmith_f623_product__selected_variant == nil and variant.selected %}{% assign locksmith_f623_product__selected_variant = variant %}{% endif %}{% if variant == locksmith_72f1_product__selected_or_first_available_variant %}{% assign locksmith_f623_product__selected_or_first_available_variant = locksmith_72f1_product__selected_or_first_available_variant %}{% endif %}{% if locksmith_f623_product__price == nil %}{% assign locksmith_f623_product__price = variant.price %}{% endif %}{% if locksmith_f623_product__price_min == nil or variant.price < locksmith_f623_product__price_min %}{% assign locksmith_f623_product__price_min = variant.price %}{% endif %}{% if locksmith_f623_product__price_max == nil or locksmith_f623_product__price_max < variant.price %}{% assign locksmith_f623_product__price_max = variant.price %}{% endif %}{% if locksmith_f623_product__compare_at_price == nil %}{% assign locksmith_f623_product__compare_at_price = variant.compare_at_price %}{% endif %}{% endfor %}{% if locksmith_f623_product__selected_or_first_available_variant == nil %}{% assign locksmith_f623_product__selected_or_first_available_variant = locksmith_f623_product__first_available_variant %}{% endif %}{% if locksmith_f623_product__price_min != locksmith_f623_product__price_max %}{% assign locksmith_f623_product__price_varies = true %}{% endif %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:6f22>{% endcomment -%}
+        <a
+          class="quick-search__result quick-search__result--product quick-search__result--{{ settings.quick_search_product_style }}"
+          href="{{ product.url }}"
+        >
+          {%- if settings.quick_search_product_style != 'list' -%}
+            <div class="quick-search__result-image-wrapper">
+              {%
+                render 'image' with
+                image: product.featured_media,
+                wrapper_class: 'quick-search__result-image',
+                aspect_ratio: settings.product_listing_aspect_ratio,
+                object_fit: settings.product_listing_media_fit,
+                include_placeholder: true,
+                sizes: sizes
+              %}
+            </div>
+          {%- endif -%}
+          <div class="quick-search__result-details ff-body fs-body-75">
+            <div class="quick-search__result-info">
+              <div class="quick-search__result-heading fs-product-card-title">{{ product.title }}</div>
+              {%- if settings.quick_search_show_vendor and product.vendor -%}
+                <span class="quick-search__result-vendor t-subdued">{{ product.vendor }}</span>
+              {%- endif -%}
+            </div>
+
+            {% liquid
+              assign price_content_type = 'price'
+
+              if settings.quick_search_show_price
+                if locksmith_f623_product__available
+                  if locksmith_f623_product__price == 0 and locksmith_f623_product__price_varies == false
+                    if settings.zero_dollar_listing_price_display == 'replace'
+                      assign price_content_type = 'custom'
+                      assign custom_price_content = 'products.inventory.zero_price_custom_label' | t
+                    elsif settings.zero_dollar_listing_price_display == 'hide'
+                      assign price_content_type = 'hide'
+                      assign custom_price_content = blank
+                    endif
+                  endif
+                else
+                  if settings.sold_out_listing_price_display == 'hide'
+                    assign price_content_type = 'hide'
+                    assign custom_price_content = blank
+                  elsif settings.sold_out_listing_price_display == 'replace'
+                    assign price_content_type = 'custom'
+                    assign custom_price_content = 'products.inventory.sold_out_price_custom_label' | t
+                  endif
+                endif
+              else
+                assign price_content_type = 'hide'
+              endif
+            %}
+            {% if price_content_type == 'price' %}
+              <span class="quick-search__result-price">
+                {% if locksmith_f623_product__compare_at_price > locksmith_f623_product__price %}
+                  <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+                  <s>{{ locksmith_f623_product__compare_at_price | money }}</s>
+
+                  {%- if locksmith_f623_product__price_varies -%}
+                    {%- assign sale_price = locksmith_f623_product__price | money -%}
+
+                    <span class="sale">
+                      {{- 'products.product.on_sale_from_html' | t: price: sale_price -}}
+                    </span>
+                  {%- else -%}
+                    <span class="sale">{{ locksmith_f623_product__price | money }}</span>
+                  {%- endif -%}
+                {%- else -%}
+                  {%- if locksmith_f623_product__price_varies -%}
+                    {%- assign price = locksmith_f623_product__price | money -%}
+                    {{ 'products.product.from_lowest_price_html' | t: lowest_price: price }}
+                  {%- else -%}
+                    <span>{{ locksmith_f623_product__price | money }}</span>
+                  {%- endif -%}
+                {% endif %}
+
+                {%- render 'unit-price', item: locksmith_f623_product__selected_or_first_available_variant -%}
+              </span>
+            {% elsif price_content_type == 'custom' %}
+              {% if locksmith_f623_product__price_varies and locksmith_f623_product__price == 0 %}
+                {%- assign sale_price = locksmith_f623_product__price | money -%}
+                {%- assign custom_price_content = 'products.inventory.zero_price_custom_label' | t -%}
+                {{ 'products.product.from_lowest_price_html' | t: lowest_price: custom_price_content }}
+              {% else %}
+                <span>{{ custom_price_content }}</span>
+              {% endif %}
+            {% endif %}
+          </div>
+        </a>
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if predictive_search.resources.collections.size > 0 -%}
+      <h4 class="quick-search__header ff-body fs-body-100">
+        <span class="t-subdued">{{ 'search.headings.collections' | t }}</span>
+      </h4>
+
+      {%- for collection in predictive_search.resources.collections -%}
+        {%- comment %}<locksmith:682b>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, subject_parent: predictive_search.resources, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:682b>{% endcomment -%}
+        <a class="quick-search__result" href="{{ collection.url }}">
+          <div class="quick-search__result-heading ff-body fs-body-75">{{ collection.title }}</div>
+        </a>
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if predictive_search.resources.pages.size > 0 -%}
+      <h4 class="quick-search__header ff-body fs-body-100">
+        <span class="t-subdued">{{ 'search.headings.pages' | t }}</span>
+      </h4>
+
+      {%- for page in predictive_search.resources.pages -%}
+        <a class="quick-search__result" href="{{ page.url }}">
+          <div class="quick-search__result-heading ff-body fs-body-75">{{ page.title }}</div>
+        </a>
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if predictive_search.resources.articles.size > 0 -%}
+      <h4 class="quick-search__header ff-body fs-body-100">
+        <span class="t-subdued">{{ 'search.headings.articles' | t }}</span>
+      </h4>
+
+      {%- for article in predictive_search.resources.articles -%}
+        {%- comment %}<locksmith:624f>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: article, subject_parent: predictive_search.resources, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:624f>{% endcomment -%}
+        <a class="quick-search__result" href="{{ article.url }}">
+          <div class="quick-search__result-heading ff-body fs-body-75">{{ article.title }}</div>
+        </a>
+      {%- endfor -%}
+    {%- endif -%}
+  {%- else -%}
+    <h4 class="quick-search__no-results-header ff-body fs-body-200">
+      {{ 'search.no_results_html' | t: terms: predictive_search.terms }}
+    </h4>
+    <p class="quick-search__no-results t-subdued">{{ 'search.check_spelling' | t }}</p>
+  {%- endif -%}
+{%- endif -%}

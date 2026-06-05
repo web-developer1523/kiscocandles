@@ -1,0 +1,146 @@
+{%- comment -%}
+  Pass these variables into snippet:
+
+  Required:
+
+  * image: Image object
+  * sizes: srcset size attribute
+
+  Optional:
+  * prioritize_loading: is this image rendered above the fold or otherwise prioritized? this will avoid loading="lazy"
+  * fallback_width: width shown to browsers that don't support srcSet
+  * tag_name: render something other than an `img` element, for instance `picture` or `source`
+  * media: custom media definition for `source`
+  * aspect_ratio: necessary if the image is displayed at a non natural aspect ratio
+  * fallback_alt: fall back alt text if non set on image in admin
+  * no_crop: { Boolean } If 'true', the image will be loaded in full, and then cropped in CSS (rather than
+      letting Shopify serve a cropped image).
+  * src_set_type: optional parameter used to reduce the srcset generation to speed up page perf
+      - 'grid'
+      - 'full-width'
+      - 'thumbnail'
+      - if unset a comprehensive src set range will be used
+{%- endcomment -%}
+
+
+
+
+{%- liquid
+  if tag_name == blank
+    assign tag_name = "img"
+  endif
+
+  if fallback_width == blank
+    assign fallback_width = 320
+  endif
+
+  if lazy
+    assign src_attr = "data-src"
+    assign src_set_attr = "data-srcset"
+  else
+    assign src_attr = "src"
+    assign src_set_attr = "srcset"
+  endif
+
+  case src_set_type
+    when "grid"
+      assign src_set_widths_raw = "150,200,240,280,300,360,400,450,500,550,600,650,700,750,800,850,900,950,1000,1100,1200,1300,1400"
+    when "full-width"
+      assign src_set_widths_raw = "700,750,800,850,900,950,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600,2800,3000,3500,4000,4500,5000,5500,6000"
+    when "thumbnail"
+      assign src_set_widths_raw = "150,200,240,280,300,360,400,450,500,550,600"
+    else
+      assign src_set_widths_raw = "100,150,200,240,280,300,360,400,450,500,550,600,650,700,750,800,850,900,950,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600,2800,3000,3500,4000,4500,5000,5500,6000"
+  endcase
+
+  assign src_set_widths = src_set_widths_raw | split: ','
+  assign src_set_string = ""
+-%}
+
+{%- liquid
+  if object_fit != "contain" and aspect_ratio != blank and aspect_ratio != 'natural'
+    case aspect_ratio
+      when "portrait"
+        assign crop_height_ratio = 1.5
+      when "landscape"
+        assign crop_height_ratio = 0.666666
+      when "square"
+        assign crop_height_ratio = 1
+      when "portrait_alt"
+        assign crop_height_ratio = 1.25
+      when "landscape_alt"
+        assign crop_height_ratio = 0.8
+      when "landscape_wide_alt"
+        assign crop_height_ratio = 0.5625
+    endcase
+  endif
+
+  assign image_crop = "center"
+  if focal_alignment != blank and focal_alignment != "center"
+    assign image_crop = focal_alignment
+  endif
+-%}
+
+{%- assign my_image_var = image | image_url -%}
+{%- if template == 'index' -%}
+{% if my_image_var contains "/cdn/shop/collections/Hanging_tealight_candles_baee69fd-282c-40cd-b9f3-622bc501a239.jpg?v=1721847551" %}
+{%- assign my_image_var =
+"https://cdn.shopify.com/s/files/1/0552/6267/5053/files/dripless-candles.jpg?v=1720048548"
+-%}
+{% endif %}
+{% if my_image_var contains "/cdn/shop/collections/colored_candles.jpg?v=1712846491" %}
+{%- assign my_image_var =
+"https://cdn.shopify.com/s/files/1/0552/6267/5053/files/pillar-candles_a59229d8-c05c-46ef-9090-8d8c8ff2d7b4.jpg?v=1720040198"
+-%}
+{% endif %}
+{% if my_image_var contains "/cdn/shop/collections/3_c504e81e-e4f4-4e45-86a9-f1c9b6a209f5.jpg?v=1683129285" %}
+{%- assign my_image_var =
+"https://cdn.shopify.com/s/files/1/0552/6267/5053/files/event-candles.jpg?v=1720048559"
+-%}
+{% endif %}
+{% if my_image_var contains "/cdn/shop/collections/103668790363_4_bf221379-748e-4e34-b1b2-995bd4873c26.jpg?v=1721847632" %}
+{%- assign my_image_var =
+"https://cdn.shopify.com/s/files/1/0552/6267/5053/files/429322697_364587316449821_6541444604151225377_n.jpg?v=1720470462"
+-%}
+{% endif %}
+{%- endif -%}
+
+{%- for width_string in src_set_widths -%}
+  {%- assign width = width_string | plus: 0 -%}
+
+  {% if image.width < width %}
+    {% break %}
+  {% endif %}
+
+  {%- if crop_height_ratio and focal_point != "image_presentation" -%}
+    {%- assign crop_height = width | times: crop_height_ratio -%}
+    {%- if image.height < crop_height -%}
+      {% break %}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- capture src_set_string -%}
+    {%- if src_set_string.size > 0 -%}{{ src_set_string }},{{ ' ' }}{%- endif -%}
+    {%- if crop_height_ratio and focal_point != "image_presentation" and no_crop != true -%}
+      {{ my_image_var }}
+    {%- else -%}
+      {{ my_image_var }}
+    {%- endif -%}
+  {%- endcapture -%}
+{%- endfor -%}
+
+{%- assign alt = fallback_alt | default: image.alt | strip | strip_newlines -%}
+
+
+<{{ tag_name }}
+alt="{{ alt | escape }}"
+class="image__img{% if class_name %} {{ class_name }}{% endif %} img-pid-{{ prod.id }}"{{ ' ' }}
+{% if prioritize_loading %}fetchpriority="high"{% else %}loading="lazy"{{ ' ' }}{% endif %}
+width="{{ image.width }}"{{ ' ' }}
+height="{{ image.height }}"{{ ' ' }}
+{% unless tag_name == "source" %}{{ src_attr }}="{{ my_image_var }}"{{ ' ' }}{% endunless %}
+{% if media %}media="{{ media }}"{{ ' ' }}{% endif %}
+{{ src_set_attr }}="{{ src_set_string }}"{{ ' ' }}
+sizes="{{ sizes }}"
+onload="javascript: this.closest('.image').classList.add('loaded')"
+/>

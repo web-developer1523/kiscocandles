@@ -1,0 +1,545 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.metafields.custom.header_image.value }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "candle_categories_section_zfn4MJ": {
+      "type": "candle-categories-section",
+      "blocks": {
+        "category_3Hqqdf": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Pillar Candles",
+            "category_image": "shopify://shop_images/Collection_Hero_Professional_Pillar_Candles_1536x960_13afc943-cfac-4388-ad89-96a0a98a3694.png",
+            "category_image_alt": "pillar candles for wedding",
+            "category_collection": "pillar-wedding-candles"
+          }
+        },
+        "category_4zgmFK": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Taper Candles",
+            "category_image": "shopify://shop_images/taper-candles_e336d7c9-3831-4344-bb7b-7842a0236dce.jpg",
+            "category_image_alt": "taper candles for wedding",
+            "category_collection": "wedding-taper-candles"
+          }
+        },
+        "category_dg9gqU": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Votive Candles",
+            "category_image": "shopify://shop_images/votive-candles.jpg",
+            "category_image_alt": "votive candles for wedding",
+            "category_collection": "wedding-votive-candles"
+          }
+        },
+        "category_AmqTV9": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Candles",
+            "category_image": "shopify://shop_images/elegant_wedding_candles.jpg",
+            "category_image_alt": "wedding decor candles",
+            "category_collection": "elegant-wedding-candles"
+          }
+        }
+      },
+      "block_order": [
+        "category_3Hqqdf",
+        "category_4zgmFK",
+        "category_dg9gqU",
+        "category_AmqTV9"
+      ],
+      "settings": {
+        "section_title": "",
+        "custom_css": "h2 {\n  font-size: 32px;\n}"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": false,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_pKanB6": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_8Yf44L": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-european.png",
+            "text": "Top European quality",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_MBVqhE": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-shipping.png",
+            "text": "Free standard shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_NPtLxT": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-longlasting.png",
+            "text": "Long lasting",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_hEaNfD": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-no-drip.png",
+            "text": "No drip",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_9yeKiK": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-stock.png",
+            "text": "Large selection In Stock",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_c9DM8x": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-fast-shipping.png",
+            "text": "Fast And Secure Shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8Yf44L",
+        "text_MBVqhE",
+        "text_NPtLxT",
+        "text_hEaNfD",
+        "text_9yeKiK",
+        "text_c9DM8x"
+      ],
+      "custom_css": [
+        ".scrolling-content__inner {--scroll-duration: 20s !important;}"
+      ],
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-heading-2-base",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#fcf9f8",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_bpyFMa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yEJpJk": {
+          "type": "heading",
+          "settings": {
+            "title": "Floating Wedding Candles FAQ",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_RJTcQE": {
+          "type": "border",
+          "settings": {}
+        },
+        "subheading_EBTieH": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What size floating candle works best for most wedding guest tables?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_HNWEYP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 1.75\" x 1\" floating candles are usually the better fit for most guest tables because they sit neatly in lower bowls and do not overwhelm smaller centerpieces. The 3\" x 1\" size works better when the vessel is larger and you want the candle itself to be more noticeable in the design.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_JfGnE7": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_NCWqRx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How many floating candles should I order for wedding centerpieces?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_fgypWf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Start with one floating candle per vessel, then add extra for the sweetheart table, bar, welcome table, and a small backup reserve. At Kisco Candles, you can order floating wedding candles in counts from 20 and 24 up to 160 and 320, so you can build the order around your actual table count instead of piecing together random packs.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_Uzn7RW": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_pf3nam": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Should I choose white or ivory floating candles for my wedding?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_6rAEpK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose white if your centerpieces use clear glass, white florals, or a brighter palette, because the candle will look cleaner in water and read more clearly from across the room. Choose ivory if your flowers, linens, or lighting lean warmer and you want the candlelight to blend in more softly.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_8yD77N": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_HACRR6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What type of bowl or vase works best with your floating wedding candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_bXXt9M": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clear glass bowls, low compotes, and wider centerpiece vessels usually work best because they leave enough open water around the candle for a balanced look. For most weddings, the smaller 1.75\" candles pair more easily with standard guest-table bowls, while the 3\" size needs more surface space to look proportional.<br/></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_pzM6kU": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_NiWtLf": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Should I use one floating candle size across the whole reception?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_RniCpa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, using one size across guest tables usually creates a cleaner, more consistent room design. If you want more variation, keep the guest tables in the 1.75\" size and use the 3\" floating candles only on larger focal tables or statement displays.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_k6LhrD": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_NFw4yL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do you recommend ordering a small floating candle pack before placing a larger wedding order?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_fLeyJn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, a smaller pack is a smart first step if you want to test the vessel size, water level, and candle color in your actual centerpiece mockup. Once you know the look is right, it is much easier to move into the larger bulk counts and keep the whole order consistent.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_4EH8qV": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_nXeb3C": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can floating wedding candles work with other candle styles without making the décor feel repetitive?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_3JL8bK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, floating wedding candles work best when they stay on guest tables, and the same white or ivory tone carries over to pillars or tapers elsewhere in the wedding. That gives the event a connected candle story without repeating the exact same centerpiece everywhere.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_MqyrVi": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_fBjQeH": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why do many wedding shoppers choose Bolsius floating candles from Kisco Candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_yHjYEA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These candles are a practical choice because the assortment is focused on the sizes and colors couples actually use for centerpieces. With Bolsius floating wedding candles in white and ivory and bulk counts that scale from sample-size packs to 320-count orders, it is easier to keep the centerpiece plan consistent from mockup to final setup.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yEJpJk",
+        "border_RJTcQE",
+        "subheading_EBTieH",
+        "text_HNWEYP",
+        "spacer_JfGnE7",
+        "subheading_NCWqRx",
+        "text_fgypWf",
+        "spacer_Uzn7RW",
+        "subheading_pf3nam",
+        "text_6rAEpK",
+        "spacer_8yD77N",
+        "subheading_HACRR6",
+        "text_bXXt9M",
+        "spacer_pzM6kU",
+        "subheading_NiWtLf",
+        "text_RniCpa",
+        "spacer_k6LhrD",
+        "subheading_NFw4yL",
+        "text_fLeyJn",
+        "spacer_4EH8qV",
+        "subheading_nXeb3C",
+        "text_3JL8bK",
+        "spacer_MqyrVi",
+        "subheading_fBjQeH",
+        "text_yHjYEA"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "candle_categories_section_zfn4MJ",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "scrolling_content_pKanB6",
+    "rich_text_bpyFMa"
+  ]
+}

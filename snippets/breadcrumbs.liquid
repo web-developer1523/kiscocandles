@@ -1,0 +1,224 @@
+{%- assign current_template = template | split: '.' | first -%}
+<nav class="breadcrumbs ff-body fs-body-75" role="navigation" aria-label="breadcrumbs">
+  {%- if show_breadcrumbs -%}
+    <ol class="breadcrumbs__list">
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="{{ routes.root_url }}">{{ 'general.navigation.home' | t }}</a>
+        <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
+      </li>
+      {%- case current_template -%}
+        {%- when 'product' -%}
+          {%- comment -%}
+          {%- if collection.url -%}
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="{{ collection.url }}">{{ collection.title }}</a>
+              <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
+            </li>
+          {%- endif -%}
+          {%- endcomment -%}
+
+          {%- unless collection -%}
+            {%- assign collection = product.collections.first -%}
+          {%- endunless -%}
+
+          {%- assign break_loop = false -%}
+          {%- assign isLinkFound = false -%}
+        
+          {%- for link in linklists['main-navigation-new-1721810416936'].links -%}
+            {%- assign parentTitle = link.title -%}
+            {%- assign parentUrl = link.url -%}
+            {% if collection.url == link.url %}
+              {%- assign isLinkFound = true -%}
+              {% assign break_loop = true %}
+            {% endif %}
+            {%- if link.links -%}
+              {%- for subLink in link.links -%}
+                {%- if collection.url == subLink.url -%}
+                  {%- assign isLinkFound = true -%}
+                  {%- assign subLinkTitle = subLink.title -%}
+                  {%- assign subLinkUrl = subLink.url -%}
+                  {% assign break_loop = true %}
+                  {%- break -%}
+                {%- endif -%}
+                {% if subLink.links.size > 0 %}
+                  {%- for chilLink in subLink.links -%}
+                    {%- assign subLinkTitle = subLink.title -%}
+                    {%- assign subLinkUrl = subLink.url -%}
+                    {%- if collection.url == chilLink.url -%}
+                      {%- assign lastLinkTitle = chilLink.title -%}
+                      {%- assign lastLinkUrl = chilLink.url -%}
+                      {%- assign isLinkFound = true -%}
+                      {% assign break_loop = true %}
+                      {%- break -%}
+                    {%- else -%}
+                      {%- assign lastLinkTitle = '' -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                {%- else -%}
+                  {%- assign subLinkTitle = '' -%}
+                {%- endif -%}
+                {% if break_loop %}{% break %}{% endif %}
+              {%- endfor -%}
+            {%- else -%}
+              {%- assign subLinkTitle = '' -%}
+            {%- endif -%}
+            {% if break_loop %}{% break %}{% endif %}
+          {%- endfor -%}
+          {%- if isLinkFound -%}
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="{{ parentUrl }}">{{ parentTitle | escape }}</a>
+              <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
+            </li>
+            {%- if subLinkTitle and subLinkTitle != '' -%}
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="{{ subLinkUrl }}">{{ subLinkTitle | escape }}</a>
+                <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
+              </li>
+              {% if lastLinkTitle and lastLinkTitle != '' %}
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="{{ lastLinkUrl }}">{{ lastLinkTitle | escape }}</a>
+                  <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
+                </li>
+              {% endif %}
+            {%- endif -%}
+          {%- endif -%}
+        
+          <li class="breadcrumbs__item">
+            <span class="breadcrumbs__current" aria-current="page">{{ product.title }}</span>
+          </li>
+        {%- when 'collection' and collection.handle -%}
+          {%- assign break_loop = false -%}
+          {%- assign isLinkFound = false -%}
+          {%- for link in linklists['main-navigation-new-1721810416936'].links -%}
+            {%- assign parentTitle = link.title -%}
+            {%- assign parentUrl = link.url -%}
+            {%- if link.links -%}
+              {%- for subLink in link.links -%}
+                {%- if collection.url == subLink.url -%}
+                  {%- assign isLinkFound = true -%}
+                  {%- assign subLinkTitle = '' -%}
+                  {% assign break_loop = true %}
+                  {%- break -%}
+                {%- endif -%}
+                {% if subLink.links.size > 0 %}
+                  {%- for chilLink in subLink.links -%}
+                    {%- assign subLinkTitle = subLink.title -%}
+                    {%- assign subLinkUrl = subLink.url -%}
+                    {%- if collection.url == chilLink.url -%}
+                      {%- assign isLinkFound = true -%}
+                      {% assign break_loop = true %}
+                      {%- break -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                {%- else -%}
+                  {%- assign subLinkTitle = '' -%}
+                {%- endif -%}
+                {% if break_loop %}{% break %}{% endif %}
+              {%- endfor -%}
+            {%- endif -%}
+            {% if break_loop %}{% break %}{% endif %}
+          {%- endfor -%}
+          {%- if isLinkFound -%}
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="{{ parentUrl }}">{{ parentTitle | escape }}</a>
+              <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
+            </li>
+            {%- if subLinkTitle and subLinkTitle != '' -%}
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="{{ subLinkUrl }}">{{ subLinkTitle | escape }}</a>
+                <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
+              </li>
+            {%- endif -%}
+          {%- endif -%}
+          {%- if current_tags -%}
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="{{ collection.url }}">{{ collection.title }}</a>
+              <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
+            </li>
+            <li class="breadcrumbs__item">
+              <span class="breadcrumbs__current" aria-current="page">{{- current_tags | join: ' + ' -}}</span>
+            </li>
+          {%- else -%}
+            <li class="breadcrumbs__item">
+              <span class="breadcrumbs__current" aria-current="page">{{ collection.title }}</span>
+            </li>
+          {%- endif -%}
+      {%- endcase -%}
+    </ol>
+  {%- endif -%}
+
+  {%- if show_navigation_buttons -%}
+    <ol class="navigation-buttons__list">
+      {%- if collection.previous_product -%}
+        <li class="navigation-buttons__item">
+          {{ 'general.navigation.previous' | t | link_to: collection.previous_product }}
+        </li>
+      {%- endif -%}
+      {%- if collection.next_product -%}
+        <li class="navigation-buttons__item">
+          {{ 'general.navigation.next' | t | link_to: collection.next_product }}
+        </li>
+      {%- endif -%}
+    </ol>
+  {%- endif -%}
+</nav>
+
+<script>
+    var el = document.createElement('script');
+    el.type = 'application/ld+json';
+    el.id = "bc-script";
+    
+    // Set initial position
+    var position = 0;
+    
+    // Create breadcrumb object
+    var breadcrumb = {
+        position:0,
+        name:"",
+        item:""
+    }
+    
+    // Empty array for list items
+    var listArray = []
+    
+    // Loop through each breadcrumb link and set attributess
+    var items = document.querySelectorAll('.breadcrumbs__link, .breadcrumbs__current');
+    console.log(items);
+    if(items) {
+    for(var i = 0; i < items.length; i++) {
+        var newItem = Object.create(breadcrumb);
+        var curItem = items[i];
+        newItem["@type"] = "ListItem";
+        position++;
+        newItem.position = position;
+        newItem.name = curItem.text;
+        newItem.item = document.location.origin + curItem.getAttribute('href');
+        if(position == items.length) {
+            newItem.item = document.URL;
+            newItem.name = items[i].innerHTML;
+        }
+        listArray.push(newItem);
+    }
+    
+    // Create overarching Schema object
+    var breadcrumbSchema = {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": listArray
+    };
+    
+    // Stringify JSON
+    var finalSchema = JSON.stringify(breadcrumbSchema);
+    
+    // Add schema to Script
+    el.text = finalSchema;
+    
+    // Set head variable with browser fallback
+    var head = document.head || document.getElementsByTagName("head")[0];
+    
+    // Add to head 
+    head.appendChild(el);
+}
+</script>
+
+

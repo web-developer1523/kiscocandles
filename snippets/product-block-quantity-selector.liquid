@@ -1,0 +1,76 @@
+{% assign label_classes = 'fs-body-100' %}
+
+{%- unless block.settings.show_labels -%}
+  {% assign label_classes =  label_classes | append: ' visually-hidden' %}
+{%- endunless -%}
+<div class="product_price_qty_info">
+  {% render 'quantity-input' with id: product.id, initial_value: '1' %}
+  <div class="product__price fs-body-100">
+    {%- if product != blank -%}
+      <span class="visually-hidden" data-compare-text>{{ 'products.product.regular_price' | t }}</span>
+      <s data-compare-price>
+        {%- if price_content_type == 'price' and current_variant.compare_at_price > current_variant.price -%}
+          {{- current_variant.compare_at_price | money -}}
+        {%- endif -%}
+      </s>
+      <span class="reg-price" data-price>
+        {%- if price_content_type == 'price' %}
+          {{ current_variant.price | money -}}
+        {%- elsif price_content_type == 'custom' -%}
+          {{- custom_price_content }}
+        {% endif -%}
+      </span>
+      {%- if block_settings.show_discount -%}
+        <span data-discount-display class="product__price-displayed-discount fs-body-50">
+          {%-
+            render "get-display-discount"
+            with product: product,
+            variant: current_variant,
+            format: block_settings.discount_format
+          -%}
+        </span>
+      {%- endif -%}
+      {% render 'unit-price', item: current_variant %}
+    {%- else -%}
+      <span>{{ 9999 | money }}</span>
+    {%- endif -%}
+    {% if current_variant.metafields.custom.count %}
+      {% assign pPack = current_variant.metafields.custom.count | plus: 0 %}
+    {%- else -%}
+      {% assign pPack = product.metafields.my_fields.count | plus: 0 %}
+    {%- endif -%}
+    {% if pPack > 1 %}
+      <span class="dtl-spreter">&nbsp;</span>
+      <span class="spack-pricing" id="spack-pricing" data-pack="{{ pPack }}">
+        {{ current_variant.price | divided_by: pPack | round | money }}  ea.
+      </span>
+    {% endif %}
+  </div>
+</div>
+{%- unless is_quick -%}
+<div
+  class="product__controls-group product__controls-group-quantity  product__block product__block--medium"
+  {{ block.shopify_attributes }}
+>
+  <div class="product__label-wrapper{% unless block.settings.show_labels %} product__label-wrapper--collapse{% endunless %}">
+    <label class="product__label {{ label_classes }}" for="Quantity-Input-{{ product.id }}">
+      {{ 'products.product.quantity' | t }}
+    </label>
+  </div>
+  <div class="product__item">
+    {%- comment -%}{% render 'quantity-input' with id: product.id, initial_value: '1' %}{%- endcomment -%}
+    {%-
+      render 'product-block-buy-buttons' with
+      prod: product,
+      block: block,
+      blocks: blocks,
+      block_settings: block.settings,
+      current_variant: current_variant,
+      featured_media: featured_media,
+      aspect_ratio: aspect_ratio,
+      price_content_type: price_content_type,
+      custom_price_content: custom_price_content
+    -%}
+  </div>
+</div>
+{%- endunless -%}

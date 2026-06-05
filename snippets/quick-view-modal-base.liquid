@@ -1,0 +1,97 @@
+{% assign end_of_year = "now" | date: "%Y" %}
+{% assign end_of_year_date = end_of_year | append: "-12-31" %}
+
+{%- comment %}<locksmith:3ba5>{% endcomment -%}
+  {%- assign locksmith_5e79_product__price = nil %}{% for variant in product.variants %}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: variant, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif %}{% if locksmith_5e79_product__price == nil %}{% assign locksmith_5e79_product__price = variant.price %}{% endif %}{% endfor -%}
+{%- comment %}</locksmith:3ba5>{% endcomment -%}
+
+<div
+  class="
+    quick-product--wrap
+    modal
+    popover
+    is-fixed
+    {% if open %}is-visible active{% endif %}
+    {% if settings.enable_section_animations %}
+      animation
+      animation--quick-view
+      animation--quick-view-revealed
+    {% endif %}
+  "
+  aria-modal="true"
+  {% unless open %}
+    aria-hidden="true"
+  {% endunless %}
+  data-quick-view-modal
+>
+  <div class="modal__wash"></div>
+
+  <div class="quick-product--modal__inner modal__inner">
+    <div class="quick-view-modal__content {% unless open %}empty{% endunless %}">
+      {{ content }}
+    </div>
+    <button
+      type="button"
+      data-modal-close
+      class="modal__close-icon"
+      aria-label="{{ 'general.accessibility.close_modal' | t }}"
+    >
+      {% render 'icon-button', small: true, icon: 'close' %}
+    </button>
+  </div>
+</div>
+{% comment %} {% if template == 'product' %} {% endcomment %}
+{% if request.page_type == 'product' %}
+{% assign end_of_year = "now" | date: "%Y" %}
+{% assign end_of_year_date = end_of_year | append: "-12-31" %}
+<script type="application/ld+json" id="product-application-json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "url": {{ product.url | json }},
+    {% if product.featured_media -%}
+      "image": [{{ product.featured_image | image_url | json }}],
+    {%- endif %}
+    "description": {{ page_description | strip_html | json }},
+    {% if current_variant.sku != blank -%}
+      "sku": {{ current_variant.sku | json }},
+    {%- endif %}
+    "brand": {
+      "@type": "Brand",
+      "name": {{ product.vendor | json }}
+    },
+    "offers": [
+      {%- comment %}<locksmith:2871>{% endcomment -%}
+        {%- assign locksmith_0433_forloop__size = 0 %}{% for variant in product.variants -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: variant, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_0433_forloop__size = locksmith_0433_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_0433_forloop__index = nil -%}
+      {%- comment %}</locksmith:2871>{% endcomment -%}
+      {% for variant in product.variants -%}
+        {%- comment %}<locksmith:196f>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: variant, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_0433_forloop__index == nil %}{% assign locksmith_0433_forloop__index = 1 %}{% assign locksmith_0433_forloop__index0 = 0 %}{% else %}{% assign locksmith_0433_forloop__index = locksmith_0433_forloop__index | plus: 1 %}{% assign locksmith_0433_forloop__index0 = locksmith_0433_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_0433_forloop__index == 1 %}{% assign locksmith_0433_forloop__first = true %}{% else %}{% assign locksmith_0433_forloop__first = false %}{% endif %}{% if locksmith_0433_forloop__index == locksmith_0433_forloop__size %}{% assign locksmith_0433_forloop__last = true %}{% else %}{% assign locksmith_0433_forloop__last = false %}{% endif %}{% assign locksmith_0433_forloop__rindex = locksmith_0433_forloop__size | minus: locksmith_0433_forloop__index | minus: 1 %}{% assign locksmith_0433_forloop__rindex0 = locksmith_0433_forloop__size | minus: locksmith_0433_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:196f>{% endcomment -%}
+        {
+          "@type" : "Offer",
+          {% if variant.sku != blank -%}
+            "sku": {{ variant.sku | json }},
+          {%- endif %}
+          "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+          "price" : {{ variant.price | divided_by: 100.00 | json }},
+          "priceCurrency" : {{ cart.currency.iso_code | json }},
+          "url" : {{ shop.url | append: variant.url | json }},
+          "count": "{{ variant.metafields.custom.count }}",
+          "priceValidUntil": "{{ end_of_year_date }}",
+          "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "value": {% if variant.option2 %}"{{ variant.option2 }}" {% else %} "{{ product.metafields.my_fields.count }}"{% endif %},
+              "unitText": "candles"
+            }
+           }{% unless locksmith_0433_forloop__last %},{% endunless %}
+      {%- endfor %}
+    ],
+   "thing": {
+    "product_count": "{{ product.metafields.my_fields.count }}",
+    "product_price": "{{ locksmith_5e79_product__price }}"
+}
+  }
+</script>
+  {% endif %}

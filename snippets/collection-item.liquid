@@ -1,0 +1,129 @@
+{%- comment -%}
+Pass these variables into snippet:
+
+Required:
+* collection: Collection object
+* label_style: String
+* overlay_title_background: Color_picker value
+* overlay_title_background_style: String
+* image_sizes: String (passed to image as sizes attribute)
+
+Optional:
+* aspect_ratio: String
+* placeholder: Bool - show placeholder content if passed
+* alt_text: String - custom alt text for the collection image
+{%- endcomment -%}
+
+{%- liquid
+  assign label_is_overlay = false
+  if label_style == 'overlay'
+    assign label_is_overlay = true
+  endif
+  assign custom_alt_text = alt_text | default: collection.title
+-%}
+
+{% assign custom_title = collection.title %}
+
+{%- if template == 'index' -%}
+  {% if custom_title contains "Explore Wholesale Bulk Candles in Diverse Styles" %}
+    {%- assign custom_title = "Wholesale for Businesses" -%}
+  {% endif %}
+  {% if custom_title contains "Colored Candles" %}
+    {%- assign custom_title = "Individuals" -%}
+  {% endif %}
+  {% if custom_title contains "Bulk Wedding Candles Collection" %}
+    {%- assign custom_title = "Weddings & Events" -%}
+  {% endif %}
+  {% if custom_title contains "Rustic Pillar Candles" %}
+    {%- assign custom_title = "Decorative" -%}
+  {% endif %}
+{%- endif -%}
+
+{% capture collection_label %}
+  <div class="collection-item__label">
+    <h4 class="collection-item__title fs-body-100 ff-heading">
+      {%- if label_is_overlay -%}
+        <span>
+          {%- if placeholder -%}
+            {{ 'collections.general.collection_label' | t }}
+          {%- else -%}
+            {{ custom_title }}
+          {%- endif -%}
+        </span>
+        <span class="collection-item__icon">
+          {%- render 'icon' with icon: 'arrow-short' -%}
+        </span>
+      {%- else -%}
+        {%- if placeholder -%}
+          {{ 'collections.general.collection_label' | t }}
+        {%- else -%}
+          <a href="{% if custom_title == 'Wholesale for Businesses' %}https://kiscocandles.com/pages/wholesale{% else %}{{ collection.url }}{% endif %}">
+            {{ custom_title }}{% render 'rightarrow-hm' %}
+          </a>
+        {%- endif -%}
+      {%- endif -%}
+    </h4>
+    {%- if custom_title == 'Wholesale for Businesses' -%}
+      <p class="swiper-no-swiping">We provide quality, dripless candles for businesses including restaurants, hotels, yoga studios, places of worship, and more. Open a wholesale account for discounted prices and seamless service.</p>
+    {% endif %}
+    {%- if custom_title == 'Individuals' -%}
+      <p class="swiper-no-swiping">Your search for long-burning, beautiful home candles is over. Kisco candles are a welcome sight in any room, enhancing your dinner table, mantle, and more.</p>
+    {% endif %}
+    {%- if custom_title == 'Weddings & Events' -%}
+      <p class="swiper-no-swiping">What would a wedding be without romantic, decorative candles handcrafted by Bolsius? Our event candles are the perfect guest at any party or celebration.</p>
+    {% endif %}
+    {%- if custom_title == 'Decorative' -%}
+      <p class="swiper-no-swiping">Impart style to any space with our decorative candles. Kisco offers stunning options including shimmering, sunset, and rustic candles to suit any decor.</p>
+    {% endif %}
+  </div>
+{% endcapture %}
+
+<div class="
+  -moz-user-select: text;
+  -khtml-user-select: text;
+  -webkit-user-select: text;
+  -o-user-select: text;
+  collection-item
+  collection-item--label-{{ label_style }}
+  collection-item--label-background-{{ overlay_title_background_style }}
+  animation--item
+" style="
+  --overlay-text-color: {{ section.settings.overlay_text_color }};
+  --label-background: {{ overlay_title_background }};
+  --label-gradient-start: {{ overlay_title_background | color_modify: 'alpha', 0.4 }};
+  --label-gradient-mid: {{ overlay_title_background | color_modify: 'alpha', 0.2 }};
+  --label-gradient-end: {{ overlay_title_background | color_modify: 'alpha', 0 }};
+">
+  {%- capture wrapping_tag -%}
+    {%- if placeholder -%}div{%- else -%}a{%- endif -%}
+  {%- endcapture -%}
+  {%- capture wrapping_attributes -%}
+    {%- unless placeholder -%}
+      href="{% if custom_title == 'Wholesale for Businesses' %}https://kiscocandles.com/pages/wholesale{% else %}{{ collection.url }}{% endif %}" aria-label="{{ custom_title }}"
+    {%- endunless -%}
+  {%- endcapture -%}
+  <{{ wrapping_tag }} {{ wrapping_attributes }} class="collection-item__image-wrapper hover">
+    {%- unless col_image -%}
+      {%- assign col_image = collection.featured_image -%}
+    {%- endunless -%}
+    {%
+      render 'image' with
+      image: col_image,
+      wrapper_class: 'collection-item__image',
+      aspect_ratio: aspect_ratio,
+      placeholder_name: 'collection-1',
+      include_placeholder: true,
+      sizes: image_sizes,
+      src_set_type: "grid",
+      alt: custom_alt_text
+    %}
+
+    {%- if label_is_overlay -%}
+      {{ collection_label }}
+    {%- endif -%}
+  </{{ wrapping_tag }}>
+
+  {%- unless label_is_overlay -%}
+    {{ collection_label }}
+  {%- endunless -%}
+</div>

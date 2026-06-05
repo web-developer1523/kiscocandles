@@ -1,0 +1,18 @@
+{%- assign largest_percent_off = 0 -%}
+{%- for variant in prod.variants -%}
+  {%- comment %}<locksmith:e757>{% endcomment -%}
+    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: variant, subject_parent: prod, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+  {%- comment %}</locksmith:e757>{% endcomment -%}
+  {%- if variant.compare_at_price > variant.price -%}
+    {%- assign variant_percent_off = variant.compare_at_price
+      | minus: variant.price
+      | times: 100.00
+      | divided_by: variant.compare_at_price
+      | round
+    -%}
+    {%- if variant_percent_off > largest_percent_off -%}
+      {%- assign largest_percent_off = variant_percent_off -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{{ largest_percent_off }}

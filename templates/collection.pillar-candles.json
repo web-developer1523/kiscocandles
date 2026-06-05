@@ -1,0 +1,1102 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "shopify://shop_images/Rustic-candles-assorti_-landscape1.png",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_qNHELR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_zknjap": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/european.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "European Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_LWJkrf": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/plant.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Plant Based Wax",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_w84Grr": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cotton.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Braided Cotton Wicks",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WEJgMU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/eco.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Eco-friendly Packaging",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_zknjap",
+        "image_column_LWJkrf",
+        "image_column_w84Grr",
+        "image_column_WEJgMU"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_tVGHBz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_R3QcJJ": {
+          "type": "heading",
+          "settings": {
+            "title": "GET THE FINEST IN CANDLES.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_VNnGVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s The Simple Things In Life That Bring The Most Joy.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_wCDWMb": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R3QcJJ",
+        "text_VNnGVL",
+        "button_wCDWMb"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/pillar-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_YFy6rM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4W4pwU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_7FLkyj": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_G7eEn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The <a href=\"https://kiscocandles.com/collections/shimmer-pillar-candles\"><span style=\"text-decoration:underline\">shimmer pillar candles</span></a>bring a<strong>luxurious feel, perfect for those special moments,</strong>while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion,<strong>this collection ensures that your chosen candle complements your setting and style.</strong></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4W4pwU",
+        "border_7FLkyj",
+        "text_G7eEn9"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/2x4-pillar-candles.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_jFC67D": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mckbY9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Set the Mood with Unscented  Pillar Candles",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_i6tgzQ": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_hUYJ6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kisco's pillar candles offer unmatched versatility in usage. Whether creating a soothing environment for a<strong> spa day at home, adding sophistication to corporate events or making celebrations more festive, </strong>these candles are up to the task. They’re perfect for adding a comforting glow to your daily routines or elevating the ambiance of special occasions. Upgrade your ambiance and consider a <a href=\"https://kiscocandles.com/collections/multi-wick-pillar-candles\"><span style=\"text-decoration:underline\">multi-wick pillar candle</span></a>. Their gentle light and stylish presence effortlessly <strong>create a welcoming and warm atmosphere in any setting.</strong></p><p>Pillar candles can instantly transform your room with: </p><ul><li><strong>Visual Elegance:</strong> The tall and solid structure of pillar candles adds an aesthetic element to your design scheme, enhancing the visual appeal of a room.</li><li><strong>Soft Lighting: </strong>The gentle light emitted from pillar candles creates a warm and inviting atmosphere, ideal for relaxing or intimate gatherings.</li><li><strong>Longer Burn Time:</strong> Compared to other types of candles, <a href=\"https://kiscocandles.com/collections/bolsius-candles\"><span style=\"text-decoration:underline\">Bolsius pillar candles</span></a> generally have a longer burn time, ensuring a lasting ambiance for extended periods, making them ideal for events or prolonged relaxation sessions.</li><li><strong>Versatility in Decoration: </strong>Pillar candles can be used in various colors and sizes in diverse décorative themes, from minimalist to ornate settings.</li></ul><p><strong>Better and Brighter Burn:</strong> Our Bolsius pillar candles are made exclusively with dripless wax and are guaranteed to make your candle burn brighter and longer.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mckbY9",
+        "border_i6tgzQ",
+        "text_hUYJ6B"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/unscented-pillar-candles.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_ccb93b": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_atjF66": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        },
+        "heading_RMqNcD": {
+          "type": "heading",
+          "settings": {
+            "title": "The Craftsmanship Behind Kisco’s Pillar Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "border_yzk8QB": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_BNfhHV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unscented pillar candles are more than just an accent; they're a design statement. <strong>Each Bolsius candle is made with dripless and smokeless wax. This ensures your candle burns cleanly </strong>and evenly for a long-lasting and consistent glow. The artisans meticulously craft each candle to be both durable and appealing. Kisco’s commitment to excellence sets these pillar candle collections apart, making them a welcomed addition to any occasion.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_QAyyJJ": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        }
+      },
+      "block_order": [
+        "spacer_atjF66",
+        "heading_RMqNcD",
+        "border_yzk8QB",
+        "text_BNfhHV",
+        "spacer_QAyyJJ"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "image_hero_gyLjgx": {
+      "type": "image-hero",
+      "blocks": {
+        "subheading_wBaypB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "GET THE FINEST IN CANDLES.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "heading_V3trMR": {
+          "type": "heading",
+          "settings": {
+            "title": "Choose Your Perfect Pillar Candles for Endless Elegance",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_y6Nnxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unscented pillar candles elevate the aesthetics and functionality of your spaces. Kisco invites you to explore this collection and discover the perfect candle to suit your space. Whether for personal or commercial use, our pillar candles add a touch of elegance and warmth to your surroundings. Find your ideal candle today and let the magic of Kisco Candles light up your life.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_QUbFdy": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wBaypB",
+        "heading_V3trMR",
+        "text_y6Nnxf",
+        "button_QUbFdy"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/3x3-pillar-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_p7D8ce": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_L8mYri": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_MrGjAB": {
+          "type": "heading",
+          "settings": {
+            "title": "Unscented Pillar Candles FAQs: Read More About Our Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "border_JMAjFR": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_phgQQw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover more about the enchanting world of Kisco's pillar candles , from candle selection to care.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_6THxWy": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_jRWLhL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What Sizes Are Available in the Pillar Candles Collection?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_cVFhCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These pillar candle collections include various sizes to fit your needs, from petite <a href=\"https://kiscocandles.com/collections/pillar-candles/products/bolsius-2-x-4-decorative-pillar-candles-unscented-wedding-pillar-candles-set-of-20?variant=40196407132269\"><span style=\"text-decoration:underline\">2\"x4\" pillar candles </span></a>perfect for intimate settings to larger <a href=\"https://kiscocandles.com/collections/pillar-candles/products/bolsius-3-x-3-unscented-wedding-pillar-candles-smooth-even-burning-candles-set-of-6?variant=40196407984237\"><span style=\"text-decoration:underline\">3\"x3\" pillar candle </span></a>options for a more pronounced presence. <strong>Each size is crafted to the same high standards of quality and elegance.</strong></p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_ykeVbb": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_fVaWkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What types of wedding candles do you offer in this collection?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_xVMDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer elegant wedding candles in the styles couples use most often, including taper candles, pillar candles, and floating candles. This makes it easier to build a coordinated candle plan for the ceremony, cocktail hour, and reception tables.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_68L9WH": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_63Jihh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which candle style works best for wedding centerpieces?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_dttHE3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The best style depends on the centerpiece design. Pillar candles are a strong fit for fuller arrangements and statement tables, taper candles suit formal dining layouts, and floating candles work beautifully in bowls and glass vases for a softer, reflective look.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_zbiA3h": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_YnWqLz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How do I choose between white and ivory wedding candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_HcQMNY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose white when you want a crisp, clean look, and choose ivory when your décor leans warmer with cream florals, champagne tones, or softer neutrals. Staying within one color family usually creates the most polished result across the full event.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_7QXgMW": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_9WEyKD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do your wedding candles come in several sizes?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_dVX3fF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. We offer wedding candles in a wide size range so you can match the candle to the setup. Tapers are available in taller event-friendly heights, floating candles work in multiple centerpiece sizes, and pillar candles can be used as stand-alone décor or grouped displays.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_yWfwzA": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_ta7idi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How long do your wedding candles burn?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_3NdhUz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Burn time depends on the candle style and size you choose. Tapers are a practical choice for ceremony and dinner service, floating candles work well for several hours of centerpiece use, and larger pillars are the best fit when you need candlelight to last deeper into the event.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_a7abgi": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_g6fNEM": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are your wedding candles unscented?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_BAHPzG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Many couples prefer unscented <a href=\"https://kiscocandles.com/collections/elegant-wedding-candles\"><span style=\"text-decoration:underline\">wedding candles</span></a> because they create ambiance without competing with florals, food, or the feel of the room. They are especially useful for receptions, formal dining setups, and indoor venues.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_NCEhef": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_MFgK38": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What wedding candles are best for ceremony décor?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_i98zBE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://kiscocandles.com/collections/taper-candles\"><span style=\"text-decoration:underline\">Taper candles</span></a> are a classic option for ceremony styling because they add height and elegance without taking up much space. <a href=\"https://kiscocandles.com/collections/pillar-candles\"><span style=\"text-decoration:underline\">Pillar candles</span></a> are also a strong choice for aisles, altar areas, and entry displays where you want more visual presence.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_eBPT9L": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_fWAaNH": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What wedding candles are best for reception tables?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_MqXff9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pillars, tapers, and floating candles can all work well on reception tables, but the best choice depends on the floral design, vessel style, and table size. Couples often use tapers for a refined formal look, pillars for fuller candle groupings, and floating candles when the décor includes glass and water elements.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_gF8Et8": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_qtBKmU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How do I estimate how many wedding candles I need?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_r9jBGP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Start with the number of guest tables, then count any extra candle moments such as ceremony décor, welcome tables, bar displays, gift tables, and lounge areas. It also helps to add a small buffer so setup stays smooth if the layout changes.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_nWeUNk": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "subheading_bn8N6W": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why choose Kisco Candles for elegant wedding candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_LbjV4X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer the classic candle styles that wedding buyers come back to again and again, with practical size and color options that work across many décor directions. That makes it easier to build a wedding candle order that feels cohesive from start to finish.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_L8mYri",
+        "heading_MrGjAB",
+        "border_JMAjFR",
+        "text_phgQQw",
+        "spacer_6THxWy",
+        "subheading_jRWLhL",
+        "text_cVFhCr",
+        "spacer_ykeVbb",
+        "subheading_fVaWkq",
+        "text_xVMDY7",
+        "spacer_68L9WH",
+        "subheading_63Jihh",
+        "text_dttHE3",
+        "spacer_zbiA3h",
+        "subheading_YnWqLz",
+        "text_HcQMNY",
+        "spacer_7QXgMW",
+        "subheading_9WEyKD",
+        "text_dVX3fF",
+        "spacer_yWfwzA",
+        "subheading_ta7idi",
+        "text_3NdhUz",
+        "spacer_a7abgi",
+        "subheading_g6fNEM",
+        "text_BAHPzG",
+        "spacer_NCEhef",
+        "subheading_MFgK38",
+        "text_i98zBE",
+        "spacer_eBPT9L",
+        "subheading_fWAaNH",
+        "text_MqXff9",
+        "spacer_gF8Et8",
+        "subheading_qtBKmU",
+        "text_r9jBGP",
+        "spacer_nWeUNk",
+        "subheading_bn8N6W",
+        "text_LbjV4X"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collection_list_grid_EGFecL": {
+      "type": "collection-list-grid",
+      "blocks": {
+        "collection_WzyLwF": {
+          "type": "collection",
+          "settings": {
+            "collection": "taper-candles",
+            "alt_text": "unscented taper candles"
+          }
+        },
+        "collection_nAB3FV": {
+          "type": "collection",
+          "settings": {
+            "collection": "floating-candles",
+            "alt_text": "unscented floating candles"
+          }
+        },
+        "collection_T7QTj8": {
+          "type": "collection",
+          "settings": {
+            "collection": "tealights",
+            "alt_text": "tea light candles"
+          }
+        },
+        "collection_TgfCJt": {
+          "type": "collection",
+          "settings": {
+            "collection": "votive-candles",
+            "alt_text": "votives"
+          }
+        }
+      },
+      "block_order": [
+        "collection_WzyLwF",
+        "collection_nAB3FV",
+        "collection_T7QTj8",
+        "collection_TgfCJt"
+      ],
+      "settings": {
+        "heading": "Popular Collections",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "newsletter_with_image_MtKMA3": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_wWQLHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_TA6FTL": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.<br/><br/></p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWQLHF",
+        "newsletter_signup_TA6FTL"
+      ],
+      "settings": {
+        "spacing_mode": "between",
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_4mVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Free Shipping",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Satisfaction Guaranteed",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Buy More, Save More",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "multi_column_qNHELR",
+    "image_hero_tVGHBz",
+    "image_with_text_YFy6rM",
+    "image_with_text_jFC67D",
+    "rich_text_ccb93b",
+    "image_hero_gyLjgx",
+    "rich_text_p7D8ce",
+    "collection_list_grid_EGFecL",
+    "newsletter_with_image_MtKMA3",
+    "multi_column_4mVeph"
+  ]
+}

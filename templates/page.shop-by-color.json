@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_a37Brc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XFpMfY": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop by Color",
+            "heading_tag": "h1",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_CKeGwP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Immerse yourself in the radiant glow of Kisco’s colorful pillar candles, where elegance meets practicality. Designed for a clean, dripless burn, these smokeless candles provide long-lasting illumination, casting a tranquil, steady light that enhances any space with warmth and sophistication.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XFpMfY",
+        "text_CKeGwP"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collection_list_grid_KbC9Nj": {
+      "type": "collection-list-grid",
+      "blocks": {
+        "collection_GxCPMQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "ivory-pillar-candles",
+            "alt_text": ""
+          }
+        },
+        "collection_LiYfN8": {
+          "type": "collection",
+          "settings": {
+            "collection": "white-pillar-candles",
+            "alt_text": ""
+          }
+        },
+        "collection_RJ8Yx6": {
+          "type": "collection",
+          "settings": {
+            "collection": "red-taper-candles",
+            "alt_text": ""
+          }
+        },
+        "collection_iW8MDz": {
+          "type": "collection",
+          "settings": {
+            "collection": "white-taper-candles",
+            "alt_text": ""
+          }
+        },
+        "collection_4aF9H4": {
+          "type": "collection",
+          "settings": {
+            "collection": "ivory-taper-candles",
+            "alt_text": ""
+          }
+        },
+        "collection_7GahCd": {
+          "type": "collection",
+          "settings": {
+            "collection": "yellow-taper-candles",
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_GxCPMQ",
+        "collection_LiYfN8",
+        "collection_RJ8Yx6",
+        "collection_iW8MDz",
+        "collection_4aF9H4",
+        "collection_7GahCd"
+      ],
+      "custom_css": [
+        ".collection-item__image {border-radius: 0%;}",
+        "a {font-size: 24px; font-weight: 700; font-family: var(--font-body); display: flex; flex-direction: row; justify-content: space-between; width: 100%; align-items: center;}",
+        "a svg {background: #ede3de; border-radius: 50px; width: 50px; height: 50px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_tag": "h4",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "columns": "3",
+        "mobile_columns": "1",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "beneath",
+        "overlay_title_background_style": "solid",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_a37Brc",
+    "collection_list_grid_KbC9Nj"
+  ]
+}

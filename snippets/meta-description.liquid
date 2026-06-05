@@ -1,0 +1,22 @@
+{% comment %}
+  - outputs the <meta> tag with the description of the current page or collection
+  Params:
+    - content (string, optional): The content for the <meta> tag. If present, overrides the description for the current page or collection.
+{% endcomment %}
+
+{% if request.path == '/collections' %}
+  {% assign meta_description_content = "Explore Kisco Candles' diverse collection of premium unscented and scented candles, including tapers, pillars, tealights, and more. Enjoy exclusive spring discounts—shop now!" %}
+{% else %}
+  {% assign meta_description_content = content
+    | default: page_description
+    | default: collection.description
+    | default: shop.name
+  %}
+{% endif %}
+
+{% if meta_description_content != blank %}
+  {%- comment %}<locksmith:aed4>{% endcomment -%}
+    {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ meta_description_content | escape }}">{% endif -%}
+    {%- comment %}original: <meta name="description" content="{{ meta_description_content | escape }}">{%- endcomment %}
+  {%- comment %}</locksmith:aed4>{% endcomment -%}
+{% endif %}

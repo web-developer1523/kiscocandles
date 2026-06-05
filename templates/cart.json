@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_Q68mAb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fjTETf": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_JwbmTw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Due to the Passover holiday, all orders will ship on Monday, April 6th.<br/><br/></strong></em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fjTETf",
+        "text_JwbmTw"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 800
+      }
+    },
+    "main": {
+      "type": "main-cart",
+      "settings": {
+        "show_product_currency": true,
+        "cross_sells_position": "below-line-items"
+      }
+    },
+    "1775077395d0d15fdf": {
+      "type": "_blocks",
+      "settings": {}
+    }
+  },
+  "order": [
+    "rich_text_Q68mAb",
+    "main",
+    "1775077395d0d15fdf"
+  ]
+}

@@ -1,0 +1,768 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.image }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.description }}",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "custom_liquid_mHgmdp": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p class=\"collection-banner__text-container-heading ff-heading fs-heading-2-base fs-heading-1-base-ns section-blocks__heading text-center\">{{ collection.title }}</p>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "collection_grid_jRJY3F": {
+      "type": "collection-grid",
+      "blocks": {
+        "grid_ReLqFp": {
+          "type": "grid",
+          "settings": {
+            "col_image": "shopify://shop_images/Bolsius-Pillar-Candles.png",
+            "col_title": "Bolsius Pillar Candles",
+            "link": "/collections/pillar-candles?filter.p.vendor=Bolsius"
+          }
+        },
+        "grid_EDnqcc": {
+          "type": "grid",
+          "settings": {
+            "col_image": "shopify://shop_images/Bolsius-Taper-Candles.png",
+            "col_title": "Bolsius Taper Candles",
+            "link": "/collections/taper-candles?filter.p.vendor=Bolsius"
+          }
+        },
+        "grid_NG8Gcw": {
+          "type": "grid",
+          "settings": {
+            "col_image": "shopify://shop_images/Bolsius-Floating-Candles.png",
+            "col_title": "Bolsius Floating Candles",
+            "link": "/collections/floating-candles?filter.p.vendor=Bolsius"
+          }
+        },
+        "grid_QAzt9U": {
+          "type": "grid",
+          "settings": {
+            "col_image": "shopify://shop_images/Bolsius-Elegant-Ball-Candles.png",
+            "col_title": "Bolsius Elegant Ball Candles for Every Occasion",
+            "link": "/collections/ball-candles?filter.p.vendor=Bolsius"
+          }
+        }
+      },
+      "block_order": [
+        "grid_ReLqFp",
+        "grid_EDnqcc",
+        "grid_NG8Gcw",
+        "grid_QAzt9U"
+      ],
+      "settings": {
+        "enable_animation": true,
+        "image_aspect_ratio": "square"
+      }
+    },
+    "multi_column_4nVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Free Shipping On Orders Over $99",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Flat Shipping Fee For Order's Under $99</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Satisfaction Guaranteed",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Buy More, Save More",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "image_hero_3w6QX3": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_rHExDV": {
+          "type": "heading",
+          "settings": {
+            "title": "Get the Finest Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_Tkc3cf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's The Simple Things In Life That Bring The Most Joy.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_tHLFi6": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rHExDV",
+        "text_Tkc3cf",
+        "button_tHLFi6"
+      ],
+      "custom_css": [
+        "ul {text-align: left;}"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/bolsius-candles_c8837b3f-9707-4de0-8495-dfb6d7e8172a.png",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "multi_column_f7WP9Q": {
+      "type": "multi-column",
+      "custom_css": [
+        ".multi-column__grid {padding: 0;}",
+        " {margin-top: 40px;}"
+      ],
+      "settings": {
+        "title": "Why Choose Bolsius Candles?",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "<p>Bolsius candles are the result of over 150 years of candle-making expertise. Founded in 1870 in the Netherlands, Bolsius has become a leader in the candle industry, blending tradition with innovation. What makes Bolsius special? Their commitment to quality, sustainability, and craftsmanship. Kisco is pleased to be a leading provider of Bolsius candles in the colors and styles that are popular with individuals and businesses alike.</p><p>Here are a few of the many reasons to choose Bolsius candles:</p><ul><li><strong>Clean Burn:</strong> Bolsius candles are made using a unique blend of natural, plant-based waxes that are free from palm oil and harmful additives. This ensures a clean and long-lasting burn with no dripping or smoking for a healthier home environment.</li><li><strong>Environmental Impact:</strong> Bolsius is a <a href=\"https://www.bcorporation.net/en-us/certification/\" target=\"_blank\"><span style=\"text-decoration:underline\">Certified B Corporation</span></a>. From their eco-friendly packaging to their goal to lower carbon emissions throughout the production process, Bolsius is committed to reducing their environmental footprint. </li><li><strong>Versatility:</strong> Because Bolsius unscented candles burn cleanly, they're a welcome addition to many settings, including homes, offices, businesses, restaurants, and event venues. </li></ul>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "multi_column_idTcq6": {
+      "type": "multi-column",
+      "custom_css": [
+        ".multi-column__grid {padding: 0;}"
+      ],
+      "settings": {
+        "title": "Kisco, Your Connection to Bolsius Candles",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "<p><strong>At Kisco Candles, we proudly offer an extensive selection of Bolsius candles in a range of colors and styles, making it easy for you to bring their renowned quality and sustainability into your home, business, or event. </strong>Whether you're looking for everyday essentials or decorative pieces to heighten your space, you'll find the perfect solution at Kisco Candles. </p><p>We've made it convenient to obtain Bolsius candles, whether you're ordering them for your personal use or looking for Bolsius <a href=\"https://kiscocandles.com/collections/wholesale-bulk-candles\" title=\"https://kiscocandles.com/collections/wholesale-bulk-candles\">candles in bulk</a>. Stocking up on these eco-conscious, high-quality candles has never been simpler. Let Kisco Candles be your trusted source for all things Bolsius, ensuring you receive the best in craftsmanship and sustainability.</p>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_pbeK66": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_zzY4eQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Bolsius Candles: Discover What They Bring to the Party",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_MznFBi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Kisco is proud to carry Bolsius candles, combining a history of craftsmanship with a commitment to sustainability.</strong> Whether you're planning an unforgettable event or setting the mood for a cozy evening, these candles will enhance your experience. Explore our collection today and discover the difference that Bolsius candles make!</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_d4rEdM": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/unscented-candles",
+            "link_text": "Find Your Flame",
+            "button_style": "btn--secondary"
+          }
+        },
+        "button_U4xXRi": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/wholesale-bulk-candles",
+            "link_text": "Buy in Bulk",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zzY4eQ",
+        "text_MznFBi",
+        "button_d4rEdM",
+        "button_U4xXRi"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/bolsius-candles-wholesale.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "collection_list_grid_gyYFcP": {
+      "type": "collection-list-grid",
+      "settings": {
+        "heading": "Popular Collections",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_mwWJh9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RTw3Rn": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQs: Bolsius Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_QnPUrA": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_EKxTAp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below, we've addressed some common questions about Bolsius candles. Please <a href=\"https://kiscocandles.com/pages/contact-us\"><span style=\"text-decoration:underline\">contact us</span></a> for more information.  </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "subheading_p8gj6J": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Where are Bolsius candles made?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_Ye8Uwz": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Bolsius candles are proudly crafted in the Netherlands, where the company has been perfecting the art of candle-making for over a century.</strong> Their heritage of craftsmanship and innovation ensures that every candle is made with care, blending tradition with modern, sustainable practices.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "subheading_FBVdhU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Where can I buy Bolsius Candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_NkxQTm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>You can buy Bolsius candles directly through our website. </strong>We offer a variety of options for individual purchases, as well as Bolsius candles wholesale for those looking to buy in bulk — perfect for businesses, event planners, or anyone who loves having quality candles on hand.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "subheading_XLGUVt": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are Bolsius Candles made with sustainable materials?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_ywRjD9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Yes! Bolsius is deeply committed to sustainability. Their candles are made using natural, plant-based waxes that are free from palm oil and harsh chemicals. </strong>Additionally, the packaging is made from recycled materials, and their production process is designed to minimize environmental impact. When you choose Bolsius candles, you get a high-quality product and support a brand dedicated to protecting the environment.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RTw3Rn",
+        "border_QnPUrA",
+        "text_EKxTAp",
+        "subheading_p8gj6J",
+        "text_Ye8Uwz",
+        "subheading_FBVdhU",
+        "text_NkxQTm",
+        "subheading_XLGUVt",
+        "text_ywRjD9"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "custom_liquid_MmAVwd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Where are Bolsius candles made?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Bolsius candles are proudly crafted in the Netherlands, where the company has been perfecting the art of candle-making for over a century. Their heritage of craftsmanship and innovation ensures that every candle is made with care, blending tradition with modern, sustainable practices.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Where can I buy Bolsius Candles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"You can buy Bolsius candles directly through our website. We offer a variety of options for individual purchases, as well as Bolsius candles wholesale for those looking to buy in bulk — perfect for businesses, event planners, or anyone who loves having quality candles on hand.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Bolsius Candles made with sustainable materials?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes! Bolsius is deeply committed to sustainability. Their candles are made using natural, plant-based waxes that are free from palm oil and harsh chemicals. Additionally, the packaging is made from recycled materials, and their production process is designed to minimize environmental impact. When you choose Bolsius candles, you get a high-quality product and support a brand dedicated to protecting the environment.\"\n      }\n    }\n  ]\n}\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "blog_posts_6DEhxR": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_Qyj3YA": {
+          "type": "article",
+          "settings": {
+            "article": "news/how-to-buy-candles-in-bulk"
+          }
+        },
+        "article_YXBTcz": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-ultimate-guide-to-candle-sizes"
+          }
+        },
+        "article_4jfdDD": {
+          "type": "article",
+          "settings": {
+            "article": "news/6-types-of-candles-explained-discover-the-perfect-unscented-candle-for-your-needs"
+          }
+        }
+      },
+      "block_order": [
+        "article_Qyj3YA",
+        "article_YXBTcz",
+        "article_4jfdDD"
+      ],
+      "settings": {
+        "heading": "Related Articles",
+        "subheading": "",
+        "button_link": "",
+        "link_text": "",
+        "display_type": "selected",
+        "blog": "",
+        "max_articles": 3,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "newsletter_with_image_KmMF3p": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_ytGz9C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_AUN79x": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.</p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ytGz9C",
+        "newsletter_signup_AUN79x"
+      ],
+      "settings": {
+        "spacing_mode": "between",
+        "alignment": "left",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_7ietbG": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_UcMXhd": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "FREE SHIPPING",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_MRdbXD": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "SATISFACTION GUARANTEED",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_g6z4Ux": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "BUY MORE, SAVE MORE",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_UcMXhd",
+        "image_column_MRdbXD",
+        "image_column_g6z4Ux"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "custom_liquid_mHgmdp",
+    "collection_grid_jRJY3F",
+    "multi_column_4nVeph",
+    "image_hero_3w6QX3",
+    "multi_column_f7WP9Q",
+    "multi_column_idTcq6",
+    "image_hero_pbeK66",
+    "collection_list_grid_gyYFcP",
+    "rich_text_mwWJh9",
+    "custom_liquid_MmAVwd",
+    "blog_posts_6DEhxR",
+    "newsletter_with_image_KmMF3p",
+    "multi_column_7ietbG"
+  ]
+}

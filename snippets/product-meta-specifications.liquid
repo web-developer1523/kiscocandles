@@ -1,0 +1,93 @@
+{% capture content %}
+  {%- if block_settings.text_1 != blank or block_settings.text_2 != blank or block_settings.text_3 != blank or block_settings.text_4 != blank or block_settings.text_5 != blank or block_settings.text_6 != blank -%}
+  <div
+    class="product__callouts-items{% if block_settings.custom_class != blank %} {{ block_settings.custom_class }}{% endif %}"
+    data-with-box="{{ block_settings.add_box }}"
+    data-with-dividers="{{ block_settings.add_dividers }}"
+  >
+    {%- if block_settings.text_1 != blank -%}
+      {%- assign text1 = block_settings.text_1 | strip_html -%}
+      {%
+        render 'product-block-callouts-item' with
+        text_heading: block_settings.text_heading1,
+        text: text1,
+        icon: block_settings.icon_1,
+        custom_icon_image: block_settings.custom_icon_image_1
+      %}
+    {%- endif -%}
+    {%- if block_settings.text_2 != blank -%}
+      {%- assign text2 = block_settings.text_2 | strip_html -%}
+      {%
+        render 'product-block-callouts-item' with
+        text_heading: block_settings.text_heading2,
+        text: text2,
+        icon: block_settings.icon_2,
+        custom_icon_image: block_settings.custom_icon_image_2
+      %}
+    {%- endif -%}
+    {%- if block_settings.text_3 != blank -%}
+      {%- assign text3 = block_settings.text_3 | strip_html -%}
+      {%
+        render 'product-block-callouts-item' with
+        text_heading: block_settings.text_heading3,
+        text: text3,
+        icon: block_settings.icon_3,
+        custom_icon_image: block_settings.custom_icon_image_3
+      %}
+    {%- endif -%}
+    {%- if block_settings.text_4 != blank -%}
+      {%- assign text4 = block_settings.text_4 | strip_html -%}
+      {%
+        render 'product-block-callouts-item' with
+        text_heading: block_settings.text_heading4,
+        text: text4,
+        icon: block_settings.icon_4,
+        custom_icon_image: block_settings.custom_icon_image_4
+      %}
+    {%- endif -%}
+    {%- if block_settings.text_5 != blank -%}
+      {%- assign text5 = block_settings.text_5 | strip_html -%}
+      {%
+        render 'product-block-callouts-item' with
+        text_heading: block_settings.text_heading5,
+        text: text5,
+        icon: block_settings.icon_5,
+        custom_icon_image: block_settings.custom_icon_image_5
+      %}
+    {%- endif -%}
+    {%- if block_settings.text_6 != blank -%}
+      {%- assign text6 = block_settings.text_6 | strip_html -%}
+      {%
+        render 'product-block-callouts-item' with
+        text_heading: block_settings.text_heading6,
+        text: text6,
+        icon: block_settings.icon_6,
+        custom_icon_image: block_settings.custom_icon_image_6
+      %}
+    {%- endif -%}
+  </div>
+  {%- endif -%}
+{% endcapture %}
+
+{% if block_settings.display_as_collapsible_row %}
+  {% assign heading = block.settings.title | default: block.settings.collapsible_row_title %}
+  {%-
+    render 'product-block-accordion',
+    block: block,
+    block_settings: block.settings,
+    heading: heading,
+    content: content,
+  -%}
+{% else %}
+  {%- if content != blank or content != '' -%}
+  <div
+    class="product__block product__block-callouts product__callouts product__block--medium"
+    {{ block.shopify_attributes }}
+  >
+    {%- if block.settings.title != blank -%}
+    <{{ block.settings.title_tag }} class="spachd">{{ block.settings.title }}</{{ block.settings.title_tag }}>
+    {%- endif -%}
+    {{ content }}
+  </div>
+  {%- endif -%}
+{% endif %}

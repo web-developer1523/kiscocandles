@@ -1,0 +1,158 @@
+<style>
+  /* Reset some basic styles */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Base menu */
+  .main-menu > ul {
+    display: flex;
+    gap: 20px;
+    position: relative;
+  }
+
+  .main-menu li {
+    position: relative;
+  }
+
+  /* Link styling */
+  .main-menu a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  /* Submenus */
+  .main-menu ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background: #fff;
+    border: 1px solid #ddd;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 1000;
+  }
+
+  /* Show submenu on hover */
+  .main-menu li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Nested submenus (flyout to right) */
+  .main-menu ul ul ul {
+    top: 0;
+    left: 100%;
+  }
+
+  /* Optional: Prevent layout shift on load by setting min-height */
+  .main-menu {
+    min-height: 60px;
+  }
+  @media (max-width: 768px) {
+  .main-menu > ul {
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 60px; /* Adjust to sit below header/logo */
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+
+  .main-menu li {
+    width: 100%;
+  }
+
+  .main-menu ul ul {
+    position: static;
+    visibility: visible;
+    opacity: 1;
+    border: none;
+    box-shadow: none;
+  }
+
+  .main-menu ul ul ul {
+    left: 0;
+  }
+}
+</style>
+
+<nav class="main-menu">
+  <ul class="menu-level-0">
+    {% for link in linklists[menu].links %}
+      <li>
+        <a href="{{ link.url }}">{{ link.title }}</a>
+        {% if link.links.size > 0 %}
+          <ul class="menu-level-1">
+            {% for sub_link in link.links %}
+              <li>
+                <a href="{{ sub_link.url }}">{{ sub_link.title }}</a>
+                {% if sub_link.links.size > 0 %}
+                  <ul class="menu-level-2">
+                    {% for sub_sub_link in sub_link.links %}
+                      <li>
+                        <a href="{{ sub_sub_link.url }}">{{ sub_sub_link.title }}</a>
+                        {% if sub_sub_link.links.size > 0 %}
+                          <ul class="menu-level-3">
+                            {% for sub_sub_sub_link in sub_sub_link.links %}
+                              <li>
+                                <a href="{{ sub_sub_sub_link.url }}">{{ sub_sub_sub_link.title }}</a>
+                              </li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+
+    {%- if secondary_menu != blank -%}
+      {% for link in linklists[secondary_menu].links %}
+        <li>
+          <a href="{{ link.url }}">{{ link.title }}</a>
+          {% if link.links.size > 0 %}
+            <ul class="menu-level-1">
+              {% for sub_link in link.links %}
+                <li>
+                  <a href="{{ sub_link.url }}">{{ sub_link.title }}</a>
+                  {% if sub_link.links.size > 0 %}
+                    <ul class="menu-level-2">
+                      {% for sub_sub_link in sub_link.links %}
+                        <li>
+                          <a href="{{ sub_sub_link.url }}">{{ sub_sub_link.title }}</a>
+                          {% if sub_sub_link.links.size > 0 %}
+                            <ul class="menu-level-3">
+                              {% for sub_sub_sub_link in sub_sub_link.links %}
+                                <li>
+                                  <a href="{{ sub_sub_sub_link.url }}">{{ sub_sub_sub_link.title }}</a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    {%- endif -%}
+  </ul>
+</nav>

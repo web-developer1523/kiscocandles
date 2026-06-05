@@ -1,0 +1,1350 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "shopify://shop_images/lifestyle-319621-1_1.webp",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWxYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9bj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_pKamB6": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_8Yf44L": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/top-q.png",
+            "text": "Top European quality",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_DYHDWi": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/Beuty.png",
+            "text": "Beautiful",
+            "fontw": "400",
+            "link": ""
+          }
+        },
+        "text_eEzkDz": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/gift.png",
+            "text": "Free Gift on Every Order",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_a6wQ8K": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/fast.png",
+            "text": "Fast & Secure",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8Yf44L",
+        "text_DYHDWi",
+        "text_eEzkDz",
+        "text_a6wQ8K"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-heading-2-base",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#fcf9f8",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_pNHELR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_zknjap": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/european.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "European Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_LWJkrf": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/plant.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Plant Based Wax",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_w84Grr": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cotton.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Braided Cotton Wicks",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WEJgMU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/eco.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Eco-friendly Packaging",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_zknjap",
+        "image_column_LWJkrf",
+        "image_column_w84Grr",
+        "image_column_WEJgMU"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_tVGHBy": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_R3QcJJ": {
+          "type": "heading",
+          "settings": {
+            "title": "GET THE FINEST IN CANDLES.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_VNnGVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s The Simple Things In Life That Bring The Most Joy.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_wCDWMb": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R3QcJJ",
+        "text_VNnGVL",
+        "button_wCDWMb"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/taper-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_YFz6rM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4W4pwU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Find Perfect Taper Candles for Any Occasion",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_7FLkyj": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_G7eEn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The timeless design of our taper candles works across all styles: elegant, rustic, formal, or minimal. From wedding aisles and dinner tables to religious ceremonies or restaurant centerpieces, these candles create a sense of refinement without effort.</p><p>Our collection includes a wide range of sizes and finishes, so you can choose exactly what suits your event. Hosting a large gathering? Need bulk quantities of wedding taper candles for multiple tables? We keep everything in stock and ready to ship. Looking for premium 10-inch taper candles or cheap taper candles without sacrificing quality? At Kisco, you’ll find great value-for-money options that deliver a clean, elegant look.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4W4pwU",
+        "border_7FLkyj",
+        "text_G7eEn9"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/image_7.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_NKiwke": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_9dtrhQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Premium Tall Taper Candles with Clean Burn",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_pEQcpU": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_m7GtwF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clean lines. Steady flames. No mess. That’s what sets our tall taper candles apart. Made from high-quality wax with high-quality wicks, these candles offer a reliable burn that stays upright and drip-free from start to finish.</p><p>Choose longer styles to add height and drama to your decor. A tall taper draws the eye and adds vertical balance to floral arrangements and table setups. And thanks to the slow, even burn, your candles won’t fizzle out halfway through the night.</p><p>Need something that works as hard as you do on event day? Our long taper candles handle it all, from home decor to 5-star dining rooms and outdoor receptions. Just light them once and let the glow carry your setting through the evening. Our collection is a trusted source for decorators and venues who rely on high-performance taper candles that look stunning from start to finish.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9dtrhQ",
+        "border_pEQcpU",
+        "text_m7GtwF"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/image_6.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_X8JWKz": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_KEgaty": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why Choose Tall Taper Candles for Your Decor",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_KWtGb3": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_DJwCxi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When your decor calls for subtle elegance, tall taper candles deliver every time. These 11.5 or 10-inch taper candles have a sleek profile that adds shape and depth without blocking sightlines. Paired with the right holders, they elevate any tablescape and bring an instant sense of occasion.</p><p>Long taper candles do more than just look good. They perform. Their extended burn time keeps your space illuminated longer, making them ideal for ceremonies, receptions, and formal dinners. You can space them evenly across tables or use them to highlight specific focal points.</p><p>Need classic lighting that looks great in photos and real life? Taper up. They never go out of style.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_KEgaty",
+        "border_KWtGb3",
+        "text_DJwCxi"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/image_9.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_J6w9t4": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_RXhMUw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Kisco Quality: Clean-Burning, Elegant Taper Candles",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_akKywE": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_anKmQ4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Kisco Candles, quality comes standard. Our taper candles are made using premium European wax, braided cotton wicks, and precise molding techniques for a smooth finish and consistent flame. That means no drips, no smoke, and no surprises.</p><p>Customers count on us for bulk reliability and polished results at every scale. From cheap taper candles in value packs to metallic finishes in individual wraps, each piece meets our high standards. And with fast shipping and top-rated service, you’ll never be left waiting when time matters most.</p><p>Looking for clean-burning elegance that holds up under pressure? You can always count on Kisco taper candles.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RXhMUw",
+        "border_akKywE",
+        "text_anKmQ4"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/image_8.webp",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_hfDcz4": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_JDMn8T": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Enjoy the Charm of Classic Taper Candles",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_BbRMga": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_wCBr7b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Step into a world where each candle flickers with the essence of the countryside. <strong>Kisco's taper candles collection is all about bringing that welcoming, elegant vibe into your space. </strong>These candles, available in a range of colors like ivory and red, create a sense of classic décor in any room. Their 10\" size makes them an ideal addition to any setting, whether a romantic dinner or a gathering with friends. <strong>Bolsius taper candles are crafted to complement any design, adding effortless sophistication. </strong>Light up one of these Bolsius candles and let it transport you to a place of comfort and tranquility. Whether you're styling a dinner party or an altar, these taper candles bring timeless beauty to every occasion.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JDMn8T",
+        "border_BbRMga",
+        "text_wCBr7b"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/candles-tapered.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_kFC67D": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mckbY9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why Shop Kisco’s Taper Candles",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_i6tgzQ": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_hUYJ6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each Kisco taper candle tells a story of meticulous craftsmanship and unwavering quality. From selecting premium,<strong>vegan wax to carefully crafting cotton wicks, every candle is a testament to the artistry and care that goes into its creation. </strong><a href=\"https://kiscocandles.com/collections/bolsius-candles\"><span style=\"text-decoration:underline\">Bolsius candles </span></a>are crafted to burn cleanly and consistently, ensuring a long-lasting and enjoyable experience. <strong>Using Bolsius’ high-quality materials means that each candle looks beautiful and enhances your space with its smokeless, steady light. </strong>For a broader selection of quality candles, explore the <a href=\"https://kiscocandles.com/collections/pillar-candles\"><span style=\"text-decoration:underline\">pillar candles </span></a>collection.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mckbY9",
+        "border_i6tgzQ",
+        "text_hUYJ6B"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/taper-candle.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_84X4kU": {
+      "type": "multi-column",
+      "blocks": {
+        "column_WmnJ8C": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Consider the Occasion",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<ul><li><strong>Weddings:</strong> The elegant silhouette and soft light make taper candles ideal for wedding ceremonies and receptions. Save on <a href=\"https://kiscocandles.com/collections/bulk-wedding-candles\"><span style=\"text-decoration:underline\">bulk wedding candles here</span></a>.</li><li><strong>Romantic Dinners:</strong> Opt for our <a href=\"https://kiscocandles.com/collections/taper-candles/products/bolsius-tall-10-inch-taper-candles-30-pack-wedding-decorative-hoilday-colored-unscented-taper-candles?variant=40111505047661\"><span style=\"text-decoration:underline\">classic ivory taper candles</span></a> or deep red to add a touch of romance and elegance.</li><li><strong>Holiday Gatherings: </strong>Choose from our seasonal colors to complement your festive décor and create a cozy, inviting atmosphere.</li><li><strong>Everyday Elegance: </strong>Our rustic taper candles collection offers a variety of colors to enhance the daily charm of your living space.</li></ul>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_DtmwKW": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Match Your Décor",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<ul><li><strong>Color Coordination:</strong> Select candles that complement your existing décor. Our range includes colors crafted to align with your home or event space. Browse our <a href=\"https://kiscocandles.com/collections/taper-candles/products/bolsius-tall-10-inch-taper-candles-4-8-12-16-pack-wedding-decorative-hoilday-colored-unscented-taper-candles?variant=40097438564461\"><span style=\"text-decoration:underline\">dark red</span></a> or the <a href=\"https://kiscocandles.com/collections/taper-candles/products/bolsius-tall-10-inch-metallic-taper-candles-12-pack-wedding-decorative-hoilday-colored-unscented-taper-candles-individually-wrapped?variant=40111502000237\"><span style=\"text-decoration:underline\">metallic gold</span></a> to make a statement in your décor. Even add a vibrant <a href=\"https://kiscocandles.com/collections/taper-candles/products/bolsius-tall-10-inch-taper-candles-10-pack-wedding-decorative-hoilday-colored-unscented-taper-candles?variant=40097614135405\"><span style=\"text-decoration:underline\">pink</span></a> to set the mood for a special occasion. </li><li><strong>Size and Placement:</strong> Consider the 10\" size of our taper candles for a balanced look on dinner tables, mantles, or as part of a centerpiece. Shop our <a href=\"https://kiscocandles.com/collections/taper-candles/products/bolsius-7-inch-houshold-taper-candles-45-pack-wedding-decorative-hoilday-colored-unscented-taper-candles?variant=40111517630573\"><span style=\"text-decoration:underline\">7” taper candles</span></a> for smaller settings.</li></ul><p></p><h3>Enhance Your Experience</h3><ul><li><strong>Smokeless Enjoyment</strong>: Our long candles are crafted to be smokeless, enhancing your indoor air quality while providing a serene candlelight experience.</li><li><strong>Long-Lasting Burn: </strong>Choose candles known for their longevity, ensuring that your evenings are illuminated for longer.</li></ul>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_WmnJ8C",
+        "column_DtmwKW"
+      ],
+      "settings": {
+        "title": "How to Choose Your Taper Candles",
+        "class": "coll-howto",
+        "heading_tag": "h2",
+        "subheading": "<p>Kisco's taper candles are more than just a source of light; they're an accessory for life's moments. Here’s how to select yours.</p>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_gyLjgz": {
+      "type": "image-hero",
+      "blocks": {
+        "subheading_wBaypB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "GET THE FINEST IN CANDLES.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "heading_V3trMR": {
+          "type": "heading",
+          "settings": {
+            "title": "Illuminate Your Style with Kisco’s Taper Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_y6Nnxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>xperience the magic of Kisco’s taper candles. From rustic charm to classic elegance, there’s a Kisco candle waiting to light up your world with its delightful illumination. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_QUbFdy": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wBaypB",
+        "heading_V3trMR",
+        "text_y6Nnxf",
+        "button_QUbFdy"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/tapered-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_q7D8ce": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_DyTCUA": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_MrGjAB": {
+          "type": "heading",
+          "settings": {
+            "title": "Taper Candles FAQs: Your Questions Answered",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "border_JMAjFR": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_phgQQw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Taper candles hold a special place in home décor and <a href=\"https://www.lovetoknow.com/home/design-decor/what-is-taper-candle-adding-elegance-your-decor\"><span style=\"text-decoration:underline\">ambiance creation</span></a>. We've compiled some frequently asked questions to help you make the most of Kisco's Bolsius candle collections.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_mVH3Fw": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_jRWLhL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How Long Do Kisco's Taper Candles Typically Burn?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_cVFhCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kisco's Bolsius taper candles come in long-burn options. The average burn time varies depending on the size of the candle but you cane find 6 hour, 8 hour , and even 12 hour burn taper candles here.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_iPXpEi": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_fVaWkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What taper candle height should I choose?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_xVMDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose 10-inch and 11.5-inch tapers for formal tables, longer dinners, and taller candleholder styling, and choose 4-inch to 7-inch tapers when you want a lower profile or a shorter burn window. The assortment at Kisco Candles offers both classic dinner tapers and shorter household tapers, so you can match the candle to the scale of your setup.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_gbXCD9": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_63Jihh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How long do your taper candles burn?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_dttHE3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Burn time depends on the taper size and style. Our shorter Lerner tapers run from about 3 to 6 hours in the 4-inch to 7-inch range, and our longer classic tapers include 6-hour, 8-hour, and up to 12-hour options for extended use.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_fctQ8Y": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_YnWqLz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Will these taper candles fit standard taper holders?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_HcQMNY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, most of our tapers have standard taper proportions that work with common candleholders. The collection includes classic 0.8-inch and 0.9-inch taper formats, so the cleanest fit usually comes from matching the base width to a holder made for standard dinner candles.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_XccrWr": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_GeeXti": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are your taper candles dripless?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_XjKbnn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, many choose our taper candles for a clean, low-mess burn. Just remember to place tapers upright in the correct holders and keep them away from drafts. For the best result, use a stable holder and keep the candles away from open windows, vents, and strong airflow.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_dzFcFC": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_bQqPgL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which taper colors are best for weddings and formal tables?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_X8YXeg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>White and ivory are the safest starting points for weddings, dinner parties, and classic event décor. White gives you a crisp, bright finish, while ivory feels warmer and pairs especially well with cream florals, soft linens, and candlelit rooms.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_Jtnf8R": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_qF4bim": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What pack size should I buy for a small dinner versus a large event?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_9VhRC8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose a 4-pack or 10-pack for home dining, styled photo shoots, or small gatherings, and move up to 30-pack, 45-pack, 50-pack, or 100-pack options when you are setting many tables or planning repeat use. We carry taper packs across several quantities so you can buy close to the number you actually need.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_f3hr7T": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_kiqgGx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What is the difference between your classic dinner tapers and shorter household tapers?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_WPTEtt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Classic dinner tapers are the better pick when you want a more formal, elongated look on the table. Shorter household tapers are useful when you want a lower flame line, a quicker burn, or a compact candle for smaller holders and tighter spaces.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_idYgNL": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_bUTgwQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which taper candles work best for restaurants and hospitality spaces?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_7AHm7j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose 7-inch to 10-inch tapers when you want an elegant look that still feels practical for dinner service. Those sizes give the table enough height to feel polished without making the candle harder to place, store, or replace between services.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_PLKAAd": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_YPM7Nt": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I mix taper sizes and colors in one order?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_4JwqeG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, you can build your order around the sizes and colors that fit your setup best. Many shoppers combine white or ivory long tapers for dining tables with shorter tapers for side tables, entry pieces, or secondary décor. </p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_DyTCUA",
+        "heading_MrGjAB",
+        "border_JMAjFR",
+        "text_phgQQw",
+        "spacer_mVH3Fw",
+        "subheading_jRWLhL",
+        "text_cVFhCr",
+        "spacer_iPXpEi",
+        "subheading_fVaWkq",
+        "text_xVMDY7",
+        "spacer_gbXCD9",
+        "subheading_63Jihh",
+        "text_dttHE3",
+        "spacer_fctQ8Y",
+        "subheading_YnWqLz",
+        "text_HcQMNY",
+        "spacer_XccrWr",
+        "subheading_GeeXti",
+        "text_XjKbnn",
+        "spacer_dzFcFC",
+        "subheading_bQqPgL",
+        "text_X8YXeg",
+        "spacer_Jtnf8R",
+        "subheading_qF4bim",
+        "text_9VhRC8",
+        "spacer_f3hr7T",
+        "subheading_kiqgGx",
+        "text_WPTEtt",
+        "spacer_idYgNL",
+        "subheading_bUTgwQ",
+        "text_7AHm7j",
+        "spacer_PLKAAd",
+        "subheading_YPM7Nt",
+        "text_4JwqeG"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collection_list_grid_BXsdKG": {
+      "type": "collection-list-grid",
+      "blocks": {
+        "collection_gUNXAe": {
+          "type": "collection",
+          "settings": {
+            "collection": "pillar-candles",
+            "alt_text": "unscented pillar candles"
+          }
+        },
+        "collection_LnrgfF": {
+          "type": "collection",
+          "settings": {
+            "collection": "floating-candles",
+            "alt_text": "unscented floating candles"
+          }
+        },
+        "collection_3amDDb": {
+          "type": "collection",
+          "settings": {
+            "collection": "tealights",
+            "alt_text": "tea light candles"
+          }
+        },
+        "collection_qDXjUm": {
+          "type": "collection",
+          "settings": {
+            "collection": "votive-candles",
+            "alt_text": "votives"
+          }
+        }
+      },
+      "block_order": [
+        "collection_gUNXAe",
+        "collection_LnrgfF",
+        "collection_3amDDb",
+        "collection_qDXjUm"
+      ],
+      "settings": {
+        "heading": "Popular Collections",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "2",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "newsletter_with_image_MsKMA3": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_wWQLHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_TA6FTL": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.<br/><br/></p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWQLHF",
+        "newsletter_signup_TA6FTL"
+      ],
+      "settings": {
+        "spacing_mode": "between",
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_4nVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Free Shipping",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Satisfaction Guaranteed",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Buy More, Save More",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWxYYW",
+    "scrolling_content_kEU9bj",
+    "scrolling_content_pKamB6",
+    "multi_column_pNHELR",
+    "image_hero_tVGHBy",
+    "image_with_text_YFz6rM",
+    "image_with_text_NKiwke",
+    "image_with_text_X8JWKz",
+    "image_with_text_J6w9t4",
+    "image_with_text_hfDcz4",
+    "image_with_text_kFC67D",
+    "multi_column_84X4kU",
+    "image_hero_gyLjgz",
+    "rich_text_q7D8ce",
+    "collection_list_grid_BXsdKG",
+    "newsletter_with_image_MsKMA3",
+    "multi_column_4nVeph"
+  ]
+}

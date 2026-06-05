@@ -1,0 +1,67 @@
+{% assign end_of_year = "now" | date: "%Y" %}
+{% assign end_of_year_date = end_of_year | append: "-12-31" %}
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "{{ collection.title | escape }}",
+      "description": "{{ page_description | escape }}",
+      "image": {
+        "@type": "ImageObject",
+        "height": "{{ collection.image | height }}",
+        "url": "{{ collection | img_url}}"
+      },
+      "url": "{{ shop.url }}{{ collection.url | url_encode }}",
+      {%- if collection.products.size > 0 -%}
+        "mainEntity": {
+            "@type":"ItemList",
+            "numberOfItems": {{ collection.products_count }},
+            "itemListElement": [
+        {%- comment %}<locksmith:5b4a>{% endcomment -%}
+          {%- assign locksmith_2897_forloop__size = 0 %}{%- for product in collection.products -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_2897_forloop__size = locksmith_2897_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_2897_forloop__index = nil -%}
+        {%- comment %}</locksmith:5b4a>{% endcomment -%}
+        {%- for product in collection.products -%}
+        {%- comment %}<locksmith:f2d7>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% assign locksmith_5b00_product__available = false %}{% assign locksmith_5b00_product__price = nil %}{% for variant in product.variants %}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: variant, subject_parent: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif %}{% if locksmith_5b00_product__available == false and variant.available %}{% assign locksmith_5b00_product__available = true %}{% endif %}{% if locksmith_5b00_product__price == nil %}{% assign locksmith_5b00_product__price = variant.price %}{% endif %}{% endfor %}{% if locksmith_2897_forloop__index == nil %}{% assign locksmith_2897_forloop__index = 1 %}{% assign locksmith_2897_forloop__index0 = 0 %}{% else %}{% assign locksmith_2897_forloop__index = locksmith_2897_forloop__index | plus: 1 %}{% assign locksmith_2897_forloop__index0 = locksmith_2897_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_2897_forloop__index == 1 %}{% assign locksmith_2897_forloop__first = true %}{% else %}{% assign locksmith_2897_forloop__first = false %}{% endif %}{% if locksmith_2897_forloop__index == locksmith_2897_forloop__size %}{% assign locksmith_2897_forloop__last = true %}{% else %}{% assign locksmith_2897_forloop__last = false %}{% endif %}{% assign locksmith_2897_forloop__rindex = locksmith_2897_forloop__size | minus: locksmith_2897_forloop__index | minus: 1 %}{% assign locksmith_2897_forloop__rindex0 = locksmith_2897_forloop__size | minus: locksmith_2897_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:f2d7>{% endcomment -%}
+        {
+          {% assign first_variant = product.variants.first %}
+          {% assign quantity_option_index = nil %}
+          "@type": "ListItem",
+          "position": "{{ locksmith_2897_forloop__index }}",
+          "item": {
+            "@type": "Product",
+            "name": {{ product.title | json }},
+            "image": "{{ product.featured_image | image_url }}",
+            "description": "{{ product.description | strip_html | replace: '"', '' | replace: '”', '' | strip_newlines }}",
+            "url": "{{ shop.url }}{{ product.url }}",
+            {%- if product.sku -%}"sku": "{{ product.sku }}",{%- endif -%}
+          "offers": {
+            "@type": "Offer",
+            "url": {{ request.origin | append: product.url | json }},
+            "priceCurrency": "USD",
+            "price": "{{ locksmith_5b00_product__price | money_without_currency | replace: ',', '' }}",
+            "priceValidUntil": "{{ end_of_year_date }}",
+            {%- for option in product.options_with_values -%}
+              {%- if option.name == "Quantity" -%}
+                {% assign quantity_option_index = forloop.index0 %}
+              {%- endif -%}
+            {%- endfor -%}
+              "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "value": {% if first_variant.options[quantity_option_index] %}"{{ first_variant.options[quantity_option_index] | remove: 'Pack' | strip }}"{% else %}"{{ product.metafields.my_fields.count }}"{% endif %},
+              "unitText": "candles"
+            },
+            "itemCondition": "https://schema.org/NewCondition",
+            {%- if locksmith_5b00_product__available -%}"availability": "https://schema.org/InStock"
+            {%- else -%}"availability": "https://schema.org/OutOfStock"{%- endif -%}
+          }
+          }
+        }{%- unless locksmith_2897_forloop__last -%},{%- endunless -%}
+        {%- endfor -%}
+        ]
+      {%- endif -%}
+        }
+    }
+    </script>

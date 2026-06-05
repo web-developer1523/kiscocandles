@@ -1,0 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "collection_bKghtK": {
+          "type": "collection",
+          "settings": {
+            "collection": "striking-black-pillar-candles",
+            "col_image": "shopify://shop_images/green-pilar-candle.webp"
+          }
+        },
+        "collection_9VKqFp": {
+          "type": "collection",
+          "settings": {
+            "collection": "bolsius-candles",
+            "col_image": "shopify://shop_images/white-pilar-candle.webp"
+          }
+        },
+        "collection_jGrxNA": {
+          "type": "collection",
+          "settings": {
+            "collection": "blue-pillar-candles",
+            "col_image": "shopify://shop_images/silver-pilar-candle.webp"
+          }
+        },
+        "collection_cAgbHT": {
+          "type": "collection",
+          "settings": {
+            "collection": "bulk-wedding-candles",
+            "col_image": "shopify://shop_images/blue-pilar-candle.webp"
+          }
+        },
+        "collection_YKLamj": {
+          "type": "collection",
+          "settings": {
+            "collection": "classic-pillar-in-tray",
+            "col_image": "shopify://shop_images/ivory-pilar-candle.webp"
+          }
+        }
+      },
+      "block_order": [
+        "collection_bKghtK",
+        "collection_9VKqFp",
+        "collection_jGrxNA",
+        "collection_cAgbHT",
+        "collection_YKLamj"
+      ],
+      "settings": {
+        "columns": "3",
+        "mobile_columns": "2",
+        "rows": "4",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#fff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_bnhDGK": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_7JtDxE": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        },
+        "subheading_JNBMEY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Form Submitted Successfully",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-4-base"
+          }
+        },
+        "text_RUbJkF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your account is awaiting approval. Most accounts are approved in 24 hours or less</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_kTB464": {
+          "type": "spacer",
+          "settings": {
+            "space": 64
+          }
+        }
+      },
+      "block_order": [
+        "spacer_7JtDxE",
+        "subheading_JNBMEY",
+        "text_RUbJkF",
+        "spacer_kTB464"
+      ],
+      "custom_css": [
+        ".rich-text__subheading {font-family: Montserrat, sans-serif; font-weight: 700;}"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_bnhDGK"
+  ]
+}

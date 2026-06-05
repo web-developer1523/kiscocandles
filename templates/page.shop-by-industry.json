@@ -1,0 +1,497 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "image_with_text_nicc9R": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fRUtLk": {
+          "type": "heading",
+          "settings": {
+            "title": "Dripless Candles for Restaurants & Bars",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "text_Jfb7bN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A dining room bathed in the warm, inviting glow of our elegant, dripless candles is the ideal setting for quiet conversations and congenial meal sharing. Our smokeless, unscented candles add a touch of sophistication to your restaurant, tavern, or bar, creating a cozy atmosphere that makes every meal special. <em>Take advantage of free shipping and great prices when you purchase bulk candles for your business.</em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_CFC9Pm": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/restaurant-candles",
+            "link_text": "Shop Long-Burning Restaurant Candles",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fRUtLk",
+        "text_Jfb7bN",
+        "button_CFC9Pm"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/Dripless-candles_7ad23939-4400-47cb-aa5e-a283c8e19481.jpg",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_N6kP7h": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_R6fT34": {
+          "type": "heading",
+          "settings": {
+            "title": "Elegant Candles for Wedding and Event Venues",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "text_VPJejN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The gentle glow of Bolsius Candles encourages shared confidences and convivial conversation at parties an<em>d other gatherings. Whether you need to complete a floral centerpiece or create a romantic atmosphere with floating candles, you can count on us to provide the unscented, smokeless candles required for your special event. Save the most when you buy in bulk.</em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_8TceMB": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/bulk-wedding-candles",
+            "link_text": "Shop Bulk Event Candles",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R6fT34",
+        "text_VPJejN",
+        "button_8TceMB"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/long-burn-wedding-candles.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_AL9TWQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XXUf6p": {
+          "type": "heading",
+          "settings": {
+            "title": "Event Planners & Florists",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "text_CC6Ldt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The gentle glow of Bolsius Candles encourages shared confidences and convivial conversation at parties an<em>d other gatherings. Whether you need to complete a floral centerpiece or create a romantic atmosphere with floating candles, you can count on us to provide the unscented, smokeless candles required for your special event. Save the most when you buy in bulk.</em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_7eraDb": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/bulk-wedding-candles",
+            "link_text": "Shop Bulk Event Candles",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XXUf6p",
+        "text_CC6Ldt",
+        "button_7eraDb"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/bulk-event-candles_b97c2939-c2fd-48b4-91d6-c3e38790c192.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_6XR6HY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Xk3LY7": {
+          "type": "heading",
+          "settings": {
+            "title": " Long-Burning Candles for Churches",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "text_L6HkWW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our long-lasting unscented candles are integral to creating a warm, inviting environment for worship and ceremonies. The gentle glow of our smokeless, dripless candles enhances the spiritual atmosphere, making services and rituals more meaningful and reflective. <em>Order in bulk for the best prices and get free shipping on any purchase.</em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_bbPtAr": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/church-candles",
+            "link_text": "Shop Long-Lasting Church Candles",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Xk3LY7",
+        "text_L6HkWW",
+        "button_bbPtAr"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/long-lasting-church-candles.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_m8Q8UX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CTLXkb": {
+          "type": "heading",
+          "settings": {
+            "title": "Relaxing Candles for Yoga Studios",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "text_twpx6D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're teaching a class or conducting a guided meditation, our candles enhance every moment, making your yoga studio a place of true peace and tranquility. Furthermore, our candles are dripless, smokeless, and unscented, so they won't detract from the ambience you've worked so hard to create. <em>Enjoy free shipping plus special pricing when you buy candles for business in bulk.</em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_KMQHwJ": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/yoga-candles",
+            "link_text": "Shop Long-Burning Yoga Candles",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CTLXkb",
+        "text_twpx6D",
+        "button_KMQHwJ"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/relaxing-candles.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_7nU7xj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mbDaX9": {
+          "type": "heading",
+          "settings": {
+            "title": "Relaxing Candles for Spas",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "text_GDVq9A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gentle music and soft candlelight set the stage for a calming massage. Our candles do their part by providing a smokeless, unscented atmosphere clients will enjoy as they relax and unwind during their session. And because our candles are dripless, there's no mess to contend with when the day is done.  <em>Enjoy free shipping plus special pricing when you buy candles for business in bulk.</em></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_3UirVc": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/spa-candles",
+            "link_text": "Shop Spa Candles",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mbDaX9",
+        "text_GDVq9A",
+        "button_3UirVc"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "center",
+        "image": "shopify://shop_images/relaxing-candles-for-spas.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "collapsible_row_list_with_contact_JjrzC3": {
+      "type": "collapsible-row-list-with-contact",
+      "blocks": {
+        "item_BF7eX3": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Wholesale Account Discounts",
+            "text": "<p>Unlock more value by setting up a <a href=\"https://kiscocandles.com/pages/wholesale\"><span style=\"text-decoration:underline\">wholesale account</span></a> with Kisco Candles. You'll enjoy exclusive discounts and pricing tailored to bulk purchases. Plus, you can easily reorder your favorite products and keep track of your order history with our user-friendly account dashboard.</p>"
+          }
+        },
+        "item_7bnyzR": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": " Dedicated Support for Your Business",
+            "text": "<p>Get personalized service and support from your dedicated account manager who understands your business. We're here to assist you with any questions, product recommendations, or order management needs. Not sure which candles are right for your business? Our experts are ready to help you choose the best options to suit your specific environment and goals.</p>"
+          }
+        },
+        "item_ihkdN8": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Fast & Free Shipping",
+            "text": "<p>All domestic orders of $199.99 or more qualify for free standard shipping, ensuring your candles arrive promptly without extra expense. In addition, orders placed before 2PM ET, Monday to Thursday, are typically shipped the same or next day.</p>"
+          }
+        },
+        "item_kYBDXq": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "30-Day Return Policy",
+            "text": "<p>Purchase with confidence, knowing that you can <a href=\"https://kiscocandles.com/pages/return-policy\"><span style=\"text-decoration:underline\">return products within 30 days</span></a> if they don’t meet your expectations.</p><p>Sign up for all the benefits our <a href=\"https://kiscocandles.com/pages/wholesale\"><span style=\"text-decoration:underline\">wholesale membership</span></a> provides today.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_BF7eX3",
+        "item_7bnyzR",
+        "item_ihkdN8",
+        "item_kYBDXq"
+      ],
+      "settings": {
+        "title": "Tailored Solutions for Your Business",
+        "enable_faq_schema": false,
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "Kisco Candles appreciates that businesses have unique needs. That's why we developed special bulk options to ensure you get the best value for your organization. As a Kisco business client, you'll enjoy several advantages.",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-6-base",
+        "heading_alignment": "left",
+        "contact_title": "Become a Member & Save Even More",
+        "contact_sub_title": "",
+        "contact_content": "",
+        "button_text": "Open a wholesale account and enjoy additional savings.",
+        "button_link": "https://kiscocandles.com/pages/wholesale",
+        "link_text": "",
+        "link_link": "",
+        "item_heading_font": "body",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    },
+    "rich_text_mW8NjU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kaY3tw": {
+          "type": "heading",
+          "settings": {
+            "title": "Advantages of Bulk Candles for Businesses",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_pYNLHG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For businesses looking to maintain consistency or meet high demand, Kisco Candles offers bulk purchasing options. Our <a href=\"https://kiscocandles.com/collections/wholesale-bulk-candles\"><span style=\"text-decoration:underline\">bulk candles</span></a> ensure you always have the perfect lighting solution, no matter how large the space or how frequent the need. We provide:</p><ul><li><strong>Cost-Effective Solutions:</strong> Buying in bulk enables you to enjoy significant savings, ensuring your business remains beautifully lit without breaking the bank.</li><li><strong>Consistent Quality:</strong> With bulk orders, you can maintain a uniform look and feel across your entire establishment, creating a seamless and professional atmosphere.</li><li><strong>Variety:</strong> Bulk candles are available in the following types to perfectly match the unique aesthetic of your business:</li><li><strong>Taper:</strong> Tall and elegant, ideal for formal settings and creating a romantic atmosphere.</li><li><strong>Pillar:</strong> Sturdy, versatile, and long-lasting, perfect for any decor style.</li><li><strong>Tealights:</strong> Small and convenient, great for accent lighting and creating a cozy ambiance.</li><li><strong>Floating:</strong> Designed to float on water, perfect for adding a unique touch to decorative displays and events.</li></ul>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kaY3tw",
+        "text_pYNLHG"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collapsible_row_list_Crj8dP": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_efPFYD": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are Your Candles Eco-Friendly?",
+            "text": "<p>Absolutely. Our candles are made from plant-based wax and feature braided cotton wicks, so they burn cleanly, making them an eco-friendly choice.</p>"
+          }
+        },
+        "item_pcLXBt": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are Your Candles Dripless and Smokeless?",
+            "text": "<p>Absolutely! Our Bolsius Candles are dripless and smokeless, ensuring a clean and safe environment for your business. <strong>Furthermore, unscented varieties are ideal candles for business use, especially for those who are sensitive to certain smells or have allergies.</strong></p>"
+          }
+        },
+        "item_qPHXTF": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How Long Do Your Candles Burn?",
+            "text": "<p>Our candles burn for an extended period, providing long-lasting value. Each style of candle has a different burn time – our product description will tell you the number of hours your candle is estimated to burn.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_efPFYD",
+        "item_pcLXBt",
+        "item_qPHXTF"
+      ],
+      "custom_css": [
+        "{background-color: #ede3dd;}"
+      ],
+      "settings": {
+        "title": "FAQs: Unscented Candles for Business Spaces",
+        "enable_faq_schema": true,
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-4-base",
+        "subheading": "Below, we've answered some common questions about candles for business spaces. Please contact us for additional information.",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "full",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_nicc9R",
+    "image_with_text_N6kP7h",
+    "image_with_text_AL9TWQ",
+    "image_with_text_6XR6HY",
+    "image_with_text_m8Q8UX",
+    "image_with_text_7nU7xj",
+    "collapsible_row_list_with_contact_JjrzC3",
+    "rich_text_mW8NjU",
+    "collapsible_row_list_Crj8dP"
+  ]
+}

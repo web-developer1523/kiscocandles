@@ -1,0 +1,106 @@
+{%- capture image_sizes -%}
+  (min-width: 720px) calc(calc(100vw - calc(2 * clamp(18px, 3.3vw, 3.3vw))) / 2),
+  calc(calc(100vw - calc(2 * clamp(18px, 3.3vw, 3.3vw))) / 1)
+{%- endcapture -%}
+
+<div
+  class="list-image-grid-template
+  {% if settings.enable_section_animations and section.settings.enable_animation %}
+    animation
+    animation--list-collections
+  {% endif %}
+  "
+>
+  <div class="list-image-grid__inner page__inner">
+    <div class="list-images__grid">
+      {%- for block in section.blocks -%}
+        {%- assign gridImage = block.settings.col_image -%}
+        {%- assign gridTitle = block.settings.col_title -%}
+        <div class="col-img-title-info-section" style="width: 50%; padding:5px; float:left">
+          <a href="{{ block.settings.link }}">
+            {%
+              render 'image' with
+              image: gridImage,
+              wrapper_class: 'image-grid-item__image',
+              aspect_ratio: block.settings.image_aspect_ratio,
+              placeholder_name: 'collection-1',
+              include_placeholder: true,
+              sizes: image_sizes,
+              src_set_type: "grid"
+            %}
+            {%- comment -%}<img class="col-img-info" src="{{ gridImage | img_url:'master' }}" alt="{{ gridTitle }}">{%- endcomment -%}
+            {%- unless gridTitle == blank -%}<h2 class="col-title">{{ gridTitle }}</h2>{%- endunless -%}
+          </a>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Image Grid",
+  "settings": [
+    {
+      "id": "enable_animation",
+      "type": "checkbox",
+      "label": "t:shared.settings.section_style.enable_animation.label",
+      "info": "t:shared.settings.section_style.enable_animation.info",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "t:shared.settings.collection_listing.collection_listing_aspect_ratio.label",
+      "default": "square",
+      "options": [
+        {
+          "value": "natural",
+          "label": "t:shared.settings.aspect_ratio.option_natural"
+        },
+        {
+          "value": "square",
+          "label": "t:shared.settings.aspect_ratio.option_square"
+        },
+        {
+          "value": "portrait",
+          "label": "t:shared.settings.aspect_ratio.option_portrait"
+        },
+        {
+          "value": "landscape",
+          "label": "t:shared.settings.aspect_ratio.option_landscape"
+        }
+      ]
+    }
+  ],
+  "blocks":[
+    {
+      "type": "grid",
+      "name": "Image Grid",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "col_image",
+          "label": "Select Image"
+        },
+        {
+          "type": "text",
+          "id": "col_title",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Grid"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,500 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.metafields.custom.header_image.value }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": false,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_pKanB6": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_8Yf44L": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-european.png",
+            "text": "Top European quality",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_MBVqhE": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-shipping.png",
+            "text": "Free standard shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_NPtLxT": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-longlasting.png",
+            "text": "Long lasting",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_hEaNfD": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-no-drip.png",
+            "text": "No drip",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_9yeKiK": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-stock.png",
+            "text": "Large selection In Stock",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_c9DM8x": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-fast-shipping.png",
+            "text": "Fast And Secure Shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8Yf44L",
+        "text_MBVqhE",
+        "text_NPtLxT",
+        "text_hEaNfD",
+        "text_9yeKiK",
+        "text_c9DM8x"
+      ],
+      "custom_css": [
+        ".scrolling-content__inner {--scroll-duration: 20s !important;}"
+      ],
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-heading-2-base",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#fcf9f8",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_3Uz84w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KjnG74": {
+          "type": "heading",
+          "settings": {
+            "title": "Ivory Pillar Candles FAQ",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_8ztmcQ": {
+          "type": "border",
+          "settings": {}
+        },
+        "subheading_fUcCxJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which ivory pillar size should I choose for a smaller centerpiece?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_pNPyaa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose 2\" or 2.25\" ivory pillars when the table is tighter, or the arrangement already includes florals, greenery, or decorative glass. Those sizes are easier to place cleanly and give you candlelight without making the centerpiece feel crowded.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_cQbbr7": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_QMrtUd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "When should I move up to a 3-inch ivory pillar?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_naBzX6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Move up to a 3\" ivory pillar when the candle needs to stand out more clearly on the table or hold its own in a fuller arrangement. Our 3\" Bolsius pillar line is a stronger fit for larger centerpieces, entry tables, and statement displays than the narrower pillar sizes.<br/></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_MrgErk": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_7b4dyV": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Should I choose one pillar height or a mixed-height set?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_TV4jt9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose a mixed-height set when you want the centerpiece to look layered right away. Our ivory pillar assortment already includes stepped combinations such as 2\" x 3\", 2\" x 4\", 2\" x 6\", 3\" x 4\", 3\" x 6\", and 3\" x 9\", so you do not have to build those variations piece by piece.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_Ekt3Gr": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_DcqcwD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What is the real difference between the 2.25-inch and 2.75-inch ivory pillars?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_CTzfhH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose 2.25\" pillars when you want a neater, slimmer candle grouping that leaves more room for the rest of the centerpiece. Choose 2.75\" pillars when you want the candle group itself to look fuller and more prominent.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_Cm9J7U": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_h3AAGN": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are the 3-wick ivory pillars meant for everyday use or statement décor?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_6Mbn7R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use the 3-wick ivory pillars when the candle is meant to be the focal point, not a small supporting detail. In this collection, the 6\" x 4\" and 6\" x 6\" 3-wick Bolsius pillars from Kisco Candles are better suited for larger centerpieces, entry styling, and rooms that need a stronger candle presence.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_HaJHDC": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_n9rQJg": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which ivory pillar pack should I start with for a classic dinner-table look?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_4GGqEA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Start with the 2\" x 3\" or 2\" x 4\" 20-pack if you want a classic ivory pillar look that is easy to repeat across several tables. Those packs are simple to work into dining setups and still leave room to add greenery, holders, or trays around them.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_AdpKwh": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_89dF9L": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I keep the whole arrangement in one ivory tone if I mix several pillar sizes?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_bFc6eL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, that is one of the strengths of this collection. Kisco Candles carries the ivory Bolsius pillar line across several widths and heights, so you can build a fuller arrangement without breaking the color consistency.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_gMEJDW": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_c9R3Cw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why shop ivory pillar candles from Kisco Candles instead of piecing them together from different sellers?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_ggntPi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop them here for a clean ivory pillar story across classic packs, mixed-height sets, and larger statement pieces. That makes it much easier to build centerpieces that feel coordinated instead of assembled from mismatched candle lines. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_JNB4VB": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_KjnG74",
+        "border_8ztmcQ",
+        "subheading_fUcCxJ",
+        "text_pNPyaa",
+        "spacer_cQbbr7",
+        "subheading_QMrtUd",
+        "text_naBzX6",
+        "spacer_MrgErk",
+        "subheading_7b4dyV",
+        "text_TV4jt9",
+        "spacer_Ekt3Gr",
+        "subheading_DcqcwD",
+        "text_CTzfhH",
+        "spacer_Cm9J7U",
+        "subheading_h3AAGN",
+        "text_6Mbn7R",
+        "spacer_HaJHDC",
+        "subheading_n9rQJg",
+        "text_4GGqEA",
+        "spacer_AdpKwh",
+        "subheading_89dF9L",
+        "text_bFc6eL",
+        "spacer_gMEJDW",
+        "subheading_c9R3Cw",
+        "text_ggntPi",
+        "spacer_JNB4VB"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "scrolling_content_pKanB6",
+    "rich_text_3Uz84w"
+  ]
+}

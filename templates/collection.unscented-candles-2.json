@@ -1,0 +1,1360 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.image }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_qNHELR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_zknjap": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/european.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "European Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_LWJkrf": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/plant.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Plant Based Wax",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_w84Grr": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cotton.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Braided Cotton Wicks",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WEJgMU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/eco.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Eco-friendly Packaging",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_zknjap",
+        "image_column_LWJkrf",
+        "image_column_w84Grr",
+        "image_column_WEJgMU"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_tVGHBz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_R3QcJJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Discover the Elegance of Bulk Floating Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_VNnGVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Floating candles add a spark of sophistication and serenity to any setting. At Kisco Candles, our dripless bulk floating candles are a décor must-have for event planners, wedding coordinators, and hospitality industry professionals. Whether you're setting the mood for a romantic wedding reception or creating a tranquil atmosphere in your spa, our mess-free floating candles at wholesale prices offer an exceptional value. Explore our assortment and find the candles that will refine your space.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_wCDWMb": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R3QcJJ",
+        "text_VNnGVL",
+        "button_wCDWMb"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/Bulk-floating-candles_104b4c77-a5be-4a87-8002-b11eb1d82051.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "image_with_text_YFy6rM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4W4pwU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Discover Our Wholesale Floating Candle Collection",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_7FLkyj": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_G7eEn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kisco’s floating candles aren’t just beautiful—they’re built to perform. Our wholesale floating candles are designed for professionals who can’t afford to compromise on quality or consistency. Each one delivers a clean burn, even float, and long-lasting glow. No waxy film. No smoky residue. Just pure, elegant light.</p><p>Perfect for large installations and small details alike, our bulk floating candles are available in a range of sizes to suit any vision. Whether you’re setting up dozens of centerpieces or illuminating a poolside display, you’ll find exactly what you need.</p><p>Looking for a larger order? Take advantage of our volume discounts and free nationwide shipping. The more you order, the more you save.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4W4pwU",
+        "border_7FLkyj",
+        "text_G7eEn9"
+      ],
+      "custom_css": [
+        ".image-with-text__text-container-text.rte.ff-body.fs-body-75.section-blocks__text h2 {font-size: var(--font-size-heading-5-base); font-family: Stangith; font-weight: 400; line-height: var(--line-height-subheading); letter-spacing: var(--font-body-base-letter-spacing); text-transform: none;}",
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Floating_table_setting.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_k3UzGw": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Gxkdi4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Wholesale Floating Candles for Professional Event Planners",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_4MKVyW": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_xD9w9e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Event professionals rely on dependable, high-quality products—and our bulk floating candles deliver every time. From weddings to brand activations, Kisco’s wholesale floating candles help event planners bring their lighting concepts to life.<br/></p><p>They’re easy to use, mess-free, and pair effortlessly with floral designs, water features, and elegant glass vessels. Our candles float evenly and stay lit through long receptions and evening events, offering both visual impact and peace of mind.</p><p>Planning a large event? We’ll make sure your order arrives on time and in perfect condition. Plus, you can count on our support team to assist with custom quantities and special requests.</p><p>Join the thousands of planners who trust Kisco for reliable, stylish lighting.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Gxkdi4",
+        "border_4MKVyW",
+        "text_xD9w9e"
+      ],
+      "custom_css": [
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Floating_2_sizes_fb2667ab-d448-42d3-bcf2-f0767de5bc01.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_gXMNDn": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_GKM7gk": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Premium Quality Floating Candles for Bulk Orders",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_6zHn4x": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_8gxBHD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You deserve candles that meet professional standards. That’s why Kisco only offers premium bulk floating candles, crafted with care from plant-based wax and cotton wicks. No harsh odors. No chemical dyes. Just clean, classic light that enhances any space.<br/>For customers who need large quantities, our wholesale floating candles<strong> </strong>program ensures you always have a steady supply without compromising quality.</p><p>These candles aren’t just for one-time use. They’re part of your brand presentation—whether you’re setting a table, styling a photoshoot, or creating an unforgettable spa atmosphere. With Kisco, you’ll get candles that reflect the same attention to detail you bring to your business.</p><p>Free shipping. Free returns. Competitive wholesale pricing. Everything you need—without compromise.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GKM7gk",
+        "border_6zHn4x",
+        "text_8gxBHD"
+      ],
+      "custom_css": [
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Floating_only.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_nLE3fU": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_JH7EJR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Versatile Applications for Floating Candles",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_TQt3kr": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_kr9czP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Floating candles are beautiful and incredibly versatile, making them ideal for many kinds of events and settings. Because they're available at wholesale prices, they provide a cost-effective solution for creating ambiance and elegance. Here are some popular uses for our bulk floating candles:</p><ul><li><strong>Wedding Centerpieces: </strong>Create a romantic mood by setting wedding floating candles adrift in decorative bowls.</li><li> <strong>Spa Settings: </strong>Enhance the tranquility of spa treatments with the gentle light of floating candles.</li><li> <strong>Home Decor: </strong>Refine everyday living spaces with floating candles in vases or baths for a relaxing end to the day.</li><li> <strong>Special Events: </strong>From corporate dinners to holiday parties, floating candles add a sophisticated flair.</li><li><strong>Restaurants and Bars:</strong> Create intimate table settings or illuminate outdoor patios gracefully.</li></ul>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JH7EJR",
+        "border_TQt3kr",
+        "text_kr9czP"
+      ],
+      "custom_css": [
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/floating-candles-in-bulk.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_jFC67D": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mckbY9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Benefits of Buying Our Floating Candles in Bulk",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_i6tgzQ": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_hUYJ6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Purchasing floating candles wholesale ensures that you have a steady supply for all your events and needs while enjoying significant cost advantages. There's no question of where to buy floating candles. At Kisco, we carry Bolsius Candles, which are crafted using plant-based wax and cotton wicks to provide a clean, smoke-free burn. Here are a few key reasons to buy our floating candles in bulk.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mckbY9",
+        "border_i6tgzQ",
+        "text_hUYJ6B"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/floating-votive-candles_1.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_ccb93b": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_atjF66": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        },
+        "heading_RMqNcD": {
+          "type": "heading",
+          "settings": {
+            "title": "Benefits of Buying Our Floating Candles in Bulk",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "border_yzk8QB": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_BNfhHV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Purchasing floating candles wholesale ensures that you have a steady supply for all your events and needs while enjoying significant cost advantages. There's no question of where to buy floating candles. At Kisco, we carry Bolsius Candles, which are crafted using plant-based wax and cotton wicks to provide a clean, smoke-free burn. Here are a few key reasons to buy our floating candles in bulk.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_QAyyJJ": {
+          "type": "spacer",
+          "settings": {
+            "space": 28
+          }
+        },
+        "heading_chBx6Y": {
+          "type": "heading",
+          "settings": {
+            "title": "Economical Pricing",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "spacer_YbKmgU": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "text_bergHm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buying in bulk enables you to access lower prices, reducing the cost per candle and significantly decreasing the overall expenses for large-scale events and business needs.</p><p></p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_FHCCUt": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "heading_QKzHwK": {
+          "type": "heading",
+          "settings": {
+            "title": "Consistent Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_N3y7Bb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bolsius candles are produced under stringent quality controls, ensuring that every candle burns cleanly and evenly, maintaining both aesthetics and safety at your events.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_pdHVbY": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "heading_DepP3e": {
+          "type": "heading",
+          "settings": {
+            "title": "Access to Our Dedicated Wholesale Program",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "text_aUntTj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Kisco Candles, we support our wholesale buyers every step of the way. By <a href=\"https://kiscocandles.com/pages/wholesale\"><span style=\"text-decoration:underline\">participating in our wholesale program</span></a>, you gain access to exclusive pricing, personalized service, and a seamless ordering process designed to meet the demands of bulk purchases. Our team is committed to ensuring you receive the best products suited for your business or event needs, with the flexibility and support necessary to succeed.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_atjF66",
+        "heading_RMqNcD",
+        "border_yzk8QB",
+        "text_BNfhHV",
+        "spacer_QAyyJJ",
+        "heading_chBx6Y",
+        "spacer_YbKmgU",
+        "text_bergHm",
+        "spacer_FHCCUt",
+        "heading_QKzHwK",
+        "text_N3y7Bb",
+        "spacer_pdHVbY",
+        "heading_DepP3e",
+        "text_aUntTj"
+      ],
+      "custom_css": [
+        "h3.rich-text__heading.ff-heading.fs-heading-3-base.section-blocks__heading {font-size: 1.5rem;}"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "image_hero_gyLjgx": {
+      "type": "image-hero",
+      "blocks": {
+        "subheading_wBaypB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Illuminate Your Next Event With Bulk Floating Candles From Kisco",
+            "subheading_tag": "h2",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_y6Nnxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>To set the mood and make a lasting impression at your next big event, make sure our bulk floating candles are on the guest list.</strong> Browse our collection today and find the perfect match for your theme and budget. Whether for resale or décor, our candles promise quality and elegance that will leave guests mesmerized.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_QUbFdy": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/wholesale-bulk-candles",
+            "link_text": "Shop All Bulk Candles",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wBaypB",
+        "text_y6Nnxf",
+        "button_QUbFdy"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 50,
+        "mobile_height": 50,
+        "image": "shopify://shop_images/floating-candles-in-bulk.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "custom_liquid_hWwMKB": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"What sizes do you offer for bulk floating candles?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"We have two sizes of bulk floating candles: 1.75\\\" x 1\\\" or 3\\\" x 1\\\". They're made to suit any vessel or setting, ensuring you have the right fit for your event's requirements.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"How long do your floating candles burn?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Our floating candles burn from 5 to 8 hours, depending on their size. These extended burn times are perfect for events that go on well into the evening. Specific burn times can be found on our product pages.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"What is the minimum order for wholesale floating candles?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Our minimum order requirements are flexible, catering to both small gatherings and large-scale events. Details are available on the product information page. You'll see that the more you order, the more you save.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Do Your Candles Leave Residue in Glass Vases or Bowls?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"No. Our plant-based wax is clean-burning and drip-free, so it won’t leave residue or cloudy buildup on containers. They’re ideal for reuse across multiple events.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Can I Get a Sample Before Placing a Large Order?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Yes. We offer small sample packs for testing purposes. Just contact our support team, and we’ll help you find the right fit before you commit to a full bulk purchase.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"What If I Need My Candles Urgently?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"We offer expedited shipping for an additional fee. If you're on a tight timeline for your floating candles bulk purchase, contact our support team, and we’ll do everything we can to accommodate your deadline.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Do You Ship Floating Candles Bulk Orders Internationally?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Currently, we only ship within the United States. All domestic orders include free shipping, along with tracking and delivery updates.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"What’s Your Return Policy for Wholesale Orders?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"We offer free returns on all wholesale orders. If you’re not satisfied, simply reach out, and we’ll make it right—no hassles, no restocking fees.\"\n    }\n  }]\n}\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_p7D8ce": {
+      "type": "rich-text",
+      "blocks": {
+        "spacer_L8mYri": {
+          "type": "spacer",
+          "settings": {
+            "space": 40
+          }
+        },
+        "heading_MrGjAB": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions About Bulk Floating Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-3-base"
+          }
+        },
+        "border_JMAjFR": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_phgQQw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've answered some common questions about our bulk floating candles below. Please <a href=\"https://kiscocandles.com/pages/contact-us\"><span style=\"text-decoration:underline\">contact us</span></a> if you'd like more information about these or any of the candles we carry.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_6THxWy": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_jRWLhL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What sizes do your bulk floating candles come in?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_cVFhCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer bulk floating candles in two main sizes: 1.75\" x 1\" and 3\" x 1\". The smaller size works well for compact bowls and clustered table designs, while the larger size gives you a fuller focal point in wider vessels and more open displays.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_ykeVbb": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_fVaWkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What colors are available in your floating candle collection?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_xVMDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>White and ivory are our main floating candle colors. These are the shades most customers choose for weddings, receptions, spas, restaurants, and event décor because they pair easily with glass, florals, greenery, and neutral linens.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_68L9WH": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_63Jihh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How long do your floating candles burn?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_dttHE3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our floating candles burn for about 5 to 8 hours, depending on the size. That makes them a strong choice for dinners, receptions, and evening events where you want steady candlelight without frequent replacement.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_zbiA3h": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_qWD4dK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which floating candle size is best for centerpieces?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_p8DF7h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose the 1.75-inch size for smaller bowls, tighter table layouts, and multi-vessel centerpieces. Choose the 3-inch size when you want the candle to stand out more clearly or when the vessel needs a larger visual anchor.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_kCRbqR": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_3hjEdX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do your floating candles leave residue in bowls or vases?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_tg7U8D": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No. Our floating candles are designed for a clean burn and do not leave cloudy residue or a heavy wax mess in bowls and glass containers. That makes cleanup easier and helps keep reusable vessels looking fresh.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_hBb4xU": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_zEFtrx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What pack sizes do you offer for bulk floating candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_WLE37x": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer several pack formats so customers can order for smaller events or larger-scale décor needs. That includes high-count options for the smaller floating candles and medium-size sets for the larger 3-inch format.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_HFcPKi": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_xpCGnV": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are floating candles a good choice for weddings and special events?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_jpRbxP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Floating candles are one of the easiest ways to create elegant candlelight in bowls, vases, and water-based centerpieces. They are especially popular for weddings, receptions, spa-style décor, and venues that want a softer, more reflective look.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_N9RXnr": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_cJKMbN": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I use bulk floating candles for larger events and keep the look consistent?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_739mUW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Floating candles are a practical option for larger events because you can repeat the same bowl or vase formula across many tables. Sticking with one size and one color usually creates the cleanest and most polished result.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_tVCVXf": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_dkYnaT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do you offer wholesale floating candles for planners and repeat buyers?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_GXNwxV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Our floating candles are a strong fit for event planners, venues, stylists, and repeat-use buyers who need dependable candle inventory in larger quantities. Bulk ordering also helps keep the overall look more uniform across the event.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_x4GN8r": {
+          "type": "spacer",
+          "settings": {
+            "space": 16
+          }
+        },
+        "subheading_ENrdkz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How do I choose between white and ivory floating candles?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_fDGAFa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose white for a brighter, crisper centerpiece look, and choose ivory for a warmer and softer finish. If your décor includes champagne, cream, blush, or warmer metallics, ivory often blends more naturally into the overall design.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_L8mYri",
+        "heading_MrGjAB",
+        "border_JMAjFR",
+        "text_phgQQw",
+        "spacer_6THxWy",
+        "subheading_jRWLhL",
+        "text_cVFhCr",
+        "spacer_ykeVbb",
+        "subheading_fVaWkq",
+        "text_xVMDY7",
+        "spacer_68L9WH",
+        "subheading_63Jihh",
+        "text_dttHE3",
+        "spacer_zbiA3h",
+        "subheading_qWD4dK",
+        "text_p8DF7h",
+        "spacer_kCRbqR",
+        "subheading_3hjEdX",
+        "text_tg7U8D",
+        "spacer_hBb4xU",
+        "subheading_zEFtrx",
+        "text_WLE37x",
+        "spacer_HFcPKi",
+        "subheading_xpCGnV",
+        "text_jpRbxP",
+        "spacer_N9RXnr",
+        "subheading_cJKMbN",
+        "text_739mUW",
+        "spacer_tVCVXf",
+        "subheading_dkYnaT",
+        "text_GXNwxV",
+        "spacer_x4GN8r",
+        "subheading_ENrdkz",
+        "text_fDGAFa"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "blog_posts_KyqC93": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_JYzipp": {
+          "type": "article",
+          "settings": {
+            "article": "news/best-wholesale-candles-event-planners"
+          }
+        },
+        "article_DGB8aJ": {
+          "type": "article",
+          "settings": {
+            "article": "news/benefits-of-unscented-candles-for-events"
+          }
+        },
+        "article_bxie9B": {
+          "type": "article",
+          "settings": {
+            "article": "news/how-to-buy-candles-in-bulk"
+          }
+        }
+      },
+      "block_order": [
+        "article_JYzipp",
+        "article_DGB8aJ",
+        "article_bxie9B"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "subheading": "",
+        "button_link": "",
+        "link_text": "View all posts",
+        "display_type": "selected",
+        "blog": "",
+        "max_articles": 3,
+        "show_tags": true,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_featured_image": true,
+        "aspect_ratio": "landscape",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "collection_list_grid_Xm9HjP": {
+      "type": "collection-list-grid",
+      "blocks": {
+        "collection_6bDfrc": {
+          "type": "collection",
+          "settings": {
+            "collection": "wholesale-bulk-pillar-candles",
+            "alt_text": "bulk pillar candles wholesale"
+          }
+        },
+        "collection_MdXnq9": {
+          "type": "collection",
+          "settings": {
+            "collection": "wholesale-bulk-taper-candles",
+            "alt_text": "wholesale taper candles"
+          }
+        },
+        "collection_C86zkA": {
+          "type": "collection",
+          "settings": {
+            "collection": "wholesale-bulk-tea-light-candles",
+            "alt_text": "bulk tea light candles"
+          }
+        },
+        "collection_9iEpqp": {
+          "type": "collection",
+          "settings": {
+            "collection": "bulk-wedding-candles",
+            "alt_text": "bulk candles for wedding"
+          }
+        }
+      },
+      "block_order": [
+        "collection_6bDfrc",
+        "collection_MdXnq9",
+        "collection_C86zkA",
+        "collection_9iEpqp"
+      ],
+      "settings": {
+        "heading": "Popular Collections",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "1",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "newsletter_with_image_MtKMA3": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_wWQLHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_TA6FTL": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.<br/><br/></p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWQLHF",
+        "newsletter_signup_TA6FTL"
+      ],
+      "settings": {
+        "spacing_mode": "compact",
+        "alignment": "center",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_4mVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "natural",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Free Shipping",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Satisfaction Guaranteed",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Buy More, Save More",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-75",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "multi_column_qNHELR",
+    "image_hero_tVGHBz",
+    "image_with_text_YFy6rM",
+    "image_with_text_k3UzGw",
+    "image_with_text_gXMNDn",
+    "image_with_text_nLE3fU",
+    "image_with_text_jFC67D",
+    "rich_text_ccb93b",
+    "image_hero_gyLjgx",
+    "custom_liquid_hWwMKB",
+    "rich_text_p7D8ce",
+    "blog_posts_KyqC93",
+    "collection_list_grid_Xm9HjP",
+    "newsletter_with_image_MtKMA3",
+    "multi_column_4mVeph"
+  ]
+}

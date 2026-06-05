@@ -1,0 +1,616 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "image_hero_Xq3zpq": {
+      "type": "image-hero",
+      "blocks": {
+        "accent_MWNYa4": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "text_XjXBht": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It's not just a candle.</p>",
+            "text_font_class": "fs-body-200"
+          }
+        },
+        "heading_cnhnij": {
+          "type": "heading",
+          "settings": {
+            "title": "It's an atmosphere.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "button_ntdiWg": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections/all",
+            "link_text": "Shop all candles",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "accent_MWNYa4",
+        "text_XjXBht",
+        "heading_cnhnij",
+        "button_ntdiWg"
+      ],
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/Close_Up.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "flex-start_flex-start",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_xaeR7L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FwKtnB": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us",
+            "heading_tag": "h1",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FwKtnB"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "accent_qRqtcb": {
+          "type": "accent",
+          "settings": {
+            "accent": "OUR PROMISE"
+          }
+        },
+        "border_PecKVU": {
+          "type": "border",
+          "settings": {}
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Love the candles you light.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qRqtcb",
+        "border_PecKVU",
+        "block-1"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/About_Page.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "accent_ixzV83": {
+          "type": "accent",
+          "settings": {
+            "accent": "OUR MISSION"
+          }
+        },
+        "border_hCeE9Y": {
+          "type": "border",
+          "settings": {}
+        },
+        "6a4f5d32-f759-4a1c-942b-4c3e1f87ecc9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To provide candles that bring delight and are a joy to use.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "accent_ixzV83",
+        "border_hCeE9Y",
+        "6a4f5d32-f759-4a1c-942b-4c3e1f87ecc9"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Restrant_Candles.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "accent_zVyPFi": {
+          "type": "accent",
+          "settings": {
+            "accent": "WHAT DOES THIS LOOK LIKE IN REAL LIFE?"
+          }
+        },
+        "block-1": {
+          "type": "border",
+          "settings": {}
+        },
+        "block-4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We insist on only carrying candles of superior quality. That means they burn evenly. No drips or smoking. No flickering or popping. No waxy odor. </p><p><strong>Ignite beauty. Conveniently</strong>.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "accent_zVyPFi",
+        "block-1",
+        "block-4"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/best-wholesale-candles-for-event-planners_2c2c36fe-b2e6-4999-91e4-c7eb202b725c.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_zjyjpk": {
+      "type": "image-with-text",
+      "blocks": {
+        "accent_rxQKCd": {
+          "type": "accent",
+          "settings": {
+            "accent": "OUR HISTORY"
+          }
+        },
+        "border_tEG4Qn": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_WkjEDB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kisco has its origins in the small, cozy town of Mount Kisco, NY. This quaint suburban city, set apart from the monstrous urbanity of New York, holds many precious childhood memories. Happy times. Memories of family. Memories of friends. But more than the details of our childhood—which have gone fuzzy over the years—we cherish the essence of Mount Kisco, which remains with us until today. The warmth and nostalgia of this intimate community and the slow-paced suburban life. </p><p>Kisco’s mission is to bring the same warmth and nostalgia to your weddings, homes, and romantic dinner tables illuminating your precious memories forever. Kisco aims to provide you with candles that  spark joy, ambiance, and magical moments.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "accent_rxQKCd",
+        "border_tEG4Qn",
+        "text_WkjEDB"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Group_98.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_ptMQEK": {
+      "type": "image-with-text",
+      "blocks": {
+        "accent_eepBXD": {
+          "type": "accent",
+          "settings": {
+            "accent": "HOW DID WE GET HERE?"
+          }
+        },
+        "border_qajqtf": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_AtAYz9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>2002:</strong> We’re selling one type of candle, delivering each one personally to the customer.</p><p><strong>2010:</strong> We’re distributing to tens of brick and mortar stores in the tri-state area</p><p><strong>2014:</strong> We’re selling online on multiple platforms, such as Amazon, eBay and Walmart</p><p><strong>2020:</strong> We’re distributing hundreds of candles weekly out of our multiple warehouses.</p><p><strong>2022:</strong> We’ve got our own website! Now we can provide customers with our pick of premium brands, plus our signature service and pricing.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "accent_eepBXD",
+        "border_qajqtf",
+        "text_AtAYz9"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/Group_99.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_GeT4FV": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_UKqi6h": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/1_49de9165-7fac-4c91-9f36-eacd6b35e0d1.gif",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "NEVER COMPROMISE ON QUALITY",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>We believe that there’s nothing more beautiful than a glowing candle and nothing more distasteful than ugly wax globs, smelly soot, and waxy odors.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_XHghkg": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/2_8f3ea0dd-8902-4cb0-9dfa-3f0093b91ed6.gif",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "TREAT CUSTOMERS LIKE FAMILY",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>That means on-time deliveries, responsiveness, and stellar customer service. And if you aren’t 100% happy with your purchase —you’ll get free shipping and returns.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_W73Gh6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/3_387e0bb7-c253-4e90-b9e9-f652ac48cf5a.gif",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "ALWAYS FIND WAYS TO IMPROVE",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>We are never satisfied with the status quo and are constantly refreshing our selection and adding more eco-friendly lines.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_UKqi6h",
+        "image_column_XHghkg",
+        "image_column_W73Gh6"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "<p>EVERY SUCCESSFUL BUSINESS STANDS ON ITS VALUES. WHAT ARE KISCO’S?</p>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_EyzPef": {
+      "type": "image-hero",
+      "blocks": {
+        "accent_4wwB9e": {
+          "type": "accent",
+          "settings": {
+            "accent": "GET THE FINEST IN CANDLES."
+          }
+        },
+        "heading_qE7AxT": {
+          "type": "heading",
+          "settings": {
+            "title": "It’s the simple things in life that bring the most joy.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "button_nHpnjq": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/about",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "accent_4wwB9e",
+        "heading_qE7AxT",
+        "button_nHpnjq"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "image": "shopify://shop_images/wholesale-event-supplies.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "multi_column_UJWMtg": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_GmQRaN": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "FREE SHIPPING",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_aFYntP": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "SATISFACTION GUARANTEED",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>If you aren’t 100% obsessed with your candles, you can send them back. Free shipping and returns.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_gUr3F6": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "BUY MORE, SAVE MORE",
+            "heading": "",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_GmQRaN",
+        "image_column_aFYntP",
+        "image_column_gUr3F6"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "center",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "custom_liquid_zBwH9F": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": [\"Organization\", \"AboutPage\", \"WholesaleStore\"],\n  \"name\": \"About Us – Kisco Candles\",\n  \"alternateName\": \"Kisco\",\n  \"url\": \"https://kiscocandles.com/pages/about\",\n  \"logo\": \"https://kiscocandles.com/cdn/shop/files/Logo.svg?v=1714200371\",\n  \"description\": \"Learn about Kisco Candles\",\n  \"telephone\": \"732-405-3566\",\n  \"priceRange\": \"$$\",\n  \"image\": \"https://kiscocandles.com/cdn/shop/files/Logo.svg?v=1714200371\",\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"732-405-3566\",\n    \"contactType\": \"customer service\",\n    \"areaServed\": \"US\",\n    \"availableLanguage\": \"en\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"4475 South Clinton Ave\",\n    \"addressLocality\": \"South Plainfield\",\n    \"addressRegion\": \"NJ\",\n    \"postalCode\": \"07080\",\n    \"addressCountry\": \"US\"\n  },\n  \"sameAs\": [\n    \"https://www.facebook.com/people/Kisco-Candles/100089858626778/\"\n  ],\n  \"foundingDate\": \"2002\"\n}\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_hero_Xq3zpq",
+    "rich_text_xaeR7L",
+    "image-with-text-1",
+    "image-with-text-2",
+    "image-with-text-3",
+    "image_with_text_zjyjpk",
+    "image_with_text_ptMQEK",
+    "multi_column_GeT4FV",
+    "image_hero_EyzPef",
+    "multi_column_UJWMtg",
+    "custom_liquid_zBwH9F"
+  ]
+}

@@ -1,0 +1,26 @@
+{%- liquid
+  assign reviews = prod.metafields.reviews
+  assign rating_count = 0
+
+  if reviews.rating_count != blank
+    assign rating_count = reviews.rating_count
+  endif
+
+  assign rating = 0
+  if reviews.rating.value != blank and reviews.rating.value.scale_max != blank
+    # normalize on a 0-5 scale
+    assign rating = reviews.rating.value.rating | times: 5.0 | divided_by: reviews.rating.value.scale_max | round: 1
+  endif
+-%}
+
+{%- comment -%}{%- if rating_count > 0 -%}{%- endif -%}{%- endcomment -%}
+  <div class="product-rating {{ variant }}">
+    <div class="areviews_header_stars"></div>
+    {%- comment -%}
+    {%- if is_ask and is_ask == 'yes' -%}
+    <div class="ask_question product-chips-options__item--chip">
+      <a href="javascript:void(0);"><span class="ask-button">{% render 'icon-editorial' with icon: "info" %}Ask A Question</span></a>
+    </div>
+    {%- endif -%}
+    {%- endcomment -%}
+  </div>

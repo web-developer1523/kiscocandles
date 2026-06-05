@@ -1,0 +1,1288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.image }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": true,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "multi_column_qNHELR": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_zknjap": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/european.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "European Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_LWJkrf": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/plant.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Plant Based Wax",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_w84Grr": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/cotton.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Braided Cotton Wicks",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_WEJgMU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/eco.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "Eco-friendly Packaging",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_zknjap",
+        "image_column_LWJkrf",
+        "image_column_w84Grr",
+        "image_column_WEJgMU"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_tVGHBz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_R3QcJJ": {
+          "type": "heading",
+          "settings": {
+            "title": "GET THE FINEST IN CANDLES.",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_VNnGVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s The Simple Things In Life That Bring The Most Joy.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_wCDWMb": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Shop Now",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_R3QcJJ",
+        "text_VNnGVL",
+        "button_wCDWMb"
+      ],
+      "custom_css": [
+        ".image-hero__text-container p {font-size: 16px;}",
+        ".image-hero__inner .image-hero__text-container {background: RGBA(0, 0, 0, 0.54);}",
+        "@media (max-width: 540px) {.image-hero__inner .image-hero__text-container {background: none; } .image-hero__overlay {opacity: 0.6 !important; } .image-hero__inner .image-hero__text-container h2 {font-size: 18px; letter-spacing: 0.1rem; font-family: \"Montserrat\", sans-serif; }}"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 25,
+        "mobile_height": 25,
+        "image": "shopify://shop_images/bulk-pillar-candles_152d06e5-832c-4530-9fde-2a927f490af6.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "multi_column_84X4lU": {
+      "type": "multi-column",
+      "custom_css": [
+        ".multi-column__grid {display: none;}",
+        " {margin-top: 40px;}"
+      ],
+      "settings": {
+        "title": "Illuminate Your Event or Space with Wholesale Bulk Pillar Candles",
+        "class": "coll-howto",
+        "heading_tag": "h2",
+        "subheading": "<p>Lighting sets the tone, and Kisco’s wholesale bulk pillar candles ensure it’s unforgettable. These <a href=\"https://kiscocandles.com/collections/unscented-candles\"><span style=\"text-decoration:underline\">unscented candles</span></a> let the focus stay on your event or service, whether it’s an elegant reception or a quiet church gathering. With their steady burn and drip-free design, they’re built to handle the demands of busy event schedules without creating extra cleanup. Available in bulk, they’re a practical and sophisticated choice for any business or event planner who values quality and reliability.</p>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_hdJB8g": {
+      "type": "multi-column",
+      "disabled": true,
+      "custom_css": [
+        ".multi-column__grid {display: none;}"
+      ],
+      "settings": {
+        "title": "Discover the Perks of Kisco Candles' Wholesale Program",
+        "class": "coll-howto",
+        "heading_tag": "h2",
+        "subheading": "<p>When it comes to stocking up on pillar candles at wholesale prices, Kisco Candles makes it effortless. Our wholesale program gives event planners and businesses unmatched value and convenience:</p><ul><li>Unlock <strong>exclusive discounts</strong> on large orders.</li><li>Enjoy the<strong> flexibility to customize bulk purchases</strong> for weddings, events, and commercial needs.</li><li>Count on <strong>fast, reliable shipping</strong> with seamless bulk order fulfillment.</li><li>Experience our <strong>top-tier customer service and support</strong> for your large-scale events.</li></ul>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "1",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_93ykW6": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_YKmJmp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Made for Moments That Matter",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_bfhm7H": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_eRH6kB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A great candle does more than light a space—it creates an atmosphere people remember. That’s why churches turn to Kisco’s bulk pillar candles to keep services serene and meaningful without worrying about messy wax or overpowering scents. For event planners, these candles offer the kind of reliability you need for big moments, whether it’s a wedding reception or a banquet hall filled with guests. Businesses love them too, knowing they can count on a product that looks elegant, lasts long, and holds up under pressure. Whatever your need, these candles deliver with ease and style.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YKmJmp",
+        "border_bfhm7H",
+        "text_eRH6kB"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/bulk-pillar-candles.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_jjAQid": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Rccdqr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Reliable and Elegant: Features of Kisco’s Pillar Candles",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_qiLAQH": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_nrBxER": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every detail matters when selecting candles for professional use, and Kisco’s pillar candles are packed with features that make them stand out. From their drip-free design to their long burn times, these candles deliver reliability and elegance in equal measure. Available in unscented options and a range of sizes, they’re perfectly suited for large-scale events, daily use in a variety of settings.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Rccdqr",
+        "border_qiLAQH",
+        "text_nrBxER"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/pillar-candles-wholesale_5c858bed-b9ca-4dae-9006-6b35fb0f87be.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_E8kRRt": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_MxeKGE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shop Wholesale Pillar Candles in Bulk",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_cK3pYK": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_cHyrdc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Planning an event or outfitting a venue? Our wholesale pillar candles offer the ideal blend of performance and visual impact. Designed for those who need reliable quality in high volumes, these candles deliver consistent, elegant lighting in any setting, such as ceremonies, receptions, restaurants, or long-format dinners.</p><p>With a wide range of sizes and diameters, you can mix and match heights to build depth and structure into your décor. From tight table clusters to large-scale arrangements, our pillar candles bulk collection gives you the flexibility to design without limitations.</p><p>Get more candles for less. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MxeKGE",
+        "border_cK3pYK",
+        "text_cHyrdc"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/2x4-pillar-candles.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_iG6Dfd": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_gdb3Rd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why Choose Kisco for Wholesale Pillar Candles",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_cQRAqC": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_k8W3F9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Kisco, we source our products directly from top European manufacturers, known for their exceptional quality and clean design. Every candle is crafted to burn evenly, hold its shape, and complement any setting, without smoke, dripping, or waste.</p><p>Event planners, hospitality teams, and design professionals rely on our candles to perform under pressure. We maintain deep inventory and fast fulfillment to support your timeline. Looking for cheap pillar candles in bulk that don’t look or act cheap? You’ve found them.</p><p>Save time, reduce stress, and deliver polished results every time. Place your order today and see why Kisco is the go-to source for bulk candle supply.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gdb3Rd",
+        "border_cQRAqC",
+        "text_k8W3F9"
+      ],
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/unscented-pillar-candles.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_with_text_RAaxgD": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_TVNV3D": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Wholesale Pillar Candles with Clean, Long-Lasting Burn",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "border_bKghUm": {
+          "type": "border",
+          "settings": {}
+        },
+        "text_rzFdmy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Long events need long-burning candles. Our pillar candles bulk collection features high-performance wax blends and well-balanced wicks for a burn that lasts—and looks good doing it. No sagging. No tunneling. Just steady, dependable light from start to finish.</p><p>Available in multiple widths and heights, these wholesale pillar candles are a favorite for multi-hour events, indoor décor, and professional setups where the flame needs to last the entire evening. Each candle is unscented, making them perfect for food service and scent-sensitive environments.</p><p>Shop long-burning pillar options in bulk and light your space with confidence.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_TVNV3D",
+        "border_bKghUm",
+        "text_rzFdmy"
+      ],
+      "custom_css": [
+        "img {border-radius: 50%;}"
+      ],
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/pillar-candles.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "top",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image_hero_gzLjgz": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_V3trMR": {
+          "type": "heading",
+          "settings": {
+            "title": "Sign up for Your Wholesale Account",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_y6Nnxf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By partnering with Kisco, you enjoy premium quality at unbeatable prices. Let us help make your events shine with affordable elegance.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_QUbFdy": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/pages/wholesale",
+            "link_text": "CREATE A WHOLESALE ACCOUNT",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V3trMR",
+        "text_y6Nnxf",
+        "button_QUbFdy"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 25,
+        "mobile_height": 25,
+        "image": "shopify://shop_images/pillar-candles-wholesale.png",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 13,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "multi_column_qrGPjq": {
+      "type": "multi-column",
+      "blocks": {
+        "column_hX9g7f": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Minimal Drips, Maximum Elegance",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Wax dripping onto tablecloths or floors isn’t just messy—it’s distracting. That’s why Kisco’s pillar candles are crafted to burn cleanly, ensuring your surfaces stay pristine. Their drip-free design adds a layer of reliability, whether they’re used at a formal ceremony or in a retail display.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_xqxMq3": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "A Long Burn for Long-Lasting Impact",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Kisco’s bulk pillar candles are built to last, offering hours of steady, reliable light. For events that stretch into the night or church services where candles are central to tradition, this long-lasting burn ensures you won’t be left scrambling for replacements.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_MFfABt": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Bulk Options for Large-Scale Use",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>With options in a variety of sizes and unscented finishes, these pillar candles are designed to meet the demands of professional buyers. Whether you’re stocking shelves, hosting an event, or preparing for regular ceremonies, the flexibility and quality of these candles make them a standout choice.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_hX9g7f",
+        "column_xqxMq3",
+        "column_MFfABt"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "class": "coll-howto",
+        "heading_tag": "h3",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "small",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 4,
+        "row_spacing_mobile": 4,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    },
+    "image_hero_bVXrJA": {
+      "type": "image-hero",
+      "blocks": {
+        "heading_rbKkW6": {
+          "type": "heading",
+          "settings": {
+            "title": "Wholesale Bulk Pillar Candles: Easy to Order, Easy to Trust",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_htqMc8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Kisco, we make buying wholesale bulk pillar candles simple and stress-free. Our streamlined wholesale portal is designed to help you find exactly what you need, with options to suit events, churches, and businesses of all sizes. Enjoy the convenience of bulk pricing, flexible order quantities, and fast, reliable delivery. Whether you’re stocking shelves or planning a large ceremony, you can count on Kisco to provide high-quality candles that meet your needs without compromise.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_kDkMbB": {
+          "type": "button",
+          "settings": {
+            "link": "https://kiscocandles.com/collections/wholesale-bulk-candles",
+            "link_text": "SHOP ALL BULK CANDLES",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rbKkW6",
+        "text_htqMc8",
+        "button_kDkMbB"
+      ],
+      "custom_css": [
+        "p {font-size: 16px;}",
+        ".image-hero__text-container {background: RGBA(0, 0, 0, 0.54);}",
+        "h2 {font-size: 18px; letter-spacing: 0.1rem; font-family: \"Montserrat\", sans-serif; margin: 5% 5% 3%;}",
+        "@media (min-width: 540px) {.image-hero__inner .image-hero__text-container {width: 600px; height: 600px; padding: 30px; }}",
+        "@media (max-width: 540px) {.image-hero__text-container {background: none; } .image-hero__overlay {opacity: 0.6 !important; } h2 {font-size: 18px; letter-spacing: 0.1rem; font-family: \"Montserrat\", sans-serif; }}"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 40,
+        "mobile_height": 35,
+        "image": "shopify://shop_images/unscented-wholesale-pillar-candles.jpg",
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "custom_liquid_9aNKBA": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"What makes Kisco’s pillar candles ideal for churches and events?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Kisco’s pillar candles are dripless, unscented, and long-burning, making them perfect for creating a clean, peaceful ambiance during church services, weddings, and formal gatherings. Their elegant design fits seamlessly into any setting, while their reliability ensures they’ll last throughout your event.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Can I customize bulk orders with specific sizes or colors?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Yes, Kisco offers flexibility when ordering in bulk. Choose from a variety of sizes and colors to match the specific needs of your event, ceremony, or retail offering. Contact our team for special requests or assistance with customization.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Are the pillar candles made for extended use?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Absolutely. Our wholesale bulk pillar candles are crafted to provide hours of consistent burn time, making them an excellent choice for events or services that run long. Their steady glow ensures you won’t need frequent replacements.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"How do I access Kisco’s wholesale pricing?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"To access wholesale pricing, sign up through our easy-to-use wholesale portal. Once registered, you’ll have access to exclusive bulk discounts, flexible order options, and dedicated support to meet your specific needs.\"\n    }\n  }]\n}\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "rich_text_p7D8ce": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MrGjAB": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions About Wholesale Bulk Pillar Candles",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_phgQQw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have questions about Kisco’s wholesale bulk pillar candles? Here are the answers you need to make an informed purchase decision.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "border_JMAjFR": {
+          "type": "border",
+          "settings": {}
+        },
+        "subheading_jRWLhL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What sizes do your bulk pillar candles come in?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "text_cVFhCr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer bulk pillar candles in several widths and height combinations so you can match the candle to the scale of the display. Our assortment includes 2-inch, 2.25-inch, 2.75-inch, and 3-inch wide options, along with mixed-height sets for layered arrangements.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_zMPG6w": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_fVaWkq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What colors are available in your bulk pillar candle collection?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_xVMDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>White and ivory are our main pillar candle colors. These are the two shades most customers choose for weddings, churches, restaurants, memorial settings, and classic event décor because they work with a wide range of palettes and presentation styles.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_HJbhYP": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_63Jihh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How do I choose the right pillar candle size for my event?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_dttHE3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose smaller pillar sizes for tighter tables, grouped accents, and compact décor, and larger pillars for statement centerpieces, ceremony styling, and more open spaces. Mixed-height groupings are often the best choice when you want the arrangement to feel fuller and more intentional.<br/><br/></p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_arCY9p": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_q7RzEY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are pillar candles a good fit for weddings and formal events?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_BpeEzb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Pillar candles are one of the most versatile choices for weddings and formal events because they add height, warmth, and visual structure without taking over the table. They work especially well in centerpieces, entry displays, ceremony décor, and reception styling.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_E94XKN": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_y7jTEQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Do your pillar candles work well in churches and religious spaces?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_VjY9cW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Pillar candles are a strong option for churches, chapels, and devotional spaces because they offer a classic shape and a longer burn than smaller candle formats. They are also easy to arrange in pairs or grouped sets for altars, services, and ceremonial displays.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_wnT4jU": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_LfzFVm": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I use bulk pillar candles in restaurants and hospitality settings?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_zkPxAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Restaurants and hospitality spaces often use pillar candles for host stands, dining tables, event rooms, and lounge areas because the format looks polished and has more presence than smaller candles. They are a dependable choice when the candle needs to read clearly in a larger room.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_dpJLra": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_3yPTCQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Are your bulk pillar candles made for longer events?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_QqwxkW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Pillar candles are a smart choice for events and services that run for several hours because their shape and wax volume support longer use. They are especially useful for receptions, dinners, churches, and venues that need a candle format with more staying power.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_P4JjwK": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_fKJQXR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Can I mix different pillar sizes in one order?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_UrTxfD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes. Mixing pillar sizes is one of the easiest ways to build depth into a centerpiece or display. Many customers combine more than one height so the arrangement feels layered and finished while still keeping the same overall color story.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_kp8Eif": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_X4XdyL": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What is the best way to style pillar candles for a centerpiece?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_K3mMrc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use a mix of heights and keep the color palette consistent. Grouping pillar candles in twos or threes on trays, risers, or sturdy holders usually creates a cleaner and more balanced look than using one size alone.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        },
+        "spacer_eG8QX6": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_8KrV9d": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why buy bulk pillar candles from Kisco Candles instead of smaller retail packs?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_dhePaL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buying in bulk makes planning easier when you need matching sizes and colors across an event or venue. It also helps keep the visual finish more consistent and reduces the hassle of piecing together multiple smaller packs from different sources.</p>",
+            "text_font_class": "fs-body-75"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MrGjAB",
+        "text_phgQQw",
+        "border_JMAjFR",
+        "subheading_jRWLhL",
+        "text_cVFhCr",
+        "spacer_zMPG6w",
+        "subheading_fVaWkq",
+        "text_xVMDY7",
+        "spacer_HJbhYP",
+        "subheading_63Jihh",
+        "text_dttHE3",
+        "spacer_arCY9p",
+        "subheading_q7RzEY",
+        "text_BpeEzb",
+        "spacer_E94XKN",
+        "subheading_y7jTEQ",
+        "text_VjY9cW",
+        "spacer_wnT4jU",
+        "subheading_LfzFVm",
+        "text_zkPxAB",
+        "spacer_dpJLra",
+        "subheading_3yPTCQ",
+        "text_QqwxkW",
+        "spacer_P4JjwK",
+        "subheading_fKJQXR",
+        "text_UrTxfD",
+        "spacer_kp8Eif",
+        "subheading_X4XdyL",
+        "text_K3mMrc",
+        "spacer_eG8QX6",
+        "subheading_8KrV9d",
+        "text_dhePaL"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collection_list_grid_BXtdKG": {
+      "type": "collection-list-grid",
+      "blocks": {
+        "collection_jzB4aB": {
+          "type": "collection",
+          "settings": {
+            "collection": "wholesale-bulk-floating-candles",
+            "alt_text": "floating candles bulk"
+          }
+        },
+        "collection_MbzC8C": {
+          "type": "collection",
+          "settings": {
+            "collection": "wholesale-bulk-taper-candles",
+            "alt_text": "wholesale taper candles"
+          }
+        },
+        "collection_9xG68r": {
+          "type": "collection",
+          "settings": {
+            "collection": "wholesale-bulk-tea-light-candles",
+            "alt_text": "bulk tea light candles"
+          }
+        },
+        "collection_qNC8ic": {
+          "type": "collection",
+          "settings": {
+            "collection": "bulk-wedding-candles",
+            "alt_text": "bulk candles for wedding"
+          }
+        }
+      },
+      "block_order": [
+        "collection_jzB4aB",
+        "collection_MbzC8C",
+        "collection_9xG68r",
+        "collection_qNC8ic"
+      ],
+      "settings": {
+        "heading": "Popular Collections",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "1",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "overlay",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "newsletter_with_image_MtKMA3": {
+      "type": "newsletter-with-image",
+      "blocks": {
+        "image_wWQLHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fpo-image-2-1.png",
+            "image_size": 600,
+            "image_size_mobile": 200
+          }
+        },
+        "newsletter_signup_TA6FTL": {
+          "type": "newsletter_signup",
+          "settings": {
+            "heading": "Light Up Your Day",
+            "content": "<p>Get lit, Join to get lit details, free giveaways, and more.</p>",
+            "signup_link_text": "Join",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wWQLHF",
+        "newsletter_signup_TA6FTL"
+      ],
+      "settings": {
+        "spacing_mode": "between",
+        "alignment": "left",
+        "focal_point": "image_presentation",
+        "focal_point_mobile": "image_presentation",
+        "background_color": "#f5f5f5",
+        "text_color": "#000000",
+        "input_color": "#000000",
+        "input_background": "#ffffff",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "multi_column_4mVeph": {
+      "type": "multi-column",
+      "blocks": {
+        "image_column_iUhtPB": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_71.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "FREE SHIPPING",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Free shipping on all orders nationwide.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_YbDNfe": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_69.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "SATISFACTION GUARANTEED",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Not happy with your order ? Yes we accept returns , Please read the refund policy for terms.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_column_Pj6h7m": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify://shop_images/Group_75.png",
+            "image_width": 50,
+            "aspect_ratio": "square",
+            "enable_image_crop_circle": false,
+            "focal_point": "image_presentation",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "BUY MORE, SAVE MORE",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>The more you purchase, the bigger the discount.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_column_iUhtPB",
+        "image_column_YbDNfe",
+        "image_column_Pj6h7m"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "left",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "3",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-only"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "multi_column_qNHELR",
+    "image_hero_tVGHBz",
+    "multi_column_84X4lU",
+    "multi_column_hdJB8g",
+    "image_with_text_93ykW6",
+    "image_with_text_jjAQid",
+    "image_with_text_E8kRRt",
+    "image_with_text_iG6Dfd",
+    "image_with_text_RAaxgD",
+    "image_hero_gzLjgz",
+    "multi_column_qrGPjq",
+    "image_hero_bVXrJA",
+    "custom_liquid_9aNKBA",
+    "rich_text_p7D8ce",
+    "collection_list_grid_BXtdKG",
+    "newsletter_with_image_MtKMA3",
+    "multi_column_4mVeph"
+  ]
+}

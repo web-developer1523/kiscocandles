@@ -1,0 +1,108 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:groups.footer_group.name",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "text",
+          "settings": {
+            "desktop_width": 18,
+            "desktop_padding": 0,
+            "collapse_on_mobile": false,
+            "title": "",
+            "show_title_on_desktop": false,
+            "text": "<p>{% render 'icon', icon: 'f-location' %}               \n                    4475 South Clinton Ave,\n                    South Plainfield NJ, 07080</p>\n                    <p><a href=\"tel:732 405 3566\">{% render 'icon', icon: 'f-call' %} 732 405 3566</a></p>\n                     <p><a href=\"mailto:support@kiscocandles.com\">{% render 'icon', icon: 'f-email' %}  support@kiscocandles.com</a></p>",
+            "image": "shopify://shop_images/logo-footer.svg",
+            "image_max_width": 200,
+            "image_placement": "above_text",
+            "show_social_icons": false,
+            "enable_follow_on_shop": false
+          }
+        },
+        "footer-1": {
+          "type": "spacer",
+          "settings": {
+            "desktop_width": 5
+          }
+        },
+        "footer-2": {
+          "type": "links",
+          "settings": {
+            "desktop_width": 18,
+            "desktop_padding": 4,
+            "collapse_on_mobile": true,
+            "title": "Collection",
+            "show_title_on_desktop": true,
+            "link_list": "footer-collection-new"
+          }
+        },
+        "links_jXnFNQ": {
+          "type": "links",
+          "settings": {
+            "desktop_width": 18,
+            "desktop_padding": 4,
+            "collapse_on_mobile": true,
+            "title": "Bulk Collection",
+            "show_title_on_desktop": true,
+            "link_list": "footer-bulk-collections"
+          }
+        },
+        "footer-3": {
+          "type": "links",
+          "settings": {
+            "desktop_width": 15,
+            "desktop_padding": 4,
+            "collapse_on_mobile": true,
+            "title": "Information",
+            "show_title_on_desktop": true,
+            "link_list": "footer-information-new"
+          }
+        },
+        "footer-4": {
+          "type": "newsletter",
+          "settings": {
+            "desktop_width": 25,
+            "desktop_padding": 0,
+            "collapse_on_mobile": false,
+            "title": "Newsletter",
+            "show_title_on_desktop": true,
+            "text": "<p>Subscribe to receive the latest news, exclusive offers and 10% off on your first order.</p>",
+            "show_social_icons": true,
+            "enable_follow_on_shop": false
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2",
+        "links_jXnFNQ",
+        "footer-3",
+        "footer-4"
+      ],
+      "custom_css": [
+        ".footer-social a:hover svg path {fill: #ede3dd;}"
+      ],
+      "settings": {
+        "enable_locale_selector": false,
+        "enable_country_selector": false,
+        "show_payment_icons": true,
+        "additional_copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

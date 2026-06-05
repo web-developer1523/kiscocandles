@@ -1,0 +1,576 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "custom_css": [],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "image": "{{ collection.metafields.custom.header_image.value }}",
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "candle_categories_section_zfn4MJ": {
+      "type": "candle-categories-section",
+      "blocks": {
+        "category_3Hqqdf": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Pillar Candles",
+            "category_image": "shopify://shop_images/Collection_Hero_Professional_Pillar_Candles_1536x960_13afc943-cfac-4388-ad89-96a0a98a3694.png",
+            "category_image_alt": "pillar candles for wedding",
+            "category_collection": "pillar-wedding-candles"
+          }
+        },
+        "category_dg9gqU": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Votive Candles",
+            "category_image": "shopify://shop_images/votive-candles.jpg",
+            "category_image_alt": "votive candles for wedding",
+            "category_collection": "wedding-votive-candles"
+          }
+        },
+        "category_AmqTV9": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Candles",
+            "category_image": "shopify://shop_images/elegant_wedding_candles.jpg",
+            "category_image_alt": "wedding decor candles",
+            "category_collection": "elegant-wedding-candles"
+          }
+        },
+        "category_kgyTrg": {
+          "type": "category",
+          "settings": {
+            "category_name": "Wedding Floating Candles",
+            "category_image": "shopify://shop_images/floating-candles.jpg",
+            "category_image_alt": "floating candles for wedding",
+            "category_collection": "floating-wedding-candles"
+          }
+        }
+      },
+      "block_order": [
+        "category_3Hqqdf",
+        "category_dg9gqU",
+        "category_AmqTV9",
+        "category_kgyTrg"
+      ],
+      "settings": {
+        "section_title": "",
+        "custom_css": "h2 {\n  font-size: 32px;\n}"
+      }
+    },
+    "rich_text_7rY7xm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ezX4dW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "RUSTIC PILLAR CANDLES",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "text_JAGYDP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Discover Rustic Charm with Our Handcrafted Pillar Candles Elevate your ambiance with the natural beauty of rustic pillar candles. Handcrafted to perfection, these candles bring a touch of countryside charm to any space. Whether as a centerpiece or accent, our collection offers a variety of color & sizes and earthy hues. Explore the warmth and elegance of rustic pillar candles and transform your surroundings today.{{ shop.brand.short_description }}{{ shop.brand.short_description }}</p>",
+            "text_font_class": "fs-body-200"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ezX4dW",
+        "text_JAGYDP"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "solid",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": false,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    },
+    "rich_text_mqWQMV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nAWya7": {
+          "type": "heading",
+          "settings": {
+            "title": "Wedding Taper Candles FAQ",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "border_KHdUmt": {
+          "type": "border",
+          "settings": {}
+        },
+        "subheading_g8Me8m": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What taper height works best for most wedding guest tables?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_tejpG4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>10\" x 0.9\" tapers are usually the best fit for most wedding guest tables because they add height without crowding the centerpiece. They give the table a more formal look than shorter tapers, but they still work well with florals and normal guest sightlines.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_wxLKhy": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_emXamJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "When should I choose 11.5-inch tapers instead of 10-inch tapers?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_Bg4BAY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use 11.5\" x 0.9\" tapers when you want a taller, more formal look on a head table, sweetheart table, or entry display. For most guest tables, the 10\" classics are easier to work into the overall centerpiece without the candle taking over the design.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_LRmzJB": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_UfxKDJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "What taper candles work best for lower centerpieces or tighter tables?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_nrdbaf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shorter tapers are usually the better choice when the centerpiece already has height or the table needs a lower flame line. 7\" x 0.8\" tapers from Kisco Candles, along with the shorter white Lerner 6-inch and 7-inch tapers, work well in those setups because they maintain the taper look without adding too much height.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_i9jPPt": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_VRbN9e": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How do I choose between 0.8-inch and 0.9-inch taper candles for a wedding?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_jYKwfU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose 0.9\" tapers if you want the fuller classic dinner-candle look and are using standard taper holders for reception tables. Choose 0.8\" tapers if your holders are slimmer or if you want the candle line to feel lighter in a more delicate centerpiece.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_9PwVcM": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_mJPNaq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Which taper candles are best for a long wedding reception?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_9iR8en": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 10\" x 0.9\" 8-hour bulk tapers are the strongest option when you need the candles to cover dinner and extend well into the evening. They are especially useful for receptions where relighting or replacing candles mid-event would be a hassle.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_hRihMg": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_9aTPgV": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Should I choose white or ivory taper candles for my wedding décor?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_wNGyB9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose white if your tablescape has crisp white linens, brighter flowers, or a more formal contrast-driven look. Choose ivory if your décor leans softer and warmer, especially with cream flowers, champagne tones, or warmer room lighting.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_hKiRJF": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_njrTiy": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "How many wedding taper candles should I order for a reception?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_GTXAgm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Count one taper for each holder on every guest table first, then add the head table, ceremony accents, welcome table, and a small reserve. At Kisco Candles, we carry packs from 10 and 20 up through 100, 120, 200, and 300, so it is much easier to size the order around the room you are actually setting.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_w3kUqi": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_Diq7ca": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Should I keep one taper height across the room or mix heights?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_C64EVP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One main taper height across guest tables usually looks cleaner and more intentional. If you want extra height, it works better to reserve the taller 11.5\" tapers for focal tables rather than mixing several taper heights across every table in the room.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_779MXr": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        },
+        "subheading_WjRphP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Why do couples prefer wedding tapers from Kisco Candles instead of mixing packs from different sellers?",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_hEKikn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buying from Kisco Candles keeps the order more consistent in color, taper width, and case size across the wedding. Our selection makes that easier because the core wedding options repeat across white and ivory classics, bulk 10\" tapers, and longer 11.5\" styles, rather than forcing you to cobble the look together from mismatched assortments. </p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "spacer_mkqYbY": {
+          "type": "spacer",
+          "settings": {
+            "space": 12
+          }
+        }
+      },
+      "block_order": [
+        "heading_nAWya7",
+        "border_KHdUmt",
+        "subheading_g8Me8m",
+        "text_tejpG4",
+        "spacer_wxLKhy",
+        "subheading_emXamJ",
+        "text_Bg4BAY",
+        "spacer_LRmzJB",
+        "subheading_UfxKDJ",
+        "text_nrdbaf",
+        "spacer_i9jPPt",
+        "subheading_VRbN9e",
+        "text_jYKwfU",
+        "spacer_9PwVcM",
+        "subheading_mJPNaq",
+        "text_9iR8en",
+        "spacer_hRihMg",
+        "subheading_9aTPgV",
+        "text_wNGyB9",
+        "spacer_hKiRJF",
+        "subheading_njrTiy",
+        "text_GTXAgm",
+        "spacer_w3kUqi",
+        "subheading_Diq7ca",
+        "text_C64EVP",
+        "spacer_779MXr",
+        "subheading_WjRphP",
+        "text_hEKikn",
+        "spacer_mkqYbY"
+      ],
+      "name": "t:sections.rich_text.presets.name",
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "image_with_text_split_MWzYYW": {
+      "type": "image-with-text-split",
+      "blocks": {
+        "accent_qrEEfb": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "heading_NNh7C7": {
+          "type": "heading",
+          "settings": {
+            "title": "Browse Beautiful Colors and Styles in the Pillar Candles Collection",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-1-base"
+          }
+        },
+        "subheading_j6hYLT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Explore the stunning spectrum of Kisco's pillar candles, where each style tells its story. The shimmer pillar candles bring a luxurious feel, perfect for those special moments, while our more rustic candles offer a homey, inviting atmosphere. With sizes, colors and shapes to suit every occasion, this collection ensures that your chosen candle complements your setting and style.",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-6-base"
+          }
+        },
+        "heading_gMUeVL": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text split",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        }
+      },
+      "block_order": [
+        "accent_qrEEfb",
+        "heading_NNh7C7",
+        "subheading_j6hYLT",
+        "heading_gMUeVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "image_mobile_position": "above-content",
+        "image_padding": "none",
+        "image": "shopify://shop_images/candles-stones-and-towels.jpg",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "content_alignment": "left",
+        "background_color": "#d9a49c",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "scrolling_content_kEU9aj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_9JGyky": {
+          "type": "text",
+          "settings": {
+            "text": "Announce your sale",
+            "fontw": "400",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_9JGyky"
+      ],
+      "disabled": true,
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-body-300",
+        "duration": 4,
+        "direction": "normal",
+        "gap": 50,
+        "padding_top": 5,
+        "padding_bottom": 5,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#ffffff",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "scrolling_content_pKanB6": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_8Yf44L": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-european.png",
+            "text": "Top European quality",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_MBVqhE": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-shipping.png",
+            "text": "Free standard shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_NPtLxT": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-longlasting.png",
+            "text": "Long lasting",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_hEaNfD": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-no-drip.png",
+            "text": "No drip",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        },
+        "text_9yeKiK": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-stock.png",
+            "text": "Large selection In Stock",
+            "fontw": "font-bold",
+            "link": ""
+          }
+        },
+        "text_c9DM8x": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/usp-icon-fast-shipping.png",
+            "text": "Fast And Secure Shipping",
+            "fontw": "font-normal",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8Yf44L",
+        "text_MBVqhE",
+        "text_NPtLxT",
+        "text_hEaNfD",
+        "text_9yeKiK",
+        "text_c9DM8x"
+      ],
+      "custom_css": [
+        ".scrolling-content__inner {--scroll-duration: 20s !important;}"
+      ],
+      "settings": {
+        "font_choice": "ff-heading",
+        "text_font_class": "fs-heading-2-base",
+        "duration": 10,
+        "direction": "normal",
+        "gap": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "borders": "none",
+        "text_color": "#111111",
+        "background_color": "#fcf9f8",
+        "border_color": "#aaaaaa",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "candle_categories_section_zfn4MJ",
+    "rich_text_7rY7xm",
+    "product-grid",
+    "rich_text_mqWQMV",
+    "image_with_text_split_MWzYYW",
+    "scrolling_content_kEU9aj",
+    "scrolling_content_pKanB6"
+  ]
+}

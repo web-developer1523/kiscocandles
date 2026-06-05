@@ -1,0 +1,1026 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product--default",
+      "blocks": {
+        "product_header": {
+          "type": "product_header",
+          "settings": {
+            "show_divider": true,
+            "show_vendor": true,
+            "show_sku": true,
+            "show_discount": true,
+            "discount_format": "percent_off",
+            "show_product_rating": true,
+            "show_sale_badge": true,
+            "show_custom_badges": true
+          }
+        },
+        "product_callouts_mini": {
+          "type": "product_callouts_mini",
+          "settings": {
+            "icon_1": "moving-truck",
+            "text_1": "Fast Shipping",
+            "icon_2": "padlock",
+            "text_2": "Secure payment",
+            "icon_3": "chat",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_popup_option": "",
+            "variant_popup_icon": "measuring-tape",
+            "custom_icon_image": "shopify://shop_images/candle.svg",
+            "variant_popup_text": "Candle Size guide",
+            "variant_popup_page": "colored-pillar-candles",
+            "swatch_size": "small",
+            "chip_layout": "natural"
+          }
+        },
+        "inventory_counter": {
+          "type": "inventory-counter",
+          "settings": {
+            "label": "",
+            "inventory_max": "100",
+            "low_inventory_threshold": "5",
+            "show_status_bar": true,
+            "show_untracked_quantity": false
+          }
+        },
+        "seal_subscriptions_subscription_widget_EpAxCq": {
+          "type": "shopify://apps/seal-subscriptions/blocks/subscription-widget/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_btn_quantity_selector_9tFiq4": {
+          "type": "buy_btn_quantity_selector",
+          "settings": {
+            "show_labels": true,
+            "show_dynamic_checkout": false,
+            "enable_sticky_atc_bar_desktop": true,
+            "enable_sticky_atc_bar_mobile": true,
+            "divider_width": "none"
+          }
+        },
+        "product_callouts-1": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "custom_class": "",
+            "title": "",
+            "title_tag": "h3",
+            "add_box": false,
+            "add_dividers": false,
+            "icon_1": "leaf",
+            "text_1": "<p>Your order ships carbon neutral</p>",
+            "icon_2": "none",
+            "text_2": "",
+            "icon_3": "none",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "meta_specifications_mAw4XP": {
+          "type": "meta_specifications",
+          "disabled": true,
+          "settings": {
+            "title": "Specifications :",
+            "title_tag": "h3",
+            "custom_class": "speicification-section",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "custom_icon_image_1": "shopify://shop_images/burn.png",
+            "text_heading1": "BURN TIME<br>",
+            "text_1": "<p>{{ product.metafields.my_fields.burn_time.value }}</p>",
+            "icon_2": "paper-airplane",
+            "custom_icon_image_2": "shopify://shop_images/size.png",
+            "text_heading2": "SIZE<br>",
+            "text_2": "<p>{{ product.metafields.my_fields.size.value }}</p>",
+            "icon_3": "chat",
+            "custom_icon_image_3": "shopify://shop_images/scent.png",
+            "text_heading3": "SCENT<br>",
+            "text_3": "<p>{{ product.metafields.my_fields.scent.value }}</p>",
+            "icon_4": "none",
+            "custom_icon_image_4": "shopify://shop_images/count.png",
+            "text_heading4": "COUNT<br>",
+            "text_4": "<p>{{ product.metafields.my_fields.count.value }}</p>",
+            "icon_5": "none",
+            "custom_icon_image_5": "shopify://shop_images/material.png",
+            "text_heading5": "MATERIAL&nbsp;",
+            "text_5": "<p>{{ product.metafields.my_fields.material.value }}</p>",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "custom_icon_image_6": "shopify://shop_images/fast.svg",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "product_callouts-2": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "custom_class": "",
+            "title": "Specifications :",
+            "title_tag": "h3",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "measuring-tape",
+            "custom_icon_image_1": "shopify://shop_images/burn.png",
+            "text_1": "<p>{{ product.metafields.my_fields.burn_time.value }}</p>",
+            "icon_2": "cotton",
+            "custom_icon_image_2": "shopify://shop_images/size.png",
+            "text_2": "<p>{{ product.metafields.my_fields.size.value }}</p>",
+            "icon_3": "chat",
+            "custom_icon_image_3": "shopify://shop_images/scent.png",
+            "text_3": "<p>{{ product.metafields.my_fields.scent.value }}</p>",
+            "icon_4": "moving-truck",
+            "custom_icon_image_4": "shopify://shop_images/count.png",
+            "text_4": "<p>{{ product.metafields.my_fields.count.value }}</p>",
+            "icon_5": "padlock",
+            "custom_icon_image_5": "shopify://shop_images/material.png",
+            "text_5": "<p>{{ product.metafields.my_fields.material.value }}</p>",
+            "icon_6": "none",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "product_callouts_rq4aAm": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "custom_class": "wholesaler-section",
+            "title": "",
+            "title_tag": "h3",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "custom_icon_image_1": "shopify://shop_images/chat.svg",
+            "text_1": "<p><strong>Need Help? Contact our experts</strong></p><p><a href=\"/pages/contact-us\" title=\"Contact Us\">Email Us</a> - <a href=\"tel:732 405 3566\" title=\"tel:732 405 3566\">Call Us</a> - <a href=\"#chat_open\" title=\"Chat\">Chat</a> - <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a></p>",
+            "icon_2": "none",
+            "text_2": "",
+            "icon_3": "none",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "custom_liquid_m9kbW8": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "<div class=\"product__callouts-items wholesaler-section-new\">  \n  <div class=\"product__callouts-item left\">\n\t<div class=\"image product__callouts-item-icon animation--lazy-load loaded\" style=\"\">\n\t\t<img alt=\"\" class=\"image__img\" width=\"20\" height=\"22\" src=\"//kiscocandles.com/cdn/shop/files/chat.svg\">\n\t</div>\n\t<div class=\"product__callouts-item-text rte\">\n      <p><strong>Need Help? Contact our experts</strong></p>\n\t  <p><a href=\"/pages/contact-us\" title=\"Contact Us\">Email Us</a> - <a href=\"tel:732 405 3566\" title=\"tel:732 405 3566\">Call Us</a> - <a href=\"#chat_open\" title=\"Chat\">Chat</a> - <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a></p>\n    </div>\n  </div>\n  <div class=\"product__callouts-item right\">\n\t<div class=\"product__callouts-item-text rte\">\n      <p><strong>Join Our Wholesale Program</strong></p>\n\t  <p><a href=\"/pages/wholesale\" title=\"Apply Now\" class=\"button\">Apply Now</a></p>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "custom_liquid_fXjAWw": {
+          "type": "custom_liquid",
+          "settings": {
+            "column_placement": "right",
+            "custom_liquid": "<div class=\"dtl-bottom-gift\">\n          <ul>\n            <li>\n              <a href=\"#\">\n                <img src='https://cdn.shopify.com/s/files/1/0552/6267/5053/files/usp-icon-european.png'>\n                <span>Top European <span>quality</span></span>\n              </a>\n            </li>\n            <li>\n              <a href=\"#\">\n                <img src='https://cdn.shopify.com/s/files/1/0552/6267/5053/files/usp-icon-shipping.png'>\n                <span>Free standard <span>shipping</span></span>\n              </a>\n            </li>\n            <li>\n              <a href=\"#\">\n                <img src='https://cdn.shopify.com/s/files/1/0552/6267/5053/files/usp-icon-longlasting.png'>\n                <span>Long lasting</span>\n              </a>\n            </li>\n            \n            <li>\n              <a href=\"#\">\n                <img src='https://cdn.shopify.com/s/files/1/0552/6267/5053/files/usp-icon-stock.png'>\n                <span>Large selection <span>In Stock</span></span>\n              </a>\n            </li>\n            <li>\n              <a href=\"#\">\n                <img src='https://cdn.shopify.com/s/files/1/0552/6267/5053/files/usp-icon-no-drip.png'>\n                <span>No drip</span>\n              </a>\n            </li>\n            <li>\n              <a href=\"#\">\n                <img src='https://cdn.shopify.com/s/files/1/0552/6267/5053/files/usp-icon-fast-shipping.png'>\n                <span>Fast Order <span>Turnaround</span></span>\n              </a>\n            </li>\n          </ul>\n        </div>"
+          }
+        },
+        "product_callouts_kmQ4fL": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "custom_class": "wholesaler-section",
+            "title": "",
+            "title_tag": "h3",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "custom_icon_image_1": "shopify://shop_images/wholseller.svg",
+            "text_1": "<p><strong>Are you a wholesaler?</strong></p><p><a href=\"/pages/wholesale\" title=\"/pages/wholesale\">Click here</a> to signup as or call us at <a href=\"tel:+17324053566\" title=\"tel:+17324053566\">(732) 405-3566</a></p>",
+            "icon_2": "none",
+            "text_2": "",
+            "icon_3": "none",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "product_callouts_etR6qw": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "custom_class": "help-section",
+            "title": "",
+            "title_tag": "h3",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "chat",
+            "custom_icon_image_1": "shopify://shop_images/chat.svg",
+            "text_1": "<p>Need more help? Speak with a sales expert</p>",
+            "icon_2": "none",
+            "text_2": "",
+            "icon_3": "none",
+            "text_3": "",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "title": "Description",
+            "title_tag": "h3",
+            "text_font_class": "fs-body-75",
+            "column_placement": "left",
+            "display_as_collapsible_row": true,
+            "expand_by_default": false
+          }
+        },
+        "accordion-1": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "Shipping & Returns",
+            "heading_tag": "h3",
+            "content": "<p>Add your collapsible row content here.</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion-2": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "How to use a candle safely?",
+            "heading_tag": "h3",
+            "content": "<p>Add your collapsible row content here.</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "accordion-3": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "expand_by_default": false,
+            "column_placement": "left",
+            "heading": "Collapsible row",
+            "heading_tag": "h3",
+            "content": "<p>Add your collapsible row content here.</p>",
+            "page_for_content": "",
+            "custom_liquid": ""
+          }
+        },
+        "featured_products_8ee4Gr": {
+          "type": "featured_products",
+          "disabled": true,
+          "settings": {
+            "heading": "Customer Also Love",
+            "heading_tag": "h3",
+            "column_placement": "left",
+            "max_products": 3,
+            "product_source": "custom-product-list",
+            "product_list": [
+              "10-x-0-9-classic-bulk-taper-candles-40-50-60-pack",
+              "bolsius-tall-10-inch-taper-candles-12-pack-wedding-decorative-hoilday-colored-unscented-taper-candles-individually-wrapped",
+              "11-5-x-0-9-classic-houshold-bulk-taper-candles-100-pack",
+              "11-5-x-0-9-classic-houshold-bulk-taper-candles-200-pack",
+              "511-5-x-0-9-classic-houshold-bulk-taper-candles-150-pack"
+            ],
+            "enable_swiper_mobile": true,
+            "display_as_collapsible_row": true,
+            "expand_by_default": true
+          }
+        },
+        "text_MCA4VA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text_font_class": "fs-body-100",
+            "text": "<p><strong>Need more information?</strong></p><p>Visit our <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a> or <a href=\"/pages/contact-us\" title=\"Contact Us\">Contact us</a></p>",
+            "column_placement": "left"
+          }
+        }
+      },
+      "block_order": [
+        "product_header",
+        "product_callouts_mini",
+        "variant_picker",
+        "inventory_counter",
+        "seal_subscriptions_subscription_widget_EpAxCq",
+        "buy_btn_quantity_selector_9tFiq4",
+        "product_callouts-1",
+        "meta_specifications_mAw4XP",
+        "product_callouts-2",
+        "product_callouts_rq4aAm",
+        "custom_liquid_m9kbW8",
+        "custom_liquid_fXjAWw",
+        "product_callouts_kmQ4fL",
+        "product_callouts_etR6qw",
+        "share",
+        "description",
+        "accordion-1",
+        "accordion-2",
+        "accordion-3",
+        "featured_products_8ee4Gr",
+        "text_MCA4VA"
+      ],
+      "settings": {
+        "enable_sticky_product_details": true,
+        "show_breadcrumbs": true,
+        "show_navigation_buttons": false,
+        "show_featured_media_first": false,
+        "gallery_style": "thumbnails",
+        "gallery_style_mobile": "carousel",
+        "gallery_size": "medium",
+        "gallery_overflow": "1",
+        "enable_video_looping": true,
+        "enable_product_lightbox": true,
+        "image_aspect_ratio": "natural",
+        "enable_multiple_variant_media": false,
+        "enable_mobile_carousel_looping": false,
+        "show_mobile_carousel_images_full_width": false,
+        "hide_mobile_carousel_dots": false,
+        "enable_gift_card_recipient": true,
+        "enable_animation": true
+      }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "block-0": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Column",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-1": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Column",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "block-2": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "Column",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Use text to focus on your chosen product, collection, or blog post.</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "class": "",
+        "heading_tag": "h2",
+        "subheading": "<p>Use a multi-column section to organize detailed information about your products:</p>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "large",
+        "columns": "3",
+        "column_spacing": 4,
+        "row_spacing": 8,
+        "column_alignment": "left",
+        "enable_slider_mobile": false,
+        "columns_mobile": "1",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 8,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": true,
+        "background_color": "#f4f4f4",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "content_tab_tDEhyF": {
+      "type": "content-tab",
+      "blocks": {
+        "tab_KVgJtH": {
+          "type": "Tab",
+          "settings": {
+            "title": "Description",
+            "content": "<p>description</p>",
+            "page_content": "",
+            "custom_class": "",
+            "icon_1": "package-closed",
+            "text_heading1": "",
+            "text_1": "",
+            "icon_2": "paper-airplane",
+            "text_heading2": "",
+            "text_2": "",
+            "icon_3": "chat",
+            "text_heading3": "",
+            "text_3": "",
+            "icon_4": "none",
+            "text_heading4": "",
+            "text_4": "",
+            "icon_5": "none",
+            "text_heading5": "",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "text_6": ""
+          }
+        },
+        "tab_XqMVK4": {
+          "type": "Tab",
+          "settings": {
+            "title": "Specification",
+            "content": "",
+            "page_content": "",
+            "custom_class": "speicification-section",
+            "icon_1": "package-closed",
+            "custom_icon_image_1": "shopify://shop_images/burn.png",
+            "text_heading1": "BURN TIME<br>",
+            "text_1": "<p>{{ product.metafields.my_fields.burn_time.value }}</p>",
+            "icon_2": "paper-airplane",
+            "custom_icon_image_2": "shopify://shop_images/size.png",
+            "text_heading2": "SIZE<br>",
+            "text_2": "<p>{{ product.metafields.my_fields.size.value }}</p>",
+            "icon_3": "chat",
+            "custom_icon_image_3": "shopify://shop_images/scent.png",
+            "text_heading3": "SCENT<br>",
+            "text_3": "<p>{{ product.metafields.my_fields.scent.value }}</p>",
+            "icon_4": "none",
+            "custom_icon_image_4": "shopify://shop_images/count.png",
+            "text_heading4": "COUNT<br>",
+            "text_4": "<p>{{ product.metafields.my_fields.count.value }}</p>",
+            "icon_5": "none",
+            "custom_icon_image_5": "shopify://shop_images/material.png",
+            "text_heading5": "MATERIAL&nbsp;",
+            "text_5": "<p>{{ product.metafields.my_fields.material.value }}</p>",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "text_6": ""
+          }
+        },
+        "tab_cT36Uf": {
+          "type": "Tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p>We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.<br/><br/>To be eligible for a return, your item must be in the same condition that you received it, unused, and in its original packaging. You’ll also need the receipt or proof of purchase.<br/><br/>To start a return, you can contact us at <a href=\"mailto:support@kiscocandles.com\" title=\"mailto:support@kiscocandles.com\">support@kiscocandles.com</a>. Please note that returns will need to be sent to the following address: 4475 South Clinton Ave South Plainfield NJ 07080<br/><br/>If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.<br/><br/>You can always contact us for any return question at <a href=\"mailto:support@kiscocandles.com\" title=\"mailto:support@kiscocandles.com\">support@kiscocandles.com</a>.<br/><br/>Ordered Wrong Size Or Color Or Just No Longer Needed.<br/><br/>Yes you can return them as long as it's not opened & still in the 30 days of delivery of your order, The customer will be responsible for the shipping cost of BOTH WAYS.<br/><br/>Damages and issues<br/>Please inspect your order upon reception and contact us immediately if the item is defective, damaged or if you receive the wrong item, so that we can evaluate the issue and make it right. we may ask for pictures.</p>",
+            "page_content": "pdp-shipping-return",
+            "custom_class": "",
+            "icon_1": "package-closed",
+            "text_heading1": "",
+            "text_1": "",
+            "icon_2": "paper-airplane",
+            "text_heading2": "",
+            "text_2": "",
+            "icon_3": "chat",
+            "text_heading3": "",
+            "text_3": "",
+            "icon_4": "none",
+            "text_heading4": "",
+            "text_4": "",
+            "icon_5": "none",
+            "text_heading5": "",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "text_6": ""
+          }
+        },
+        "tab_9m7RRB": {
+          "type": "Tab",
+          "settings": {
+            "title": "How to use a candles safely",
+            "content": "<p>&lt;h1&gt;Add your collapsible row content here.&lt;/h1&gt;</p>",
+            "page_content": "how-to-use-candle-safely",
+            "custom_class": "",
+            "icon_1": "package-closed",
+            "text_heading1": "",
+            "text_1": "",
+            "icon_2": "paper-airplane",
+            "text_heading2": "",
+            "text_2": "",
+            "icon_3": "chat",
+            "text_heading3": "",
+            "text_3": "",
+            "icon_4": "none",
+            "text_heading4": "",
+            "text_4": "",
+            "icon_5": "none",
+            "text_heading5": "",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "text_6": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_KVgJtH",
+        "tab_XqMVK4",
+        "tab_cT36Uf",
+        "tab_9m7RRB"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_dTrjV6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- shopper approved product page code custom builder product section-->\n\n<div id=\"SA_review_wrapper\"></div><script type=\"text/javascript\">var sa_product = '{{product.id}}'; var sa_interval = 5000;function saLoadScript(src) { var js = window.document.createElement('script'); js.src = src; js.type = 'text/javascript'; document.getElementsByTagName(\"head\")[0].appendChild(js); } if (typeof(shopper_first) == 'undefined') saLoadScript('//www.shopperapproved.com/widgets/40737/product/'+sa_product+'/product-widget/8d5p6WzFRvVc.js'); </script>\n\n<!-- shopper approved product page code custom builder product section-->",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "collapsible_row_list_peDVjT": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_tU8wkC": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What are the dimensions of these white pillar candles?",
+            "text": "<p>Our classic pillar candles are available in two sizes:</p><p>2.25\" diameter x 3\" height</p><p>2.25\" diameter x 4.75\" height</p><p></p><p>White pillar candles bulk are perfect for centerpieces, event décor, or everyday ambiance.</p>"
+          }
+        },
+        "item_k8mAHp": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How long do these candles burn?",
+            "text": "<p>Burn times may vary slightly based on conditions, but on average:</p><p>The 2.25\" x 3\" candle burns for approximately 20-25 hours</p><p>The 2.25\" x 4.75\" candle burns for approximately 35-40 hours</p>"
+          }
+        },
+        "item_DeiLtr": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "What kind of wax are these white pillar candles made from?",
+            "text": "<p>These white pillar candles bulk are made from high-quality paraffin wax, designed to burn cleanly and evenly with minimal dripping and smoke. We use 100% cotton wicks that are lead-free and designed for a clean, stable burn.</p>"
+          }
+        },
+        "item_PbztCG": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Are these unscented pillar candles dripless?",
+            "text": "<p>These bulk pillar candles are considered drip-resistant when burned in optimal, draft-free conditions and placed on a level surface.</p>"
+          }
+        },
+        "item_abEwEK": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Can I use these bulk pillar candles outdoors?",
+            "text": "<p>Yes, but outdoor conditions like wind or uneven surfaces may affect burn quality and drip performance. For best results, use in covered or sheltered outdoor settings.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_tU8wkC",
+        "item_k8mAHp",
+        "item_DeiLtr",
+        "item_PbztCG",
+        "item_abEwEK"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "left",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "featured_collection_slider_yW9XTK": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "collection_rNiGKK": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": false,
+            "collection": "striking-black-pillar-candles",
+            "collection_name": "First collection"
+          }
+        }
+      },
+      "block_order": [
+        "collection_rNiGKK"
+      ],
+      "settings": {
+        "heading": "Customers Also Love",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-hero": {
+      "type": "image-hero",
+      "blocks": {
+        "block-0": {
+          "type": "accent",
+          "settings": {
+            "accent": "Accent"
+          }
+        },
+        "block-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Image hero",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "block-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 70,
+        "mobile_height": 70,
+        "focal_point": "image_presentation",
+        "mobile_focal_point": "image_presentation",
+        "media_link": "",
+        "text_position": "center_center",
+        "text_position_mobile": "center_center",
+        "text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_text_color": "#000000",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "Optional image caption",
+        "show_small_image": true,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "block-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "block-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use these sections to promote a particular feature with editorial photography</p>",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "block-0",
+        "block-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "left",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "Optional image caption",
+        "show_small_image": true,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "center",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fYbXyM": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "block-0": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "block-1": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "left",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        },
+        "block-2": {
+          "type": "testimonial",
+          "settings": {
+            "product": "",
+            "image_position": "right",
+            "aspect_ratio": "square",
+            "focal_point": "image_presentation",
+            "show_rating": true,
+            "rating": 5,
+            "quote": "\"Add customer reviews and testimonials to showcase your store’s happy customers.\"",
+            "author": "– Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fYbXyM",
+        "block-0",
+        "block-1",
+        "block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "large",
+        "quote_font": "body",
+        "background_color": "#f9f9f9",
+        "text_color": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "collection_list_slider_wH8rDX": {
+      "type": "collection-list-slider",
+      "settings": {
+        "class": "you-may-slider",
+        "heading": "You May Also Like",
+        "heading_tag": "h2",
+        "subheading": "",
+        "link": "shopify://collections",
+        "link_text": "",
+        "columns": "4",
+        "mobile_columns": "1",
+        "collection_listing_aspect_ratio": "square",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#ffffff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "settings": {
+        "title": "Recommended Products",
+        "subheading": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed",
+        "heading_tag": "h2",
+        "subheading": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "areviews_section_4kiiDB": {
+      "type": "areviews-section",
+      "disabled": true,
+      "settings": {
+        "hide_areviews_title_rating": false,
+        "areviews_theme_font": "inherit",
+        "areviews_stars_colors": "#f3c621",
+        "areviews_write_reviews_botton_color": "#373737"
+      }
+    },
+    "custom_liquid_UW7Tnw": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\n  window.addEventListener('load', function() {\n  var _learnq = window._learnq || [];\n  function addedToCart() {\n   fetch(`${window.location.origin}/cart.js`)\n   .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price/100,\n      $value: data.total_price/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n       _learnq.push(['track', 'Added to Cart', cart]);\n       klAjax = false;\n      }\n   }))\n  };\n  (function (ns, fetch) {\n    ns.fetch = function() {\n      const response = fetch.apply(this, arguments);\n      response.then(res => {\n        if (`${window.location.origin}/cart/add.js`\n          .includes(res.url) && res.url !== '') {\n              addedToCart()\n        }\n      });\n      return response\n     }\n  }(window, window.fetch));\n  var klAjax = true;\n  var atcButtons = document.querySelectorAll(\"form[action*='/cart/add'] button[type='submit']\");\n  for (var i = 0; i < atcButtons.length; i++) { \n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n  }\n  });\n</script>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "areviews_1766609139_a7f964": {
+      "type": "apps",
+      "blocks": {
+        "areviews_reviews_importer_areviews_display_reviews_5A958A": {
+          "type": "shopify://apps/areviews-reviews-importer/blocks/AreviewsDisplayReviews/ab0ec5fe-c95b-4fd6-bfb8-db2a30d0756f",
+          "settings": {
+            "hide_areviews_title_rating": false,
+            "areviews_theme_font": "inherit",
+            "areviews_stars_colors": "#f3c621",
+            "areviews_write_reviews_botton_color": "#373737"
+          }
+        }
+      },
+      "block_order": [
+        "areviews_reviews_importer_areviews_display_reviews_5A958A"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi-column",
+    "content_tab_tDEhyF",
+    "custom_liquid_dTrjV6",
+    "collapsible_row_list_peDVjT",
+    "featured_collection_slider_yW9XTK",
+    "image-hero",
+    "image-with-text-1",
+    "image-with-text-2",
+    "testimonials",
+    "collection_list_slider_wH8rDX",
+    "recommendations",
+    "recently-viewed-products",
+    "areviews_section_4kiiDB",
+    "custom_liquid_UW7Tnw",
+    "areviews_1766609139_a7f964"
+  ]
+}
