@@ -31,6 +31,7 @@
 <div
   class="
     image-with-text
+    {{section.settings.custom_class }}
     image-with-text--justify-{{ section.settings.text_alignment }}
     image-with-text--image-{{ section.settings.image_position }}
     {% unless section.settings.image_caption == blank %}
@@ -188,10 +189,16 @@
 {
   "name": "t:sections.image_with_text.name",
   "tag": "section",
+  "class": "cst-wholesale-banner",
   "disabled_on": {
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "id": "custom_class",
+      "type": "text",
+      "label": "Custom class"
+    },
     {
       "type": "select",
       "id": "image_position",

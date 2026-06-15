@@ -67,6 +67,7 @@
         "heading_rhGEkF",
         "text_NVQHHp"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "left_left",
         "enable_animation": true,
@@ -76,8 +77,135 @@
         "custom_content_width": 700
       }
     },
+    "image_with_text_hNht7W": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_g6deY3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KISCO WHOLESALE PROGRAM</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "heading_cY7AHR": {
+          "type": "heading",
+          "settings": {
+            "title": "Apply for a Wholesale Account",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "subheading_GhjtJx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Join our wholesale program and unlock exclusive benefits, bulk pricing, and dedicated support for your business.",
+            "subheading_tag": "h4",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_XiUVLG": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Enjoy custom wholesale pricing</li><li>Easy to reorder & keep track of your order history</li><li>Enjoy free & secure shipping on all orders over $199.99</li><li>Your personal rep</li><li>30 Day Return policy</li><li>And much more!</li></ul>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_Cbx7PX": {
+          "type": "button",
+          "settings": {
+            "link": "#",
+            "link_text": "Apply now",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_g6deY3",
+        "heading_cY7AHR",
+        "subheading_GhjtJx",
+        "text_XiUVLG",
+        "button_Cbx7PX"
+      ],
+      "custom_css": [
+        ".cst-custom-wholesale ul {padding-left: 0px; list-style: none;}",
+        ".cst-custom-wholesale .rich-text__subheading {font-family: Montserrat, sans-serif; font-weight: 600; font-size: 24px;}",
+        ".cst-custom-wholesale ul li {background-image: url(\"https://cdn.shopify.com/s/files/1/0552/6267/5053/files/check-mark.png\"); background-repeat: no-repeat; background-size: 20px 20px; padding-left: 30px; margin-bottom: 10px;}"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "custom_class": "cst-custom-wholesale",
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/3dcb198f-c7e7-4bc6-ab43-67ec795db2e3.png",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "how_it_works_eR7zKt": {
+      "type": "how-it-works",
+      "blocks": {
+        "step_DmBRXg": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/job-application_75da0999-9196-4ffd-98c5-1bdb81a5b261.png",
+            "step_number": "1",
+            "heading": "Submit Application",
+            "description": "Fill out the wholesale application form."
+          }
+        },
+        "step_kARmR8": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/safety_190d3869-e06b-45f7-8eb9-698529f9ba17.png",
+            "step_number": "2",
+            "heading": "Review Process",
+            "description": "Our team reviews your application."
+          }
+        },
+        "step_qxiWL8": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/email_2c7b7fc4-6872-4f7b-8188-36d88a5299b8.png",
+            "step_number": "3",
+            "heading": "Account Approved",
+            "description": "You'll receive an email once your account is approved."
+          }
+        },
+        "step_KUjiax": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/tag_d8e903d0-28c9-4dbe-a912-039b0452001f.png",
+            "step_number": "4",
+            "heading": "Access Wholesale Pricing",
+            "description": "Log in and start shopping at wholesale prices."
+          }
+        }
+      },
+      "block_order": [
+        "step_DmBRXg",
+        "step_kARmR8",
+        "step_qxiWL8",
+        "step_KUjiax"
+      ],
+      "name": "How It Works",
+      "settings": {
+        "section_title": "How It Works"
+      }
+    },
     "faux_collection_banner_zkzENg": {
       "type": "faux-collection-banner",
+      "disabled": true,
       "settings": {
         "show_breadcrumbs": true,
         "title": "Sign up for a Kisco Candles Wholesale Account",
@@ -111,6 +239,7 @@
       "block_order": [
         "text_CqBJbn"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "center_center",
         "enable_animation": true,
@@ -151,6 +280,7 @@
         "text_k4EreX",
         "text_GWRrjV"
       ],
+      "disabled": true,
       "custom_css": [
         "ul {padding-left: 0px; list-style: none;}",
         ".rich-text__subheading {font-family: Montserrat, sans-serif; font-weight: 600; font-size: 24px;}",
@@ -187,6 +317,53 @@
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "why_partner_ArzUXp": {
+      "type": "why-partner",
+      "blocks": {
+        "benefit_DVqFYG": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/price-tag_afb4c764-9c56-451b-9f46-fe2edb1a4e97.png",
+            "heading": "Bulk Pricing",
+            "description": "Competitive pricing on bulk orders and repeat discounts."
+          }
+        },
+        "benefit_4YazPH": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/exemption_69856d8c-d2bf-47af-889f-99a934d6686b.png",
+            "heading": "Tax Exemption",
+            "description": "Qualified businesses enjoy tax exempt purchasing options."
+          }
+        },
+        "benefit_gRg4tp": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/customer-care_4368a92c-8186-44bf-bcfd-7102eb48a630.png",
+            "heading": "Dedicated Support",
+            "description": "Personalized support from our wholesale account specialists."
+          }
+        },
+        "benefit_wNAbnx": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/fast-delivery_108ff47f-31e4-4e5d-8d26-8e6077fde6ec.png",
+            "heading": "Fast Fulfillment",
+            "description": "Quick processing and reliable shipping for all orders."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_DVqFYG",
+        "benefit_4YazPH",
+        "benefit_gRg4tp",
+        "benefit_wNAbnx"
+      ],
+      "name": "Partner Benefits",
+      "settings": {
+        "section_title": "Why Partner With Kisco Candles?"
       }
     },
     "testimonials_frCkLU": {
@@ -279,6 +456,7 @@
         "testimonial_nrPpUL",
         "testimonial_TNQLdK"
       ],
+      "disabled": true,
       "custom_css": [
         ".testimonials__item-product {display: none;}",
         ".fs-body-100 {font-size: 16px; line-height: 1.3em;}"
@@ -321,7 +499,9 @@
         "border_JfEWUV",
         "text_wEnRWe"
       ],
+      "disabled": true,
       "settings": {
+        "custom_class": "",
         "image_position": "right",
         "text_alignment": "left",
         "image": "shopify://shop_images/bulk-candles-for-business-events-event-planners-vennues.png",
@@ -411,6 +591,7 @@
         "heading_9Hpz9P",
         "text_gWjmtx"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "left_left",
         "enable_animation": true,
@@ -448,7 +629,9 @@
         "border_qtgM7T",
         "text_6Jxhb7"
       ],
+      "disabled": true,
       "settings": {
+        "custom_class": "",
         "image_position": "left",
         "text_alignment": "center",
         "image": "shopify://shop_images/bulk-candles-for-venues.png",
@@ -593,6 +776,7 @@
         "text_XcmMiB",
         "spacer_VgAdWr"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "left_left",
         "enable_animation": true,
@@ -634,6 +818,7 @@
         "text_BULzd6",
         "button_4jMd4t"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-hero__inner .image-hero__text-container {width: 600px; height: 600px;}"
       ],
@@ -812,6 +997,7 @@
         "heading_anqhxE",
         "text_UMr8HD"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "left_left",
         "enable_animation": true,
@@ -848,6 +1034,7 @@
         "article_NnBiEc",
         "article_Eq9yQ3"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Related Articles",
         "subheading": "",
@@ -869,10 +1056,66 @@
     },
     "custom_liquid_exHhcK": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are the benefits of creating a wholesale account?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"With a Kisco Candles wholesale account, you gain access to exclusive bulk pricing, free shipping on qualifying orders, an easy-to-use ordering portal with order history tracking, and a dedicated account representative to assist with your needs.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is there a minimum order requirement?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, wholesale orders are typically subject to minimum quantity requirements, allowing us to provide the best value to bulk purchasers.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What types of candles are available for wholesale purchase?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Our wholesale offerings include a variety of candle types—such as pillar, taper, floating, and votive candles—to suit the needs of event planners, retailers, and hospitality businesses. Each type is available in multiple sizes and colors.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer custom candle options?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, we provide custom options for wholesale orders, ideal for businesses seeking specific sizes, colors, or styles for events and branding consistency.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How does your return policy work?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Kisco Candles offers a 30-day return policy. Items must be returned in their original condition and packaging, accompanied by a receipt or proof of purchase. Returns must be requested by contacting support to ensure eligibility and instructions.\"\n      }\n    }\n  ]\n}\n</script>\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": [\"Organization\", \"WholesaleStore\"],\n  \"name\": \"Kisco Candles\",\n  \"alternateName\": \"Kisco\",\n  \"url\": \"https://kiscocandles.com/pages/wholesale\",\n  \"logo\": \"https://kiscocandles.com/cdn/shop/files/Logo.svg?v=1714200371\",\n  \"description\": \"At Kisco Candles, we don’t just supply candles; we provide quality, dependable service, and a diverse selection to meet the highest standards. Whether you’re a retailer, event planner, restaurant, or florist, our wholesale candle program offers more—more quality, options, and support—all at competitive prices to stretch your budget further.\",\n  \"telephone\": \"732-405-3566\",\n  \"priceRange\": \"$$\",\n  \"image\": \"https://kiscocandles.com/cdn/shop/files/Logo.svg?v=1714200371\",\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"732-405-3566\",\n    \"contactType\": \"customer service\",\n    \"areaServed\": \"US\",\n    \"availableLanguage\": \"en\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"4475 South Clinton Ave\",\n    \"addressLocality\": \"South Plainfield\",\n    \"addressRegion\": \"NJ\",\n    \"postalCode\": \"07080\",\n    \"addressCountry\": \"US\"\n  },\n  \"sameAs\": \"https://www.facebook.com/people/Kisco-Candles/100089858626778/\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebPage\",\n      \"url\": \"https://kiscocandles.com/pages/wholesale\",\n      \"name\": \"Kisco Candles\",\n      \"description\": \"Purchase unscented candles for events and more at Kisco Candles. We bring you only premium, high-quality decorative candles that look beautiful and burn perfectly. Order bulk candles for sale online at Kisco Candles today.\"\n    }\n  ],\n  \"hasOfferCatalog\": {\n    \"@type\": \"OfferCatalog\",\n    \"name\": \"Wholesale Candle Collections\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"ListItem\",\n        \"name\": \"Wholesale Unscented Candles\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"name\": \"Wholesale Candles\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"name\": \"Wholesale Wedding Candles\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"name\": \"Wholesale Scented Candles\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"name\": \"Wholesale Colored Candles\"\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"name\": \"Wholesale Bolsius Candles\"\n      }\n    ]\n  }\n}\n</script>",
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "collapsible_row_list_fYERVb": {
+      "type": "collapsible-row-list",
+      "blocks": {
+        "item_4HGWFy": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "Where can I use your candles?",
+            "text": "<p>Our candles can be used indoors and outdoors.</p>"
+          }
+        },
+        "item_RqwC7P": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I make sure the candles don't smoke?",
+            "text": "<p>Once you ensure that the candles are steadily in the holder, melt the bottom of the candle. This will act as an adhesive and keep the candle in a safe, upright position. Make sure there are no gusts of air that can blow on it, for example, a window draft, fan, AC unit, or if it’s a windy day.</p><p>Please keep in mind that even with these precautions in place, candles can still drip. If used as directed, Kisco candles should burn evenly and smoothly.</p>"
+          }
+        },
+        "item_VXp3mt": {
+          "type": "item",
+          "settings": {
+            "expand_by_default": false,
+            "icon": "none",
+            "title": "How do I make sure the candles don't smoke?",
+            "text": "<p>The candles should not be any closer than three inches from one another to avoid the flames from getting too close and creating a smoking condition.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_4HGWFy",
+        "item_RqwC7P",
+        "item_VXp3mt"
+      ],
+      "name": "t:sections.collapsible_row_list.presets.name",
+      "settings": {
+        "custom_class": "cst-wholesale-faq",
+        "title": "Frequently Asked Questions",
+        "enable_faq_schema": true,
+        "heading_tag": "h2",
+        "heading_font_class": "fs-heading-3-base",
+        "subheading": "",
+        "subheading_tag": "h3",
+        "subheading_font_class": "fs-heading-5-base",
+        "heading_alignment": "center",
+        "item_heading_font": "heading",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 950
       }
     }
   },
@@ -880,10 +1123,13 @@
     "main",
     "rich_text_memNnm",
     "rich_text_tH66BF",
+    "image_with_text_hNht7W",
+    "how_it_works_eR7zKt",
     "faux_collection_banner_zkzENg",
     "rich_text_QezRBb",
     "rich_text_hPbJTd",
     "1721804362348a8e2a",
+    "why_partner_ArzUXp",
     "testimonials_frCkLU",
     "image_with_text_EPAg86",
     "rich_text_F3p8N3",
@@ -892,6 +1138,7 @@
     "image_hero_rfgMHy",
     "rich_text_3CLz68",
     "blog_posts_tf7HgF",
-    "custom_liquid_exHhcK"
+    "custom_liquid_exHhcK",
+    "collapsible_row_list_fYERVb"
   ]
 }

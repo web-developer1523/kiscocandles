@@ -1,11 +1,12 @@
 # Shopify theme environments for kiskocandles
-# Usage: shopify theme pull -e live
+# Usage: shopify theme pull              # working copy (default)
+#        shopify theme pull -e live       # live theme
 #        shopify theme dev -e working
 #        .\scripts\pull-theme.ps1
 
 [environments.default]
 store = "kiskocandles.myshopify.com"
-theme = "131912990829"
+theme = "146729631853"
 
 [environments.live]
 store = "kiskocandles.myshopify.com"

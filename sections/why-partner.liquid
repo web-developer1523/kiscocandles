@@ -1,0 +1,240 @@
+<section class="partner-benefits">
+    <div class="container">
+
+        <h2 class="section-title">{{ section.settings.section_title }}</h2>
+        <span></span>
+
+        <div class="benefits-grid">
+
+            {% for block in section.blocks %}
+
+            <div class="benefit-card" {{ block.shopify_attributes }}>
+
+                <div class="icon">
+                    {% if block.settings.icon != blank %}
+                        <img src="{{ block.settings.icon | image_url }}" alt="{{ block.settings.heading }}">
+                    {% endif %}
+                </div>
+
+                <h3>{{ block.settings.heading }}</h3>
+
+                <p>{{ block.settings.description }}</p>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+</section>
+
+<style>
+    .partner-benefits{
+    padding:40px 20px;
+    background:#ffffff;
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+.benefit-card .icon {
+    width: 100%;
+}
+.section-title{
+    text-align:center;
+    font-size:45px;
+    font-weight:500;
+    color:#1f1f1f;
+    margin-bottom:40px;
+    line-height:1.2;
+     font-family: Stangith;
+}
+
+.benefits-grid{
+    display:flex;
+    gap:16px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.benefit-card{
+    flex:1;
+    min-width:220px;
+    max-width:280px;
+    background:#f8f6f4;
+    padding:30px 20px;
+    text-align:center;
+    border-radius:12px;
+    transition:all .3s ease;
+}
+
+.benefit-card:hover{
+    transform:translateY(-4px);
+}
+
+.icon{
+    font-size:34px;
+    color:#7d7d7d;
+    margin-bottom:18px;
+    line-height:1;
+}
+
+.benefit-card h3{
+    font-size:18px;
+    font-weight:600;
+    color:#222;
+    margin-bottom:12px;
+}
+
+.benefit-card p{
+    font-size:16px;
+    line-height:1.6;
+    color:#666;
+    max-width:200px;
+    margin:0 auto;
+}
+@media (max-width:991px){
+
+    .benefit-card{
+        flex:0 0 calc(50% - 10px);
+        max-width:none;
+    }
+
+    .section-title{
+        font-size:36px;
+    }
+    .section-title h2 {
+    font-size: 36px;
+}
+      .steps{
+        flex-wrap:wrap;
+        gap:40px;
+    }
+
+    .step{
+        flex:0 0 calc(50% - 20px);
+    }
+
+    .step::after{
+        display:none;
+    }
+}
+
+@media (max-width:767px){
+
+    .steps{
+        flex-direction:column;
+    }
+
+    .step{
+        width:100%;
+    }
+
+    .section-title h2{
+        font-size:28px;
+    }
+}
+
+/* Mobile */
+@media (max-width:576px){
+
+    .partner-benefits{
+        padding:10px 15px;
+    }
+
+    .benefits-grid{
+        gap:12px;
+    }
+
+    .benefit-card{
+        flex:0 0 100%;
+    }
+
+    .section-title{
+        font-size:28px;
+        margin-bottom:30px;
+    }
+
+    .icon{
+        font-size:30px;
+    }
+}
+
+</style>
+
+
+{% schema %}
+{
+  "name": "Partner Benefits",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Why Partner With Kisco Candles?"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Benefit Icon"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Benefit Heading",
+          "default": "Bulk Pricing"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Benefit Description",
+          "default": "Competitive pricing on bulk orders and repeat discounts."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Partner Benefits",
+      "blocks": [
+        {
+          "type": "benefit",
+          "settings": {
+            "heading": "Bulk Pricing",
+            "description": "Competitive pricing on bulk orders and repeat discounts."
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "heading": "Tax Exemption",
+            "description": "Qualified businesses enjoy tax exempt purchasing options."
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "heading": "Dedicated Support",
+            "description": "Personalized support from our wholesale account specialists."
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "heading": "Fast Fulfillment",
+            "description": "Quick processing and reliable shipping for all orders."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

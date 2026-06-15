@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wholesale_dashboard": {
+      "type": "wholesale-dashboard",
+      "settings": {
+        "wholesale_banner": "shopify://shop_images/ChatGPT_Image_Jun_12_2026_04_48_57_PM_1_1.png",
+        "contact_phone": "732-405-3566",
+        "contact_email": "support@kiscocandles.com",
+        "benefit_1_title": "Exclusive Pricing",
+        "benefit_1_text": "Special bulk pricing for wholesalers",
+        "benefit_2_title": "Tax Exemption",
+        "benefit_2_text": "Tax-exempt on eligible purchases",
+        "benefit_3_title": "Dedicated Support",
+        "benefit_3_text": "Personalized support from our team",
+        "benefit_4_title": "Fast Shipping",
+        "benefit_4_text": "Quick & reliable order fulfillment"
+      }
+    }
+  },
+  "order": [
+    "wholesale_dashboard"
+  ]
+}

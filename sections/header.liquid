@@ -173,7 +173,14 @@
     aria-label="{{ 'general.accessibility.go_account' | t }}"
   >
     {% render 'icon-button' with icon: 'header-account' %}
-      <span class="text-account">Account</span>
+
+    <span class="text-account">
+      {% if customer %}
+        {{ customer.first_name }}
+      {% else %}
+        Account
+      {% endif %}
+    </span>
   </a>
 {%- endcapture -%}
     

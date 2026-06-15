@@ -1,0 +1,97 @@
+.cst-wholesale-banner {
+    background-image: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/ChatGPT_Image_Jun_11_2026_07_12_07_PM.png?v=1781185395);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+}
+
+.cst-wholesale-banner .image-with-text__image {
+    display: none;
+}
+.cst-wholesale-faq .collapsible-row-list-item__heading{
+font-size:24px;
+}
+
+ .cst-custom-wholesale .image-with-text__text-container-subheading{
+  font-size:24px;
+ }
+
+ .cf-field {
+    margin: 0 !important;
+}
+.cf-field-container h1 {
+font-family: Stangith;
+font-size:45px;
+}
+.cst-wholesale-faq .collapsible-row-list-item:first-of-type {
+    border-top: 1px solid var(--color-border);
+    border-top: none !important;
+}
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .cst-wholesale-banner .image-with-text__image {
+    display: block;
+}
+.cst-wholesale-banner {
+    background-image: url();
+}
+.cst-wholesale-banner .image-with-text.image-with-text--image-right .image-with-text__image-container {
+    order: 0;
+}
+.cst-wholesale-banner .image-with-text__image-container, .image-with-text__text-container {
+    width: 100%;
+}
+.cst-wholesale-banner .image-with-text__content {
+    flex-direction: column;
+}
+.cst-wholesale-banner .image-with-text__text-container {
+    margin-top: 20px;
+}
+.how-it-works {
+    padding: 20px 20px !important;
+}
+}
+
+
+
+@media only screen and (max-width: 991px){
+    .cst-wholesale-faq .collapsible-row-list__heading {
+    font-size: 36px;
+}
+}
+
+@media only screen and (max-width: 767px){
+    .cst-wholesale-faq .collapsible-row-list__heading {
+    font-size: 28px;
+}
+ .cst-custom-wholesale .image-with-text__text-container-subheading{
+  font-size:20px;
+ }
+}
+
+
+
+
+@media only screen and (max-width: 575px){
+.cst-custom-wholesale .image-with-text__text-container-heading {
+    font-size: 36px;
+}
+.cf-field-container h1 {
+    font-family: Stangith;
+    font-size: 36px;
+}
+.cst-wholesale-faq .collapsible-row-list-item__heading, .cst-custom-wholesale .image-with-text__text-container-subheading {
+    font-size: 20px;
+}
+}
+

@@ -1,0 +1,232 @@
+<section class="how-it-works">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>{{ section.settings.section_title }}</h2>
+            <span></span>
+        </div>
+
+        <div class="steps">
+
+            {% for block in section.blocks %}
+
+            <div class="step" {{ block.shopify_attributes }}>
+
+                <div class="icon-circle">
+                    {% if block.settings.icon != blank %}
+                        <img src="{{ block.settings.icon | image_url }}" alt="{{ block.settings.heading }}">
+                    {% endif %}
+                </div>
+
+                <div class="step-number">{{ block.settings.step_number }}</div>
+
+                <h3>{{ block.settings.heading }}</h3>
+
+                <p>{{ block.settings.description }}</p>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+</section>
+
+<style>
+.how-it-works{
+    padding:80px 20px;
+    background:#fff;
+    padding-bottom:40px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:45px;
+    font-weight:500;
+    color:#111;
+    margin-bottom:12px;
+    line-height:1;
+    font-family: Stangith;
+}
+
+.section-title span{
+    width:50px;
+    height:2px;
+    background:#d8c3af;
+    display:block;
+    margin:auto;
+}
+
+.steps{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.step{
+    flex:1;
+    text-align:center;
+    position:relative;
+    padding:0 15px;
+}
+
+.step:not(:last-child)::after{
+    content:"";
+    position:absolute;
+    top:35px;
+    right:-25%;
+    width:50%;
+    border-top:1px dashed #d9d9d9;
+}
+
+.icon-circle{
+    width:90px;
+    height:90px;
+    background:#f4efeb;
+    border-radius:50%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.icon-circle img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
+    opacity:.7;
+}
+
+.step-number{
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    background:#000;
+    color:#fff;
+    font-size:13px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:-10px auto 18px;
+    position:relative;
+    z-index:2;
+}
+
+.step h3{
+    font-size:18px;
+    font-weight:500;
+    color:#111;
+    margin-bottom:10px;
+}
+
+.step p{
+    font-size:16px;
+    color:#666;
+    line-height:1.6;
+    max-width:220px;
+    margin:auto;
+}
+@media only screen and (max-width: 575px){
+    .steps {
+    flex-direction: column !important;
+}
+.how-it-works {
+    padding: 40px 20px;
+}
+} 
+</style>
+
+{% schema %}
+{
+  "name": "How It Works",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "How It Works"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Step Icon"
+        },
+        {
+          "type": "text",
+          "id": "step_number",
+          "label": "Step Number",
+          "default": "1"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Step Heading",
+          "default": "Submit Application"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Step Description",
+          "default": "Fill out the wholesale application form."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "How It Works",
+      "blocks": [
+        {
+          "type": "step",
+          "settings": {
+            "step_number": "1",
+            "heading": "Submit Application",
+            "description": "Fill out the wholesale application form."
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "step_number": "2",
+            "heading": "Review Process",
+            "description": "Our team reviews your application."
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "step_number": "3",
+            "heading": "Account Approved",
+            "description": "You'll receive an email once your account is approved."
+          }
+        },
+        {
+          "type": "step",
+          "settings": {
+            "step_number": "4",
+            "heading": "Access Wholesale Pricing",
+            "description": "Log in and start shopping at wholesale prices."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

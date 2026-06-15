@@ -22,6 +22,7 @@
 <div
   class="
     collapsible-row-list
+    {{ section.settings.custom_class }}
     section
     {{ section.settings.section_padding }}
     section--divider-{{ section.settings.divider_style }}
@@ -72,6 +73,11 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
+    },
     {
       "type": "text",
       "id": "title",

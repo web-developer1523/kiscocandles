@@ -1,0 +1,66 @@
+{%- comment -%}
+  Resolves a Helium Customer Fields value for the B2B registration form.
+  Checks customer_fields namespace, custom namespace, and bundled data JSON.
+
+  @param {object} customer - Shopify customer object
+  @param {string} field_key - Helium data column key
+{%- endcomment -%}
+
+{%- liquid
+  assign result = blank
+  assign cf_data = customer.metafields.customer_fields.data.value
+
+  case field_key
+    when 'company_name'
+      assign result = customer.default_address.company
+      if result == blank
+        assign result = customer.metafields.customer_fields.company_name.value
+      endif
+      if result == blank
+        assign result = customer.metafields.custom.company_name.value
+      endif
+      if result == blank and cf_data != blank
+        assign result = cf_data.company_name
+      endif
+
+    when 'business_type'
+      assign result = customer.metafields.customer_fields.business_type.value
+      if result == blank
+        assign result = customer.metafields.custom.business_type.value
+      endif
+      if result == blank and cf_data != blank
+        assign result = cf_data.business_type
+      endif
+
+    when 'are_you_a_wholesaler'
+      assign result = customer.metafields.customer_fields.are_you_a_wholesaler.value
+      if result == blank
+        assign result = customer.metafields.custom.are_you_a_wholesaler.value
+      endif
+      if result == blank and cf_data != blank
+        assign result = cf_data.are_you_a_wholesaler
+      endif
+
+    when 'phone'
+      assign result = customer.phone
+      if result == blank
+        assign result = customer.metafields.customer_fields.phone_number.value
+      endif
+      if result == blank
+        assign result = customer.metafields.customer_fields.phone.value
+      endif
+      if result == blank
+        assign result = customer.metafields.custom.phone_number.value
+      endif
+      if result == blank
+        assign result = customer.metafields.custom.phone.value
+      endif
+      if result == blank and cf_data != blank
+        assign result = cf_data.phone_number
+      endif
+      if result == blank and cf_data != blank
+        assign result = cf_data.phone
+      endif
+  endcase
+-%}
+{{- result -}}

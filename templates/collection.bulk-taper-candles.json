@@ -521,12 +521,6 @@
         "link_text": "",
         "columns": "4",
         "mobile_columns": "2",
-        "collection_list": [
-          "pillar-candles",
-          "taper-candles",
-          "floating-candles",
-          "wholesale-bulk-floating-candles"
-        ],
         "collection_listing_aspect_ratio": "square",
         "label_style": "overlay",
         "overlay_title_background_style": "gradient",
