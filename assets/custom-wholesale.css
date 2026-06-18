@@ -1,82 +1,151 @@
 .cst-wholesale-banner {
-    background-image: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/ChatGPT_Image_Jun_11_2026_07_12_07_PM.png?v=1781185395);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 600px;
+background-image: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/ChatGPT_Image_Jun_17_2026_06_26_37_PM.png?v=1781701086);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+min-height: 600px;
+}
+body .header__row .header__row-segment.contains-nav {
+    overflow: unset;
 }
 
+.header__inner [data-scroll-container][data-axis=horizontal] {
+    overflow: unset;
+}
 .cst-wholesale-banner .image-with-text__image {
-    display: none;
+display: none;
 }
 .cst-wholesale-faq .collapsible-row-list-item__heading{
 font-size:24px;
 }
 
- .cst-custom-wholesale .image-with-text__text-container-subheading{
-  font-size:24px;
- }
+.cst-custom-wholesale .image-with-text__text-container-subheading{
+font-size:24px;
+}
 
- .cf-field {
-    margin: 0 !important;
+.cf-field {
+margin: 0 !important;
+}
+.cf-react-target {
+    border: 1px solid #021c3f;
+    padding: 20px;
+    border-radius: 12px;
 }
 .cf-field-container h1 {
-font-family: Stangith;
-font-size:45px;
+    font-family: Stangith;
+    font-size: 45px;
+    color: #021c3f;
 }
 .cst-wholesale-faq .collapsible-row-list-item:first-of-type {
-    border-top: 1px solid var(--color-border);
-    border-top: none !important;
+border-top: 1px solid var(--color-border);
+border-top: none !important;
 }
 .icon img {
-    width: 100px;
-    height: 100px;
+width: 100px;
+height: 100px;
 }
+.header__row .header__row-segment .icon {
+margin: 0;
+}
+.cst-wholesale-banner h2 {
+color: #fff;
+}
+
+.cst-wholesale-banner p {color: #d8a22c;}
+
+.cst-wholesale-banner h4 {
+color: #fff;
+}
+.cst-wholesale-banner li {
+color: #fff;
+}
+.cst-wholesale-banner .btn {
+background: #d8a22c!important;
+}
+.cst-wholesale-banner .btn:before {
+background: #d8a22c!important;
+}
+
+.header__inner [data-scroll-container] [data-scroll-container-viewport], .header__inner [data-scroll-container][data-axis=horizontal] [data-scroll-container-viewport] {
+    display: flex;
+    width: 100%;
+    overflow: visible;
+}
+
+.wholesale-menu a {display: block;text-align: center;padding: 5px 10px;background: #000;color: #fff;font-size: 13px;}
+.wholesale-menu a:hover {
+background: #ede3de;
+color:#000;
+}
+li.nav-lastlisnk.wholesale-dropdown {
+position: relative;
+}
+
+.wholesale-menu {
+position: absolute;
+width: 100%;
+opacity:0;
+visibility:hidden;
+transition:all .3s ease;
+}
+
+li.nav-lastlisnk.wholesale-dropdown:hover .wholesale-menu {
+opacity:1;
+visibility:visible;
+}
+
+
 
 
 
 
 
 @media only screen and (max-width: 1024px){
-    .cst-wholesale-banner .image-with-text__image {
-    display: block;
+.cst-wholesale-banner .image-with-text__image {
+display: block;
 }
 .cst-wholesale-banner {
-    background-image: url();
+background-image: url();
 }
 .cst-wholesale-banner .image-with-text.image-with-text--image-right .image-with-text__image-container {
-    order: 0;
+order: 0;
 }
 .cst-wholesale-banner .image-with-text__image-container, .image-with-text__text-container {
-    width: 100%;
+width: 100%;
 }
 .cst-wholesale-banner .image-with-text__content {
-    flex-direction: column;
+flex-direction: column;
 }
 .cst-wholesale-banner .image-with-text__text-container {
-    margin-top: 20px;
+margin-top: 20px;
 }
 .how-it-works {
-    padding: 20px 20px !important;
+padding: 20px 20px !important;
+}
+.cst-wholesale-banner h4, .cst-wholesale-banner li {
+    color: #011532;
+}
+.cst-wholesale-banner h2 {
+    color: #011532;
 }
 }
 
 
 
 @media only screen and (max-width: 991px){
-    .cst-wholesale-faq .collapsible-row-list__heading {
-    font-size: 36px;
+.cst-wholesale-faq .collapsible-row-list__heading {
+font-size: 36px;
 }
 }
 
 @media only screen and (max-width: 767px){
-    .cst-wholesale-faq .collapsible-row-list__heading {
-    font-size: 28px;
+.cst-wholesale-faq .collapsible-row-list__heading {
+font-size: 28px;
 }
- .cst-custom-wholesale .image-with-text__text-container-subheading{
-  font-size:20px;
- }
+.cst-custom-wholesale .image-with-text__text-container-subheading{
+font-size:20px;
+}
 }
 
 
@@ -84,14 +153,14 @@ font-size:45px;
 
 @media only screen and (max-width: 575px){
 .cst-custom-wholesale .image-with-text__text-container-heading {
-    font-size: 36px;
+font-size: 36px;
 }
 .cf-field-container h1 {
-    font-family: Stangith;
-    font-size: 36px;
+font-family: Stangith;
+font-size: 36px;
 }
 .cst-wholesale-faq .collapsible-row-list-item__heading, .cst-custom-wholesale .image-with-text__text-container-subheading {
-    font-size: 20px;
+font-size: 20px;
 }
 }
 

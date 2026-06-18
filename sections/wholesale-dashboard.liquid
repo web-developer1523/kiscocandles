@@ -169,6 +169,25 @@
     assign needs_since_fallback = false
   endif
 
+  assign lifetime_savings = 0
+  if customer.orders.size > 0
+    for order in customer.orders
+      for line_item in order.line_items
+        assign retail_unit = line_item.original_price
+        assign cap = line_item.variant.compare_at_price
+        if cap != blank and cap > retail_unit
+          assign retail_unit = cap
+        endif
+        assign wholesale_unit = line_item.final_price
+        assign unit_diff = retail_unit | minus: wholesale_unit
+        if unit_diff > 0
+          assign line_savings = unit_diff | times: line_item.quantity
+          assign lifetime_savings = lifetime_savings | plus: line_savings
+        endif
+      endfor
+    endfor
+  endif
+
   assign dashboard_url = request.path
 -%}
 
@@ -234,17 +253,17 @@
           <nav aria-label="Wholesale dashboard navigation">
             <ul class="wholesale-dashboard__nav">
               <li class="wholesale-dashboard__nav-item">
-                <a href="{{ dashboard_url }}" class="wholesale-dashboard__nav-link is-active" aria-current="page">
+                <a href="{{ dashboard_url }}" class="wholesale-dashboard__nav-link is-active" aria-current="page" data-dashboard-toggle>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
                   Dashboard
                 </a>
               </li>
               <li class="wholesale-dashboard__nav-item">
-                <a href="{{ routes.account_addresses_url }}" class="wholesale-dashboard__nav-link">
+                <a href="#company-profile" class="wholesale-dashboard__nav-link" data-company-profile-toggle aria-expanded="false">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                   Company Profile
                 </a>
-              </li>
+              </li> 
               <li class="wholesale-dashboard__nav-item">
                 <a href="{{ routes.account_addresses_url }}" class="wholesale-dashboard__nav-link">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -257,12 +276,12 @@
                   Tax &amp; Certificates
                 </a>
               </li> {% endcomment %}
-              {% comment %} <li class="wholesale-dashboard__nav-item">
+               <li class="wholesale-dashboard__nav-item">
                 <a href="{{ routes.account_url }}" class="wholesale-dashboard__nav-link">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
                   Order History
                 </a>
-              </li> {% endcomment %}
+              </li>
               {% comment %} <li class="wholesale-dashboard__nav-item">
                 <a href="/pages/contact" class="wholesale-dashboard__nav-link">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
@@ -272,7 +291,7 @@
               <li class="wholesale-dashboard__nav-item">
                 <a href="/pages/quick-order" class="wholesale-dashboard__nav-link">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                  Quick Order
+                  Quick Reorder
                 </a>
               </li>
               {% comment %} <li class="wholesale-dashboard__nav-item">
@@ -303,14 +322,14 @@
             <h1 class="wholesale-dashboard__welcome-title">
               Welcome back, {{ customer.first_name }}!
             </h1>
-            <p class="wholesale-dashboard__welcome-subtitle">
+            {% comment %} <p class="wholesale-dashboard__welcome-subtitle">
               Here's an overview of your wholesale account.
-            </p>
+            </p> {% endcomment %}
           </header>
 
           {%- comment -%} Summary cards {%- endcomment -%}
           <div class="wholesale-dashboard__summary">
-            <div class="wholesale-dashboard__card">
+            {% comment %} <div class="wholesale-dashboard__card">
               <div class="wholesale-dashboard__card-header">
                 <div class="wholesale-dashboard__card-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
@@ -321,8 +340,25 @@
                   {% comment %} <p class="wholesale-dashboard__card-sub">Wholesale Account</p> {% endcomment %}
                 </div>
               </div>
-            </div>
+            </div> {% endcomment %}
 
+            <div class="wholesale-dashboard__card" id="b2b-savings">
+              <div class="wholesale-dashboard__card-header">
+                <div class="wholesale-dashboard__card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <div>
+                  <p class="wholesale-dashboard__card-label">Lifetime B2B Savings</p>
+                  {%- if customer.orders.size > 0 and lifetime_savings > 0 -%}
+                    <p class="wholesale-dashboard__card-value wholesale-dashboard__card-value--verified">{{ lifetime_savings | money }}</p>
+                    <p class="wholesale-dashboard__card-sub">Saved through wholesale pricing</p>
+                  {%- else -%}
+                    <p class="wholesale-dashboard__card-value">{{ 0 | money }}</p>
+                    {% comment %} <p class="wholesale-dashboard__card-sub">Place an order to start saving</p> {% endcomment %}
+                  {%- endif -%}
+                </div>
+              </div>
+            </div>
             <div class="wholesale-dashboard__card">
               <div class="wholesale-dashboard__card-header">
                 <div class="wholesale-dashboard__card-icon">
@@ -380,10 +416,11 @@
                 </div>
               </div>
             </div>
+
           </div>
 
           {%- comment -%} B2B registration profile {%- endcomment -%}
-          <div class="wholesale-dashboard__panel wholesale-dashboard__profile-panel" id="company-profile">
+          <div class="wholesale-dashboard__panel wholesale-dashboard__profile-panel" id="company-profile" data-company-profile-panel hidden style="display: none;">
             <div class="wholesale-dashboard__panel-header">
               <h2 class="wholesale-dashboard__section-title" style="margin-bottom: 0;">Company Profile</h2>
               <a href="{{ routes.account_addresses_url }}" class="wholesale-dashboard__panel-link">Edit Profile</a>
@@ -425,7 +462,7 @@
                   <dd>{{ wholesale_status }}</dd>
                 </div>
               {%- endif -%}
-              <div class="wholesale-dashboard__profile-row">
+              {% comment %} <div class="wholesale-dashboard__profile-row">
                 <dt>Customer Since</dt>
                 <dd>
                   <span data-customer-since>
@@ -434,7 +471,7 @@
                     {%- endif -%}
                   </span>
                 </dd>
-              </div>
+              </div> {% endcomment %}
               {%- if business_address != blank -%}
                 <div class="wholesale-dashboard__profile-row">
                   <dt>Business Address</dt>
@@ -475,8 +512,8 @@
               <div class="wholesale-dashboard__action-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
               </div>
-              <p class="wholesale-dashboard__action-title">Quick Order</p>
-              <p class="wholesale-dashboard__action-desc">Order by SKU</p>
+              <p class="wholesale-dashboard__action-title">Quick Reorder</p>
+              <p class="wholesale-dashboard__action-desc">Product Recommendation</p>
             </a>
 
             <a href="{{ routes.account_url }}" class="wholesale-dashboard__action">
@@ -697,6 +734,75 @@
   </div>
 </section>
 
+<script>
+  (function () {
+    var section = document.querySelector('[data-section-id="{{ section.id }}"]');
+    if (!section) { return; }
+
+    var main = section.querySelector('.wholesale-dashboard__main');
+    var panel = section.querySelector('[data-company-profile-panel]');
+    var profileToggle = section.querySelector('[data-company-profile-toggle]');
+    var dashboardToggle = section.querySelector('[data-dashboard-toggle]');
+    if (!main || !panel || !profileToggle) { return; }
+
+    // Every direct block inside the main column (welcome, cards, profile panel,
+    // quick actions, orders, banner, benefits, etc.).
+    var blocks = Array.prototype.slice.call(main.children);
+
+    function setActive(activeLink, inactiveLink) {
+      if (activeLink) {
+        activeLink.classList.add('is-active');
+        activeLink.setAttribute('aria-current', 'page');
+      }
+      if (inactiveLink) {
+        inactiveLink.classList.remove('is-active');
+        inactiveLink.removeAttribute('aria-current');
+      }
+    }
+
+    // Company Profile view: show ONLY the profile panel.
+    function showProfileView() {
+      blocks.forEach(function (el) {
+        if (el === panel) {
+          el.removeAttribute('hidden');
+          el.style.display = '';
+        } else {
+          el.setAttribute('hidden', '');
+          el.style.display = 'none';
+        }
+      });
+      setActive(profileToggle, dashboardToggle);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Dashboard view (default): show everything except the profile panel.
+    function showDashboardView() {
+      blocks.forEach(function (el) {
+        if (el === panel) {
+          el.setAttribute('hidden', '');
+          el.style.display = 'none';
+        } else {
+          el.removeAttribute('hidden');
+          el.style.display = '';
+        }
+      });
+      setActive(dashboardToggle, profileToggle);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    profileToggle.addEventListener('click', function (event) {
+      event.preventDefault();
+      showProfileView();
+    });
+
+    if (dashboardToggle) {
+      dashboardToggle.addEventListener('click', function (event) {
+        event.preventDefault();
+        showDashboardView();
+      });
+    }
+  })();
+</script>
 {% schema %}
 {
   "name": "Wholesale Dashboard",

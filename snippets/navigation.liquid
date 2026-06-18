@@ -122,5 +122,14 @@
   {% endfor %}
   {%- comment -%}<li class="nav-lastlisnk ml-20"><span>{% render 'icon', icon: 'header-call' %}<a href="tel:732 405 3566">732 405 3566</a></span></li>{%- endcomment -%}
 <!--  <li class="nav-lastlisnk"><span>{% render 'icon' with icon: 'email' %} &nbsp;&nbsp;<a href="mailto:support@kiscocandles.com">support@kiscocandles.com</a></span></li> -->
-  <li class="nav-lastlisnk"><button class="btn btn--tertiary btn--x-small"><a href="/pages/wholesale">Wholesale Login</button></a></li>
+<li class="nav-lastlisnk wholesale-dropdown">
+  <button class="btn btn--tertiary btn--x-small">
+    Wholesale
+  </button>
+
+  <div class="wholesale-menu">
+    <a href="/pages/wholesale">Create Account</a>
+    <a href="/customer_authentication/login?return_to=/pages/wholesale-dashboard">Sign In</a>
+  </div>
+</li>
 </ul>

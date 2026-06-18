@@ -1,0 +1,6 @@
+{%- comment -%}
+  New Customer Accounts login URL with wholesale dashboard redirect.
+  Outputs a relative return_to path only (required by Shopify New Customer Accounts).
+{%- endcomment -%}
+{%- assign wholesale_dashboard_return = '/pages/wholesale-dashboard' | url_encode -%}
+/customer_authentication/login?return_to={{ wholesale_dashboard_return }}

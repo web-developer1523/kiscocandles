@@ -108,7 +108,7 @@
     language: {{ request.locale.iso_code | json }},
     accountRedirect: {
       urlRegex: /\/account/g,
-      goTo: "/index", // page to redirect logged in users to
+      goTo: {%- if customer.tags contains 'wholesale' -%}"/pages/wholesale-dashboard"{%- else -%}"/index"{%- endif -%},
     },
     display: {
       stock: {
@@ -298,7 +298,9 @@
     <!--END VW SEO-->
   </head>
 
-  <body class="template-{{ request.page_type | handle }}">
+  <body class="template-{{ request.page_type | handle }}"{% if customer %} data-customer-logged-in="true"{% endif %}>
+    {%- render 'customer-tag-redirect' -%}
+    <script src="{{ 'customer-account-redirect.js' | asset_url }}" defer></script>
     <div class="page">
       {% if settings.enable_page_transitions %}
         {% render 'page-transition-overlay' %}

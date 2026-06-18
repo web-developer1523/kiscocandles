@@ -198,7 +198,7 @@
         "text_GWRrjV": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Already have account? </strong><a href=\"/account/\" title=\"/account/\"><strong>Click here</strong></a><strong> to login</strong></p>",
+            "text": "<p><strong>Already have an account?</strong> Use the <strong>Account</strong> icon in the header to sign in.</p>",
             "text_font_class": "fs-body-100"
           }
         }

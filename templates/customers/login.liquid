@@ -1,4 +1,7 @@
 {{ 'template-customers.css' | asset_url | stylesheet_tag }}
+{%- if customer -%}
+  {%- render 'customer-tag-redirect' -%}
+{%- endif -%}
 <section
   class="customer login page"
   data-section-id="{{ section.id }}"
@@ -20,6 +23,8 @@
       <div class="login__main">
 
         {% form 'customer_login', novalidate: 'novalidate', class: 'login__form' %}
+
+          <input type="hidden" name="return_url" value="{{ routes.account_url }}">
 
           {%- assign success_msg = 'customer.recover_password.success' | t | t -%}
           {% render 'form-status', form: form, form_id: 'CustomerEmail', success_message: success_msg %}

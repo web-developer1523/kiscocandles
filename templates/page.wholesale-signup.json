@@ -58,7 +58,7 @@
         "text_NVQHHp": {
           "type": "text",
           "settings": {
-            "text": "<p>Already have an account? Click <a href=\"/account/login?return_url=%2Faccount\" title=\"/account/login?return_url=%2Faccount\">here</a> to login</p>",
+            "text": "<p>Already have an account? Use the <strong>Account</strong> icon in the header to sign in.</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -113,7 +113,7 @@
         "button_Cbx7PX": {
           "type": "button",
           "settings": {
-            "link": "#",
+            "link": "#cf-step-anchor",
             "link_text": "Apply now",
             "button_style": "btn--primary"
           }
@@ -136,7 +136,7 @@
         "custom_class": "cst-custom-wholesale",
         "image_position": "right",
         "text_alignment": "left",
-        "image": "shopify://shop_images/3dcb198f-c7e7-4bc6-ab43-67ec795db2e3.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_17_2026_06_26_37_PM_1.png",
         "aspect_ratio": "square",
         "focal_point": "image_presentation",
         "image_caption": "",
@@ -270,7 +270,7 @@
         "text_GWRrjV": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Already have account? </strong><a href=\"/account/\" title=\"/account/\"><strong>Click here</strong></a><strong> to login</strong></p>",
+            "text": "<p><strong>Already have an account?</strong> Use the <strong>Account</strong> icon in the header to sign in.</p>",
             "text_font_class": "fs-body-100"
           }
         }
@@ -1099,6 +1099,7 @@
         "item_RqwC7P",
         "item_VXp3mt"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_row_list.presets.name",
       "settings": {
         "custom_class": "cst-wholesale-faq",

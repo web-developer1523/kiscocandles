@@ -1,0 +1,121 @@
+{%- comment -%}
+  Quick order product row.
+  Accepts:
+  - product: product object
+  - show_reorder_badge: boolean (optional)
+{%- endcomment -%}
+
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign has_multiple_variants = false
+  if product.variants.size > 1
+    assign has_multiple_variants = true
+  endif
+-%}
+
+<article
+  class="wholesale-quick-order__item"
+  data-quick-order-item
+  data-product-id="{{ product.id }}"
+>
+  <div class="wholesale-quick-order__item-media">
+    <a href="{{ product.url }}" class="wholesale-quick-order__item-image-link">
+      {%- if product.featured_image != blank -%}
+        {{
+          product.featured_image
+          | image_url: width: product.featured_image.width
+          | image_tag:
+            loading: 'lazy',
+            alt: product.featured_image.alt | default: product.title,
+            class: 'wholesale-quick-order__item-image'
+        }}
+      {%- else -%}
+        <div class="wholesale-quick-order__item-image-placeholder" aria-hidden="true"></div>
+      {%- endif -%}
+    </a>
+    {%- if show_reorder_badge -%}
+      <span class="wholesale-quick-order__badge">Previously ordered</span>
+    {%- endif -%}
+  </div>
+
+  <div class="wholesale-quick-order__item-body">
+    <h3 class="wholesale-quick-order__item-title">
+      <a href="{{ product.url }}">{{ product.title }}</a>
+    </h3>
+
+    {%- if current_variant.sku != blank -%}
+      <p class="wholesale-quick-order__item-sku">SKU: {{ current_variant.sku }}</p>
+    {%- endif -%}
+
+    <p class="wholesale-quick-order__item-price" data-item-price>
+      {%- if current_variant.compare_at_price > current_variant.price -%}
+        <span class="wholesale-quick-order__item-price-compare">{{ current_variant.compare_at_price | money }}</span>
+      {%- endif -%}
+      <span data-item-price-value>{{ current_variant.price | money }}</span>
+    </p>
+
+    <div class="wholesale-quick-order__item-actions">
+      {%- if has_multiple_variants -%}
+        <label class="visually-hidden" for="variant-{{ product.id }}-{{ section.id }}">Variant</label>
+        <select
+          id="variant-{{ product.id }}-{{ section.id }}"
+          class="wholesale-quick-order__variant-select"
+          data-variant-select
+          aria-label="Select variant for {{ product.title }}"
+        >
+          {%- for variant in product.variants -%}
+            <option
+              value="{{ variant.id }}"
+              data-price="{{ variant.price | money }}"
+              data-sku="{{ variant.sku | escape }}"
+              {% if variant == current_variant %}selected{% endif %}
+              {% unless variant.available %}disabled{% endunless %}
+            >
+              {{ variant.title -}}
+              {%- unless variant.available %} — Sold out{% endunless %}
+            </option>
+          {%- endfor -%}
+        </select>
+      {%- else -%}
+        <input type="hidden" data-variant-select value="{{ current_variant.id }}">
+      {%- endif -%}
+
+      <div class="wholesale-quick-order__cart-row">
+        <label class="visually-hidden" for="qty-{{ product.id }}-{{ section.id }}">Quantity</label>
+        <input
+          type="number"
+          id="qty-{{ product.id }}-{{ section.id }}"
+          class="wholesale-quick-order__qty"
+          data-qty-input
+          value="1"
+          min="1"
+          step="1"
+          inputmode="numeric"
+          aria-label="Quantity for {{ product.title }}"
+        >
+
+        <button
+          type="button"
+          class="wholesale-dashboard__btn wholesale-quick-order__add-btn"
+          data-add-to-cart
+          {% unless current_variant.available %}disabled aria-disabled="true"{% endunless %}
+        >
+          <span data-add-to-cart-text>
+            {%- if current_variant.available -%}
+              Add to cart
+            {%- else -%}
+              Sold out
+            {%- endif -%}
+          </span>
+          <span class="wholesale-quick-order__add-btn-loading" data-add-to-cart-loading hidden aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <p class="wholesale-quick-order__item-feedback" data-item-feedback role="status" aria-live="polite"></p>
+  </div>
+
+  <script type="application/json" data-product-variants>
+    {{ product.variants | json }}
+  </script>
+</article>

@@ -1,0 +1,39 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "wholesale_quick_order": {
+      "type": "wholesale-quick-order",
+      "settings": {
+        "heading": "Quick Order",
+        "subheading": "Add products to your cart in just a few clicks.",
+        "dashboard_page_url": "",
+        "product_source": "selected",
+        "selected_products": [
+          "bolsius-floating-candle-1-75-inch-set-of-20-unscented-for-romantic-wedding-centerpieces-decorations-events-pool-or-any-occasion",
+          "bolsius-tall-10-inch-taper-candles-10-pack-wedding-decorative-hoilday-colored-unscented-taper-candles",
+          "10-x-0-9-classic-bulk-taper-candles-40-50-60-pack",
+          "10-x-0-9-classic-taper-candles-100-packbolsius-10-inch-white-taper-candles",
+          "bolsius-tall-10-inch-taper-candles-30-pack-wedding-decorative-hoilday-colored-unscented-taper-candles",
+          "10-x-0-9-classic-bulk-taper-candles-300-pack",
+          "bolsius-tall-10-inch-taper-candles-4-8-12-16-pack-wedding-decorative-hoilday-colored-unscented-taper-candles",
+          "10-x-0-9-classic-bulk-taper-candles-200-pack",
+          "11-5-x-0-9-classic-houshold-bulk-taper-candles-100-pack"
+        ],
+        "max_products": 8,
+        "fallback_to_selected": true,
+        "show_sku_search": false
+      }
+    }
+  },
+  "order": [
+    "wholesale_quick_order"
+  ]
+}

@@ -1,0 +1,81 @@
+{%- comment -%}
+  Storefront tag routing (works with new customer accounts).
+
+  Shopify hosted login cannot run theme code. Instead we route customers
+  when they visit the storefront while logged in.
+
+  wholesale → /pages/wholesale-dashboard (from homepage & wholesale signup page)
+  Retail    → homepage (from wholesale dashboard)
+
+  Append ?browse=1 to stay on the retail homepage (wholesale only).
+{%- endcomment -%}
+
+{%- unless customer -%}
+  {%- break -%}
+{%- endunless -%}
+
+{%- liquid
+  assign redirect_url = blank
+  assign is_wholesale = false
+  assign is_retail = false
+
+  if customer.tags contains 'wholesale'
+    assign is_wholesale = true
+  endif
+
+  if customer.tags contains 'Retail'
+    assign is_retail = true
+  endif
+
+  assign skip_redirect = false
+
+  if request.query_string contains 'browse=1' or request.query_string contains 'no_redirect=1' or request.query_string contains 'checkout_url='
+    assign skip_redirect = true
+  endif
+
+  if request.page_type == 'cart' or request.page_type == 'checkout'
+    assign skip_redirect = true
+  endif
+
+  unless skip_redirect
+    if is_wholesale
+      if request.path == routes.root_url or request.path == '/pages/wholesale'
+        assign redirect_url = '/pages/wholesale-dashboard'
+      elsif request.query_string contains 'logged_in=true'
+        unless request.path == '/pages/wholesale-dashboard'
+          assign redirect_url = '/pages/wholesale-dashboard'
+        endunless
+      endif
+    elsif is_retail
+      if request.path == '/pages/wholesale-dashboard'
+        assign redirect_url = routes.root_url
+      elsif request.query_string contains 'logged_in=true' and request.path != routes.root_url
+        assign redirect_url = routes.root_url
+      endif
+    endif
+  endunless
+
+  if redirect_url != blank
+    assign redirect_path = redirect_url | split: '?' | first
+    if request.path == redirect_path
+      assign redirect_url = blank
+    endif
+  endif
+-%}
+
+<script id="customer-account-redirect-data" type="application/json">
+  {
+    "isWholesale": {{ is_wholesale | json }},
+    "isRetail": {{ is_retail | json }},
+    "currentPath": {{ request.path | json }},
+    "homePath": {{ routes.root_url | json }},
+    "wholesaleDashboardPath": "/pages/wholesale-dashboard",
+    "wholesaleSignupPath": "/pages/wholesale",
+    "skipRedirect": {{ skip_redirect | json }}
+  }
+</script>
+
+{%- if redirect_url != blank -%}
+  <meta http-equiv="refresh" content="0;url={{ redirect_url }}">
+  <script>window.location.replace({{ redirect_url | json }});</script>
+{%- endif -%}

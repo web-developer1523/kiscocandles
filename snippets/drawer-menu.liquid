@@ -96,20 +96,35 @@
                       {%- if customer -%}
                         {% render 'icon', icon: 'header-account' %}
 
-                        <a class="drawer-menu__link" href="{{ routes.account_url }}">
-                          {{ 'sections.drawer_menu.account.logged_in' | t }}
-                        </a>
-                        <span class="drawer-menu__link">
-                          (
-                          <a class="drawer-menu__logout_link" href="{{ routes.account_logout_url }}">
-                            {{ 'sections.drawer_menu.account.logout' | t }}
+                        {%- if customer.tags contains 'wholesale' -%}
+                          <a class="drawer-menu__link" href="/pages/wholesale-dashboard">
+                            Wholesale Dashboard
                           </a>
-                          )
-                        </span>
+                          <span class="drawer-menu__link">
+                            (
+                            <a class="drawer-menu__link" href="{{ routes.account_url }}">Orders</a>
+                            ·
+                            <a class="drawer-menu__logout_link" href="{{ routes.account_logout_url }}">
+                              {{ 'sections.drawer_menu.account.logout' | t }}
+                            </a>
+                            )
+                          </span>
+                        {%- else -%}
+                          <a class="drawer-menu__link" href="{{ routes.account_url }}">
+                            {{ 'sections.drawer_menu.account.logged_in' | t }}
+                          </a>
+                          <span class="drawer-menu__link">
+                            (
+                            <a class="drawer-menu__logout_link" href="{{ routes.account_logout_url }}">
+                              {{ 'sections.drawer_menu.account.logout' | t }}
+                            </a>
+                            )
+                          </span>
+                        {%- endif -%}
 
                       {% else %}
                         {% render 'icon', icon: 'header-account' %}
-                        <a class="drawer-menu__link" href="{{ routes.account_url }}">
+                        <a class="drawer-menu__link" href="{% render 'customer-login-url' %}">
                           {{ 'sections.drawer_menu.account.logged_out' | t }}
                         </a>
                       {%- endif -%}
