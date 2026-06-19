@@ -65,14 +65,20 @@
   assign logo_transparent = section.settings.logo_transparent
 
   assign menu = section.settings.menu
+  assign wholesale_menu = section.settings.wholesale_menu
   assign secondary_menu = section.settings.secondary_menu
 
-  assign links = linklists[menu].links
+  assign active_menu = menu
+  if customer and customer.tags contains 'wholesale' and wholesale_menu != blank
+    assign active_menu = wholesale_menu
+  endif
+
+  assign links = linklists[active_menu].links
   assign secondary_links = linklists[secondary_menu].links
 
   assign secondary_menu_valid = false
 
-  if secondary_menu != blank and secondary_menu != menu
+  if secondary_menu != blank and secondary_menu != active_menu
     assign secondary_menu_valid = true
   endif
 
@@ -112,7 +118,7 @@
 {%- assign mobile_menu_image_blocks = section.blocks | where: 'type', 'mobile_menu_images' -%}
 
 {%- capture header_logo -%}
-  <{{ logo_tag_type }} class="header__logo">
+  <{{ logo_tag_type }} class="header__logo{% if customer and customer.tags contains 'wholesale' %} header__logo--wholesale{% endif %}">
     <a
       class="header__logo-link"
       href="{{ routes.root_url }}"
@@ -132,6 +138,9 @@
         <span class="header__logo-text">{{ shop.name }}</span>
       {%- endif -%}
     </a>
+    {%- if customer and customer.tags contains 'wholesale' -%}
+      <p class="header__logo-tagline">Kisco For Busniss</p>
+    {%- endif -%}
   </{{ logo_tag_type }}>
 {%- endcapture -%}
 
@@ -218,7 +227,7 @@
     <div data-scroll-container-viewport>
       <div class="scroll-sentinal scroll-sentinal--start" data-position="start"></div>
       <nav class="header__links header__links-primary" data-navigation>
-        {%- if menu == blank and secondary_menu != blank -%}
+        {%- if active_menu == blank and secondary_menu != blank -%}
           {% render 'navigation' with menu: secondary_links, blocks: section.blocks %}
         {%- else -%}
           {% render 'navigation' with menu: links, blocks: section.blocks %}
@@ -322,7 +331,7 @@
     {% if secondary_menu_valid -%}
       header--has-secondary-menu
     {%- endif %}
-    {% if menu == blank and secondary_menu != blank -%}
+    {% if active_menu == blank and secondary_menu != blank -%}
       header--primary-menu-is-secondary
     {%- endif %}
     {% if settings.capitalize_navigation -%}
@@ -500,7 +509,7 @@
 </div>   
 
   <div class="no-js-menu no-js-menu--desktop">
-    {% render 'no-js-navmenu' with menu: menu, secondary_menu: secondary_menu %}
+    {% render 'no-js-navmenu' with menu: active_menu, secondary_menu: secondary_menu %}
   </div>
 
   {% render 'drawer-menu',
@@ -687,6 +696,12 @@
       "type": "link_list",
       "label": "t:sections.header.settings.menu.label",
       "default": "main-menu"
+    },
+    {
+      "id": "wholesale_menu",
+      "type": "link_list",
+      "label": "Wholesale menu",
+      "info": "Shown when a logged-in customer has the wholesale tag. Guests and Retail customers see the menu above."
     },
     {
       "id": "secondary_menu",

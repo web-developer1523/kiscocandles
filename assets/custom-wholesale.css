@@ -1,5 +1,5 @@
 .cst-wholesale-banner {
-background-image: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/ChatGPT_Image_Jun_17_2026_06_26_37_PM.png?v=1781701086);
+background-image: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/ChatGPT_Image_Jun_18_2026_07_18_16_PM.png?v=1781790653);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -28,14 +28,14 @@ font-size:24px;
 margin: 0 !important;
 }
 .cf-react-target {
-    border: 1px solid #021c3f;
+    border: 1px solid #363f30f5;
     padding: 20px;
     border-radius: 12px;
 }
 .cf-field-container h1 {
     font-family: Stangith;
     font-size: 45px;
-    color: #021c3f;
+    color: #363f30f5;
 }
 .cst-wholesale-faq .collapsible-row-list-item:first-of-type {
 border-top: 1px solid var(--color-border);
@@ -95,7 +95,26 @@ opacity:1;
 visibility:visible;
 }
 
+.header__logo--wholesale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.header__logo-tagline {
+  margin: 4px 0 0;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #363f30;
+  line-height: 1.2;
+}
+
+.header__row.header__row-desktop.upper .header__logo--wholesale {
+  padding-bottom: 8px;
+}
 
 
 

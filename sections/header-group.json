@@ -166,6 +166,7 @@
         "logo_width": 160,
         "mobile_logo_width": 90,
         "menu": "mega-menu",
+        "wholesale_menu": "wholesale-menu",
         "secondary_menu": "",
         "enable_transparent_on_home": false,
         "enable_transparent_template_list": "",

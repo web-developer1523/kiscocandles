@@ -91,7 +91,7 @@ opacity: 1;
 
 /* Sidebar */
 .wholesale-dashboard__sidebar {
-    background: #02183a;
+    background: #363f30f5;
     border: 1px solid var(--dashboard-border);
     border-radius: var(--dashboard-radius);
     padding: 24px 0;
@@ -240,7 +240,7 @@ margin-bottom: 32px;
 
 .wholesale-dashboard__card {
     background: var(--dashboard-background);
-    border: 1px solid #02183a;
+    border: 1px solid #363f30f5;
     border-radius: var(--dashboard-radius);
     padding: 20px;
 }
@@ -256,7 +256,7 @@ margin-bottom: 0px;
     width: 40px;
     height: 40px;
     border-radius: 8px;
-    background: #02183a;
+    background: #363f30f5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -334,7 +334,7 @@ margin-bottom: 32px;
     align-items: center;
     text-align: center;
     padding: 20px 12px;
-    border: 1px solid #02183a;
+    border: 1px solid #363f30f5;
     border-radius: var(--dashboard-radius);
     text-decoration: none;
     color: var(--dashboard-black);
@@ -356,7 +356,7 @@ pointer-events: none;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: #02183a;
+    background: #363f30f5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -391,7 +391,7 @@ margin-bottom: 32px;
 }
 
 .wholesale-dashboard__panel {
-    border: 1px solid #02183a;
+    border: 1px solid #363f30f5;
     border-radius: var(--dashboard-radius);
     padding: 24px;
     background: var(--dashboard-background);
@@ -707,7 +707,7 @@ padding: 8px 12px;
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background: #02183a;
+    background: #363f30f5;
     display: flex;
     align-items: center;
     justify-content: center;
