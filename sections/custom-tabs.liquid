@@ -1,0 +1,167 @@
+<section class="feature-cards">
+  <div class="page-width">
+    <div class="feature-cards__wrapper">
+
+      {% for block in section.blocks %}
+        <div class="feature-card" {{ block.shopify_attributes }}>
+
+          {% if block.settings.icon != blank %}
+            <div class="feature-card__icon">
+              <img
+                src="{{ block.settings.icon | image_url: width: 60 }}"
+                alt="{{ block.settings.heading }}"
+                width="36"
+                height="36"
+                loading="lazy">
+            </div>
+          {% endif %}
+
+          <div class="feature-card__content">
+            <h3>{{ block.settings.heading }}</h3>
+
+            {% if block.settings.description != blank %}
+              <p>{{ block.settings.description }}</p>
+            {% endif %}
+          </div>
+
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+
+<style>
+.help-contact-section{
+padding:16px 0;
+}
+
+.help-contact-wrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px solid #e5e5e5;
+border-radius: 10px;
+padding: 14px 13px;
+gap: 20px;
+}
+
+.help-contact-left{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.help-contact-left img{
+width:40px;
+height:40px;
+object-fit:contain;
+}
+
+.help-contact-content h3 {
+margin: 0;
+font-size: 14px;
+font-weight: 600;
+color: #111;
+}
+
+.help-contact-content p{
+margin:4px 0 0;
+font-size:14px;
+color:#777;
+}
+
+.help-contact-links{
+display:flex;
+align-items:center;
+flex-wrap:wrap;
+gap:12px;
+}
+
+.help-contact-links a {
+text-decoration: none;
+color: #222;
+font-size: 12px;
+font-weight: 600;
+}
+
+.help-contact-links a:hover{
+text-decoration:underline;
+}
+
+.separator{
+color:#999;
+}
+@media(max-width:989px){
+
+.feature-cards__wrapper{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.feature-card{
+    border-bottom:1px solid #ececec;
+}
+
+.feature-card:nth-child(even){
+    border-right:none;
+}
+
+}
+
+@media(max-width:749px){
+
+.feature-cards__wrapper{
+    grid-template-columns:1fr;
+}
+
+.feature-card{
+    border-right:none;
+}
+
+}
+</style>
+
+{% schema %}
+{
+  "name": "Feature Cards",
+  "max_blocks": 10,
+  "settings": [],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Top European Quality"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Premium materials & clean burn"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature Cards",
+      "blocks": [
+        { "type": "feature" },
+        { "type": "feature" },
+        { "type": "feature" },
+        { "type": "feature" },
+        { "type": "feature" }
+      ]
+    }
+  ]
+}
+{% endschema %}

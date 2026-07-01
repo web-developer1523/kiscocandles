@@ -1,29 +1,26 @@
 {%- comment -%}
   Storefront tag routing (works with new customer accounts).
 
-  Shopify hosted login cannot run theme code. Instead we route customers
-  when they visit the storefront while logged in.
+  wholesale → wholesale homepage (/pages/wholesale-home) instead of retail /
+  wholesale → /pages/wholesale-dashboard when visiting Shopify account URLs
+  everyone else → blocked from wholesale homepage (sent to retail /)
 
-  wholesale → /pages/wholesale-dashboard (from homepage & wholesale signup page)
-  Retail    → homepage (from wholesale dashboard)
-
-  Append ?browse=1 to stay on the retail homepage (wholesale only).
+  Append ?browse=1 or ?no_redirect=1 to skip redirects.
 {%- endcomment -%}
 
-{%- unless customer -%}
-  {%- break -%}
-{%- endunless -%}
+{%- capture wholesale_home_path -%}{%- render 'wholesale-home-url' -%}{%- endcapture -%}
+{%- assign wholesale_home_path = wholesale_home_path | strip -%}
 
 {%- liquid
   assign redirect_url = blank
   assign is_wholesale = false
   assign is_retail = false
 
-  if customer.tags contains 'wholesale'
+  if customer and customer.tags contains 'wholesale'
     assign is_wholesale = true
   endif
 
-  if customer.tags contains 'Retail'
+  if customer and customer.tags contains 'Retail'
     assign is_retail = true
   endif
 
@@ -37,17 +34,28 @@
     assign skip_redirect = true
   endif
 
+  assign is_retail_home = false
+  if request.path == routes.root_url or request.path == '/'
+    assign is_retail_home = true
+  endif
+
   unless skip_redirect
-    if is_wholesale
-      if request.path == routes.root_url or request.path == '/pages/wholesale'
-        assign redirect_url = '/pages/wholesale-dashboard'
-      elsif request.query_string contains 'logged_in=true'
+    unless is_wholesale
+      if request.path == wholesale_home_path
+        assign redirect_url = routes.root_url
+      endif
+    else
+      if is_retail_home
+        assign redirect_url = wholesale_home_path
+      elsif request.path contains '/account' or request.path contains '/customer_authentication'
         unless request.path == '/pages/wholesale-dashboard'
           assign redirect_url = '/pages/wholesale-dashboard'
         endunless
       endif
-    elsif is_retail
-      if request.path == '/pages/wholesale-dashboard'
+    endunless
+
+    if is_retail
+      if request.path == '/pages/wholesale-dashboard' or request.path == wholesale_home_path
         assign redirect_url = routes.root_url
       elsif request.query_string contains 'logged_in=true' and request.path != routes.root_url
         assign redirect_url = routes.root_url
@@ -67,8 +75,10 @@
   {
     "isWholesale": {{ is_wholesale | json }},
     "isRetail": {{ is_retail | json }},
+    "isLoggedIn": {% if customer %}true{% else %}false{% endif %},
     "currentPath": {{ request.path | json }},
     "homePath": {{ routes.root_url | json }},
+    "wholesaleHomePath": {{ wholesale_home_path | json }},
     "wholesaleDashboardPath": "/pages/wholesale-dashboard",
     "wholesaleSignupPath": "/pages/wholesale",
     "skipRedirect": {{ skip_redirect | json }}

@@ -1,9 +1,14 @@
 {%- assign current_template = template | split: '.' | first -%}
+{%- assign breadcrumbs_home_url = routes.root_url -%}
+{%- if customer and customer.tags contains 'wholesale' -%}
+  {%- capture breadcrumbs_home_url -%}{%- render 'wholesale-home-url' -%}{%- endcapture -%}
+  {%- assign breadcrumbs_home_url = breadcrumbs_home_url | strip -%}
+{%- endif -%}
 <nav class="breadcrumbs ff-body fs-body-75" role="navigation" aria-label="breadcrumbs">
   {%- if show_breadcrumbs -%}
     <ol class="breadcrumbs__list">
       <li class="breadcrumbs__item">
-        <a class="breadcrumbs__link" href="{{ routes.root_url }}">{{ 'general.navigation.home' | t }}</a>
+        <a class="breadcrumbs__link" href="{{ breadcrumbs_home_url }}">{{ 'general.navigation.home' | t }}</a>
         <div class="breadcrumbs__icon">{% render 'icon' with icon: 'chevron-small' %}</div>
       </li>
       {%- case current_template -%}

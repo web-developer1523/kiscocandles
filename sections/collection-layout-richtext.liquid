@@ -1,0 +1,123 @@
+{%- assign is_wholesale = false -%}
+{%- if customer and customer.tags contains 'wholesale' -%}
+  {%- assign is_wholesale = true -%}
+{%- endif -%}
+
+{%- if is_wholesale -%}
+  {%- assign active_heading = section.settings.wholesale_heading -%}
+  {%- assign active_content = section.settings.wholesale_content -%}
+{%- else -%}
+  {%- assign active_heading = section.settings.retail_heading -%}
+  {%- assign active_content = section.settings.retail_content -%}
+{%- endif -%}
+
+{%- if active_heading == blank and active_content == blank -%}
+{%- else -%}
+  <div
+    class="cwrr-richtext{% if is_wholesale %} cwrr-richtext--wholesale{% else %} cwrr-richtext--retail{% endif %}"
+    data-cwrr-layout="{% if is_wholesale %}wholesale{% else %}retail{% endif %}"
+  >
+    <div class="cwrr-richtext__inner">
+      {%- if active_heading != blank -%}
+        <h2 class="cwrr-richtext__heading">{{ active_heading }}</h2>
+      {%- endif -%}
+
+      {%- if active_content != blank -%}
+        <div class="cwrr-richtext__content rte">
+          {{ active_content }}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+{%- endif -%}
+
+<style>
+  .cwrr-richtext {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding: var(--spacing-section, 48px) 0;
+  }
+
+  .cwrr-richtext__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-outer, 24px);
+  }
+
+  .cwrr-richtext__heading {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-heading-3-base);
+    font-weight: var(--font-heading-weight);
+    line-height: var(--line-height-heading);
+    margin: 0 0 1rem;
+    color: var(--color-text);
+  }
+
+  .cwrr-richtext__content {
+    font-size: var(--font-size-body-100);
+    line-height: var(--line-height-body);
+    color: var(--color-text);
+  }
+
+  .cwrr-richtext__content > *:first-child {
+    margin-top: 0;
+  }
+
+  .cwrr-richtext__content > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .cwrr-richtext--wholesale {
+    background-color: var(--color-background-meta);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Wholesale Retail Text",
+  "tag": "section",
+  "class": "cwrr-richtext-section",
+  "templates": ["collection"],
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Optional content below the product grid. Shows different text for wholesale vs retail visitors."
+    },
+    {
+      "type": "header",
+      "content": "Wholesale content"
+    },
+    {
+      "type": "text",
+      "id": "wholesale_heading",
+      "label": "Wholesale heading"
+    },
+    {
+      "type": "richtext",
+      "id": "wholesale_content",
+      "label": "Wholesale text"
+    },
+    {
+      "type": "header",
+      "content": "Retail content"
+    },
+    {
+      "type": "text",
+      "id": "retail_heading",
+      "label": "Retail heading"
+    },
+    {
+      "type": "richtext",
+      "id": "retail_content",
+      "label": "Retail text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Wholesale Retail Text"
+    }
+  ]
+}
+{% endschema %}

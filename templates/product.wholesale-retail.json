@@ -1,0 +1,269 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme",
+  "sections": {
+    "product_wholesale_retail": {
+      "type": "product-wholesale-retail",
+      "blocks": {
+        "help_link_9kDGam": {
+          "type": "help_link",
+          "settings": {
+            "text": "Email Us",
+            "link": ""
+          }
+        },
+        "help_link_8i7cLi": {
+          "type": "help_link",
+          "settings": {
+            "text": "Call us",
+            "link": ""
+          }
+        },
+        "help_link_BDqQfA": {
+          "type": "help_link",
+          "settings": {
+            "text": "Chat",
+            "link": ""
+          }
+        },
+        "product_callouts_wholesale": {
+          "type": "product_callouts",
+          "disabled": true,
+          "settings": {
+            "custom_class": "wholesaler-section",
+            "add_box": true,
+            "add_dividers": true,
+            "icon_1": "package-closed",
+            "text_1": "<p><strong>Are you a wholesaler?</strong></p><p><a href=\"/pages/wholesale\">Click here</a> to sign up.</p>",
+            "icon_2": "none",
+            "text_2": "",
+            "icon_3": "none",
+            "text_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "help_link_9kDGam",
+        "help_link_8i7cLi",
+        "help_link_BDqQfA",
+        "product_callouts_wholesale"
+      ],
+      "settings": {
+        "enable_image_zoom": true,
+        "perk_1": "Exclusive bulk pricing",
+        "perk_2": "Free shipping on qualifying orders",
+        "perk_3": "Dedicated account support",
+        "wholesale_apply_url": "/pages/wholesale-signup",
+        "icon": "shopify://shop_images/customer-care_cab20733-2b39-4b5f-9cb3-1e07061dd4e7.png",
+        "help_heading": "Need help? Contact our wholesale experts",
+        "help_subheading": "We're here to assist you."
+      }
+    },
+    "custom_tabs_a4Xbm4": {
+      "type": "custom-tabs",
+      "blocks": {
+        "feature_77d7xX": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/job-application.png",
+            "heading": "Top European Quality",
+            "description": "Premium materials & clean burn"
+          }
+        },
+        "feature_QxcAPK": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/exemption_41d315ed-b3e9-4f1e-b528-9d1dff4aa8c9.png",
+            "heading": "Large Selection",
+            "description": "Thousands of products in stock"
+          }
+        },
+        "feature_BHDFAp": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/safety_190d3869-e06b-45f7-8eb9-698529f9ba17.png",
+            "heading": "Tax - Exampt Eligible",
+            "description": "Save more on every order"
+          }
+        },
+        "feature_wqzpG3": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/fast-delivery_522148dd-c233-4761-b8e1-7a001e825b2f.png",
+            "heading": "Free shipping",
+            "description": "On order over $99"
+          }
+        },
+        "feature_DMbGjX": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/customer-care_cab20733-2b39-4b5f-9cb3-1e07061dd4e7.png",
+            "heading": "Fast Order Turnaround",
+            "description": "Quick processing & reliable delivery"
+          }
+        }
+      },
+      "block_order": [
+        "feature_77d7xX",
+        "feature_QxcAPK",
+        "feature_BHDFAp",
+        "feature_wqzpG3",
+        "feature_DMbGjX"
+      ],
+      "name": "Feature Cards",
+      "settings": {}
+    },
+    "content_tabs": {
+      "type": "content-tab",
+      "blocks": {
+        "tab_description": {
+          "type": "Tab",
+          "settings": {
+            "title": "Description",
+            "content": "{{ product.description }}",
+            "page_content": "",
+            "custom_class": "",
+            "icon_1": "package-closed",
+            "text_heading1": "",
+            "text_1": "",
+            "icon_2": "paper-airplane",
+            "text_heading2": "",
+            "text_2": "",
+            "icon_3": "chat",
+            "text_heading3": "",
+            "text_3": "",
+            "icon_4": "none",
+            "text_heading4": "",
+            "text_4": "",
+            "icon_5": "none",
+            "text_heading5": "",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "text_6": ""
+          }
+        },
+        "tab_specification": {
+          "type": "Tab",
+          "settings": {
+            "title": "Specification",
+            "content": "",
+            "page_content": "",
+            "custom_class": "speicification-section",
+            "icon_1": "package-closed",
+            "custom_icon_image_1": "shopify://shop_images/ChatGPT_Image_Jun_29_2026_06_41_43_PM.png",
+            "text_heading1": "BURN TIME<br>",
+            "text_1": "<p>{{ product.metafields.my_fields.burn_time.value }}</p>",
+            "icon_2": "paper-airplane",
+            "custom_icon_image_2": "shopify://shop_images/ChatGPT_Image_Jun_29_2026_06_44_53_PM.png",
+            "text_heading2": "SIZE<br>",
+            "text_2": "<p>{{ product.metafields.my_fields.size.value }}</p>",
+            "icon_3": "chat",
+            "custom_icon_image_3": "shopify://shop_images/scent_2.png",
+            "text_heading3": "SCENT<br>",
+            "text_3": "<p>{{ product.metafields.my_fields.scent.value }}</p>",
+            "icon_4": "none",
+            "custom_icon_image_4": "shopify://shop_images/count_2.png",
+            "text_heading4": "COUNT<br>",
+            "text_4": "<p>{{ product.metafields.my_fields.count.value }}</p>",
+            "icon_5": "none",
+            "custom_icon_image_5": "shopify://shop_images/material_1.png",
+            "text_heading5": "MATERIAL&nbsp;",
+            "text_5": "<p>{{ product.metafields.my_fields.material.value }}</p>",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "text_6": ""
+          }
+        },
+        "tab_shipping": {
+          "type": "Tab",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "",
+            "page_content": "pdp-shipping-return",
+            "custom_class": "",
+            "icon_1": "package-closed",
+            "text_heading1": "",
+            "text_1": "",
+            "icon_2": "paper-airplane",
+            "text_heading2": "",
+            "text_2": "",
+            "icon_3": "chat",
+            "text_heading3": "",
+            "text_3": "",
+            "icon_4": "none",
+            "text_heading4": "",
+            "text_4": "",
+            "icon_5": "none",
+            "text_heading5": "",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "text_6": ""
+          }
+        },
+        "tab_safety": {
+          "type": "Tab",
+          "settings": {
+            "title": "How to use a candles safely",
+            "content": "",
+            "page_content": "how-to-use-candle-safely",
+            "custom_class": "",
+            "icon_1": "package-closed",
+            "text_heading1": "",
+            "text_1": "",
+            "icon_2": "paper-airplane",
+            "text_heading2": "",
+            "text_2": "",
+            "icon_3": "chat",
+            "text_heading3": "",
+            "text_3": "",
+            "icon_4": "none",
+            "text_heading4": "",
+            "text_4": "",
+            "icon_5": "none",
+            "text_heading5": "",
+            "text_5": "",
+            "icon_6": "chat",
+            "text_heading6": "",
+            "text_6": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_description",
+        "tab_specification",
+        "tab_shipping",
+        "tab_safety"
+      ],
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "recommended-products",
+      "settings": {
+        "title": "Recommended Products",
+        "subheading": "",
+        "maximum_products": 8,
+        "columns": "4",
+        "mobile_columns": "1",
+        "enable_animation": false,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    }
+  },
+  "order": [
+    "product_wholesale_retail",
+    "custom_tabs_a4Xbm4",
+    "content_tabs",
+    "recommendations"
+  ]
+}

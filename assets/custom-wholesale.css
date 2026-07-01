@@ -1,5 +1,5 @@
 .cst-wholesale-banner {
-background-image: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/ChatGPT_Image_Jun_18_2026_07_18_16_PM.png?v=1781790653);
+background-image: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/ChatGPT_Image_Jun_19_2026_05_25_02_PM.png?v=1781870205);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -28,14 +28,15 @@ font-size:24px;
 margin: 0 !important;
 }
 .cf-react-target {
-    border: 1px solid #363f30f5;
+    border: 1px solid #d2d9d4;
     padding: 20px;
     border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .cf-field-container h1 {
     font-family: Stangith;
     font-size: 45px;
-    color: #363f30f5;
+    color: #285836;
 }
 .cst-wholesale-faq .collapsible-row-list-item:first-of-type {
 border-top: 1px solid var(--color-border);
@@ -49,22 +50,24 @@ height: 100px;
 margin: 0;
 }
 .cst-wholesale-banner h2 {
-color: #fff;
+    color: #000;
 }
 
-.cst-wholesale-banner p {color: #d8a22c;}
+.cst-wholesale-banner p {
+    color: #000000;
+}
 
 .cst-wholesale-banner h4 {
-color: #fff;
+    color: #000000;
 }
 .cst-wholesale-banner li {
-color: #fff;
+    color: #000000;
 }
 .cst-wholesale-banner .btn {
-background: #d8a22c!important;
+background: #285836!important;
 }
 .cst-wholesale-banner .btn:before {
-background: #d8a22c!important;
+background: #285836!important;
 }
 
 .header__inner [data-scroll-container] [data-scroll-container-viewport], .header__inner [data-scroll-container][data-axis=horizontal] [data-scroll-container-viewport] {
@@ -73,9 +76,9 @@ background: #d8a22c!important;
     overflow: visible;
 }
 
-.wholesale-menu a {display: block;text-align: center;padding: 5px 10px;background: #000;color: #fff;font-size: 13px;}
+.wholesale-menu a {display: block;text-align: center;padding: 5px 10px;background: #000;color: #fff;font-size: 14px;}
 .wholesale-menu a:hover {
-background: #ede3de;
+background: #fff;
 color:#000;
 }
 li.nav-lastlisnk.wholesale-dropdown {
@@ -103,7 +106,7 @@ visibility:visible;
 
 .header__logo-tagline {
   margin: 4px 0 0;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -115,9 +118,24 @@ visibility:visible;
 .header__row.header__row-desktop.upper .header__logo--wholesale {
   padding-bottom: 8px;
 }
+.cst-wholesale-banner ul {
+    padding-top: 15px;
+}
 
+ body #shopify-section-template--20315243511917__image_with_text_hNht7W .cst-custom-wholesale ul li {
+background-image: url("https://cdn.shopify.com/s/files/1/0552/6267/5053/files/check-mark_5_2.png?v=1782143554");
+background-size: 23px 23px;
+} 
 
-
+.cf-form-button-group button {
+background: #285836 !important;
+}
+.cf-form-button-group button:hover {
+background: #000000 !important;
+}
+.partner-benefits h2.section-title {
+margin-bottom: 28px;
+}
 
 
 @media only screen and (max-width: 1024px){
@@ -142,15 +160,22 @@ margin-top: 20px;
 .how-it-works {
 padding: 20px 20px !important;
 }
-.cst-wholesale-banner h4, .cst-wholesale-banner li {
-    color: #011532;
+.cst-custom-wholesale .image-with-text__text-container-inner.section-blocks.animation--section-blocks {
+    width: 100%!important;
+    max-width: 100%;
+    padding-right: 0!important;
 }
-.cst-wholesale-banner h2 {
-    color: #011532;
+body #shopify-section-template--20315243511917__image_with_text_hNht7W .cst-custom-wholesale ul li {
+    background-image: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/check-mark_5_2.png?v=1782143554);
 }
 }
 
-
+.cf-react-target input , .cf-react-target select {
+border: 0!important;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+border-radius: 5px;
+}
 
 @media only screen and (max-width: 991px){
 .cst-wholesale-faq .collapsible-row-list__heading {

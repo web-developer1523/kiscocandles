@@ -43,6 +43,36 @@
   assign logo = section.settings.logo
   assign logo_width = section.settings.logo_width
   assign mobile_logo_width = section.settings.mobile_logo_width
+  assign wholesale_logo_tagline = section.settings.wholesale_logo_tagline | strip
+
+  assign is_wholesale_customer = false
+  if customer and customer.tags contains 'wholesale'
+    assign is_wholesale_customer = true
+  endif
+
+  assign display_logo = logo
+  assign display_logo_transparent = section.settings.logo_transparent
+  assign display_logo_width = logo_width
+  assign display_mobile_logo_width = mobile_logo_width
+
+  if is_wholesale_customer
+    if section.settings.wholesale_logo != blank
+      assign display_logo = section.settings.wholesale_logo
+    endif
+    if section.settings.wholesale_logo_transparent != blank
+      assign display_logo_transparent = section.settings.wholesale_logo_transparent
+    endif
+    assign display_logo_width = section.settings.wholesale_logo_width
+    assign display_mobile_logo_width = section.settings.wholesale_mobile_logo_width
+  endif
+
+  assign logo_home_url = routes.root_url
+  if is_wholesale_customer
+    capture logo_home_url
+      render 'wholesale-home-url'
+    endcapture
+    assign logo_home_url = logo_home_url | strip
+  endif
 
   assign layout = section.settings.layout
 
@@ -69,8 +99,10 @@
   assign secondary_menu = section.settings.secondary_menu
 
   assign active_menu = menu
+  assign header_navbar_menu = 'retail'
   if customer and customer.tags contains 'wholesale' and wholesale_menu != blank
     assign active_menu = wholesale_menu
+    assign header_navbar_menu = 'wholesale'
   endif
 
   assign links = linklists[active_menu].links
@@ -107,7 +139,7 @@
   endcapture
 -%}
 
-{%- capture logo_sizes -%}(max-width: 960px) {{ mobile_logo_width }}px, {{ logo_width }}px{%- endcapture -%}
+{%- capture logo_sizes -%}(max-width: 960px) {{ display_mobile_logo_width }}px, {{ display_logo_width }}px{%- endcapture -%}
 
 {%- comment -%} theme-check-disable UnusedAssign {%- endcomment -%}
 {%- assign font_logo = settings.font_logo -%}
@@ -118,28 +150,28 @@
 {%- assign mobile_menu_image_blocks = section.blocks | where: 'type', 'mobile_menu_images' -%}
 
 {%- capture header_logo -%}
-  <{{ logo_tag_type }} class="header__logo{% if customer and customer.tags contains 'wholesale' %} header__logo--wholesale{% endif %}">
+  <{{ logo_tag_type }} class="header__logo{% if is_wholesale_customer %} header__logo--wholesale{% endif %}">
     <a
       class="header__logo-link"
-      href="{{ routes.root_url }}"
-      {% if logo != blank or logo_transparent != blank %}
+      href="{{ logo_home_url }}"
+      {% if display_logo != blank or display_logo_transparent != blank %}
         aria-label="{{ shop.name }}"
       {% endif %}
     >
-      {%- if logo != blank -%}
-        {%- render 'image' with image: logo, wrapper_class: 'regular-logo', sizes: logo_sizes, prioritize_loading: true -%}
+      {%- if display_logo != blank -%}
+        {%- render 'image' with image: display_logo, wrapper_class: 'regular-logo', sizes: logo_sizes, prioritize_loading: true -%}
       {%- endif -%}
 
-      {%- if logo_transparent != blank -%}
-        {%- render 'image' with image: logo_transparent, wrapper_class: 'transparent-logo', sizes: logo_sizes, prioritize_loading: true -%}
+      {%- if display_logo_transparent != blank -%}
+        {%- render 'image' with image: display_logo_transparent, wrapper_class: 'transparent-logo', sizes: logo_sizes, prioritize_loading: true -%}
       {%- endif -%}
 
-      {%- if logo == blank or logo_transparent == blank -%}
+      {%- if display_logo == blank or display_logo_transparent == blank -%}
         <span class="header__logo-text">{{ shop.name }}</span>
       {%- endif -%}
     </a>
-    {%- if customer and customer.tags contains 'wholesale' -%}
-      <p class="header__logo-tagline">Kisco For Busniss</p>
+    {%- if is_wholesale_customer and wholesale_logo_tagline != blank -%}
+      <p class="header__logo-tagline">{{ wholesale_logo_tagline }}</p>
     {%- endif -%}
   </{{ logo_tag_type }}>
 {%- endcapture -%}
@@ -490,7 +522,7 @@
     </div>
   </div>
 
-  <div class="header-navbar">
+  <div class="header-navbar header-navbar--{{ header_navbar_menu }}">
       <div class="header__inner">
         <div class="header__row header__row-desktop lower {% if logo_position == 'center' or navigation_position == 'center' %}three-segment{% endif %}">
       <div class="header__row-segment header__row-segment-desktop left {% if lower_left_content contains "header__links-list" %}contains-nav{% endif %}">
@@ -686,6 +718,52 @@
       "unit": "px",
       "label": "t:sections.header.settings.mobile_logo_width.label",
       "default": 200
+    },
+    {
+      "type": "header",
+      "content": "Wholesale logo"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shown when a logged-in customer has the wholesale tag. Falls back to the retail logo if no wholesale logo is set."
+    },
+    {
+      "type": "image_picker",
+      "id": "wholesale_logo",
+      "label": "Wholesale logo"
+    },
+    {
+      "id": "wholesale_logo_width",
+      "type": "range",
+      "min": 50,
+      "max": 350,
+      "step": 10,
+      "unit": "px",
+      "label": "Wholesale logo width",
+      "default": 160
+    },
+    {
+      "id": "wholesale_mobile_logo_width",
+      "type": "range",
+      "min": 50,
+      "max": 250,
+      "step": 10,
+      "unit": "px",
+      "label": "Wholesale mobile logo width",
+      "default": 90
+    },
+    {
+      "type": "image_picker",
+      "id": "wholesale_logo_transparent",
+      "label": "Wholesale transparent logo",
+      "info": "Used on pages with a transparent header. Falls back to the retail transparent logo if empty."
+    },
+    {
+      "type": "text",
+      "id": "wholesale_logo_tagline",
+      "label": "Wholesale logo tagline",
+      "default": "Kisco For Business",
+      "info": "Displayed below the logo for wholesale customers. Leave blank to hide."
     },
     {
       "type": "header",

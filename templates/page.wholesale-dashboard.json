@@ -12,7 +12,8 @@
     "wholesale_dashboard": {
       "type": "wholesale-dashboard",
       "settings": {
-        "wholesale_banner": "shopify://shop_images/ChatGPT_Image_Jun_12_2026_04_48_57_PM_1_1.png",
+        "wholesale_banner": "shopify://shop_images/image_6_2.png",
+        "customer_since_metafield_key": "",
         "contact_phone": "732-405-3566",
         "contact_email": "support@kiscocandles.com",
         "benefit_1_title": "Exclusive Pricing",

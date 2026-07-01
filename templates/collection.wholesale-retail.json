@@ -1,0 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "type": "collection-wholesale-retail-header",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_collection_description": true,
+        "show_wholesale_badge": true,
+        "wholesale_heading": "",
+        "wholesale_description": "",
+        "wholesale_subheading": "Your wholesale pricing is applied at checkout.",
+        "perk_1": "Volume pricing on every product",
+        "perk_2": "Fast reordering from your account",
+        "wholesale_apply_url": "/pages/wholesale-signup",
+        "show_collection_image": true,
+        "image_aspect": "custom",
+        "desktop_height": 30,
+        "mobile_height": 50,
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center_flex-end",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 60,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-bottom-only"
+      }
+    },
+    "product_grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "columns_desktop": "4",
+        "columns_mobile": "1",
+        "rows": "3",
+        "show_item_count": true,
+        "show_sort": true,
+        "show_filters": true,
+        "enable_sticky_filter_bar": true,
+        "desktop_filter_location": "filter_bar",
+        "collapse_filter_bar": false,
+        "enable_sticky_filter_sidebar": true,
+        "collapse_filter_groups_desktop": true,
+        "collapse_filter_groups_mobile": true,
+        "show_swatch_filters": true,
+        "show_chip_filters": true,
+        "chip_layout": "natural",
+        "pagination": "paginated",
+        "enable_animation": true,
+        "divider_style": "solid"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "product_grid"
+  ]
+}

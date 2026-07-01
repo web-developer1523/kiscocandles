@@ -231,6 +231,9 @@
       <div class="wholesale-dashboard__layout">
         {%- comment -%} Sidebar {%- endcomment -%}
         <aside class="wholesale-dashboard__sidebar" data-sidebar>
+          <span class="btn-cross">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" class="icon icon-close" viewBox="0 0 18 17"><path fill="currentColor" d="M.865 15.978a.5.5 0 0 0 .707.707l7.433-7.431 7.579 7.282a.501.501 0 0 0 .846-.37.5.5 0 0 0-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 1 0-.707-.708L8.991 7.853 1.413.573a.5.5 0 1 0-.693.72l7.563 7.268z"></path></svg>
+</span>
           <div class="wholesale-dashboard__profile">
             <div class="wholesale-dashboard__avatar" aria-hidden="true">
               {{- customer_initials -}}
@@ -253,13 +256,13 @@
           <nav aria-label="Wholesale dashboard navigation">
             <ul class="wholesale-dashboard__nav">
               <li class="wholesale-dashboard__nav-item">
-                <a href="{{ dashboard_url }}" class="wholesale-dashboard__nav-link is-active" aria-current="page" data-dashboard-toggle>
+                <a href="{{ dashboard_url }}" class="wholesale-dashboard__nav-link is-active" aria-current="page" data-dashboard-nav="dashboard">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
                   Dashboard
                 </a>
               </li>
               <li class="wholesale-dashboard__nav-item">
-                <a href="#company-profile" class="wholesale-dashboard__nav-link" data-company-profile-toggle aria-expanded="false">
+                <a href="#company-profile" class="wholesale-dashboard__nav-link" data-dashboard-nav="company-profile">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                   Company Profile
                 </a>
@@ -270,12 +273,12 @@
                   Addresses
                 </a>
               </li>
-              {% comment %} <li class="wholesale-dashboard__nav-item">
-                <a href="{{ dashboard_url }}#tax-certificates" class="wholesale-dashboard__nav-link">
+              <li class="wholesale-dashboard__nav-item">
+                <a href="#tax-exemption" class="wholesale-dashboard__nav-link" data-dashboard-nav="tax-exemption">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
-                  Tax &amp; Certificates
+                  Tax Exemption
                 </a>
-              </li> {% endcomment %}
+              </li>
                <li class="wholesale-dashboard__nav-item">
                 <a href="{{ routes.account_url }}" class="wholesale-dashboard__nav-link">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
@@ -393,30 +396,6 @@
               </div>
             </div>
 
-            <div class="wholesale-dashboard__card" id="tax-certificates">
-              <div class="wholesale-dashboard__card-header">
-                <div class="wholesale-dashboard__card-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
-                </div>
-                <div>
-                  <p class="wholesale-dashboard__card-label">Tax Exemption</p>
-                  {%- if certificate_url != blank -%}
-                    <p class="wholesale-dashboard__card-value">Verified</p>
-                    {% comment %} <p class="wholesale-dashboard__card-sub">
-                      {%- if certificate_name != blank -%}
-                        {{ certificate_name }}
-                      {%- else -%}
-                        Resale Certificate Uploaded
-                      {%- endif -%}
-                    </p> {% endcomment %}
-                  {%- else -%}
-                    <p class="wholesale-dashboard__card-value wholesale-dashboard__card-value--not-uploaded">Not Uploaded</p>
-                    <p class="wholesale-dashboard__card-sub">Upload your resale certificate</p>
-                  {%- endif -%}
-                </div>
-              </div>
-            </div>
-
           </div>
 
           {%- comment -%} B2B registration profile {%- endcomment -%}
@@ -497,6 +476,88 @@
             </dl>
           </div>
 
+          {%- comment -%} Tax exemption {%- endcomment -%}
+          <div class="wholesale-dashboard__panel wholesale-dashboard__tax-panel" id="tax-exemption" data-tax-exemption-panel hidden style="display: none;">
+            <div class="wholesale-dashboard__panel-header">
+              <h2 class="wholesale-dashboard__section-title" style="margin-bottom: 0;">Tax Exemption</h2>
+            </div>
+
+            <div class="wholesale-dashboard__tax-status">
+              {%- if certificate_url != blank -%}
+                <div class="wholesale-dashboard__tax-status-badge wholesale-dashboard__tax-status-badge--verified">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  Verified
+                </div>
+                <p class="wholesale-dashboard__tax-status-text">Your resale certificate is on file. Tax-exempt pricing applies to eligible purchases.</p>
+              {%- else -%}
+                <div class="wholesale-dashboard__tax-status-badge wholesale-dashboard__tax-status-badge--pending">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Not Uploaded
+                </div>
+                <p class="wholesale-dashboard__tax-status-text">Upload your resale certificate to qualify for tax-exempt purchasing on eligible orders.</p>
+              {%- endif -%}
+            </div>
+
+            {% comment %} <dl class="wholesale-dashboard__profile-details">
+              <div class="wholesale-dashboard__profile-row">
+                <dt>Certificate Status</dt>
+                <dd>
+                  {%- if certificate_url != blank -%}
+                    On file
+                  {%- else -%}
+                    Not uploaded
+                  {%- endif -%}
+                </dd>
+              </div>
+              <div class="wholesale-dashboard__profile-row">
+                <dt>Resale Certificate</dt>
+                <dd>
+                  {%- if certificate_url != blank -%}
+                    <a href="{{ certificate_url }}" target="_blank" rel="noopener" data-certificate-download>
+                      {%- if certificate_name != blank -%}
+                        {{ certificate_name }}
+                      {%- else -%}
+                        View certificate
+                      {%- endif -%}
+                    </a>
+                  {%- else -%}
+                    No certificate on file
+                  {%- endif -%}
+                </dd>
+              </div>
+              {%- if company_name != blank -%}
+                <div class="wholesale-dashboard__profile-row">
+                  <dt>Company</dt>
+                  <dd>{{ company_name }}</dd>
+                </div>
+              {%- endif -%}
+            </dl> {% endcomment %}
+
+            {%- if certificate_url != blank -%}
+              <a
+                href="{{ certificate_url }}"
+                class="wholesale-dashboard__btn wholesale-dashboard__tax-download"
+                data-certificate-download
+                download
+                target="_blank"
+                rel="noopener"
+              >
+                Download Certificate
+              </a>
+            {%- else -%}
+              <p class="wholesale-dashboard__tax-upload-note">
+                To submit your resale certificate, contact us at <a href="mailto:{{ section.settings.contact_email }}">{{ section.settings.contact_email }}</a> or <a href="tel:{{ section.settings.contact_phone }}">{{ section.settings.contact_phone }}</a>.
+              </p>
+            {%- endif -%}
+          </div>
+
           {%- comment -%} Quick actions {%- endcomment -%}
           <h2 class="wholesale-dashboard__section-title">Quick Actions</h2>
           <div class="wholesale-dashboard__quick-actions">
@@ -572,29 +633,28 @@
                 <a href="{{ routes.account_url }}" class="wholesale-dashboard__panel-link">View All Orders</a>
               </div>
 
-              {%- if customer.orders.size > 0 -%}
-                <div class="wholesale-dashboard__table-wrap">
-                  <table class="wholesale-dashboard__table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Order Number</th>
-                        <th scope="col">Date</th>
-                        <th scope="col">Total</th>
-                        <th scope="col">Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
+              <div class="wholesale-dashboard__table-wrap">
+                <table class="wholesale-dashboard__table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Order</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Total</th>
+                      <th scope="col">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {%- if customer.orders.size > 0 -%}
                       {%- for order in customer.orders limit: 4 -%}
                         {%- liquid
-                          if order.fulfillment_status == 'fulfilled'
-                            assign status_label = 'Delivered'
-                            assign status_class = 'delivered'
-                          elsif order.fulfillment_status == 'partial'
-                            assign status_label = 'Shipped'
-                            assign status_class = 'shipped'
-                          else
-                            assign status_label = 'Processing'
-                            assign status_class = 'processing'
+                          assign tracking_url = blank
+                          for fulfillment in order.fulfillments
+                            if tracking_url == blank and fulfillment.tracking_url != blank
+                              assign tracking_url = fulfillment.tracking_url
+                            endif
+                          endfor
+                          if tracking_url == blank
+                            assign tracking_url = order.customer_url
                           endif
                         -%}
                         <tr>
@@ -603,23 +663,66 @@
                               {{ order.name }}
                             </a>
                           </td>
-                          <td>{{ order.created_at | date: '%B %d, %Y' }}</td>
+                          <td>{{ order.created_at | date: '%d %b' }}</td>
                           <td class="wholesale-dashboard__order-total">{{ order.total_price | money }}</td>
                           <td>
-                            <span class="wholesale-dashboard__badge wholesale-dashboard__badge--{{ status_class }}">
-                              {{ status_label }}
-                            </span>
+                            <div class="wholesale-dashboard__order-actions">
+                              <a href="{{ tracking_url }}" class="wholesale-dashboard__order-action">Track</a>
+                              <span class="wholesale-dashboard__order-action-sep" aria-hidden="true">•</span>
+                              <a href="{{ order.customer_url }}" class="wholesale-dashboard__order-action">Invoice</a>
+                              <span class="wholesale-dashboard__order-action-sep" aria-hidden="true">•</span>
+                              <a href="/pages/quick-order" class="wholesale-dashboard__order-action">Reorder</a>
+                            </div>
                           </td>
                         </tr>
                       {%- endfor -%}
-                    </tbody>
-                  </table>
-                </div>
-              {%- else -%}
-                <div class="wholesale-dashboard__empty-orders">
-                  <p>You haven't placed any orders yet.</p>
-                </div>
-              {%- endif -%}
+                    {%- else -%}
+                      <tr>
+                        <td><span class="wholesale-dashboard__order-number">#1001</span></td>
+                        <td>22 Jun</td>
+                        <td class="wholesale-dashboard__order-total">{{ 25000 | money }}</td>
+                        <td>
+                          <div class="wholesale-dashboard__order-actions">
+                            <a href="#" class="wholesale-dashboard__order-action">Track</a>
+                            <span class="wholesale-dashboard__order-action-sep" aria-hidden="true">•</span>
+                            <a href="#" class="wholesale-dashboard__order-action">Invoice</a>
+                            <span class="wholesale-dashboard__order-action-sep" aria-hidden="true">•</span>
+                            <a href="/pages/quick-order" class="wholesale-dashboard__order-action">Reorder</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><span class="wholesale-dashboard__order-number">#1000</span></td>
+                        <td>15 Jun</td>
+                        <td class="wholesale-dashboard__order-total">{{ 18000 | money }}</td>
+                        <td>
+                          <div class="wholesale-dashboard__order-actions">
+                            <a href="#" class="wholesale-dashboard__order-action">Track</a>
+                            <span class="wholesale-dashboard__order-action-sep" aria-hidden="true">•</span>
+                            <a href="#" class="wholesale-dashboard__order-action">Invoice</a>
+                            <span class="wholesale-dashboard__order-action-sep" aria-hidden="true">•</span>
+                            <a href="/pages/quick-order" class="wholesale-dashboard__order-action">Reorder</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><span class="wholesale-dashboard__order-number">#999</span></td>
+                        <td>8 Jun</td>
+                        <td class="wholesale-dashboard__order-total">{{ 42000 | money }}</td>
+                        <td>
+                          <div class="wholesale-dashboard__order-actions">
+                            <a href="#" class="wholesale-dashboard__order-action">Track</a>
+                            <span class="wholesale-dashboard__order-action-sep" aria-hidden="true">•</span>
+                            <a href="#" class="wholesale-dashboard__order-action">Invoice</a>
+                            <span class="wholesale-dashboard__order-action-sep" aria-hidden="true">•</span>
+                            <a href="/pages/quick-order" class="wholesale-dashboard__order-action">Reorder</a>
+                          </div>
+                        </td>
+                      </tr>
+                    {%- endif -%}
+                  </tbody>
+                </table>
+              </div>
             </div>
 
             <div class="wholesale-dashboard__panel" id="account-manager">
@@ -698,7 +801,8 @@
           <div class="wholesale-dashboard__benefits">
             <div class="wholesale-dashboard__benefit">
               <div class="wholesale-dashboard__benefit-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                {% comment %} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg> {% endcomment %}
+                <img src="https://cdn.shopify.com/s/files/1/0552/6267/5053/files/shopping.png?v=1782144889" alt="Bulk Pricing">
               </div>
               <h3 class="wholesale-dashboard__benefit-title">{{ section.settings.benefit_1_title }}</h3>
               <p class="wholesale-dashboard__benefit-text">{{ section.settings.benefit_1_text }}</p>
@@ -706,7 +810,8 @@
 
             <div class="wholesale-dashboard__benefit">
               <div class="wholesale-dashboard__benefit-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                {% comment %} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg> {% endcomment %}
+              <img src="https://cdn.shopify.com/s/files/1/0552/6267/5053/files/exemption_41d315ed-b3e9-4f1e-b528-9d1dff4aa8c9.png?v=1782144889" alt="Bulk Pricing">
               </div>
               <h3 class="wholesale-dashboard__benefit-title">{{ section.settings.benefit_2_title }}</h3>
               <p class="wholesale-dashboard__benefit-text">{{ section.settings.benefit_2_text }}</p>
@@ -714,7 +819,8 @@
 
             <div class="wholesale-dashboard__benefit">
               <div class="wholesale-dashboard__benefit-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
+                {% comment %} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg> {% endcomment %}
+              <img src="https://cdn.shopify.com/s/files/1/0552/6267/5053/files/customer-care_cab20733-2b39-4b5f-9cb3-1e07061dd4e7.png?v=1782144890" alt="Bulk Pricing">
               </div>
               <h3 class="wholesale-dashboard__benefit-title">{{ section.settings.benefit_3_title }}</h3>
               <p class="wholesale-dashboard__benefit-text">{{ section.settings.benefit_3_text }}</p>
@@ -722,7 +828,8 @@
 
             <div class="wholesale-dashboard__benefit">
               <div class="wholesale-dashboard__benefit-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                {% comment %} <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg> {% endcomment %}
+             <img src="https://cdn.shopify.com/s/files/1/0552/6267/5053/files/fast-delivery_522148dd-c233-4761-b8e1-7a001e825b2f.png?v=1782144889" alt="Bulk Pricing">
               </div>
               <h3 class="wholesale-dashboard__benefit-title">{{ section.settings.benefit_4_title }}</h3>
               <p class="wholesale-dashboard__benefit-text">{{ section.settings.benefit_4_text }}</p>
@@ -740,30 +847,41 @@
     if (!section) { return; }
 
     var main = section.querySelector('.wholesale-dashboard__main');
-    var panel = section.querySelector('[data-company-profile-panel]');
-    var profileToggle = section.querySelector('[data-company-profile-toggle]');
-    var dashboardToggle = section.querySelector('[data-dashboard-toggle]');
-    if (!main || !panel || !profileToggle) { return; }
+    if (!main) { return; }
 
-    // Every direct block inside the main column (welcome, cards, profile panel,
-    // quick actions, orders, banner, benefits, etc.).
     var blocks = Array.prototype.slice.call(main.children);
+    var panels = Array.prototype.slice.call(section.querySelectorAll('[data-company-profile-panel], [data-tax-exemption-panel]'));
+    var navLinks = section.querySelectorAll('[data-dashboard-nav]');
+    if (!navLinks.length) { return; }
 
-    function setActive(activeLink, inactiveLink) {
-      if (activeLink) {
-        activeLink.classList.add('is-active');
-        activeLink.setAttribute('aria-current', 'page');
-      }
-      if (inactiveLink) {
-        inactiveLink.classList.remove('is-active');
-        inactiveLink.removeAttribute('aria-current');
-      }
-    }
+    var hashViewMap = {
+      '#company-profile': 'company-profile',
+      '#tax-exemption': 'tax-exemption',
+      '#tax-certificates': 'tax-exemption'
+    };
 
-    // Company Profile view: show ONLY the profile panel.
-    function showProfileView() {
+    function showView(viewId) {
+      var activePanel = null;
+
+      panels.forEach(function (panel) {
+        if (panel.getAttribute('data-company-profile-panel') !== null && viewId === 'company-profile') {
+          activePanel = panel;
+        }
+        if (panel.getAttribute('data-tax-exemption-panel') !== null && viewId === 'tax-exemption') {
+          activePanel = panel;
+        }
+      });
+
       blocks.forEach(function (el) {
-        if (el === panel) {
+        if (activePanel) {
+          if (el === activePanel) {
+            el.removeAttribute('hidden');
+            el.style.display = '';
+          } else {
+            el.setAttribute('hidden', '');
+            el.style.display = 'none';
+          }
+        } else if (panels.indexOf(el) === -1) {
           el.removeAttribute('hidden');
           el.style.display = '';
         } else {
@@ -771,38 +889,50 @@
           el.style.display = 'none';
         }
       });
-      setActive(profileToggle, dashboardToggle);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
 
-    // Dashboard view (default): show everything except the profile panel.
-    function showDashboardView() {
-      blocks.forEach(function (el) {
-        if (el === panel) {
-          el.setAttribute('hidden', '');
-          el.style.display = 'none';
+      navLinks.forEach(function (link) {
+        var isActive = link.getAttribute('data-dashboard-nav') === viewId;
+        link.classList.toggle('is-active', isActive);
+        if (isActive) {
+          link.setAttribute('aria-current', 'page');
         } else {
-          el.removeAttribute('hidden');
-          el.style.display = '';
+          link.removeAttribute('aria-current');
         }
       });
-      setActive(dashboardToggle, profileToggle);
+
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    profileToggle.addEventListener('click', function (event) {
-      event.preventDefault();
-      showProfileView();
+    navLinks.forEach(function (link) {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        showView(link.getAttribute('data-dashboard-nav'));
+      });
     });
 
-    if (dashboardToggle) {
-      dashboardToggle.addEventListener('click', function (event) {
-        event.preventDefault();
-        showDashboardView();
-      });
-    }
+    var initialView = hashViewMap[window.location.hash] || 'dashboard';
+    showView(initialView);
   })();
 </script>
+
+<script>
+document.addEventListener("click", function (e) {
+    if (e.target.closest(".btn-cross")) {
+
+        document.querySelector(".wholesale-dashboard__sidebar")?.classList.remove("is-open");
+        document.querySelector(".wholesale-dashboard__overlay")?.classList.remove("is-visible");
+
+        // Reset body/html scroll
+        document.body.style.overflow = "";
+        document.documentElement.style.overflow = "";
+
+        document.body.classList.remove("overflow-hidden", "no-scroll", "menu-open");
+        document.documentElement.classList.remove("overflow-hidden", "no-scroll", "menu-open");
+    }
+});
+</script>
+
+
 {% schema %}
 {
   "name": "Wholesale Dashboard",

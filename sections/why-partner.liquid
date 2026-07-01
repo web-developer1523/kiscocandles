@@ -31,7 +31,7 @@
 
 <style>
     .partner-benefits{
-    padding:0px 20px 40px;
+    padding:30px 20px 40px;
     background:#ffffff;
 }
 
@@ -63,11 +63,12 @@
     flex: 1;
     min-width: 220px;
     max-width: 280px;
-    background: #363f30f5;
+    background: #ffffff;
     padding: 30px 20px;
     text-align: center;
     border-radius: 12px;
     transition: all .3s ease;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .benefit-card:hover{
@@ -84,18 +85,21 @@
 .benefit-card h3 {
     font-size: 18px;
     font-weight: 600;
-    color: #ffffff;
+    color: #075345;
     margin-bottom: 12px;
 }
 .benefit-card p {
     font-size: 16px;
     line-height: 1.6;
-    color: #cfcbcb;
+    color: #727574;
     max-width: 200px;
     margin: 0 auto;
 }
 .icon img {
-     filter: brightness(0) saturate(100%) invert(100%) sepia(73%) saturate(0%) hue-rotate(139deg) brightness(116%) contrast(101%);
+    /* filter: brightness(0) saturate(100%) invert(100%) sepia(73%) saturate(0%) hue-rotate(139deg) brightness(116%) contrast(101%); */
+    max-width: 75px;
+    height: auto;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(14%) saturate(1728%) hue-rotate(85deg) brightness(91%) contrast(84%);
 }
 @media (max-width:991px){
 
@@ -143,7 +147,7 @@
 @media (max-width:576px){
 
     .partner-benefits{
-        padding:10px 15px;
+        padding:10px 15px 50px;
     }
 
     .benefits-grid{

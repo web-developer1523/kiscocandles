@@ -1,0 +1,128 @@
+{%- assign is_wholesale = false -%}
+{%- if customer and customer.tags contains 'wholesale' -%}
+  {%- assign is_wholesale = true -%}
+{%- endif -%}
+
+{%- if is_wholesale -%}
+  {%- assign active_heading = section.settings.wholesale_heading -%}
+  {%- assign active_content = section.settings.wholesale_content -%}
+{%- else -%}
+  {%- assign active_heading = section.settings.retail_heading -%}
+  {%- assign active_content = section.settings.retail_content -%}
+{%- endif -%}
+
+{%- if active_heading == blank and active_content == blank -%}
+  {%- comment -%} Nothing to show for this visitor type {%- endcomment -%}
+{%- else -%}
+  <div
+    class="pwrr-richtext{% if is_wholesale %} pwrr-richtext--wholesale{% else %} pwrr-richtext--retail{% endif %}"
+    data-pwrr-layout="{% if is_wholesale %}wholesale{% else %}retail{% endif %}"
+  >
+    <div class="pwrr-richtext__inner">
+      {%- if active_heading != blank -%}
+        <h2 class="pwrr-richtext__heading">{{ active_heading }}</h2>
+      {%- endif -%}
+
+      {%- if active_content != blank -%}
+        <div class="pwrr-richtext__content rte">
+          {{ active_content }}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+{%- endif -%}
+
+<style>
+  .pwrr-richtext {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding: var(--spacing-section, 48px) 0;
+  }
+
+  .pwrr-richtext__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-outer, 24px);
+  }
+
+  .pwrr-richtext__heading {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-heading-3-base);
+    font-weight: var(--font-heading-weight);
+    line-height: var(--line-height-heading);
+    margin: 0 0 1rem;
+    color: var(--color-text);
+  }
+
+  .pwrr-richtext__content {
+    font-size: var(--font-size-body-100);
+    line-height: var(--line-height-body);
+    color: var(--color-text);
+  }
+
+  .pwrr-richtext__content > *:first-child {
+    margin-top: 0;
+  }
+
+  .pwrr-richtext__content > *:last-child {
+    margin-bottom: 0;
+  }
+
+  .pwrr-richtext--wholesale {
+    background-color: var(--color-background-meta);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Wholesale Retail Text",
+  "tag": "section",
+  "class": "pwrr-richtext-section",
+  "templates": ["product"],
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Shows different heading and body text depending on whether the visitor has the wholesale customer tag. Guests and retail customers see the retail content."
+    },
+    {
+      "type": "header",
+      "content": "Wholesale content"
+    },
+    {
+      "type": "text",
+      "id": "wholesale_heading",
+      "label": "Wholesale heading",
+      "default": "Wholesale ordering information"
+    },
+    {
+      "type": "richtext",
+      "id": "wholesale_content",
+      "label": "Wholesale text",
+      "default": "<p>Volume pricing and minimum order quantities are shown above. Contact your account manager if you need help placing a large order.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Retail content"
+    },
+    {
+      "type": "text",
+      "id": "retail_heading",
+      "label": "Retail heading",
+      "default": "Why customers love this product"
+    },
+    {
+      "type": "richtext",
+      "id": "retail_content",
+      "label": "Retail text",
+      "default": "<p>Perfect for everyday use at home, events, and gifting. Order today with fast shipping on qualifying purchases.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Wholesale Retail Text"
+    }
+  ]
+}
+{% endschema %}
