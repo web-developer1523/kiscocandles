@@ -53,6 +53,28 @@ div#shopify-section-template--20386139668589__why_partner_UbCaEF h2 {
     }
 
 /*Page-text-css-Start*/
+.page-wholesale-home .cst-wholesale-banner {
+    height: 450px;
+    min-height: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.page-wholesale-home .image-with-text.cst-mainwhole-sec {
+    max-width: 1530px!important;
+    padding: 0 20px;
+    width: 100%!important;
+}
+.page-wholesale-home .cst-mainwhole-sec .image-with-text__text-container-inner {
+    max-width: 550px;
+}
+.page-wholesale-home .contact-detail__box .btn.btn--primary:before, .shopify-challenge__button:before {
+    background: var(--greenclr);
+}
+.page-wholesale-home .spark-product-card button.btn-small {
+    background-color: var(--greenclr);
+}
 .page-wholesale-home  .home-collection-sl .collection-list-slider__subheading p {
     max-width: 100%;
 }
@@ -140,13 +162,13 @@ div#shopify-section-template--20386139668589__why_partner_UbCaEF h2 {
 .page-wholesale-home  .carousel__navigation-buttons .icon {
     margin: 0 !important;
 }
-.page-wholesale-home .collection-item__title a:hover {
+.page-wholesale-home .collection-item__title a:hover , .page-wholesale-home .contact-detail__inner .contact-detail__box .help-link , .page-wholesale-home .collapsible-row-list-item__heading {
     color: var(--greenclr);
 }
 .page-wholesale-home  .product-item__hover-action-wrap .btn.btn--tertiary , .page-wholesale-home .spark-product-card button.btn-small {
     background: var(--greenclr);
     border-color: var(--green);
-    color:#fff;
+    color:var(--whiteclr);
 }
 .page-wholesale-home .btn.btn--tertiary:hover:not([disabled]){
        border-color: var(--green);
@@ -154,6 +176,12 @@ div#shopify-section-template--20386139668589__why_partner_UbCaEF h2 {
 .page-wholesale-home .featured-collections-slider-wrap .featured-collection-slider {
     padding-top: 0;
 }
+/* .page-wholesale-home .testimonails__carousel .slick-list{
+    padding:0 !important;
+}
+.page-wholesale-home  .testimonials__inner {
+    padding: 50px 0 ;
+} */
 /*Page-text-css-End*/
 
 /*Product-text-css-Start*/
@@ -162,22 +190,6 @@ div#shopify-section-template--20386139668589__why_partner_UbCaEF h2 {
     background-color: var(--greenclr);
 }
 
-.page-wholesale-home .cst-wholesale-banner {
-    height: 450px;
-    min-height: unset;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-}
-.page-wholesale-home .image-with-text.cst-mainwhole-sec {
-    max-width: 1530px!important;
-    padding: 0 20px;
-    width: 100%!important;
-}
-.page-wholesale-home .cst-mainwhole-sec .image-with-text__text-container-inner {
-    max-width: 550px;
-}
 .page-widthbuy-more-save-more {
     max-width: 1530px;
     margin: 0 auto;
@@ -187,6 +199,7 @@ div#shopify-section-template--20386139668589__why_partner_UbCaEF h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .page-widthbuy-more-save-more p.bmsm-eyebrow {
     font-weight: 500;
     color: var(--greenclr);
@@ -228,6 +241,51 @@ div#shopify-section-template--20386139668589__why_partner_UbCaEF h2 {
 }
 /*Product-text-css-End*/
 
+/*Collection-text-css-Start*/
+.collection__container--wholesale .collection__main-area .filter-sidebar {
+    background: #8080800d;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #00000017;
+}
+
+ .collection__container--wholesale .filter-drawer__group-toggle-label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+ .collection__container--wholesale .filter-item__label {
+    font-size: 15px;
+    color:  var(--greenclr);
+}
+ .collection__container--wholesale .product-item__hover-action-wrap .btn.btn--tertiary {
+    background: var(--greenclr);
+    border-color:  var(--greenclr);
+    color: var(--whiteclr);
+}
+
+ .collection__container--wholesale .btn.btn--tertiary:hover:not([disabled]) {
+    border-color: var(--greenclr);
+}
+ .collection__container--wholesale .collection__content {
+    padding:0 0 50px ;
+}
+ .collection__container--wholesale .collection__main-area {
+    gap: 30px !important;
+}
+.collection__container--wholesale .collection__main-area .product-item {
+    padding: 10px;
+    border: 1px solid #00000017;
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+}
+.template-collection.cst-wholesaler-account .collection-banner__text-container-text , .template-collection.cst-wholesaler-account .collection__divider {
+    display: none;
+}
+
+/*Collection-text-css-End*/
+
 
 @media (min-width: 961px) {
      .cst-wholesaler-account .toplink {
@@ -252,6 +310,13 @@ div#shopify-section-template--20386139668589__why_partner_UbCaEF h2 {
     height: 100%;
 }
 }
+    @media (max-width: 991px) {
+    /* .testimonails__carousel .testimonials__item .test-box .test-box-inner {
+        height: 100%;
+        width: 100%;
+    } */
+}
+
 @media (max-width: 767px) {
    .cst-blog-sec .blog-posts__grid .article-item__content .article-item__content-inner .article-item__title{
     font-size: 22px!important;

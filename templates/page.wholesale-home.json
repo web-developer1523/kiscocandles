@@ -678,7 +678,6 @@
         "image_MPBzVf",
         "image_UwnWam"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "image_position": "right",
@@ -983,7 +982,6 @@
         "item_LWM6hC",
         "item_RGmyqB"
       ],
-      "disabled": true,
       "settings": {
         "title": "Kisco Candle FAQs",
         "enable_faq_schema": true,
