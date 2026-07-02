@@ -243,6 +243,77 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "image_with_text_iiTXU6": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_9EraPw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "wholesale candles",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "heading_J9z6m9": {
+          "type": "heading",
+          "settings": {
+            "title": "Premium Quality Candles Built for Your Bussiness",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "text_qq3zjU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Access exclusive wholesale pricing, bulk discounts, and reliable supply for every occassion.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_x4EVKm": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections",
+            "link_text": "Shop All Products",
+            "button_style": "btn--primary"
+          }
+        },
+        "button_KeQyx7": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections",
+            "link_text": "Quick Order",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9EraPw",
+        "heading_J9z6m9",
+        "text_qq3zjU",
+        "button_x4EVKm",
+        "button_KeQyx7"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "custom_class": "cst-wholesle-sec",
+        "image_position": "right",
+        "text_alignment": "left",
+        "aspect_ratio": "square",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "165488047346f59e49": {
       "type": "collection-list-slider",
       "blocks": {
@@ -505,7 +576,7 @@
         "class": "",
         "heading": "A Candle to Illuminate Every Space",
         "heading_tag": "h2",
-        "subheading": "<p>We offer an extensive range of<br/>dripless candles designed to brighten any occasion. Our range includes unscented taper, pillar, votive, floating & much more available in bulk for events or individual selections for everyday home use.  </p>",
+        "subheading": "<p>We offer an extensive range of dripless candles designed to brighten any occasion. Our range includes unscented taper, pillar, votive, floating & much more available in bulk for events or individual selections for everyday home use.</p>",
         "link": "shopify://collections/wholesale-bulk-candles",
         "link_text": "",
         "columns": "5",
@@ -810,8 +881,8 @@
         "subheading_tag": "h3",
         "subheading_font_class": "fs-heading-5-base",
         "heading_alignment": "left",
-        "contact_title": "Need Help?",
-        "contact_sub_title": "We are here to assist you",
+        "contact_title": "",
+        "contact_sub_title": "Need Help? We are here to assist you",
         "contact_content": "<p>732 405 3566</p><p>support@kiscocandles.com</p><p>4475 South Clinton Ave, South Plainfield NJ, 07080</p>",
         "button_text": "Contact Us",
         "button_link": "shopify://pages/contact-us",
@@ -979,6 +1050,7 @@
     "custom_liquid_xaJhLT",
     "16558445044f80743b",
     "1655855477ee9538e0",
+    "image_with_text_iiTXU6",
     "165488047346f59e49",
     "scrolling_content_fUJBwk",
     "1655855558c1ac2348",

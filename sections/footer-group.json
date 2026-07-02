@@ -23,8 +23,9 @@
             "title": "",
             "show_title_on_desktop": false,
             "text": "<p>{% render 'icon', icon: 'f-location' %}               \n                    4475 South Clinton Ave,\n                    South Plainfield NJ, 07080</p>\n                    <p><a href=\"tel:732 405 3566\">{% render 'icon', icon: 'f-call' %} 732 405 3566</a></p>\n                     <p><a href=\"mailto:support@kiscocandles.com\">{% render 'icon', icon: 'f-email' %}  support@kiscocandles.com</a></p>",
-            "image": "shopify://shop_images/logo-footer.svg",
+            "image": "shopify://shop_images/logo-footer_a0f505f1-2989-4fac-a9b6-a30325f7442c.svg",
             "image_max_width": 200,
+            "wholesale_logo_tagline": "Kisco For Business",
             "image_placement": "above_text",
             "show_social_icons": false,
             "enable_follow_on_shop": false

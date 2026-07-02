@@ -46,6 +46,7 @@
   window.addEventListener('orientationchange', defineVH);
   defineVH();
 </script>
+  <script src="{{ 'custom.js' | asset_url }}"></script>
 
 {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
 {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}

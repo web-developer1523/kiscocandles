@@ -153,6 +153,7 @@
         },
         "tab_specification": {
           "type": "Tab",
+          "disabled": true,
           "settings": {
             "title": "Specification",
             "content": "",
@@ -212,6 +213,7 @@
         },
         "tab_safety": {
           "type": "Tab",
+          "disabled": true,
           "settings": {
             "title": "How to use a candles safely",
             "content": "",
@@ -246,6 +248,15 @@
       ],
       "settings": {}
     },
+    "custom_liquid_YE843z": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- shopper approved product page code custom builder product section-->\n\n<div id=\"SA_review_wrapper\"></div><script type=\"text/javascript\">var sa_product = '{{product.id}}'; var sa_interval = 5000;function saLoadScript(src) { var js = window.document.createElement('script'); js.src = src; js.type = 'text/javascript'; document.getElementsByTagName(\"head\")[0].appendChild(js); } if (typeof(shopper_first) == 'undefined') saLoadScript('//www.shopperapproved.com/widgets/40737/product/'+sa_product+'/product-widget/8d5p6WzFRvVc.js'); </script>\n\n<!-- shopper approved product page code custom builder product section-->",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "recommendations": {
       "type": "recommended-products",
       "settings": {
@@ -264,6 +275,7 @@
     "product_wholesale_retail",
     "custom_tabs_a4Xbm4",
     "content_tabs",
+    "custom_liquid_YE843z",
     "recommendations"
   ]
 }

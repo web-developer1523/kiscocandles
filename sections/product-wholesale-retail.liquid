@@ -116,7 +116,12 @@
               <li class="pwrr__perk">{{ section.settings.perk_3 }}</li>
             {%- endif -%}
           </ul>
-{% comment %} 
+
+          {%- if section.settings.help_heading != blank -%}
+            {% render 'custom-help-tabs', section: section %}
+          {%- endif -%}
+
+{% comment %}
           {%- if product.description != blank -%}
             <div class="pwrr__description rte">
               {{ product.description }}
@@ -238,9 +243,8 @@
           {%- endif -%}
         {% endif %}
       </div>
-      
     </div>
-{% render 'custom-help-tabs', section: section %}
+
     {%- if section.blocks.size > 0 -%}
       <div class="pwrr__blocks">
         {%- render 'product-blocks',
@@ -480,7 +484,7 @@
 
   .pwrr__perks {
     list-style: none;
-    margin: 0 0 1.5rem;
+    margin: 0 0 1rem;
     padding: 0;
   }
 

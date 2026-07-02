@@ -298,7 +298,7 @@
     <!--END VW SEO-->
   </head>
 
-  <body id="{{ page_title | handleize }}" class="{{ template | replace: '.', '-' }}{% if template == "product" %} {{ product.handle }}{% endif %}{% if template == "collection" %} {{ collection.handle }}{% endif %} template-{{ request.page_type | handle }}"{% if customer %} data-customer-logged-in="true"{% endif %}>
+  <body id="{{ page_title | handleize }}" class="{{ template | replace: '.', '-' }}{% if template == "product" %} {{ product.handle }}{% endif %}{% if template == "collection" %} {{ collection.handle }}{% endif %} template-{{ request.page_type | handle }} {% if customer and customer.tags contains 'wholesale' %} cst-wholesaler-account{% else %} cst-retailer-account {% endif %}"{% if customer %} data-customer-logged-in="true"{% endif %}>
     {%- render 'customer-tag-redirect' -%}
     <script src="{{ 'customer-account-redirect.js' | asset_url }}" defer></script>
     <div class="page">

@@ -39,6 +39,7 @@
   class="
     blog-posts
     section
+      {{ section.settings.custom_css_class }}
     section--divider-{{ section.settings.divider_style }}
     {{ section.settings.section_padding }}
     {% if settings.enable_section_animations and section.settings.enable_animation %}
@@ -103,6 +104,11 @@
     "templates": ["password"]
   },
   "settings": [
+        {
+      "id": "custom_css_class",
+      "type": "text",
+      "label": "Custom CSS Class"
+    },
     {
       "id": "heading",
       "type": "text",

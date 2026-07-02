@@ -62,7 +62,7 @@
       </script>
 
       {% paginate collection.products by per_page %}
-        <div class="collection__container">
+        <div class="collection__container {% if customer and customer.tags contains 'wholesale' %}collection__container--wholesale{% else %} collection__container-retailer-account{% endif %}">
           <div class="collection__content">
             {% render 'filter-bar',
               results: collection,

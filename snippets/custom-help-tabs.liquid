@@ -1,114 +1,129 @@
-<section class="help-contact-section">
-  <div class="page-width">
-    <div class="help-contact-wrapper">
+{%- liquid
+  assign help_links = section.blocks | where: 'type', 'help_link'
+-%}
 
-      <div class="help-contact-left">
+{%- if help_links.size == 0 and section.settings.help_heading == blank -%}
+{%- else -%}
+  <div class="pwrr__help">
+    <div class="pwrr__help-inner">
+      <div class="pwrr__help-left">
         {% if section.settings.icon != blank %}
           <img
             src="{{ section.settings.icon | image_url: width: 80 }}"
-            alt="{{ section.settings.help_heading }}"
+            alt="{{ section.settings.help_heading | escape }}"
             width="40"
             height="40"
             loading="lazy"
+            class="pwrr__help-icon"
           >
         {% endif %}
 
-        <div class="help-contact-content">
-          <h3>{{ section.settings.help_heading }}</h3>
+        <div class="pwrr__help-content">
+          {%- if section.settings.help_heading != blank -%}
+            <h3 class="pwrr__help-heading">{{ section.settings.help_heading }}</h3>
+          {%- endif -%}
 
-          {% if section.settings.help_subheading != blank %}
-            <p>{{ section.settings.help_subheading }}</p>
-          {% endif %}
+          {%- if section.settings.help_subheading != blank -%}
+            <p class="pwrr__help-subheading">{{ section.settings.help_subheading }}</p>
+          {%- endif -%}
         </div>
       </div>
 
-      <div class="help-contact-links">
-        {% for block in section.blocks %}
-          <a href="{{ block.settings.link }}">
-            {{ block.settings.text }}
-          </a>
+      {%- if help_links.size > 0 -%}
+        <div class="pwrr__help-links">
+          {%- for block in help_links -%}
+            {%- if block.settings.text != blank -%}
+              {%- if block.settings.link != blank -%}
+                <a href="{{ block.settings.link }}" class="pwrr__help-link" {{ block.shopify_attributes }}>
+                  {{ block.settings.text }}
+                </a>
+              {%- else -%}
+                <span class="pwrr__help-link pwrr__help-link--text" {{ block.shopify_attributes }}>
+                  {{ block.settings.text }}
+                </span>
+              {%- endif -%}
 
-          {% unless forloop.last %}
-            <span class="separator">•</span>
-          {% endunless %}
-        {% endfor %}
-      </div>
-
+              {%- unless forloop.last -%}
+                <span class="pwrr__help-separator" aria-hidden="true">•</span>
+              {%- endunless -%}
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
     </div>
   </div>
-</section>
+{%- endif -%}
 
 <style>
-.help-contact-section{
-  padding:16px 0;
-}
-
-.help-contact-wrapper{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  border:1px solid #e5e5e5;
-  border-radius:10px;
-  padding:16px 24px;
-  gap:20px;
-}
-
-.help-contact-left{
-  display:flex;
-  align-items:center;
-  gap:15px;
-}
-
-.help-contact-left img{
-  width:40px;
-  height:40px;
-  object-fit:contain;
-}
-
-.help-contact-content h3{
-  margin:0;
-  font-size:18px;
-  font-weight:600;
-  color:#111;
-}
-
-.help-contact-content p{
-  margin:4px 0 0;
-  font-size:14px;
-  color:#777;
-}
-
-.help-contact-links{
-  display:flex;
-  align-items:center;
-  flex-wrap:wrap;
-  gap:12px;
-}
-
-.help-contact-links a{
-  text-decoration:none;
-  color:#222;
-  font-size:15px;
-}
-
-.help-contact-links a:hover{
-  text-decoration:underline;
-}
-
-.separator{
-  color:#999;
-}
-
-@media(max-width:749px){
-
-  .help-contact-wrapper{
-    flex-direction:column;
-    align-items:flex-start;
+  .pwrr__help {
+    margin-top: 1.25rem;
   }
 
-  .help-contact-links{
-    width:100%;
+  .pwrr__help-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    background-color: var(--color-background);
   }
 
-}
+  .pwrr__help-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .pwrr__help-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+  .pwrr__help-heading {
+    margin: 0;
+    font-family: var(--font-heading);
+    font-size: var(--font-size-body-100);
+    font-weight: var(--font-heading-weight);
+    line-height: var(--line-height-heading);
+    color: var(--color-text);
+  }
+
+  .pwrr__help-subheading {
+    margin: 4px 0 0;
+    font-size: var(--font-size-body-75);
+    line-height: var(--line-height-body);
+    color: var(--color-text-meta);
+  }
+
+  .pwrr__help-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    width: 100%;
+  }
+
+  .pwrr__help-link {
+    font-size: var(--font-size-body-75);
+    color: var(--color-text-link);
+    text-decoration: none;
+  }
+
+  .pwrr__help-link:hover {
+    text-decoration: underline;
+  }
+
+  .pwrr__help-link--text {
+    color: var(--color-text);
+  }
+
+  .pwrr__help-separator {
+    color: var(--color-text-meta);
+    font-size: var(--font-size-body-75);
+  }
 </style>

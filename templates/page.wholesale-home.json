@@ -115,6 +115,7 @@
         "slide_HxhNLD",
         "slide_Fkadrn"
       ],
+      "disabled": true,
       "custom_css": [
         ".slideshow-slide__text-container-wrapper {display: flex; justify-content: flex-end;}"
       ],
@@ -244,6 +245,69 @@
         "section_padding": "section--vertical-padding-none"
       }
     },
+    "image_with_text_TBy9qA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bAmidQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Preimum Quality Candles Build for Your Business",
+            "heading_tag": "h2",
+            "heading_font_class": "fs-heading-display-3"
+          }
+        },
+        "subheading_V7Jyxa": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Use these sections to promote a particular feature with editorial photography",
+            "subheading_tag": "h3",
+            "subheading_font_class": "fs-heading-5-base"
+          }
+        },
+        "text_69m3PY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Access exclusive wholesale pricing, bulk discounts, and reliable supply for every ocassion.</p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "button_m9Di7T": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://collections",
+            "link_text": "Shop all Products",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bAmidQ",
+        "subheading_V7Jyxa",
+        "text_69m3PY",
+        "button_m9Di7T"
+      ],
+      "name": "t:sections.image_with_text.presets.name",
+      "settings": {
+        "custom_class": "cst-mainwhole-sec",
+        "image_position": "right",
+        "text_alignment": "left",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_18_2026_07_18_16_PM_1.png",
+        "aspect_ratio": "natural",
+        "focal_point": "image_presentation",
+        "image_caption": "",
+        "show_small_image": false,
+        "image_small_aspect_ratio": "square",
+        "image_small_focal_point": "image_presentation",
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#ffffff",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "165488047346f59e49": {
       "type": "collection-list-slider",
       "blocks": {
@@ -301,9 +365,9 @@
       ],
       "settings": {
         "class": "",
-        "heading": "Shop Bulk Unscented Candles for Weddings & Events",
+        "heading": "Shop by Category",
         "heading_tag": "h1",
-        "subheading": "<p>We offer a beautiful selection of wedding candles designed to create timeless elegance. Our range includes classic taper, pillar, votive, and floating, available in bulk for ceremonies or individual choices for personal celebrations.</p>",
+        "subheading": "",
         "link": "",
         "link_text": "",
         "columns": "5",
@@ -384,6 +448,7 @@
         "text_NjDPMP",
         "text_XKRpqw"
       ],
+      "disabled": true,
       "custom_css": [
         ".scrolling-content__inner {--scroll-duration: 20s !important;}"
       ],
@@ -410,7 +475,7 @@
         "16558555587b915de6-0": {
           "type": "collection",
           "settings": {
-            "show_view_all": false,
+            "show_view_all": true,
             "collection": "unscented-candles",
             "collection_name": "Unscented Candles"
           }
@@ -418,7 +483,7 @@
         "16558555587b915de6-1": {
           "type": "collection",
           "settings": {
-            "show_view_all": false,
+            "show_view_all": true,
             "collection": "bulk-wedding-candles",
             "collection_name": "Wedding Candles"
           }
@@ -438,7 +503,7 @@
         "collection_m7kJyb"
       ],
       "settings": {
-        "heading": "Trending Unscented Candles",
+        "heading": "Trending Wholesale Products",
         "heading_tag": "h2",
         "subheading": "",
         "link": "",
@@ -502,11 +567,12 @@
         "collection_cH7Be7",
         "collection_VnxtyV"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "heading": "A Candle to Illuminate Every Space",
         "heading_tag": "h2",
-        "subheading": "<p>We offer an extensive range of<br/>dripless candles designed to brighten any occasion. Our range includes unscented taper, pillar, votive, floating & much more available in bulk for events or individual selections for everyday home use.  </p>",
+        "subheading": "<p>We offer an extensive range of dripless candles designed to brighten any occasion. Our range includes unscented taper, pillar, votive, floating & much more available in bulk for events or individual selections for everyday home use.  </p>",
         "link": "shopify://collections/wholesale-bulk-candles",
         "link_text": "",
         "columns": "5",
@@ -554,6 +620,7 @@
         "hotspot_KNek6f",
         "hotspot_A7yFjk"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/7f7ecdb3-b45a-4b45-8fa0-1cfabc3be26e_1.webp",
@@ -611,6 +678,7 @@
         "image_MPBzVf",
         "image_UwnWam"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image_position": "right",
@@ -632,6 +700,98 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "custom_buy_wY47G7": {
+      "type": "custom-buy",
+      "blocks": {
+        "tier_V7CWma": {
+          "type": "tier",
+          "settings": {
+            "quantity": "6+ Cases",
+            "savings": "Save 15%"
+          }
+        },
+        "tier_yJ6yfy": {
+          "type": "tier",
+          "settings": {
+            "quantity": "12+ Cases",
+            "savings": "Save 20%"
+          }
+        },
+        "tier_xBMLre": {
+          "type": "tier",
+          "settings": {
+            "quantity": "24+ Cases",
+            "savings": "Save 25%"
+          }
+        }
+      },
+      "block_order": [
+        "tier_V7CWma",
+        "tier_yJ6yfy",
+        "tier_xBMLre"
+      ],
+      "disabled": true,
+      "name": "Buy More, Save More",
+      "settings": {
+        "custom_css_Class": "cust-buy-sec",
+        "bg_color": "#f4e9d8",
+        "enable_bg_image": false,
+        "eyebrow": "BUY MORE, SAVE MORE",
+        "heading": "Better Pricing with Higher Quantities",
+        "description": "<p>Unlock higher savings when you buy more. Check out our volume pricing tiers.</p>",
+        "button_label": "View Pricing Tiers",
+        "button_link": "",
+        "table_col1_label": "Order Quantity",
+        "table_col2_label": "Additional Savings"
+      }
+    },
+    "why_partner_UbCaEF": {
+      "type": "why-partner",
+      "blocks": {
+        "benefit_jpqxYH": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/shopping.png",
+            "heading": "Exclusive Pricing",
+            "description": "Competitive pricing on bulk orders and repeat discounts."
+          }
+        },
+        "benefit_xCnpUN": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/exemption_41d315ed-b3e9-4f1e-b528-9d1dff4aa8c9.png",
+            "heading": "Tax Exemption",
+            "description": "Qualified businesses enjoy tax exempt purchasing options."
+          }
+        },
+        "benefit_nwD488": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/customer-care_cab20733-2b39-4b5f-9cb3-1e07061dd4e7.png",
+            "heading": "Dedicated Support",
+            "description": "Personalized support from our wholesale account specialists."
+          }
+        },
+        "benefit_ytLYzW": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/fast-delivery_522148dd-c233-4761-b8e1-7a001e825b2f.png",
+            "heading": "Tax Exemption",
+            "description": "Quick processing and reliable shipping for all orders."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_jpqxYH",
+        "benefit_xCnpUN",
+        "benefit_nwD488",
+        "benefit_ytLYzW"
+      ],
+      "name": "Partner Benefits",
+      "settings": {
+        "section_title": "Why Partner With Kisco Wholesale?"
+      }
+    },
     "multi_column_jdTQ9F": {
       "type": "multi-column",
       "blocks": {
@@ -641,12 +801,12 @@
             "icon": "plant",
             "icon_width": 70,
             "icon_width_mobile": 50,
-            "custom_icon_image": "shopify://shop_images/plant.svg",
+            "custom_icon_image": "shopify://shop_images/shopping.png",
             "accent": "",
-            "heading": "Plant Based Wax",
+            "heading": "Exclusive Pricing",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Our unscented candles are crafted from high-quality plant-based wax, ensuring a cleaner, more sustainable burn.</p>",
+            "text": "<p>Special bulk pricing for yoyur business</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 94,
             "link": "",
@@ -660,12 +820,12 @@
             "icon": "plant",
             "icon_width": 70,
             "icon_width_mobile": 50,
-            "custom_icon_image": "shopify://shop_images/braided.svg",
+            "custom_icon_image": "shopify://shop_images/tex-empt.webp",
             "accent": "",
-            "heading": "Braided Cotton Wicks",
+            "heading": "Text Exemption",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Designed for a steady, even burn that promotes the longevity of each candle.</p>",
+            "text": "<p>Text-exempt on eligible purchase</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -679,12 +839,12 @@
             "icon": "plant",
             "icon_width": 70,
             "icon_width_mobile": 50,
-            "custom_icon_image": "shopify://shop_images/eco.svg",
+            "custom_icon_image": "shopify://shop_images/customer-care_cab20733-2b39-4b5f-9cb3-1e07061dd4e7.png",
             "accent": "",
-            "heading": "Eco Friendly Packaging",
+            "heading": "Dedicated Support",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Materials that reduce environmental impact while delivering a premium product.</p>",
+            "text": "<p>Personalized support fom our team</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -698,12 +858,31 @@
             "icon": "plant",
             "icon_width": 70,
             "icon_width_mobile": 50,
-            "custom_icon_image": "shopify://shop_images/fast.png",
+            "custom_icon_image": "shopify://shop_images/fast-delivery_108ff47f-31e4-4e5d-8d26-8e6077fde6ec.png",
             "accent": "",
-            "heading": "European Quality",
+            "heading": "Fast Shipping",
             "heading_tag": "h3",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Renowned for superior performance and refined, sophisticated designs.</p>",
+            "text": "<p>Quick & reiable order fulfillment</p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "icon_column_EdWLNV": {
+          "type": "icon_column",
+          "settings": {
+            "icon": "plant",
+            "icon_width": 70,
+            "icon_width_mobile": 50,
+            "custom_icon_image": "shopify://shop_images/fast.png",
+            "accent": "",
+            "heading": "Consistent Quality",
+            "heading_tag": "h3",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Premium materials & rigorousnquality checks</p>",
             "text_font_class": "fs-body-100",
             "text_max_width": 100,
             "link": "",
@@ -716,18 +895,20 @@
         "icon_column_6mmGNX",
         "icon_column_YBC6wG",
         "icon_column_QM3znn",
-        "icon_column_U7yc4G"
+        "icon_column_U7yc4G",
+        "icon_column_EdWLNV"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
-        "class": "",
+        "class": "cst-mulcol-sec",
         "heading_tag": "h2",
         "subheading": "",
         "heading_font_class": "fs-heading-3-base",
         "heading_alignment": "center",
         "content_vertical_alignment": "center",
         "content_background_padding": "small",
-        "columns": "4",
+        "columns": "5",
         "column_spacing": 48,
         "row_spacing": 28,
         "column_alignment": "center",
@@ -802,6 +983,7 @@
         "item_LWM6hC",
         "item_RGmyqB"
       ],
+      "disabled": true,
       "settings": {
         "title": "Kisco Candle FAQs",
         "enable_faq_schema": true,
@@ -817,7 +999,7 @@
         "button_text": "Contact Us",
         "button_link": "shopify://pages/contact-us",
         "link_text": "Help Center",
-        "link_link": "shopify://pages/contact-us",
+        "link_link": "",
         "item_heading_font": "body",
         "enable_animation": true,
         "divider_style": "none",
@@ -922,6 +1104,7 @@
         "testimonial_7Dq8gi",
         "testimonial_CLwTbV"
       ],
+      "disabled": true,
       "custom_css": [
         "img {display: none;}",
         ".fs-body-100 {font-size: 16px; line-height: 1.3em;}"
@@ -939,10 +1122,11 @@
     "16548801325228c324": {
       "type": "blog-posts",
       "settings": {
-        "heading": "Latest Stories",
+        "custom_css_class": "cst-blog-sec",
+        "heading": "Wholesale Resources",
         "subheading": "",
         "button_link": "shopify://blogs/news",
-        "link_text": "View all stories",
+        "link_text": "",
         "display_type": "all",
         "blog": "news",
         "max_articles": 2,
@@ -959,6 +1143,7 @@
     },
     "custom_liquid_aDELFK": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!-- shopper approved custom builder rotating widget -->\n<div id=\"SA_wrapper_6a1PVY9Kmq1c\" class=\"SA__wrapper\"></div><script type=\"text/javascript\">var sa_interval = 5000;function saLoadScript(src) { var js = window.document.createElement('script'); js.src = src; js.type = 'text/javascript'; document.getElementsByTagName(\"head\")[0].appendChild(js); } if (typeof(shopper_first) == 'undefined') saLoadScript('https://www.shopperapproved.com/widgets/40737/merchant/rotating-widget/6a1PVY9Kmq1c.js?v=2'); </script>\n<!-- shopper approved custom builder rotating widget -->",
         "divider_style": "none",
@@ -980,12 +1165,15 @@
     "custom_liquid_xaJhLT",
     "16558445044f80743b",
     "1655855477ee9538e0",
+    "image_with_text_TBy9qA",
     "165488047346f59e49",
     "scrolling_content_fUJBwk",
     "1655855558c1ac2348",
     "collection_list_slider_a6apwb",
     "shoppable_image_nNDYa6",
     "image_compare_rke47n",
+    "custom_buy_wY47G7",
+    "why_partner_UbCaEF",
     "multi_column_jdTQ9F",
     "collapsible_row_list_with_contact_bzKPML",
     "testimonials_maibDB",

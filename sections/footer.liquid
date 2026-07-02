@@ -4,6 +4,11 @@
   assign show_payment_icons = section.settings.show_payment_icons
   assign content = section.blocks
 
+  assign is_wholesale_customer = false
+  if customer and customer.tags contains 'wholesale'
+    assign is_wholesale_customer = true
+  endif
+
   assign locale_selector = false
   assign country_selector = false
   assign payment_icons = false
@@ -45,7 +50,12 @@
         {%- assign rendered_image = blank -%}
         {%- if block.settings.image != blank -%}
           {%- capture rendered_image -%}
-            <a href="{{ routes.root_url }}">{%- render 'image' with image: block.settings.image, wrapper_class: 'footer__image', sizes_px: block.settings.image_max_width -%}</a>
+            <div class="footer__logo-wrap">
+              <a href="{{ routes.root_url }}">{%- render 'image' with image: block.settings.image, wrapper_class: 'footer__image', sizes_px: block.settings.image_max_width -%}</a>
+              {%- if is_wholesale_customer and block.settings.wholesale_logo_tagline != blank -%}
+                <p class="footer__logo-tagline">{{ block.settings.wholesale_logo_tagline }}</p>
+              {%- endif -%}
+            </div>
           {%- endcapture -%}
         {%- endif -%}
         <div
@@ -233,6 +243,24 @@
   </div>
 </div>
 
+<style>
+  .footer__logo-wrap .footer__image {
+    margin-bottom: calc(4px * 2);
+    margin-bottom: var(--spacing-2, 8px);
+  }
+
+  .footer__logo-tagline {
+    margin: 0 0 calc(4px * 6);
+    margin-bottom: var(--spacing-6, 24px);
+    font-size: 12px;
+    font-weight: var(--font-body-bold-weight);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-footer);
+    opacity: 0.85;
+  }
+</style>
+
 {% schema %}
 {
   "name": "t:sections.footer.name",
@@ -354,6 +382,13 @@
           "unit": "px",
           "label": "t:sections.footer.blocks.shared.settings.image_max_width.label",
           "default": 200
+        },
+        {
+          "id": "wholesale_logo_tagline",
+          "type": "text",
+          "label": "Wholesale logo tagline",
+          "default": "Kisco For Business",
+          "info": "Displayed below the logo for wholesale customers only. Leave blank to hide."
         },
         {
           "id": "image_placement",

@@ -1,0 +1,263 @@
+
+*{
+    box-sizing:border-box;
+}
+.page-wholesale-home  h2 , .page-wholesale-home h1.collection-list-slider__heading{
+    font-size: 45px !important;
+    font-weight: 700 !important;
+    margin: 0 0 6px !important;
+    font-family: Stangith !important;
+}
+div#shopify-section-template--20386139668589__why_partner_UbCaEF h2 {
+    margin-bottom: 34px !important;
+}
+:root {
+--greenclr:#23512f;
+--blackclr:#000;
+--whiteclr:#fff;
+}
+.cst-wholesaler-account .header__links-list a[data-link]:hover{
+    text-decoration:none;
+}
+.page-wholesale-home  .home-shoppable , .cst-wholesaler-account  .topbar-header , .cst-wholesaler-account .topbar-header  {
+    background: var(--greenclr);
+}
+
+.cst-wholesaler-account .announcement-bar , .cst-wholesaler-account .announcement-bar {
+    background-color: var(--greenclr);
+}
+
+.cst-wholesaler-account .announcement-bar__item .announcement-bar__item-inner p {
+    color: var(--whiteclr);
+    font-size: 13px;
+    font-weight:300 !important;
+}
+.cst-wholesaler-account .topbar-header .topbar-sec .toplink ul a , .cst-wholesaler-account .header__inner .social-icons .icon , .cst-wholesaler-account .topbar-header .topbar-sec .toplink ul a , .cst-wholesaler-account .header__inner .social-icons .icon{
+    color: var(--whiteclr);
+}
+
+.cst-wholesaler-account .topbar-header svg path , .cst-wholesaler-account .topbar-header svg path {
+    fill: #fff;
+}
+.cst-wholesaler-account .topbar-header img {
+    display: none;
+}
+.cst-wholesaler-account .footer.section , .cst-wholesaler-account  .footer__parent{
+    background: var(--greenclr) !important;
+}
+     .cst-wholesaler-account .announcement-bar__item .announcement-bar__item-inner.announcement-bar__item-inner-desktop-only {
+        display: block;
+    }
+        .cst-wholesaler-account .announcement-bar__item .announcement-bar__item-inner.announcement-bar__item-inner-mobile-only {
+        display: none;
+    }
+
+/*Page-text-css-Start*/
+.page-wholesale-home  .home-collection-sl .collection-list-slider__subheading p {
+    max-width: 100%;
+}
+.page-wholesale-home h1.collection-list-slider__heading{
+    text-align: left !important;
+}
+.page-wholesale-home  .collection-item__title a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-wholesale-home .scrolling-content__inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--greenclr);
+}
+.page-wholesale-home .scrolling-content__item .scrolling-content__text {
+    font-size: 22px;
+        color:  var(--whiteclr);
+}
+.page-wholesale-home img.scroll-img {
+    filter: invert(1);
+}
+.page-wholesale-home .featured-collection-slider__inner {
+    border: 0;
+}
+.page-wholesale-home .featured-collection-slider__navigation-list {
+    padding: 11px 0;
+    display:none;
+}
+.page-wholesale-home .featured-collection-slider__navigation-list li .featured-collection-slider__navigation-list-item.selected , .page-wholesale-home .featured-collection-slider__navigation-list li .featured-collection-slider__navigation-list-item:hover {
+    background: var(--greenclr);
+    color: var(--whiteclr);
+}
+.page-wholesale-home .featured-collection-slider__navigation-list li .featured-collection-slider__navigation-list-item{
+    border:1px solid var(--greenclr);
+}
+.page-wholesale-home .home-shoppable .section-introduction__subheading p{
+    font-size:20px;
+    color:var(--whiteclr);
+}
+.page-wholesale-home .home-shoppable h2 , .page-wholesale-home .blog-posts__grid .article-item__content .article-item__content-inner .article-item__title , .page-wholesale-home  .blog-posts__grid .article-item__content .article-item__content-inner .article-item__meta , .page-wholesale-home  .blog-posts__grid .article-item__content .article-item__content-inner .article-item__read-button a {
+  color:var(--whiteclr);
+}
+.page-wholesale-home .blog-posts .btn.btn--callout span:before, .blog-posts .btn.btn--callout span:after{
+    display:none;
+}
+.testimonails__carousel .testimonials__item .test-box .test-box-inner {
+    background: transparent;
+    box-shadow: #63636333 0 2px 8px;
+    border-radius: 12px;
+    padding: 20px 10px;
+    height: 100%;
+}
+.page-wholesale-home .home-logo-sec {
+    display: none;
+}
+.page-wholesale-home .image-compare.image-compare--square.image-compare--horizontal {
+    padding-top: 100px;
+}
+.page-wholesale-home .kisco-need .collapsible-row-list .contact-detail__inner , .kisco-need .collapsible-row-list .collapsible-row-list__inner {
+    background: var(--whiteclr);
+}
+.page-wholesale-home  .blog-posts__grid .article-item__content .article-item__content-inner  {
+      background:var(--greenclr);
+}
+.page-wholesale-home #SA_wrapper_6a1PVY9Kmq1c .sa-slider-container-main , .page-wholesale-home #SA_wrapper_6a1PVY9Kmq1c .sa-slide, #SA_wrapper_6a1PVY9Kmq1c .sa-fix-slide {
+    background: transparent !important;
+}
+.page-wholesale-home .cart-count-bubble {
+    background-color: transparent;
+    color: var(--greenclr);
+}
+.page-wholesale-home .header-navbar--wholesale .navigation__submenu a{
+      color: var(--greenclr);
+}
+.page-wholesale-home .header-navbar--wholesale .navigation__submenu a:hover {
+    color: var(--blackclr);
+    font-weight: 500;
+}
+
+.page-wholesale-home .section.section--divider-solid:before{
+    display:none !important;
+}
+.page-wholesale-home  .carousel__navigation-buttons .icon {
+    margin: 0 !important;
+}
+.page-wholesale-home .collection-item__title a:hover {
+    color: var(--greenclr);
+}
+.page-wholesale-home  .product-item__hover-action-wrap .btn.btn--tertiary , .page-wholesale-home .spark-product-card button.btn-small {
+    background: var(--greenclr);
+    border-color: var(--green);
+    color:#fff;
+}
+.page-wholesale-home .btn.btn--tertiary:hover:not([disabled]){
+       border-color: var(--green);
+}
+.page-wholesale-home .featured-collections-slider-wrap .featured-collection-slider {
+    padding-top: 0;
+}
+/*Page-text-css-End*/
+
+/*Product-text-css-Start*/
+.pwrr.pwrr--wholesale  .pwrr__perk::before {
+    top: 14px;
+    background-color: var(--greenclr);
+}
+
+.page-wholesale-home .cst-wholesale-banner {
+    height: 450px;
+    min-height: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.page-wholesale-home .image-with-text.cst-mainwhole-sec {
+    max-width: 1530px!important;
+    padding: 0 20px;
+    width: 100%!important;
+}
+.page-wholesale-home .cst-mainwhole-sec .image-with-text__text-container-inner {
+    max-width: 550px;
+}
+.page-widthbuy-more-save-more {
+    max-width: 1530px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 40px 24px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-widthbuy-more-save-more p.bmsm-eyebrow {
+    font-weight: 500;
+    color: var(--greenclr);
+}
+.page-widthbuy-more-save-more h2.bmsm-heading {
+    max-width: 450px;
+    line-height: 51px;
+    color: var(--blackclr);
+}
+.page-widthbuy-more-save-more p {
+        max-width: 450px;
+}
+.page-widthbuy-more-save-more a.bmsm-button {
+    background:  var(--greenclr);
+    color:var(--whiteclr);
+    padding: 10px 12px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.page-widthbuy-more-save-more a.bmsm-button:hover{
+     background:  var(--blackclr);
+}
+.page-widthbuy-more-save-more .bmsm-table .bmsm-table-header, .page-widthbuy-more-save-more .bmsm-table .bmsm-table-row {
+    justify-content: center;
+    max-width: 500px;
+    align-items: center;
+}
+.page-widthbuy-more-save-more span {
+    color: var(--blackclr);
+    font-weight: 500;
+}
+.cst-blog-sec h2.blog-posts__heading {
+    margin-bottom: 15px !important;
+}
+.blog-posts.section.cst-blog-sec {
+    padding-bottom: 0;
+}
+/*Product-text-css-End*/
+
+
+@media (min-width: 961px) {
+     .cst-wholesaler-account .toplink {
+    justify-content: end;
+}
+   .cst-wholesaler-account .topbar-header .topbar-sec {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+.cst-wholesaler-account .topbar-header .topbar-sec .topbar-left, .cst-wholesaler-account  .topbar-header .topbar-sec .toplink {
+    width: unset;
+}
+    .cst-wholesaler-account .topbar-header .topbar-sec .topbar-middle {
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .page-wholesale-home .image-with-text.cst-mainwhole-sec {
+    padding: 20px 20px;
+}
+    .page-wholesale-home .cst-wholesale-banner {
+    height: 100%;
+}
+}
+@media (max-width: 767px) {
+   .cst-blog-sec .blog-posts__grid .article-item__content .article-item__content-inner .article-item__title{
+    font-size: 22px!important;
+    }
+   .page-wholesale-home h2, .page-wholesale-home h1.collection-list-slider__heading {
+    font-size: 32px!important;
+    margin-bottom: 15px !important;
+}
+}

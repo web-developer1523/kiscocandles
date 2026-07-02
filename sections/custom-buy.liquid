@@ -1,0 +1,168 @@
+{%- comment -%}
+  Section: Buy More, Save More
+  Same HTML structure as reference image. No CSS styling applied —
+  sirf layout ke liye minimal inline flex diya hai, baaki styling aap
+  apni theme ke hisaab se karo.
+{%- endcomment -%}
+
+<div class=" page-widthbuy-more-save-more" style="{% if section.settings.enable_bg_image and section.settings.bg_image != blank %}background-image: url('{{ section.settings.bg_image | image_url: width: 1920 }}'); background-size: cover; background-position: center; background-repeat: no-repeat;{% else %}background-color: {{ section.settings.bg_color }};{% endif %} padding: 40px 24px;">
+  <div class="bmsm-wrapper {{section.settings.custom_css_Class }}" style="display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap;">
+
+    <!-- Left: Content -->
+    <div class="bmsm-content" style="flex: 1; min-width: 260px;">
+      {% if section.settings.eyebrow != blank %}
+        <p class="bmsm-eyebrow">{{ section.settings.eyebrow }}</p>
+      {% endif %}
+
+      {% if section.settings.heading != blank %}
+        <h2 class="bmsm-heading">{{ section.settings.heading }}</h2>
+      {% endif %}
+
+      {% if section.settings.description != blank %}
+        <div class="bmsm-description">{{ section.settings.description }}</div>
+      {% endif %}
+
+      {% if section.settings.button_label != blank %}
+        <a href="{{ section.settings.button_link | default: '#' }}" class="bmsm-button">
+          {{ section.settings.button_label }}
+        </a>
+      {% endif %}
+    </div>
+
+    <!-- Middle: Pricing Table -->
+    {% if section.blocks.size > 0 %}
+      <div class="bmsm-table" style="flex: 1; min-width: 260px;">
+        <div class="bmsm-table-header" style="display: flex; justify-content: space-between;">
+          <span>{{ section.settings.table_col1_label | default: 'Order Quantity' }}</span>
+          <span>{{ section.settings.table_col2_label | default: 'Additional Savings' }}</span>
+        </div>
+
+        {% for block in section.blocks %}
+          {% if block.type == 'tier' %}
+            <div class="bmsm-table-row" style="display: flex; justify-content: space-between;" {{ block.shopify_attributes }}>
+              <span class="bmsm-tier-quantity">{{ block.settings.quantity }}</span>
+              <span class="bmsm-tier-savings">{{ block.settings.savings }}</span>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Right: Image -->
+    {% if section.settings.image != blank %}
+      <div class="bmsm-image" style="flex: 1; min-width: 260px;">
+        {{ section.settings.image | image_url: width: 800 | image_tag: loading: 'lazy', alt: section.settings.image.alt }}
+      </div>
+    {% endif %}
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Buy More, Save More",
+  "tag": "section",
+  "class": "section-buy-more-save-more",
+  "settings": [
+       {
+      "type": "text",
+      "id": "custom_css_Class",
+      "label": "Custom CSS Class"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#F4E9D8"
+    },
+    {
+  "type": "checkbox",
+  "id": "enable_bg_image",
+  "label": "Use background image instead of color",
+  "default": false
+},
+{
+  "type": "image_picker",
+  "id": "bg_image",
+  "label": "Background image"
+},
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "BUY MORE, SAVE MORE"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Better Pricing with Higher Quantities"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Unlock higher savings when you buy more. Check out our volume pricing tiers.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "View Pricing Tiers"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "text",
+      "id": "table_col1_label",
+      "label": "Table column 1 label",
+      "default": "Order Quantity"
+    },
+    {
+      "type": "text",
+      "id": "table_col2_label",
+      "label": "Table column 2 label",
+      "default": "Additional Savings"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tier",
+      "name": "Pricing Tier",
+      "settings": [
+        {
+          "type": "text",
+          "id": "quantity",
+          "label": "Order quantity",
+          "default": "6+ Cases"
+        },
+        {
+          "type": "text",
+          "id": "savings",
+          "label": "Additional savings",
+          "default": "Save 15%"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "Buy More, Save More",
+      "blocks": [
+        { "type": "tier", "settings": { "quantity": "6+ Cases", "savings": "Save 15%" } },
+        { "type": "tier", "settings": { "quantity": "12+ Cases", "savings": "Save 20%" } },
+        { "type": "tier", "settings": { "quantity": "24+ Cases", "savings": "Save 25%" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

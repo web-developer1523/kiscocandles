@@ -26,7 +26,7 @@ calc(calc(100vw - calc(2 * clamp(18px, 3.3vw, 3.3vw))) / {{ section.settings.mob
         {%- endunless -%}
         {%- unless section.settings.subheading == blank -%}
         <div class="collection-list-slider__subheading ff-body fs-body-100 rte section-introduction__subheading">
-          {{ section.settings.subheading }}
+          {{ section.settings.subheading | replace: '<br/>', '' }}
         </div>
         {%- endunless -%}
         {%-
