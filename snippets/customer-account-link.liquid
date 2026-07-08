@@ -5,7 +5,7 @@
   Everyone else → Shopify account (orders)
 {%- endcomment -%}
 
-{%- liquid
+{% comment %} {%- liquid
   assign account_label = 'Account'
 
   unless customer
@@ -37,4 +37,680 @@
 >
   {% render 'icon-button' with icon: 'header-account' %}
   <span class="text-account">{{ account_label }}</span>
-</a>
+</a> {% endcomment %}
+{%- comment -%}
+  Header account link/icon.
+
+  Behavior:
+  - Logged in: unchanged — plain link to the account page (or wholesale dashboard).
+  - Logged out: hovering the account link (desktop) reveals a small preview
+    popup. Clicking the link (any device) opens a full sign-in panel that
+    slides in from the right. Clicking the link still points to the real
+    login URL, so it degrades gracefully if JS is unavailable.
+
+  All copy below is customizable by passing params when rendering this
+  snippet, e.g.:
+
+    {% render 'header-account', popup_heading: section.settings.popup_heading %}
+
+  Every variable falls back to the exact copy from the reference design if
+  nothing is passed in. See the bottom of this file for the full list of
+  variable names, and the accompanying message for a schema settings array
+  you can paste into the section that renders this snippet.
+{%- endcomment -%}
+
+{%- comment -%}
+  Header account link/icon.
+
+  Behavior:
+  - Logged in: unchanged — plain link to the account page (or wholesale dashboard).
+  - Logged out: hovering the account link (desktop) reveals a small preview
+    popup. Clicking the link (any device) opens a full sign-in panel that
+    slides in from the right. Clicking the link still points to the real
+    login URL, so it degrades gracefully if JS is unavailable.
+
+  All copy below is customizable by passing params when rendering this
+  snippet, e.g.:
+
+    {% render 'header-account', popup_heading: section.settings.popup_heading %}
+
+  Every variable falls back to the exact copy from the reference design if
+  nothing is passed in. See the bottom of this file for the full list of
+  variable names, and the accompanying message for a schema settings array
+  you can paste into the section that renders this snippet.
+{%- endcomment -%}
+
+{%- comment -%}
+  Header account link/icon.
+
+  Behavior:
+  - Logged in: unchanged — plain link to the account page (or wholesale dashboard).
+  - Logged out: hovering the account link (desktop) reveals a small preview
+    popup. Clicking the link (any device) opens a full sign-in panel that
+    slides in from the right. Clicking the link still points to the real
+    login URL, so it degrades gracefully if JS is unavailable.
+
+  All copy below is customizable by passing params when rendering this
+  snippet, e.g.:
+
+    {% render 'header-account', popup_heading: section.settings.popup_heading %}
+
+  Every variable falls back to the exact copy from the reference design if
+  nothing is passed in. See the bottom of this file for the full list of
+  variable names, and the accompanying message for a schema settings array
+  you can paste into the section that renders this snippet.
+{%- endcomment -%}
+{%- comment -%}
+  Header account link/icon.
+
+  Behavior:
+  - Logged in: unchanged — plain link to the account page (or wholesale dashboard).
+  - Logged out: hovering the account link (desktop) reveals a small preview
+    popup. Clicking the link (any device) opens a full sign-in panel that
+    slides in from the right. Clicking the link still points to the real
+    login URL, so it degrades gracefully if JS is unavailable.
+
+  All copy below is customizable by passing params when rendering this
+  snippet, e.g.:
+
+    {% render 'header-account', popup_heading: section.settings.popup_heading %}
+
+  Every variable falls back to the exact copy from the reference design if
+  nothing is passed in. See the bottom of this file for the full list of
+  variable names, and the accompanying message for a schema settings array
+  you can paste into the section that renders this snippet.
+{%- endcomment -%}
+
+{%- liquid
+  assign account_label = 'Account'
+
+  unless customer
+    capture account_href
+      render 'customer-login-url'
+    endcapture
+    assign account_href = account_href | strip
+  endunless
+
+  if customer
+    if customer.tags contains 'wholesale'
+      assign account_href = '/pages/wholesale-dashboard'
+      if customer.first_name != blank
+        assign account_label = customer.first_name
+      endif
+    else
+      assign account_href = routes.account_url
+      if customer.first_name != blank
+        assign account_label = customer.first_name
+      endif
+    endif
+  endif
+
+  # ---- Customizable copy (override via render params / schema settings) ----
+  assign popup_heading = popup_heading | default: 'Sign in for the best experience'
+  assign popup_feature_1 = popup_feature_1 | default: 'See past orders and manage returns'
+  assign popup_feature_2 = popup_feature_2 | default: 'Check out faster'
+  assign popup_cta_text = popup_cta_text | default: 'Sign in or create account'
+  assign close_label = close_label | default: 'Close'
+
+  assign drawer_heading = drawer_heading | default: 'Sign in'
+  assign drawer_intro = drawer_intro | default: 'Sign in or create an account for your Target Circle deals, store information and much more.'
+  assign drawer_cta_text = drawer_cta_text | default: 'Sign in or create account'
+
+  assign purchase_history_label = purchase_history_label | default: 'Purchase history'
+  assign purchase_history_action = purchase_history_action | default: 'Track + manage'
+
+  assign circle_wordmark = circle_wordmark | default: 'circle.'
+
+  assign circle_1_title = circle_1_title | default: 'Target Circle™'
+  assign circle_1_bold = circle_1_bold | default: 'Get members-only deals'
+  assign circle_1_text = circle_1_text | default: 'Join free and get access to automatic deals, personalized bonuses & more.'
+
+  assign circle_2_title = circle_2_title | default: 'Target Circle™ Card'
+  assign circle_2_bold = circle_2_bold | default: 'Save 5%¹ instantly, in-store & online'
+  assign circle_2_text = circle_2_text | default: 'Stack savings with Target Circle deals'
+  assign circle_2_footnote_prefix = circle_2_footnote_prefix | default: '¹Restrictions apply. See '
+  assign circle_2_footnote_link_text = circle_2_footnote_link_text | default: 'Target.com/CircleCard'
+  assign circle_2_footnote_link_url = circle_2_footnote_link_url | default: '#'
+  assign circle_2_footnote_suffix = circle_2_footnote_suffix | default: ' for details.'
+
+  assign circle_3_title = circle_3_title | default: 'Target Circle™ 360'
+  assign circle_3_bold = circle_3_bold | default: 'Get free, fast shipping & unlimited Same-Day Delivery'
+  assign circle_3_text = circle_3_text | default: 'Start a 14-day free trial or subscribe today'
+
+  assign link_1_label = link_1_label | default: 'Continue shopping'
+  assign link_1_action = link_1_action | default: 'See items'
+  assign link_1_url = link_1_url | default: '#'
+
+  assign link_2_label = link_2_label | default: 'Gift cards'
+  assign link_2_action = link_2_action | default: 'Check balances'
+  assign link_2_url = link_2_url | default: '#'
+
+  assign link_3_label = link_3_label | default: 'Lists & Favorites'
+  assign link_3_action = link_3_action | default: 'Create + manage'
+  assign link_3_url = link_3_url | default: '#'
+
+  assign link_4_label = link_4_label | default: 'Registry & Wish list'
+  assign link_4_action = link_4_action | default: 'Create a registry'
+  assign link_4_url = link_4_url | default: '#'
+
+  assign link_5_label = link_5_label | default: 'Provide feedback'
+  assign link_5_url = link_5_url | default: '#'
+-%}
+
+{% if customer %}
+
+  <a
+    class="header__icon-touch header__icon-touch--account"
+    href="{{ account_href }}"
+    aria-label="{{ 'general.accessibility.go_account' | t }}"
+  >
+    {% render 'icon-button' with icon: 'header-account' %}
+    <span class="text-account">{{ account_label }}</span>
+  </a>
+
+{% else %}
+
+  <div class="header-account" data-header-account>
+
+    <a
+      class="header__icon-touch header__icon-touch--account"
+      href="{{ account_href }}"
+      aria-label="{{ 'general.accessibility.go_account' | t }}"
+      aria-haspopup="true"
+      aria-expanded="false"
+      data-account-trigger
+    >
+      {% render 'icon-button' with icon: 'header-account' %}
+      <span class="text-account">{{ account_label }}</span>
+    </a>
+
+    <div class="account-popup" data-account-popup aria-hidden="true">
+      <span class="account-popup__arrow" aria-hidden="true"></span>
+
+      <div class="account-popup__head">
+        <p class="account-popup__title">{{ popup_heading }}</p>
+        <button type="button" class="account-popup__close" data-account-popup-close aria-label="{{ close_label }}">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+
+      <ul class="account-popup__list">
+        <li>
+          <span class="account-popup__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path d="M3 8l9-5 9 5-9 5-9-5Z" fill="none" stroke="#23512f" stroke-width="1.4" stroke-linejoin="round"/><path d="M3 8v8l9 5 9-5V8" fill="none" stroke="#23512f" stroke-width="1.4" stroke-linejoin="round"/><path d="M12 13v8" stroke="#23512f" stroke-width="1.4"/></svg>
+          </span>
+          <span>{{ popup_feature_1 }}</span>
+        </li>
+        <li>
+          <span class="account-popup__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="26" height="26"><circle cx="9" cy="20" r="1.4" fill="#23512f"/><circle cx="18" cy="20" r="1.4" fill="#23512f"/><path d="M2 3h2l2.2 12.2a2 2 0 0 0 2 1.8h8.6a2 2 0 0 0 2-1.6L21 8H6" fill="none" stroke="#23512f" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          </span>
+          <span>{{ popup_feature_2 }}</span>
+        </li>
+      </ul>
+
+      <a href="{{ account_href }}" class="account-popup__cta" data-account-drawer-open>{{ popup_cta_text }}</a>
+    </div>
+
+  </div>
+
+
+
+  <style>
+    .header-account {
+      position: relative;
+      display: inline-flex;
+    }
+
+    /* ---------- Hover preview popup ---------- */
+    .account-popup {
+      position: absolute;
+      top: calc(100% + 14px);
+      right: 0;
+      width: min(380px, 90vw);
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+      padding: 20px;
+      z-index: 60;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(-6px);
+      transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+    }
+
+    .account-popup.is-visible {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .account-popup__arrow {
+      position: absolute;
+      top: -7px;
+      right: 24px;
+      width: 14px;
+      height: 14px;
+      background: #fff;
+      transform: rotate(45deg);
+      box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.04);
+    }
+
+    .account-popup__head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .account-popup__title {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.3;
+      color: #111;
+    }
+
+    .account-popup__close {
+      flex-shrink: 0;
+      background: none;
+      border: none;
+      padding: 2px;
+      cursor: pointer;
+      color: #333;
+      line-height: 0;
+    }
+
+    .account-popup__list {
+      list-style: none;
+      margin: 0 0 18px;
+      padding: 0;
+    }
+
+    .account-popup__list li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      font-size: 0.92rem;
+      color: #222;
+    }
+
+    .account-popup__list li:last-child {
+      margin-bottom: 0;
+    }
+
+    .account-popup__icon {
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .account-popup__cta {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      background: #23512f;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px 16px;
+      border-radius: 999px;
+      {% comment %} border: 2px dashed rgba(255, 255, 255, 0.6); {% endcomment %}
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    /* ---------- Right-hand sign-in drawer ---------- */
+    .account-drawer {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+    }
+
+    .account-drawer[hidden] {
+      display: none;
+    }
+
+    .account-drawer__overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .account-drawer[data-open] .account-drawer__overlay {
+      opacity: 1;
+    }
+
+    .account-drawer__panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: min(430px, 100%);
+      background: #fff;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .account-drawer[data-open] .account-drawer__panel {
+      transform: translateX(0);
+    }
+
+    .account-drawer__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 0;
+      background: #fff;
+    }
+
+    .account-drawer__heading {
+      margin: 0;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #111;
+    }
+
+    .account-drawer__close {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #333;
+      line-height: 0;
+      padding: 4px;
+    }
+
+    .account-drawer__body {
+      padding: 20px;
+    }
+
+    .account-drawer__intro {
+      margin: 0 0 20px;
+      color: #333;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .account-drawer__cta {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      text-align: center;
+      background: #23512f;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      margin-bottom: 24px;
+    }
+
+    .account-drawer__row-list {
+      list-style: none;
+      margin: 0 0 24px;
+      padding: 0;
+    }
+
+    .account-drawer__row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 0.95rem;
+      color: #111;
+    }
+
+    .account-drawer__row a {
+      color: #111;
+      text-decoration: none;
+    }
+
+    .account-drawer__row--dot {
+      position: relative;
+      padding-left: 14px;
+    }
+
+    .account-drawer__row--dot::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #111;
+    }
+
+    .account-drawer__row-action {
+      color: #666;
+      font-size: 0.88rem;
+    }
+
+    .account-drawer__circle {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+
+    .account-drawer__circle-wordmark {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin: 0 0 16px;
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #23512f;
+    }
+
+    .account-drawer__circle-mark {
+      display: inline-flex;
+      line-height: 0;
+    }
+    .account-drawer__circle-wordmark img {
+      width: 50px;
+    }
+    .account-drawer__circle-item {
+      padding: 14px 0;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    .account-drawer__circle-item:first-of-type {
+      border-top: none;
+    }
+
+    .account-drawer__circle-item-title {
+      margin: 0 0 6px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #111;
+    }
+
+    .account-drawer__circle-item-bold {
+      margin: 0 0 4px;
+      font-weight: 700;
+      font-size: 0.92rem;
+      color: #111;
+    }
+
+    .account-drawer__circle-item-text {
+      margin: 0;
+      color: #555;
+      font-size: 0.88rem;
+      line-height: 1.4;
+    }
+
+    .account-drawer__circle-item-footnote {
+      margin: 8px 0 0;
+      color: #777;
+      font-size: 0.75rem;
+      line-height: 1.4;
+    }
+
+    .account-drawer__circle-item-footnote a {
+      color: #777;
+    }
+
+    @media (max-width: 480px) {
+      .account-popup {
+        right: -8px;
+        width: min(300px, 92vw);
+      }
+    }
+  </style>
+
+  <script>
+    (function () {
+      var hoverCapable = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+      function getScope(el) {
+        var wrapper = el.closest('[data-header-account]');
+        if (!wrapper) return null;
+        var drawer = wrapper.nextElementSibling && wrapper.nextElementSibling.matches('[data-account-drawer]')
+          ? wrapper.nextElementSibling
+          : document.querySelector('[data-account-drawer]');
+        return {
+          wrapper: wrapper,
+          trigger: wrapper.querySelector('[data-account-trigger]'),
+          popup: wrapper.querySelector('[data-account-popup]'),
+          drawer: drawer
+        };
+      }
+
+      function closePopup(popup) {
+        if (!popup) return;
+        popup.classList.remove('is-visible');
+        popup.setAttribute('aria-hidden', 'true');
+      }
+
+      function openDrawer(scope) {
+        if (!scope || !scope.drawer) return;
+        closePopup(scope.popup);
+        var drawer = scope.drawer;
+        drawer.__lastTrigger = scope.trigger || null;
+        drawer.hidden = false;
+        requestAnimationFrame(function () {
+          drawer.setAttribute('data-open', '');
+        });
+        document.documentElement.style.overflow = 'hidden';
+        if (scope.trigger) scope.trigger.setAttribute('aria-expanded', 'true');
+        var panel = drawer.querySelector('.account-drawer__panel');
+        if (panel) panel.focus();
+      }
+
+      function closeDrawer(drawer) {
+        if (!drawer) return;
+        drawer.removeAttribute('data-open');
+        document.documentElement.style.overflow = '';
+        var trigger = drawer.__lastTrigger;
+        if (trigger) trigger.setAttribute('aria-expanded', 'false');
+        setTimeout(function () {
+          drawer.hidden = true;
+        }, 300);
+        if (trigger) trigger.focus();
+      }
+
+      // Registered on document with { capture: true }, so this runs during
+      // the CAPTURE phase — before the event ever reaches the <a> itself,
+      // and before any other script's bubble-phase click handler (the way
+      // almost every theme script is written) gets a chance to run.
+      // stopPropagation() here stops the click dead: no native navigation,
+      // no other handler, nothing else fires after this.
+      document.addEventListener('click', function (e) {
+        var openTarget = e.target.closest('[data-account-trigger], [data-account-drawer-open]');
+        if (openTarget) {
+          e.preventDefault();
+          e.stopPropagation();
+          e.stopImmediatePropagation();
+          openDrawer(getScope(openTarget));
+          return;
+        }
+
+        var popupCloseTarget = e.target.closest('[data-account-popup-close]');
+        if (popupCloseTarget) {
+          e.preventDefault();
+          e.stopPropagation();
+          e.stopImmediatePropagation();
+          closePopup(getScope(popupCloseTarget) && getScope(popupCloseTarget).popup);
+          return;
+        }
+
+        var drawerCloseTarget = e.target.closest('[data-account-drawer-close]');
+        if (drawerCloseTarget) {
+          e.preventDefault();
+          e.stopPropagation();
+          e.stopImmediatePropagation();
+          closeDrawer(drawerCloseTarget.closest('[data-account-drawer]'));
+          return;
+        }
+
+        // Click outside an open popup closes it (doesn't need to block
+        // anything else, so it's left to run normally).
+        document.querySelectorAll('.account-popup.is-visible').forEach(function (popup) {
+          var wrapper = popup.closest('[data-header-account]');
+          if (wrapper && !wrapper.contains(e.target)) closePopup(popup);
+        });
+      }, true);
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape') return;
+        document.querySelectorAll('[data-account-drawer][data-open]').forEach(closeDrawer);
+        document.querySelectorAll('.account-popup.is-visible').forEach(closePopup);
+      }, true);
+
+      // Hover preview (desktop only) — purely additive, no navigation risk,
+      // so this stays as simple direct per-instance binding.
+      if (hoverCapable) {
+        document.querySelectorAll('[data-header-account]').forEach(function (wrapper) {
+          var trigger = wrapper.querySelector('[data-account-trigger]');
+          var popup = wrapper.querySelector('[data-account-popup]');
+          if (!trigger || !popup) return;
+          var showTimer, hideTimer;
+
+          function show() {
+            clearTimeout(hideTimer);
+            showTimer = setTimeout(function () {
+              popup.classList.add('is-visible');
+              popup.setAttribute('aria-hidden', 'false');
+              trigger.setAttribute('aria-expanded', 'true');
+            }, 120);
+          }
+
+          function hide() {
+            clearTimeout(showTimer);
+            hideTimer = setTimeout(function () {
+              closePopup(popup);
+              trigger.setAttribute('aria-expanded', 'false');
+            }, 200);
+          }
+
+          wrapper.addEventListener('mouseenter', show);
+          wrapper.addEventListener('mouseleave', hide);
+          popup.addEventListener('mouseenter', function () { clearTimeout(hideTimer); });
+          popup.addEventListener('mouseleave', hide);
+          trigger.addEventListener('focus', show);
+        });
+      }
+    })();
+  </script>
+
+{% endif %}

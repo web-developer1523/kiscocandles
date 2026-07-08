@@ -384,6 +384,70 @@
 
     
   </body>
+  {% comment %} account sidebar popup {% endcomment %}
+
+  <div class="account-drawer" data-account-drawer hidden>
+    <div class="account-drawer__overlay" data-account-drawer-close></div>
+  
+    <div class="account-drawer__panel" role="dialog" aria-modal="true" aria-labelledby="AccountDrawerHeading" tabindex="-1">
+  
+      <div class="account-drawer__top">
+        <h2 id="AccountDrawerHeading" class="account-drawer__heading">Sign in</h2>
+        <button type="button" class="account-drawer__close" data-account-drawer-close aria-label="Close">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+  
+      <div class="account-drawer__body">
+        <p class="account-drawer__intro">Sign in or create an account for your Target Circle deals, store information and much more.</p>
+  
+        <a href="https://kiscocandles.com/customer_authentication/login?return_to=%2Fpages%2Fwholesale-dashboard" class="account-drawer__cta">Sign in or create account</a>
+  
+        <ul class="account-drawer__row-list">
+          <li class="account-drawer__row account-drawer__row--dot">
+            <span>Purchase history</span>
+            <span class="account-drawer__row-action">Track + manage</span>
+          </li>
+        </ul>
+  
+        <div class="account-drawer__circle">
+          <p class="account-drawer__circle-wordmark">
+            <img src="https://kiscocandles.com/cdn/shop/files/Logo.svg?v=1714200371" alt="Target Circle">
+          </p>
+  
+          <div class="account-drawer__circle-item">
+            <p class="account-drawer__circle-item-title">Target Circle™</p>
+            <p class="account-drawer__circle-item-bold">Get members-only deals</p>
+            <p class="account-drawer__circle-item-text">Join free and get access to automatic deals, personalized bonuses & more.</p>
+          </div>
+  
+          <div class="account-drawer__circle-item">
+            <p class="account-drawer__circle-item-title">Target Circle™ Card</p>
+            <p class="account-drawer__circle-item-bold">Save 5%¹ instantly, in-store & online</p>
+            <p class="account-drawer__circle-item-text">Stack savings with Target Circle deals</p>
+            <p class="account-drawer__circle-item-footnote">¹Restrictions apply. See <a href="{{ circle_2_footnote_link_url }}">Target.com/CircleCard</a> for details.</p>
+          </div>
+  
+          <div class="account-drawer__circle-item">
+            <p class="account-drawer__circle-item-title">Target Circle™ 360</p>
+            <p class="account-drawer__circle-item-bold">Get free, fast shipping & unlimited Same-Day Delivery</p>
+            <p class="account-drawer__circle-item-text">Start a 14-day free trial or subscribe today</p>
+          </div>
+        </div>
+  
+        <ul class="account-drawer__row-list">
+          <li class="account-drawer__row"><a href="{{ link_1_url }}">Continue shopping</a><span class="account-drawer__row-action">See items</span></li>
+          <li class="account-drawer__row"><a href="{{ link_2_url }}">Gift cards</a><span class="account-drawer__row-action">Check balances</span></li>
+          <li class="account-drawer__row"><a href="{{ link_3_url }}">Lists & Favorites</a><span class="account-drawer__row-action">Create + manage</span></li>
+          <li class="account-drawer__row"><a href="{{ link_4_url }}">Registry & Wish list</a><span class="account-drawer__row-action">Create a registry</span></li>
+          <li class="account-drawer__row"><a href="{{ link_5_url }}">Provide feedback</a></li>
+        </ul>
+      </div>
+  
+    </div>
+  </div>
+
+  {% comment %} end {% endcomment %}
   <link
     rel="preload"
     fetchpriority="low"

@@ -208,7 +208,8 @@
 {%- endcapture -%}
     
 {%- capture account_icon -%}
-  {%- render 'customer-account-link' -%}
+  {% comment %} {%- render 'customer-account-link' -%} {% endcomment %}
+  {% render 'customer-account-link', popup_heading: section.settings.popup_heading, popup_cta_text: section.settings.popup_cta_text, drawer_heading: section.settings.drawer_heading, drawer_intro: section.settings.drawer_intro %}
 {%- endcapture -%}
     
 
@@ -582,6 +583,34 @@
   "name": "t:sections.header.name",
   "class": "header__outer-wrapper",
   "settings": [
+    {
+      "type": "header",
+      "content": "Account sign-in popup"
+    },
+    {
+      "type": "text",
+      "id": "popup_heading",
+      "label": "Popup heading",
+      "default": "Sign in for the best experience"
+    },
+    {
+      "type": "text",
+      "id": "popup_cta_text",
+      "label": "Popup button text",
+      "default": "Sign in or create account"
+    },
+    {
+      "type": "text",
+      "id": "drawer_heading",
+      "label": "Drawer heading",
+      "default": "Sign in"
+    },
+    {
+      "type": "textarea",
+      "id": "drawer_intro",
+      "label": "Drawer intro text",
+      "default": "Sign in or create an account for your Target Circle deals, store information and much more."
+    },
     {
       "id": "layout",
       "type": "select",

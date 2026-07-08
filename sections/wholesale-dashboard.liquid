@@ -241,7 +241,7 @@
             <p class="wholesale-dashboard__name">{{ customer.name }}</p>
             <p class="wholesale-dashboard__email">{{ customer.email }}</p>
 
-            <div class="wholesale-dashboard__status-card">
+            {% comment %} <div class="wholesale-dashboard__status-card">
               <p class="wholesale-dashboard__status-label">Wholesale Account</p>
               <p class="wholesale-dashboard__status-approved">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -250,7 +250,7 @@
                 </svg>
                 Status: Approved
               </p>
-            </div>
+            </div> {% endcomment %}
           </div>
 
           <nav aria-label="Wholesale dashboard navigation">
@@ -585,7 +585,7 @@
               <p class="wholesale-dashboard__action-desc">View past orders</p>
             </a>
 
-            {%- if certificate_url != blank -%}
+            {% comment %} {%- if certificate_url != blank -%}
               <a
                 href="{{ certificate_url }}"
                 class="wholesale-dashboard__action"
@@ -614,7 +614,7 @@
                 <p class="wholesale-dashboard__action-title">Download Certificate</p>
                 <p class="wholesale-dashboard__action-desc">Certificate unavailable</p>
               </span>
-            {%- endif -%}
+            {%- endif -%} {% endcomment %}
 
             {% comment %} <a href="/pages/contact" class="wholesale-dashboard__action">
               <div class="wholesale-dashboard__action-icon">
@@ -725,7 +725,7 @@
               </div>
             </div>
 
-            <div class="wholesale-dashboard__panel" id="account-manager">
+            {% comment %} <div class="wholesale-dashboard__panel" id="account-manager">
               <h2 class="wholesale-dashboard__section-title">Account Manager</h2>
               <div class="wholesale-dashboard__manager">
                 <div class="wholesale-dashboard__manager-avatar" aria-hidden="true">
@@ -765,7 +765,7 @@
                   </p>
                 {%- endif -%}
               </div>
-            </div>
+            </div> {% endcomment %}
           </div>
 
           {%- comment -%} Benefits banner {%- endcomment -%}

@@ -325,7 +325,7 @@ text-align: left;
 
 .wholesale-dashboard__quick-actions {
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(3, 1fr);
 gap: 12px;
 margin-bottom: 32px;
 }
@@ -390,7 +390,7 @@ line-height: 1.4;
 /* Two column lower section */
 .wholesale-dashboard__lower {
 display: grid;
-grid-template-columns: 1fr 340px;
+grid-template-columns: 1fr;
 gap: 24px;
 margin-bottom: 32px;
 }
@@ -538,6 +538,7 @@ text-transform: uppercase;
 letter-spacing: 0.04em;
 padding: 0 12px 12px 0;
 border-bottom: 1px solid var(--dashboard-border);
+width: 25%;
 }
 
 .wholesale-dashboard__table th:last-child {
@@ -723,13 +724,14 @@ color: #fff;
     border-radius: var(--dashboard-radius);
     overflow: hidden;
     margin-bottom: 40px;
-    background: url(/cdn/shop/files/image_7.png?v=1782375023);
+    background: url(https://cdn.shopify.com/s/files/1/0552/6267/5053/files/ChatGPT_Image_Jul_6_2026_12_07_22_PM.png?v=1783319874);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
-    background-position: bottom right;
+    background-position: center center;
+    /* background-position: bottom right; */
 }
 
 .wholesale-dashboard__banner-content {
@@ -1004,6 +1006,9 @@ span.btn-cross {
 
 
 @media screen and (max-width: 575px){
+.wholesale-dashboard__table th{
+    width: auto;
+}
 .wholesale-dashboard__banner-image {
 display: block;
 }
